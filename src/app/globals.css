@@ -1,0 +1,543 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* ROJO - Color Principal (del logo) */
+  --red-dark: #B91C1C;
+  --red-primary: #DC2626;
+  --red-medium: #EF4444;
+  --red-light: #FECACA;
+  --red-bg: #FEF2F2;
+  --red-bg-alt: #FEE2E2;
+  --red-warm: #FFF5F5;
+
+  /* SLATE - Color Secundario */
+  --slate-dark: #1E293B;
+  --slate-primary: #475569;
+  --slate-light: #F1F5F9;
+
+  /* Estados */
+  --error: #DC2626;
+  --error-light: #FEE2E2;
+  --warning: #D97706;
+  --warning-light: #FEF3C7;
+  --success: #16A34A;
+  --success-light: #DCFCE7;
+
+  /* shadcn/ui tokens */
+  --radius: 0.625rem;
+  --background: #FFFBFA;
+  --foreground: #1E293B;
+  --card: #FFFFFF;
+  --card-foreground: #1E293B;
+  --popover: #FFFFFF;
+  --popover-foreground: #1E293B;
+  --primary: #DC2626;
+  --primary-foreground: #FFFFFF;
+  --secondary: #475569;
+  --secondary-foreground: #FFFFFF;
+  --muted: #FEF2F2;
+  --muted-foreground: #52525B;
+  --accent: #FECACA;
+  --accent-foreground: #B91C1C;
+  --destructive: #B91C1C;
+  --destructive-foreground: #FFFFFF;
+  --border: #E5E7EB;
+  --input: #E5E7EB;
+  --ring: #DC2626;
+
+  /* Sidebar */
+  --sidebar: #FFFFFF;
+  --sidebar-foreground: #1E293B;
+  --sidebar-primary: #DC2626;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #FECACA;
+  --sidebar-accent-foreground: #B91C1C;
+  --sidebar-border: #E5E7EB;
+  --sidebar-ring: #DC2626;
+
+  /* Charts */
+  --chart-1: #DC2626;
+  --chart-2: #EF4444;
+  --chart-3: #F87171;
+  --chart-4: #FCA5A5;
+  --chart-5: #FECACA;
+}
+
+.dark {
+  --background: #1C1917;
+  --foreground: #F5F5F4;
+  --card: #292524;
+  --card-foreground: #F5F5F4;
+  --popover: #292524;
+  --popover-foreground: #F5F5F4;
+  --primary: #F87171;
+  --primary-foreground: #1C1917;
+  --secondary: #44403C;
+  --secondary-foreground: #F5F5F4;
+  --muted: #44403C;
+  --muted-foreground: #A8A29E;
+  --accent: #7F1D1D;
+  --accent-foreground: #F5F5F4;
+  --destructive: #EF4444;
+  --destructive-foreground: #FFFFFF;
+  --border: #44403C;
+  --input: #44403C;
+  --ring: #F87171;
+  --sidebar: #292524;
+  --sidebar-foreground: #F5F5F4;
+  --sidebar-primary: #F87171;
+  --sidebar-primary-foreground: #1C1917;
+  --sidebar-accent: #44403C;
+  --sidebar-accent-foreground: #F5F5F4;
+  --sidebar-border: #44403C;
+  --sidebar-ring: #F87171;
+}
+
+@theme inline {
+  /* shadcn/ui core tokens */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* Sidebar */
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* Charts */
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  /* Paleta Roja */
+  --color-red-dark: var(--red-dark);
+  --color-red-primary: var(--red-primary);
+  --color-red-medium: var(--red-medium);
+  --color-red-light: var(--red-light);
+  --color-red-bg: var(--red-bg);
+  --color-red-bg-alt: var(--red-bg-alt);
+  --color-red-warm: var(--red-warm);
+
+  /* Paleta Slate */
+  --color-slate-dark: var(--slate-dark);
+  --color-slate-primary: var(--slate-primary);
+  --color-slate-light: var(--slate-light);
+
+  /* Estados */
+  --color-error: var(--error);
+  --color-error-light: var(--error-light);
+  --color-warning: var(--warning);
+  --color-warning-light: var(--warning-light);
+  --color-success: var(--success);
+  --color-success-light: var(--success-light);
+
+  /* Radius */
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+
+  /* Tipografía */
+  --font-sans: var(--font-source-sans), system-ui, sans-serif;
+  --font-heading: var(--font-montserrat), system-ui, sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Tipografía */
+body {
+  font-family: var(--font-source-sans), system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-montserrat), system-ui, sans-serif;
+}
+
+/* Hero CSS animations (NO Framer Motion - for LCP) */
+@keyframes hero-fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-hero-title {
+  animation: hero-fade-in-up 0.6s ease-out both;
+}
+
+.animate-hero-subtitle {
+  animation: hero-fade-in-up 0.6s ease-out 0.1s both;
+}
+
+.animate-hero-features {
+  animation: hero-fade-in-up 0.6s ease-out 0.2s both;
+}
+
+.animate-hero-cta {
+  animation: hero-fade-in-up 0.6s ease-out 0.3s both;
+}
+
+.animate-hero-scroll {
+  animation: hero-fade-in-up 0.6s ease-out 1s both;
+}
+
+.animate-hero-badges {
+  animation: hero-fade-in-up 0.6s ease-out 0.8s both;
+}
+
+@keyframes hero-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(3px); }
+}
+
+.animate-hero-bounce {
+  animation: hero-bounce 1.5s ease-in-out infinite;
+}
+
+/* Floating button pulse */
+@keyframes pulse-float {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 4px 14px -3px var(--red-primary);
+  }
+  50% {
+    transform: scale(1.03);
+    box-shadow: 0 6px 20px -2px var(--red-primary);
+  }
+}
+
+.animate-pulse-float {
+  animation: pulse-float 2.5s ease-in-out infinite;
+}
+
+/* ===========================================
+   SCROLL ANIMATIONS - Subtle & Performant
+   =========================================== */
+
+/* Fade in from bottom */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Fade in from left */
+@keyframes fade-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Fade in from right */
+@keyframes fade-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Scale in */
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Blur in - using transform + opacity for GPU compositing */
+@keyframes blur-in {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Base state for animated elements - hidden until in view */
+.animate-on-scroll {
+  opacity: 0;
+}
+
+/* Triggered state */
+.animate-on-scroll.is-visible {
+  animation-duration: 0.6s;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+  animation-fill-mode: both;
+}
+
+/* Animation variants */
+.animate-on-scroll.is-visible.fade-up {
+  animation-name: fade-in-up;
+}
+
+.animate-on-scroll.is-visible.fade-left {
+  animation-name: fade-in-left;
+}
+
+.animate-on-scroll.is-visible.fade-right {
+  animation-name: fade-in-right;
+}
+
+.animate-on-scroll.is-visible.scale-in {
+  animation-name: scale-in;
+}
+
+.animate-on-scroll.is-visible.blur-in {
+  animation-name: blur-in;
+}
+
+/* Stagger delays for children */
+.stagger-1 { animation-delay: 0.1s; }
+.stagger-2 { animation-delay: 0.2s; }
+.stagger-3 { animation-delay: 0.3s; }
+.stagger-4 { animation-delay: 0.4s; }
+.stagger-5 { animation-delay: 0.5s; }
+
+/* Focus visible */
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/* Selection */
+::selection {
+  background-color: var(--red-light);
+  color: var(--red-dark);
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* ===========================================
+   BLOG CONTENT STYLES - Clean & Professional
+   =========================================== */
+.blog-content {
+  font-size: 1.125rem;
+  line-height: 1.85;
+  color: var(--slate-primary);
+}
+
+/* Hide first H1 since it's in the hero */
+.blog-content h1:first-child {
+  display: none;
+}
+
+.blog-content h1 {
+  font-family: var(--font-montserrat), system-ui, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--slate-dark);
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+}
+
+.blog-content h2 {
+  font-family: var(--font-montserrat), system-ui, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--slate-dark);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--red-light);
+  position: relative;
+}
+
+.blog-content h2::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: var(--red-primary);
+}
+
+.blog-content h3 {
+  font-family: var(--font-montserrat), system-ui, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--red-primary);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  padding-left: 1rem;
+  border-left: 3px solid var(--red-primary);
+}
+
+.blog-content p {
+  margin-bottom: 1.5rem;
+}
+
+.blog-content strong {
+  color: var(--slate-dark);
+  font-weight: 600;
+}
+
+.blog-content em {
+  font-style: italic;
+}
+
+.blog-content a {
+  color: var(--red-primary);
+  text-decoration: underline;
+  text-decoration-color: var(--red-light);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s ease;
+}
+
+.blog-content a:hover {
+  text-decoration-color: var(--red-primary);
+}
+
+/* Unordered Lists */
+.blog-content ul {
+  margin: 1.5rem 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.blog-content ul li {
+  position: relative;
+  padding-left: 1.75rem;
+  margin-bottom: 0.75rem;
+  color: var(--slate-dark);
+}
+
+.blog-content ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6rem;
+  width: 8px;
+  height: 8px;
+  background: var(--red-primary);
+  border-radius: 50%;
+}
+
+/* Ordered Lists */
+.blog-content ol {
+  margin: 1.5rem 0;
+  padding-left: 0;
+  list-style: none;
+  counter-reset: item;
+}
+
+.blog-content ol li {
+  position: relative;
+  padding-left: 2.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--slate-dark);
+  counter-increment: item;
+}
+
+.blog-content ol li::before {
+  content: counter(item);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1.75rem;
+  height: 1.75rem;
+  background: var(--red-primary);
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-content blockquote {
+  margin: 2rem 0;
+  padding: 1.25rem 1.5rem;
+  background: var(--red-bg);
+  border-left: 4px solid var(--red-primary);
+  border-radius: 0 0.75rem 0.75rem 0;
+  color: var(--slate-dark);
+}
+
+.blog-content hr {
+  margin: 3rem 0;
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--red-light), transparent);
+}
+
+/* First paragraph */
+.blog-content > p:first-of-type {
+  font-size: 1.2rem;
+  color: var(--slate-dark);
+  line-height: 1.75;
+}

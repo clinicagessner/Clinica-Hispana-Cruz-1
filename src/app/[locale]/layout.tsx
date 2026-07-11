@@ -13,6 +13,7 @@ import Script from "next/script";
 import { SITE_CONFIG, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getGooglePlaceData } from "@/lib/google-places";
 import "../globals.css";
+import Image from "next/image";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -131,6 +132,7 @@ export function generateStaticParams() {
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID;
 const META_PIXEL_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID;
+const CALLRAIL_SWAP_SRC = process.env.NEXT_PUBLIC_CALLRAIL_SWAP_SRC;
 
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
@@ -149,11 +151,18 @@ export default async function LocaleLayout({ children, params }: Props) {
         <link rel="preconnect" href="https://connect.facebook.net" />
         <link rel="preconnect" href="https://maps.googleapis.com" />
         <link rel="preconnect" href="https://lh3.googleusercontent.com" />
-        {/* TODO(randy): agregar el script de CallRail cuando exista la cuenta de Clínica Hispana Cruz */}
+        {CALLRAIL_SWAP_SRC && (
+          <>
+            <link rel="preconnect" href="https://cdn.callrail.com" />
+            <link rel="dns-prefetch" href="https://cdn.callrail.com" />
+            {/* CallRail - Call Tracking (number swap) */}
+            <script type="text/javascript" src={CALLRAIL_SWAP_SRC} async />
+          </>
+        )}
         {/* Meta Pixel noscript fallback */}
         {META_PIXEL_ID && (
           <noscript>
-            <img
+            <Image 
               height="1"
               width="1"
               style={{ display: "none" }}

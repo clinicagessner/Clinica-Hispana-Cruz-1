@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server";
 import { Phone, Envelope, MapPin, Clock } from "@phosphor-icons/react/dist/ssr";
 import { ContactForm } from "@/components/forms/contact-form";
 import { CONTACT_INFO } from "@/lib/constants";
+import { EkgLine } from "@/components/animations/ekg-line";
 
 export async function Contact() {
   const t = await getTranslations("contact");
@@ -11,7 +12,8 @@ export async function Contact() {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="animate-on-scroll fade-up text-center max-w-2xl mx-auto mb-12 md:mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-slate-dark mb-4">
+          <EkgLine static className="h-6 w-36 text-red-primary mx-auto mb-4" />
+          <h2 className="text-3xl md:text-4xl lg:text-5xl section-title mb-4">
             {t("title")}
           </h2>
           <p className="text-lg text-muted-foreground">

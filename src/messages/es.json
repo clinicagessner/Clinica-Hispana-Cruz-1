@@ -22,7 +22,7 @@
   },
   "hero": {
     "badge": "Atención médica de calidad",
-    "title": "Su Clínica Hispana de Confianza en Houston",
+    "title": "Su Clínica Hispana de Confianza en <hl>Houston</hl>",
     "subtitle": "Una de las clínicas hispanas líderes en Houston TX. Medicina familiar, ginecología, diabetes y laboratorio. Sin cita previa, precios accesibles.",
     "ctaCall": "Llamar Ahora",
     "ctaLocation": "Cómo Llegar",

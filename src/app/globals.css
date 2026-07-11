@@ -14,8 +14,8 @@
   --red-bg-alt: #FEE2E2;
   --red-warm: #FFF5F5;
 
-  /* SLATE - Color Secundario */
-  --slate-dark: #1E293B;
+  /* SLATE - Color Secundario (tinta profunda para titulares de alto contraste) */
+  --slate-dark: #0B1424;
   --slate-primary: #475569;
   --slate-light: #F1F5F9;
 
@@ -223,6 +223,54 @@ h1, h2, h3, h4, h5, h6 {
 @keyframes hero-bounce {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(3px); }
+}
+
+/* ============================================
+   FIRMA DE MARCA: trazo de electrocardiograma
+   (derivado del cardiograma del logo)
+   ============================================ */
+@keyframes ekg-draw {
+  from { stroke-dashoffset: 240; }
+  to { stroke-dashoffset: 0; }
+}
+
+.ekg-line path {
+  stroke-dasharray: 240;
+  stroke-dashoffset: 240;
+  animation: ekg-draw 1.4s ease-out 0.5s forwards;
+}
+
+.ekg-line--static path {
+  stroke-dasharray: none;
+  stroke-dashoffset: 0;
+  animation: none;
+}
+
+/* Encabezados de sección (rediseño): eyebrow + titular bold uppercase.
+   En @layer components para que las utilidades (text-white, etc.) puedan
+   sobreescribir el color por sección. */
+@layer components {
+  .section-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.625rem;
+    font-family: var(--font-montserrat), system-ui, sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--red-primary);
+  }
+
+  .section-title {
+    font-family: var(--font-montserrat), system-ui, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    line-height: 1.08;
+    color: var(--slate-dark);
+    text-wrap: balance;
+  }
 }
 
 .animate-hero-bounce {

@@ -22,7 +22,7 @@
   },
   "hero": {
     "badge": "Quality medical care",
-    "title": "Your Trusted Hispanic Clinic in Houston",
+    "title": "Your Trusted Hispanic Clinic in <hl>Houston</hl>",
     "subtitle": "One of the leading hispanic clinics in Houston TX. Family medicine, gynecology, diabetes care, and laboratory. Walk-ins welcome, affordable prices.",
     "ctaCall": "Call Now",
     "ctaLocation": "Get Directions",

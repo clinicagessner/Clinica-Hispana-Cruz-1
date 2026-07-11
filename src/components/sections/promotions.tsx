@@ -5,6 +5,7 @@ import { Link } from "@/i18n/routing";
 import { PromotionsCarousel } from "@/components/promotions/promotions-carousel";
 import { getLocalizedPromotions } from "@/lib/promotions";
 import { CONTACT_INFO } from "@/lib/constants";
+import { EkgLine } from "@/components/animations/ekg-line";
 
 export async function Promotions() {
   const [t, locale] = await Promise.all([
@@ -44,7 +45,8 @@ export async function Promotions() {
           <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-red-primary">
             {t("eyebrow")}
           </p>
-          <h2 className="mb-4 font-heading text-3xl font-bold text-slate-dark md:text-4xl lg:text-5xl">
+          <EkgLine static className="h-6 w-36 text-red-primary mx-auto mb-4" />
+          <h2 className="mb-4 section-title text-3xl md:text-4xl lg:text-5xl">
             {t("title")}
           </h2>
           <p className="text-lg text-muted-foreground">{t("subtitle")}</p>

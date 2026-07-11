@@ -10,6 +10,7 @@ import {
 } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { CONTACT_INFO } from "@/lib/constants";
+import { EkgLine } from "@/components/animations/ekg-line";
 
 export async function Location() {
   const t = await getTranslations("location");
@@ -26,7 +27,8 @@ export async function Location() {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="animate-on-scroll fade-up text-center max-w-2xl mx-auto mb-12">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold mb-4">
+          <EkgLine static className="h-6 w-36 text-red-medium mx-auto mb-4" />
+          <h2 className="text-3xl md:text-4xl lg:text-5xl section-title text-white mb-4">
             {t("title")}
           </h2>
           <p className="text-lg text-white/70">{t("subtitle")}</p>

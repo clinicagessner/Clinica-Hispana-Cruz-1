@@ -26,8 +26,8 @@ export const CONTACT_INFO: ContactInfo = {
   googleReviewUrl: "https://search.google.com/local/writereview?placeid=ChIJA73gaPq3QIYRlhsV5i4qsAk",
   placeId: "ChIJA73gaPq3QIYRlhsV5i4qsAk",
   coordinates: {
-    lat: 29.8722198,
-    lng: -95.3844298,
+    lat: 29.8723458,
+    lng: -95.3845513,
   },
 };
 
@@ -37,11 +37,11 @@ export const SOCIAL_LINKS: SocialLinks = {
   google: "https://g.page/r/CZYbFeYuKrAJEBM",
 };
 
-// Google Reviews data - Hardcoded for now, will be replaced with API
-// TODO(randy): confirmar rating exacto; total tomado del listado público (jul 2026)
+// Google Reviews fallback (la Places API New provee los datos en vivo).
+// Valores verificados contra la Places API el 10 jul 2026.
 export const GOOGLE_REVIEWS_DATA = {
-  totalReviews: 232,
-  averageRating: 4.9,
+  totalReviews: 952,
+  averageRating: 5.0,
   placeId: "ChIJA73gaPq3QIYRlhsV5i4qsAk",
 };
 

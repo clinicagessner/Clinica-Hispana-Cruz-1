@@ -5,7 +5,7 @@ description: "Aprenda a controlar su diabetes con nuestra guía completa. Monito
 date: "2026-03-19"
 dateModified: "2026-03-21"
 author: "Clínica Hispana Cruz"
-image: "/images/services/condiciones-cronicas.jpg"
+image: "/images/services/condiciones-cronicas.webp"
 featured: false
 category: "Salud"
 readTime: 7

@@ -5,7 +5,7 @@ description: "Learn how to manage your diabetes with our comprehensive guide. Gl
 date: "2026-03-19"
 dateModified: "2026-03-21"
 author: "Clínica Hispana Cruz"
-image: "/images/services/condiciones-cronicas.jpg"
+image: "/images/services/condiciones-cronicas.webp"
 featured: false
 category: "Health"
 readTime: 7

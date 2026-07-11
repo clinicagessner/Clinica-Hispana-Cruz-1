@@ -8,10 +8,13 @@ export const contactFormSchema = z.object({
     .max(100, "El nombre no puede exceder 100 caracteres"),
   telefono: z
     .string()
-    .min(10, "Ingrese un número de teléfono válido")
     .regex(
       /^[\d\s\-\(\)\+]+$/,
       "El teléfono solo puede contener números, espacios, guiones y paréntesis"
+    )
+    .refine(
+      (value) => value.replace(/\D/g, "").length === 10,
+      "El teléfono debe tener 10 dígitos"
     ),
   email: z
     .string()
@@ -43,10 +46,13 @@ export const contactFormSchemaEn = z.object({
     .max(100, "Name cannot exceed 100 characters"),
   telefono: z
     .string()
-    .min(10, "Please enter a valid phone number")
     .regex(
       /^[\d\s\-\(\)\+]+$/,
       "Phone can only contain numbers, spaces, hyphens and parentheses"
+    )
+    .refine(
+      (value) => value.replace(/\D/g, "").length === 10,
+      "Phone number must have 10 digits"
     ),
   email: z
     .string()

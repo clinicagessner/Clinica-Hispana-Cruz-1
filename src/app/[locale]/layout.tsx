@@ -126,6 +126,12 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
+// IDs de analitica por variable de entorno: sin variable, el script no se inyecta
+// (evita mandar datos a cuentas equivocadas en dev/preview y permite rotar IDs sin tocar codigo).
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
+const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID;
+const META_PIXEL_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID;
+
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
 
@@ -145,15 +151,17 @@ export default async function LocaleLayout({ children, params }: Props) {
         <link rel="preconnect" href="https://lh3.googleusercontent.com" />
         {/* TODO(randy): agregar el script de CallRail cuando exista la cuenta de Clínica Hispana Cruz */}
         {/* Meta Pixel noscript fallback */}
-        <noscript>
-          <img
-            height="1"
-            width="1"
-            style={{ display: "none" }}
-            src="https://www.facebook.com/tr?id=1005871395521224&ev=PageView&noscript=1"
-            alt=""
-          />
-        </noscript>
+        {META_PIXEL_ID && (
+          <noscript>
+            <img
+              height="1"
+              width="1"
+              style={{ display: "none" }}
+              src={`https://www.facebook.com/tr?id=${META_PIXEL_ID}&ev=PageView&noscript=1`}
+              alt=""
+            />
+          </noscript>
+        )}
       </head>
       <body className="antialiased min-h-screen flex flex-col" suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
@@ -166,32 +174,38 @@ export default async function LocaleLayout({ children, params }: Props) {
           </TooltipProvider>
         </NextIntlClientProvider>
       </body>
-      {/* TODO(randy): agregar <GoogleAnalytics gaId="G-..." /> cuando exista la propiedad GA4 de Clínica Hispana Cruz */}
-      <Script id="meta-pixel" strategy="afterInteractive">
-        {`
-          !function(f,b,e,v,n,t,s)
-          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-          n.queue=[];t=b.createElement(e);t.async=!0;
-          t.src=v;s=b.getElementsByTagName(e)[0];
-          s.parentNode.insertBefore(t,s)}(window, document,'script',
-          'https://connect.facebook.net/en_US/fbevents.js');
-          fbq('init', '1005871395521224');
-          fbq('track', 'PageView');
-        `}
-      </Script>
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=AW-16620442605"
-        strategy="afterInteractive"
-      />
-      <Script id="google-ads-tag" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('config', 'AW-16620442605');
-        `}
-      </Script>
+      {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
+      {META_PIXEL_ID && (
+        <Script id="meta-pixel" strategy="afterInteractive">
+          {`
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '${META_PIXEL_ID}');
+            fbq('track', 'PageView');
+          `}
+        </Script>
+      )}
+      {GOOGLE_ADS_ID && (
+        <>
+          <Script
+            src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ADS_ID}`}
+            strategy="afterInteractive"
+          />
+          <Script id="google-ads-tag" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('config', '${GOOGLE_ADS_ID}');
+            `}
+          </Script>
+        </>
+      )}
     </html>
   );
 }

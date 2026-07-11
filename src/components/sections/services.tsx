@@ -21,7 +21,7 @@ export function Services() {
   const highlightedServices = SERVICES.filter((s) => s.highlighted).slice(0, 4);
 
   return (
-    <section id="services" className="py-16 md:py-24 bg-slate-light">
+    <section id="servicios" className="py-16 md:py-24 bg-slate-light">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-12 md:mb-16">

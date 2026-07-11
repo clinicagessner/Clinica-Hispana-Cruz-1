@@ -62,7 +62,7 @@ export async function Testimonials() {
   const reviews = googleData?.reviews?.length ? googleData.reviews : fallbackReviews;
 
   return (
-    <section id="testimonials" className="py-20 md:py-28">
+    <section id="testimonios" className="py-20 md:py-28">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="animate-on-scroll fade-up text-center max-w-2xl mx-auto mb-12">

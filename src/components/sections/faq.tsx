@@ -19,7 +19,7 @@ export async function FAQ() {
   }));
 
   return (
-    <section id="faq" className="py-16 md:py-24 bg-red-bg">
+    <section id="preguntas-frecuentes" className="py-16 md:py-24 bg-red-bg">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="animate-on-scroll fade-up text-center max-w-2xl mx-auto mb-12 md:mb-16">

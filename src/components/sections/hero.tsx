@@ -14,7 +14,7 @@ export async function Hero() {
   const totalReviews = googleData?.totalReviews ?? GOOGLE_REVIEWS_DATA.totalReviews;
 
   return (
-    <section id="home" aria-labelledby="hero-title" className="relative min-h-screen flex items-center overflow-hidden">
+    <section id="inicio" aria-labelledby="hero-title" className="relative min-h-screen flex items-center overflow-hidden">
       {/* Background Image - Explicit dimensions for faster LCP */}
       <Image
         src="/images/hero-bg.webp"
@@ -101,7 +101,7 @@ export async function Hero() {
           {/* Secondary contact link */}
           <div className="animate-hero-cta mb-9">
             <a
-              href="#contact"
+              href="#contacto"
               className="group inline-flex items-center gap-1.5 text-base text-white/90 underline decoration-white/40 underline-offset-4 transition-colors duration-200 hover:text-white hover:decoration-white"
             >
               {t("ctaContact")}

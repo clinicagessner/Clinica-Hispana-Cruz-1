@@ -38,7 +38,7 @@ export default async function NotFound() {
             </Link>
           </Button>
           <Button asChild size="lg" variant="outline" className="gap-2">
-            <Link href="/#contact">
+            <Link href="/#contacto">
               <ArrowLeft className="size-5" />
               {t("contact")}
             </Link>

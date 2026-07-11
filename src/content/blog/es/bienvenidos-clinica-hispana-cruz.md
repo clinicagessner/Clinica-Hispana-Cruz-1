@@ -5,7 +5,7 @@ description: "Conoce nuestra clínica médica hispana en Houston, TX. Atención 
 date: "2026-03-16"
 dateModified: "2026-03-21"
 author: "Clínica Hispana Cruz"
-image: "/images/blog/welcome.webp"
+image: "/images/hero-bg.webp"
 featured: false
 category: "Anuncios"
 readTime: 4

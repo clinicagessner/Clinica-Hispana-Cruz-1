@@ -14,7 +14,7 @@ interface PromotionDialogProps {
   promo: LocalizedPromotion | null;
   labels: PromotionLabels;
   contact: PromotionContact;
-  /** Anchor to the lead form: "#contact" on home, "#lead-form" on the page. */
+  /** Anchor to the lead form: "#contacto" on home, "#lead-form" on the page. */
   formHref: string;
   onClose: () => void;
 }

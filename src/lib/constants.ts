@@ -491,7 +491,7 @@ export const SERVICES: Service[] = [
       "Thyroid, liver and kidney tests",
       "Results explained in Spanish"
     ],
-    "highlighted": true,
+    "highlighted": false,
     "order": 11
   },
   {
@@ -1613,8 +1613,8 @@ export const FAQ_ITEMS: FAQItem[] = [
 export const NAV_ITEMS = [
   { label: "nav.services", href: "/services" },
   { label: "nav.promotions", href: "/promociones" },
-  { label: "nav.chronicCare", href: "/#chronic-care" },
+  { label: "nav.chronicCare", href: "/#enfermedades-cronicas" },
   { label: "nav.blog", href: "/blog" },
-  { label: "nav.contact", href: "/#contact" },
+  { label: "nav.contact", href: "/#contacto" },
 ];
 

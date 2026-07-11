@@ -8,10 +8,25 @@ import { Contact } from "@/components/sections/contact";
 import { FAQ } from "@/components/sections/faq";
 import { Location } from "@/components/sections/location";
 import { BlogPreview } from "@/components/sections/blog-preview";
+import { ScrollSpy } from "@/components/animations/scroll-spy";
 
 type Props = {
   params: Promise<{ locale: string }>;
 };
+
+// Ids de las secciones del home (en español), en orden de aparición.
+// ScrollSpy actualiza el hash de la URL al hacer scroll.
+const HOME_SECTION_IDS = [
+  "inicio",
+  "promociones",
+  "servicios",
+  "enfermedades-cronicas",
+  "testimonios",
+  "preguntas-frecuentes",
+  "ubicacion",
+  "blog",
+  "contacto",
+];
 
 export default async function HomePage({ params }: Props) {
   const { locale } = await params;
@@ -19,6 +34,7 @@ export default async function HomePage({ params }: Props) {
 
   return (
     <>
+      <ScrollSpy sectionIds={HOME_SECTION_IDS} />
       <Hero />
       <Promotions />
       <Services />

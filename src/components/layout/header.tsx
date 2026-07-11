@@ -24,7 +24,7 @@ export function Header({ phoneOverride }: HeaderProps = {}) {
   const isHomepage = pathname === "/";
   const [isScrolled, setIsScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState("home");
+  const [activeSection, setActiveSection] = useState("inicio");
   const phone = phoneOverride?.phone ?? CONTACT_INFO.phone;
   const phoneFormatted = phoneOverride?.phoneFormatted ?? CONTACT_INFO.phoneFormatted;
 
@@ -48,7 +48,7 @@ export function Header({ phoneOverride }: HeaderProps = {}) {
 
   // Scroll spy to detect active section
   useEffect(() => {
-    const sectionIds = ["home", ...NAV_ITEMS
+    const sectionIds = ["inicio", ...NAV_ITEMS
       .filter(item => item.href.includes("#"))
       .map(item => item.href.split("#")[1])];
 
@@ -56,7 +56,7 @@ export function Header({ phoneOverride }: HeaderProps = {}) {
       const scrollPosition = window.scrollY + 150;
 
       // Find the section that's currently in view
-      let currentSection = "home";
+      let currentSection = "inicio";
 
       for (const sectionId of sectionIds) {
         const element = document.getElementById(sectionId);

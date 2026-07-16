@@ -25,6 +25,7 @@
     "title": "Su Clínica Hispana de Confianza en <hl>Houston</hl>",
     "subtitle": "Una de las clínicas hispanas líderes en Houston TX. Medicina familiar, ginecología, diabetes y laboratorio. Sin cita previa, precios accesibles.",
     "ctaCall": "Llamar Ahora",
+    "ctaWhatsapp": "WhatsApp",
     "ctaLocation": "Cómo Llegar",
     "ctaContact": "¿Prefieres que te contactemos? Escríbenos",
     "hours": "Lunes a Domingo: 9:00 AM - 9:00 PM",
@@ -172,7 +173,9 @@
     "bookAppointment": "Agendar Cita",
     "learnMore": "Más Información",
     "contactUs": "Contáctenos",
-    "viewServices": "Ver Servicios"
+    "viewServices": "Ver Servicios",
+    "whatsapp": "Escríbenos por WhatsApp",
+    "whatsappMessage": "Hola, me gustaría más información sobre sus servicios."
   },
   "accessibility": {
     "skipToContent": "Saltar al contenido",

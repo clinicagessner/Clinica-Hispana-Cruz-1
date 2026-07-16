@@ -1,17 +1,23 @@
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
-import { Phone, MapPin, Clock, Star, CheckCircle, ArrowRight } from "@phosphor-icons/react/dist/ssr";
+import { Phone, MapPin, Clock, Star, CheckCircle, ArrowRight, WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { EkgLine } from "@/components/animations/ekg-line";
 import { CONTACT_INFO, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getGooglePlaceData } from "@/lib/google-places";
 
 export async function Hero() {
-  const [t, googleData] = await Promise.all([
+  const [t, tCta, googleData] = await Promise.all([
     getTranslations("hero"),
+    getTranslations("cta"),
     getGooglePlaceData(),
   ]);
   const totalReviews = googleData?.totalReviews ?? GOOGLE_REVIEWS_DATA.totalReviews;
+
+  // WhatsApp usa su constante dedicada y nunca muestra el número como texto:
+  // CallRail swap.js reescribe el número principal visible y lo convertiría
+  // en un tracking number que no recibe chats.
+  const whatsappHref = `https://wa.me/${CONTACT_INFO.whatsapp}?text=${encodeURIComponent(tCta("whatsappMessage"))}`;
 
   return (
     <section id="inicio" aria-labelledby="hero-title" className="relative min-h-screen flex items-center overflow-hidden">
@@ -78,6 +84,21 @@ export async function Hero() {
               >
                 <Phone className="size-5" weight="fill" />
                 {t("ctaCall")}
+              </a>
+            </Button>
+            <Button
+              asChild
+              size="lg"
+              className="text-base md:text-lg px-8 py-6 gap-2 font-heading font-bold uppercase tracking-wide bg-whatsapp text-white hover:bg-whatsapp-dark shadow-lg shadow-whatsapp/30"
+            >
+              <a
+                href={whatsappHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={tCta("whatsapp")}
+              >
+                <WhatsappLogo className="size-5" weight="fill" />
+                {t("ctaWhatsapp")}
               </a>
             </Button>
             <Button

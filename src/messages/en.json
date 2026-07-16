@@ -25,6 +25,7 @@
     "title": "Your Trusted Hispanic Clinic in <hl>Houston</hl>",
     "subtitle": "One of the leading hispanic clinics in Houston TX. Family medicine, gynecology, diabetes care, and laboratory. Walk-ins welcome, affordable prices.",
     "ctaCall": "Call Now",
+    "ctaWhatsapp": "WhatsApp",
     "ctaLocation": "Get Directions",
     "ctaContact": "Prefer that we contact you? Write to us",
     "hours": "Monday to Sunday: 9:00 AM - 9:00 PM",
@@ -172,7 +173,9 @@
     "bookAppointment": "Book Appointment",
     "learnMore": "Learn More",
     "contactUs": "Contact Us",
-    "viewServices": "View Services"
+    "viewServices": "View Services",
+    "whatsapp": "Message us on WhatsApp",
+    "whatsappMessage": "Hello, I would like more information about your services."
   },
   "accessibility": {
     "skipToContent": "Skip to content",

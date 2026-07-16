@@ -17,6 +17,11 @@ export const CONTACT_INFO: ContactInfo = {
   zip: "77037",
   phone: "+12817412157",
   phoneFormatted: "+1 (281) 741-2157",
+  // WhatsApp — constante dedicada aunque hoy coincida con `phone`: los botones
+  // de chat no deben depender del número de llamadas (CallRail swap.js solo
+  // reescribe el principal visible; wa.me nunca muestra número en pantalla).
+  whatsapp: "12817412157", // E.164 sin "+", listo para wa.me
+  whatsappDisplay: "(281) 741-2157",
   email: "clinic7640@gmail.com",
   hours: "Lunes a Domingo: 9:00 AM - 9:00 PM",
   hoursWeekday: "Lunes a Viernes: 9:00 AM - 9:00 PM",

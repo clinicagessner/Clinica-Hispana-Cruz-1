@@ -26,7 +26,8 @@ Bilingual medical clinic website (Spanish/English) for Houston, TX using Next.js
 
 ### Key Files
 
-- `src/lib/constants.ts` - All business data: SITE_CONFIG, CONTACT_INFO, SERVICES[], PROMOTIONS[], BLOG_POSTS[], SOCIAL_LINKS
+- `src/lib/constants.ts` - All business data: SITE_CONFIG, CONTACT_INFO, SERVICES[], PROMOTIONS[], SOCIAL_LINKS
+- `src/lib/blog.ts` - Blog post loading from markdown files in `src/content/blog/{es,en}/`
 - `src/lib/validations.ts` - Zod schemas for forms (contactFormSchema, contactFormSchemaEn)
 - `src/app/actions/send-contact-email.ts` - Server action for contact form (uses Resend)
 - `src/components/seo/json-ld.tsx` - MedicalClinic, FAQPage, BreadcrumbList, MedicalProcedure schemas
@@ -51,8 +52,9 @@ Icon weight variants: `regular`, `fill`, `duotone`, `bold`
 
 ### Blog System
 
-- Blog posts defined in `BLOG_POSTS[]` in constants.ts (not markdown files)
-- Posts have inline markdown content, parsed by `parseMarkdown()` in blog page
+- Blog posts are markdown files in `src/content/blog/{es,en}/<slug>.md` with gray-matter frontmatter (slug, title, description, date, author, image, category, readTime, keywords)
+- Each post must exist in both locales with the same filename/slug (`getAllSlugs()` reads from the `es` directory)
+- Loaded by `src/lib/blog.ts`: `getBlogPosts()`, `getBlogPost()`, `getFeaturedPost()`, `getRelatedPosts()`
 - Routes: `/blog` (list), `/blog/[slug]` (post detail)
 - SEO: `JsonLdBlogPosting` component for structured data
 
@@ -70,7 +72,7 @@ export async function generateStaticParams() {
 
 ### Data Flow
 
-1. Business data lives in `constants.ts` - edit here to change services, contact info, promotions, blog posts
+1. Business data lives in `constants.ts` - edit here to change services, contact info, promotions; blog posts live in `src/content/blog/`
 2. Services use translation keys from messages JSON for display text
 3. Contact form validates client-side with Zod, then server-side in server action
 4. Emails sent via Resend API

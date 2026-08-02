@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Clínicas Hispanas Houston | Clínica Hispana Cruz | Médicos en Español",
     "titleTemplate": "%s | Clínica Hispana Cruz Houston",
-    "description": "Una de las mejores clínicas hispanas en Houston TX. Atención médica 100% en español, sin cita previa. Medicina familiar, ginecología, control de diabetes, laboratorio. No necesitas seguro; precios accesibles de pago directo. Llame: (281) 741-2157",
+    "description": "Una de las mejores clínicas hispanas en Houston TX. Centro médico con atención 100% en español, sin cita previa. Médico primario, medicina familiar, ginecología, control de diabetes, laboratorio. No necesitas seguro; precios accesibles de pago directo. Llame: (281) 741-2157",
     "ogDescription": "Clínica hispana de confianza en Houston. Atención médica profesional en español para toda la familia. Medicina familiar, ginecología, diabetes, laboratorio. Sin cita previa. {reviews}+ reseñas con {rating}★ en Google."
   },
   "nav": {
@@ -122,10 +122,14 @@
     "q9": "¿Cuánto tiempo debo esperar sin cita?",
     "a9": "El tiempo de espera varía según la demanda del día, pero generalmente atendemos a los pacientes en 15-30 minutos. Le recomendamos llegar temprano para asegurar una atención más rápida.",
     "q10": "¿Hay estacionamiento disponible?",
-    "a10": "Sí, contamos con amplio estacionamiento gratuito frente a la clínica. Nuestras instalaciones también son accesibles para personas con discapacidad, incluyendo rampas y baños adaptados."
+    "a10": "Sí, contamos con amplio estacionamiento gratuito frente a la clínica. Nuestras instalaciones también son accesibles para personas con discapacidad, incluyendo rampas y baños adaptados.",
+    "q11": "¿Dónde encuentro una clínica hispana cerca de mí en Houston?",
+    "a11": "Clínica Hispana Cruz es una clínica hispana y latina en 7640 Airline Dr # D, Houston, TX 77037, en el norte de Houston. Abrimos todos los días de 9:00 AM a 9:00 PM, sin cita previa.",
+    "q12": "¿Puedo tener aquí a mi médico primario?",
+    "a12": "Sí. Muchas familias nos eligen como su médico primario y centro médico cerca de casa: consultas de medicina general, control de condiciones crónicas y laboratorio en un solo lugar."
   },
   "location": {
-    "title": "Ubicación de Nuestra Clínica en Houston",
+    "title": "Nuestra Clínica Hispana Cerca de Ti en Houston",
     "subtitle": "Visítenos en 7640 Airline Dr # D, Houston TX 77037",
     "howToGetHere": "Cómo Llegar",
     "getDirections": "Obtener Direcciones",
@@ -140,7 +144,7 @@
     "call": "Llamar"
   },
   "footer": {
-    "tagline": "Su salud es nuestra prioridad",
+    "tagline": "Su clínica hispana en Houston, TX: su salud es nuestra prioridad",
     "quickLinks": "Enlaces Rápidos",
     "contactInfo": "Información de Contacto",
     "followUs": "Síguenos",

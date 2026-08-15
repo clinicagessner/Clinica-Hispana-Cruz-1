@@ -52,7 +52,9 @@ async function fetchGooglePlaceDetails(): Promise<GooglePlaceData | null> {
 
     const response = await fetch(url.toString(), {
       headers: { "X-Goog-Api-Key": apiKey },
-      next: { revalidate: 604800 }, // Cache for 1 week
+      // unstable_cache (abajo) es la única capa de caché; sin esto el fetch
+      // guardaría su propia copia en el Data Cache y podría servir datos viejos.
+      cache: "no-store",
     });
 
     if (!response.ok) {
@@ -95,9 +97,11 @@ async function fetchGooglePlaceDetails(): Promise<GooglePlaceData | null> {
 }
 
 // Cached version - revalidates every week
+// v2: clave renombrada para invalidar la entrada cacheada mientras la API
+// devolvía 403 (facturación desactivada en Google Cloud, ago 2026).
 export const getGooglePlaceData = unstable_cache(
   fetchGooglePlaceDetails,
-  ["google-place-data"],
+  ["google-place-data-v2"],
   {
     revalidate: 604800, // 1 week
     tags: ["google-reviews"],

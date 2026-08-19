@@ -79,14 +79,12 @@ Cualquier persona puede desarrollar deficiencia de B12, pero el riesgo es mayor 
 
 La primera fuente siempre es la alimentación. Los alimentos más ricos en B12 son:
 
-| Alimento | Aporte de B12 |
-|---|---|
-| Hígado de res | Muy alto |
-| Pescados (salmón, atún, sardinas) | Alto |
-| Carne de res y pollo | Moderado–alto |
-| Huevos | Moderado |
-| Leche, queso y yogur | Moderado |
-| Cereales fortificados | Variable (revise la etiqueta) |
+- **Hígado de res:** Muy alto
+- **Pescados (salmón, atún, sardinas):** Alto
+- **Carne de res y pollo:** Moderado–alto
+- **Huevos:** Moderado
+- **Leche, queso y yogur:** Moderado
+- **Cereales fortificados:** Variable (revise la etiqueta)
 
 El problema es que **comer bien no siempre alcanza**: si su estómago no absorbe la vitamina — por edad, medicamentos o cirugías — puede tener deficiencia aunque su dieta sea buena. En esos casos entran los suplementos y las inyecciones.
 

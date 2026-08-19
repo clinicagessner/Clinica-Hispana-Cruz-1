@@ -78,14 +78,12 @@ Anyone can develop a B12 deficiency, but your risk is higher if you:
 
 Food is always the first source. The richest sources of B12 are:
 
-| Food | B12 content |
-|---|---|
-| Beef liver | Very high |
-| Fish (salmon, tuna, sardines) | High |
-| Beef and chicken | Moderate–high |
-| Eggs | Moderate |
-| Milk, cheese, and yogurt | Moderate |
-| Fortified cereals | Varies (check the label) |
+- **Beef liver:** Very high
+- **Fish (salmon, tuna, sardines):** High
+- **Beef and chicken:** Moderate–high
+- **Eggs:** Moderate
+- **Milk, cheese, and yogurt:** Moderate
+- **Fortified cereals:** Varies (check the label)
 
 The catch is that **eating well isn't always enough**: if your stomach can't absorb the vitamin — because of age, medications, or surgery — you can be deficient even with a good diet. That's where supplements and injections come in.
 

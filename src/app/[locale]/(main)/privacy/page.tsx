@@ -20,6 +20,7 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
       languages: {
         es: "/privacy",
         en: "/en/privacy",
+        "x-default": "/privacy",
       },
     },
     openGraph: {

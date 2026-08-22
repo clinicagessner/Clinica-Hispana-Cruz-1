@@ -1,5 +1,5 @@
 import { getLocale, getTranslations } from "next-intl/server";
-import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
+import { ArrowRightIcon } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { Link } from "@/i18n/routing";
 import { PromotionsCarousel } from "@/components/promotions/promotions-carousel";
@@ -64,7 +64,7 @@ export async function Promotions() {
           <Button asChild size="lg" className="gap-2">
             <Link href="/promociones">
               {t("viewAll")}
-              <ArrowRight className="size-5" weight="bold" />
+              <ArrowRightIcon className="size-5" weight="bold" />
             </Link>
           </Button>
         </div>

@@ -1,5 +1,5 @@
 import { getTranslations } from "next-intl/server";
-import { Star, GoogleLogo } from "@phosphor-icons/react/dist/ssr";
+import { StarIcon, GoogleLogoIcon } from "@phosphor-icons/react/dist/ssr";
 import { TestimonialsCarousel } from "@/components/sections/testimonials-carousel";
 import { Button } from "@/components/ui/button";
 import { CONTACT_INFO, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
@@ -76,10 +76,10 @@ export async function Testimonials() {
 
           {/* Google Stats */}
           <div className="inline-flex items-center gap-4 bg-white px-6 py-3 rounded-full shadow-sm border border-slate-100">
-            <GoogleLogo className="size-6 text-slate-dark" weight="bold" />
+            <GoogleLogoIcon className="size-6 text-slate-dark" weight="bold" />
             <div className="flex items-center gap-1">
               {[...Array(5)].map((_, i) => (
-                <Star key={i} className="size-4 text-yellow-500" weight="fill" />
+                <StarIcon key={i} className="size-4 text-yellow-500" weight="fill" />
               ))}
             </div>
             <span className="font-bold text-slate-dark">{averageRating}</span>
@@ -98,7 +98,7 @@ export async function Testimonials() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <GoogleLogo className="size-5" weight="bold" />
+              <GoogleLogoIcon className="size-5" weight="bold" />
               {t("leaveReview")}
             </a>
           </Button>

@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import Link from "next/link";
-import { ArrowLeft, WarningCircle } from "@phosphor-icons/react";
+import { ArrowLeftIcon, WarningCircleIcon } from "@phosphor-icons/react";
 import { Button } from "@/components/ui/button";
 
 export default function ServiceError({
@@ -20,7 +20,7 @@ export default function ServiceError({
     <main className="min-h-screen bg-background flex items-center justify-center px-4">
       <div className="text-center max-w-md">
         <div className="size-16 rounded-full bg-red-100 text-red-primary flex items-center justify-center mx-auto mb-6">
-          <WarningCircle className="size-8" weight="fill" />
+          <WarningCircleIcon className="size-8" weight="fill" />
         </div>
 
         <h1 className="text-2xl font-heading font-bold text-slate-dark mb-3">
@@ -38,7 +38,7 @@ export default function ServiceError({
 
           <Button asChild variant="outline" className="gap-2">
             <Link href="/services">
-              <ArrowLeft className="size-4" weight="bold" />
+              <ArrowLeftIcon className="size-4" weight="bold" />
               Ver todos los servicios
             </Link>
           </Button>

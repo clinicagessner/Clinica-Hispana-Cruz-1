@@ -5,31 +5,31 @@ import Link from "next/link";
 import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 import {
-  ArrowRight,
-  Stethoscope,
-  FirstAid,
-  Flask,
-  Heartbeat,
-  Drop,
-  Heart,
-  GenderFemale,
-  Syringe,
-  Clipboard,
-  Virus,
-  Lightning,
-  TestTube,
-  Star,
-  Pulse,
-  ShieldCheck,
-  FileText,
-  Wind,
-  Truck,
-  Scissors,
-  Users,
-  Bone,
-  Monitor,
-  Pill,
-  FunnelSimple,
+  ArrowRightIcon,
+  StethoscopeIcon,
+  FirstAidIcon,
+  FlaskIcon,
+  HeartbeatIcon,
+  DropIcon,
+  HeartIcon,
+  GenderFemaleIcon,
+  SyringeIcon,
+  ClipboardIcon,
+  VirusIcon,
+  LightningIcon,
+  TestTubeIcon,
+  StarIcon,
+  PulseIcon,
+  ShieldCheckIcon,
+  FileTextIcon,
+  WindIcon,
+  TruckIcon,
+  ScissorsIcon,
+  UsersIcon,
+  BoneIcon,
+  MonitorIcon,
+  PillIcon,
+  FunnelSimpleIcon,
 } from "@phosphor-icons/react/dist/ssr";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -37,29 +37,29 @@ import { cn } from "@/lib/utils";
 import type { Service } from "@/types";
 
 const iconMap: Record<string, React.ElementType> = {
-  Stethoscope,
-  FirstAid,
-  Flask,
-  Heartbeat,
-  Drop,
-  Heart,
-  GenderFemale,
-  Syringe,
-  Clipboard,
-  Virus,
-  Lightning,
-  TestTube,
-  Activity: Pulse,
-  ShieldCheck,
-  FileText,
-  Wind,
-  Truck,
-  Scissors,
-  Users,
-  Bone,
-  Monitor,
-  Pill,
-  Shield: ShieldCheck,
+  Stethoscope: StethoscopeIcon,
+  FirstAid: FirstAidIcon,
+  Flask: FlaskIcon,
+  Heartbeat: HeartbeatIcon,
+  Drop: DropIcon,
+  Heart: HeartIcon,
+  GenderFemale: GenderFemaleIcon,
+  Syringe: SyringeIcon,
+  Clipboard: ClipboardIcon,
+  Virus: VirusIcon,
+  Lightning: LightningIcon,
+  TestTube: TestTubeIcon,
+  Activity: PulseIcon,
+  ShieldCheck: ShieldCheckIcon,
+  FileText: FileTextIcon,
+  Wind: WindIcon,
+  Truck: TruckIcon,
+  Scissors: ScissorsIcon,
+  Users: UsersIcon,
+  Bone: BoneIcon,
+  Monitor: MonitorIcon,
+  Pill: PillIcon,
+  Shield: ShieldCheckIcon,
 };
 
 interface Category {
@@ -74,12 +74,12 @@ interface ServicesFilterProps {
 }
 
 const categoryIconMap: Record<string, React.ElementType> = {
-  Star,
-  Stethoscope,
-  TestTube,
-  GenderFemale,
-  Clipboard,
-  Syringe,
+  Star: StarIcon,
+  Stethoscope: StethoscopeIcon,
+  TestTube: TestTubeIcon,
+  GenderFemale: GenderFemaleIcon,
+  Clipboard: ClipboardIcon,
+  Syringe: SyringeIcon,
 };
 
 export function ServicesFilter({ services, categories }: ServicesFilterProps) {
@@ -110,12 +110,12 @@ export function ServicesFilter({ services, categories }: ServicesFilterProps) {
               activeCategory === "all" && "bg-red-primary hover:bg-red-dark"
             )}
           >
-            <FunnelSimple className="size-4" weight="bold" />
+            <FunnelSimpleIcon className="size-4" weight="bold" />
             {t("filterAll")}
           </Button>
 
           {categories.map((cat) => {
-            const Icon = categoryIconMap[cat.iconName] || Star;
+            const Icon = categoryIconMap[cat.iconName] || StarIcon;
             return (
               <Button
                 key={cat.id}
@@ -137,7 +137,7 @@ export function ServicesFilter({ services, categories }: ServicesFilterProps) {
         {/* Services Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {filteredServices.map((service) => {
-            const IconComponent = iconMap[service.icon] || Stethoscope;
+            const IconComponent = iconMap[service.icon] || StethoscopeIcon;
 
             return (
               <Link
@@ -182,7 +182,7 @@ export function ServicesFilter({ services, categories }: ServicesFilterProps) {
                     </p>
                     <span className="inline-flex items-center gap-1.5 text-red-primary font-medium text-sm group-hover:gap-2.5 transition-all">
                       {t("learnMore")}
-                      <ArrowRight className="size-4" weight="bold" />
+                      <ArrowRightIcon className="size-4" weight="bold" />
                     </span>
                   </div>
                 </article>

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
+import { ArrowRightIcon } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { PromotionDialog } from "@/components/promotions/promotion-dialog";
 import type {
@@ -84,7 +84,7 @@ export function PromotionsGrid({
                 aria-label={`${labels.openAria}: ${promo.title}`}
               >
                 {labels.viewDetail}
-                <ArrowRight className="size-4" weight="bold" />
+                <ArrowRightIcon className="size-4" weight="bold" />
               </Button>
             </div>
           </article>

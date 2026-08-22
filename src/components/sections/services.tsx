@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useLocale } from "next-intl";
 import { useTranslations } from "next-intl";
-import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
+import { ArrowRightIcon } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { SERVICES } from "@/lib/constants";
 import { EkgLine } from "@/components/animations/ekg-line";
@@ -64,7 +64,7 @@ export function Services() {
                   </p>
                   <span className="inline-flex items-center gap-2 text-white font-medium group-hover:gap-3 transition-all">
                     {t("learnMore")}
-                    <ArrowRight className="size-5" weight="bold" />
+                    <ArrowRightIcon className="size-5" weight="bold" />
                   </span>
                 </div>
               </Link>
@@ -93,7 +93,7 @@ export function Services() {
                   </h3>
                   <span className="inline-flex items-center gap-1 text-white/80 text-sm font-medium group-hover:text-white group-hover:gap-2 transition-all">
                     {t("learnMore")}
-                    <ArrowRight className="size-4" weight="bold" />
+                    <ArrowRightIcon className="size-4" weight="bold" />
                   </span>
                 </div>
               </Link>
@@ -122,7 +122,7 @@ export function Services() {
                   </h3>
                   <span className="inline-flex items-center gap-1 text-white/80 text-sm font-medium group-hover:text-white group-hover:gap-2 transition-all">
                     {t("learnMore")}
-                    <ArrowRight className="size-4" weight="bold" />
+                    <ArrowRightIcon className="size-4" weight="bold" />
                   </span>
                 </div>
               </Link>
@@ -154,7 +154,7 @@ export function Services() {
                   </p>
                   <span className="inline-flex items-center gap-2 text-white font-medium group-hover:gap-3 transition-all">
                     {t("learnMore")}
-                    <ArrowRight className="size-5" weight="bold" />
+                    <ArrowRightIcon className="size-5" weight="bold" />
                   </span>
                 </div>
               </Link>
@@ -167,7 +167,7 @@ export function Services() {
           <Button asChild size="lg" variant="outline" className="gap-2">
             <Link href={getLocalizedHref("/services")}>
               {t("viewAll")}
-              <ArrowRight className="size-5" />
+              <ArrowRightIcon className="size-5" />
             </Link>
           </Button>
         </div>

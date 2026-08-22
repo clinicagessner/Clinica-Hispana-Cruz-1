@@ -4,32 +4,32 @@ import Link from "next/link";
 import { useLocale } from "next-intl";
 import { useTranslations } from "next-intl";
 import {
-  Phone,
-  CalendarCheck,
-  Stethoscope,
-  Syringe,
-  TestTube,
-  FileText,
-  CheckCircle,
-  ShieldCheck,
+  PhoneIcon,
+  CalendarCheckIcon,
+  StethoscopeIcon,
+  SyringeIcon,
+  TestTubeIcon,
+  FileTextIcon,
+  CheckCircleIcon,
+  ShieldCheckIcon,
 } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { CONTACT_INFO } from "@/lib/constants";
 
 const features = [
-  { icon: ShieldCheck, text: "Médico Civil Surgeon certificado por USCIS" },
-  { icon: CalendarCheck, text: "Resultados en 3-5 días hábiles" },
-  { icon: CheckCircle, text: "Atención 100% en español" },
-  { icon: Phone, text: "Sin cita previa necesaria" },
+  { icon: ShieldCheckIcon, text: "Médico Civil Surgeon certificado por USCIS" },
+  { icon: CalendarCheckIcon, text: "Resultados en 3-5 días hábiles" },
+  { icon: CheckCircleIcon, text: "Atención 100% en español" },
+  { icon: PhoneIcon, text: "Sin cita previa necesaria" },
 ];
 
 const steps = [
-  { number: 1, icon: CalendarCheck, title: "Agenda tu Cita" },
-  { number: 2, icon: Stethoscope, title: "Examen Médico" },
-  { number: 3, icon: Syringe, title: "Vacunas Requeridas" },
-  { number: 4, icon: TestTube, title: "Pruebas de Laboratorio" },
-  { number: 5, icon: FileText, title: "Formulario I-693" },
+  { number: 1, icon: CalendarCheckIcon, title: "Agenda tu Cita" },
+  { number: 2, icon: StethoscopeIcon, title: "Examen Médico" },
+  { number: 3, icon: SyringeIcon, title: "Vacunas Requeridas" },
+  { number: 4, icon: TestTubeIcon, title: "Pruebas de Laboratorio" },
+  { number: 5, icon: FileTextIcon, title: "Formulario I-693" },
 ];
 
 export function GreenCard() {
@@ -58,7 +58,7 @@ export function GreenCard() {
           {/* Badge */}
           <div className="flex justify-center mb-6">
             <Badge className="bg-red-primary hover:bg-red-dark text-white text-sm px-5 py-2 shadow-lg">
-              <ShieldCheck className="size-4 mr-2" weight="fill" />
+              <ShieldCheckIcon className="size-4 mr-2" weight="fill" />
               {t("badge")}
             </Badge>
           </div>
@@ -157,7 +157,7 @@ export function GreenCard() {
               asChild
             >
               <Link href={getLocalizedHref("/#contacto")}>
-                <CalendarCheck className="size-5" weight="bold" />
+                <CalendarCheckIcon className="size-5" weight="bold" />
                 {t("ctaSchedule")}
               </Link>
             </Button>
@@ -165,7 +165,7 @@ export function GreenCard() {
               href={`tel:${CONTACT_INFO.phone}`}
               className="inline-flex items-center justify-center h-11 px-6 md:px-8 rounded-lg border-2 border-white text-white font-medium bg-transparent hover:bg-white hover:text-slate-dark transition-colors gap-2 text-sm md:text-base w-full sm:w-auto"
             >
-              <Phone className="size-5" weight="bold" />
+              <PhoneIcon className="size-5" weight="bold" />
               {t("ctaCall")}
             </a>
           </div>

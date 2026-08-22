@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { getLocale, getTranslations, setRequestLocale } from "next-intl/server";
-import { ArrowLeft, Star } from "@phosphor-icons/react/dist/ssr";
+import { ArrowLeftIcon, StarIcon } from "@phosphor-icons/react/dist/ssr";
 import { Link } from "@/i18n/routing";
 import { ContactForm } from "@/components/forms/contact-form";
 import { PromotionsGrid } from "@/components/promotions/promotions-grid";
@@ -115,7 +115,7 @@ export default async function PromotionsPage({ params }: Props) {
             href="/"
             className="mb-8 inline-flex items-center gap-2 text-sm font-medium text-slate-primary transition-colors hover:text-red-primary"
           >
-            <ArrowLeft className="size-4" weight="bold" />
+            <ArrowLeftIcon className="size-4" weight="bold" />
             {t("backToHome")}
           </Link>
 
@@ -133,7 +133,7 @@ export default async function PromotionsPage({ params }: Props) {
             <div className="inline-flex items-center gap-2 rounded-full border border-slate-100 bg-white px-4 py-2 shadow-sm">
               <span className="flex items-center gap-0.5">
                 {[...Array(5)].map((_, i) => (
-                  <Star
+                  <StarIcon
                     key={i}
                     className={i < Math.round(rating) ? "size-4 text-yellow-500" : "size-4 text-slate-200"}
                     weight="fill"

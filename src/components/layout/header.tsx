@@ -6,7 +6,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { usePathname } from "@/i18n/routing";
 import { useLocale } from "next-intl";
-import { List, Phone, MapPin } from "@phosphor-icons/react/dist/ssr";
+import { ListIcon, PhoneIcon, MapPinIcon } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger, SheetTitle, SheetDescription } from "@/components/ui/sheet";
 import { LanguageSwitcher } from "@/components/layout/language-switcher";
@@ -142,7 +142,7 @@ export function Header({ phoneOverride }: HeaderProps = {}) {
             <LanguageSwitcher isScrolled={!useTransparentStyle} />
             <Button asChild size="sm" className="gap-2">
               <a href={`tel:${phone}`} suppressHydrationWarning>
-                <Phone className="size-4" weight="bold" />
+                <PhoneIcon className="size-4" weight="bold" />
                 <span className="hidden xl:inline" suppressHydrationWarning>{phoneFormatted}</span>
                 <span className="xl:hidden">{t("cta.callNow")}</span>
               </a>
@@ -164,7 +164,7 @@ export function Header({ phoneOverride }: HeaderProps = {}) {
                   )}
                   aria-label={t("nav.menu")}
                 >
-                  <List className="size-6" weight="bold" />
+                  <ListIcon className="size-6" weight="bold" />
                 </Button>
               </SheetTrigger>
               <SheetContent side="right" className="w-[300px] sm:w-[350px]">
@@ -208,7 +208,7 @@ export function Header({ phoneOverride }: HeaderProps = {}) {
                   <div className="pt-6 border-t space-y-3">
                     <Button asChild className="w-full gap-2" size="lg">
                       <a href={`tel:${phone}`} onClick={handleLinkClick} suppressHydrationWarning>
-                        <Phone className="size-5" weight="bold" />
+                        <PhoneIcon className="size-5" weight="bold" />
                         {t("cta.callNow")}
                       </a>
                     </Button>
@@ -219,7 +219,7 @@ export function Header({ phoneOverride }: HeaderProps = {}) {
                         rel="noopener noreferrer"
                         onClick={handleLinkClick}
                       >
-                        <MapPin className="size-5" weight="bold" />
+                        <MapPinIcon className="size-5" weight="bold" />
                         {t("cta.getDirections")}
                       </a>
                     </Button>

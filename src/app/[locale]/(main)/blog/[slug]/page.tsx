@@ -7,7 +7,7 @@ import { SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
 import { getBlogPosts, getBlogPost, getRelatedPosts } from "@/lib/blog";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { CalendarDots, Clock, ArrowLeft, Phone } from "@phosphor-icons/react/dist/ssr";
+import { CalendarDotsIcon, ClockIcon, ArrowLeftIcon, PhoneIcon } from "@phosphor-icons/react/dist/ssr";
 import { JsonLdBlogPosting } from "@/components/seo/json-ld-blog";
 
 type Props = {
@@ -121,7 +121,7 @@ export default async function BlogPostPage({ params }: Props) {
             <div className="mb-8">
               <Link href={getLocalizedHref("/blog")}>
                 <Button variant="ghost" className="gap-2 text-white/90 hover:text-white hover:bg-white/10">
-                  <ArrowLeft className="w-4 h-4" />
+                  <ArrowLeftIcon className="w-4 h-4" />
                   {t("backToBlog")}
                 </Button>
               </Link>
@@ -141,7 +141,7 @@ export default async function BlogPostPage({ params }: Props) {
               </p>
               <div className="flex flex-wrap items-center gap-4 text-sm text-white/70">
                 <span className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded-full">
-                  <CalendarDots className="w-4 h-4" weight="fill" />
+                  <CalendarDotsIcon className="w-4 h-4" weight="fill" />
                   {new Date(post.date).toLocaleDateString(locale, {
                     year: "numeric",
                     month: "long",
@@ -150,7 +150,7 @@ export default async function BlogPostPage({ params }: Props) {
                 </span>
                 {post.readTime && (
                   <span className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded-full">
-                    <Clock className="w-4 h-4" weight="fill" />
+                    <ClockIcon className="w-4 h-4" weight="fill" />
                     {post.readTime} {t("minRead")}
                   </span>
                 )}
@@ -182,7 +182,7 @@ export default async function BlogPostPage({ params }: Props) {
                 className="inline-flex items-center gap-2 bg-white text-red-primary font-bold px-8 py-4 rounded-full hover:bg-red-light hover:scale-105 transition-all shadow-lg"
                 suppressHydrationWarning
               >
-                <Phone className="w-5 h-5" weight="fill" />
+                <PhoneIcon className="w-5 h-5" weight="fill" />
                 {t("callNow")} {CONTACT_INFO.phoneFormatted}
               </a>
             </div>

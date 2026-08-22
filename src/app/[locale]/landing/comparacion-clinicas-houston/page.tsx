@@ -2,18 +2,18 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { setRequestLocale } from "next-intl/server";
 import {
-  Phone,
-  MapPin,
-  Clock,
-  Star,
-  CheckCircle,
-  Calendar,
-  ShieldCheck,
-  CurrencyDollar,
-  Translate,
-  Car,
-  Flask,
-  ArrowRight,
+  PhoneIcon,
+  MapPinIcon,
+  ClockIcon,
+  StarIcon,
+  CheckCircleIcon,
+  CalendarIcon,
+  ShieldCheckIcon,
+  CurrencyDollarIcon,
+  TranslateIcon,
+  CarIcon,
+  FlaskIcon,
+  ArrowRightIcon,
 } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import {
@@ -205,8 +205,8 @@ const copy = {
   },
 } as const;
 
-const ICONS = [Star, Calendar, Clock, Translate, ShieldCheck, CurrencyDollar, Car, Flask] as const;
-const OFFERING_ICONS = [Star, Clock, Calendar, CurrencyDollar, Translate, ShieldCheck, Car, Flask] as const;
+const ICONS = [StarIcon, CalendarIcon, ClockIcon, TranslateIcon, ShieldCheckIcon, CurrencyDollarIcon, CarIcon, FlaskIcon] as const;
+const OFFERING_ICONS = [StarIcon, ClockIcon, CalendarIcon, CurrencyDollarIcon, TranslateIcon, ShieldCheckIcon, CarIcon, FlaskIcon] as const;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
@@ -264,7 +264,7 @@ export default async function LandingComparacionClinicasHouston({ params }: Prop
             <div className="inline-flex items-center gap-3 bg-white/15 backdrop-blur-sm border border-white/30 rounded-full px-5 py-2.5 mb-6">
               <div className="flex items-center gap-0.5">
                 {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="size-5 text-yellow-400" weight="fill" />
+                  <StarIcon key={i} className="size-5 text-yellow-400" weight="fill" />
                 ))}
               </div>
               <span className="text-white font-medium text-sm">
@@ -283,7 +283,7 @@ export default async function LandingComparacionClinicasHouston({ params }: Prop
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Button asChild size="lg" className="text-base md:text-lg px-8 py-6 gap-2 shadow-lg shadow-red-primary/30">
                 <a href={`tel:${CONQUESTING_PHONE.phone}`} suppressHydrationWarning>
-                  <Phone className="size-5" weight="fill" />
+                  <PhoneIcon className="size-5" weight="fill" />
                   <span suppressHydrationWarning>
                     {t.ctaCallPrefix} {CONQUESTING_PHONE.phoneFormatted}
                   </span>
@@ -296,7 +296,7 @@ export default async function LandingComparacionClinicasHouston({ params }: Prop
                 className="text-base md:text-lg px-8 py-6 gap-2 bg-white text-slate-dark border-white hover:bg-white/90"
               >
                 <a href={CONTACT_INFO.googleMapsUrl} target="_blank" rel="noopener noreferrer">
-                  <MapPin className="size-5" weight="fill" />
+                  <MapPinIcon className="size-5" weight="fill" />
                   {t.ctaDirections}
                 </a>
               </Button>
@@ -430,7 +430,7 @@ export default async function LandingComparacionClinicasHouston({ params }: Prop
                 >
                   <div className="flex items-center gap-1 mb-3">
                     {[...Array(review.rating)].map((_, j) => (
-                      <Star key={j} className="size-4 text-yellow-400" weight="fill" />
+                      <StarIcon key={j} className="size-4 text-yellow-400" weight="fill" />
                     ))}
                   </div>
                   <p className="text-slate-700 text-sm leading-relaxed mb-4 line-clamp-6">
@@ -465,7 +465,7 @@ export default async function LandingComparacionClinicasHouston({ params }: Prop
           <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
             <div className="bg-white rounded-2xl p-6 border border-slate-100 space-y-4">
               <div className="flex items-start gap-3">
-                <MapPin className="size-5 text-red-primary shrink-0 mt-1" weight="fill" />
+                <MapPinIcon className="size-5 text-red-primary shrink-0 mt-1" weight="fill" />
                 <div>
                   <p className="font-semibold text-slate-dark">{t.addressLabel}</p>
                   <p className="text-muted-foreground text-sm">
@@ -474,14 +474,14 @@ export default async function LandingComparacionClinicasHouston({ params }: Prop
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <Clock className="size-5 text-red-primary shrink-0 mt-1" weight="fill" />
+                <ClockIcon className="size-5 text-red-primary shrink-0 mt-1" weight="fill" />
                 <div>
                   <p className="font-semibold text-slate-dark">{t.hoursLabel}</p>
                   <p className="text-muted-foreground text-sm">{t.hoursValue}</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <Phone className="size-5 text-red-primary shrink-0 mt-1" weight="fill" />
+                <PhoneIcon className="size-5 text-red-primary shrink-0 mt-1" weight="fill" />
                 <div>
                   <p className="font-semibold text-slate-dark">{t.phoneLabel}</p>
                   <a
@@ -495,9 +495,9 @@ export default async function LandingComparacionClinicasHouston({ params }: Prop
               </div>
               <Button asChild size="lg" className="w-full gap-2 mt-2">
                 <a href={CONTACT_INFO.googleMapsUrl} target="_blank" rel="noopener noreferrer">
-                  <MapPin className="size-5" weight="fill" />
+                  <MapPinIcon className="size-5" weight="fill" />
                   {t.openInMaps}
-                  <ArrowRight className="size-4" />
+                  <ArrowRightIcon className="size-4" />
                 </a>
               </Button>
             </div>
@@ -564,7 +564,7 @@ export default async function LandingComparacionClinicasHouston({ params }: Prop
                 className="text-base md:text-lg px-8 py-6 gap-2 bg-white text-red-primary hover:bg-white/90"
               >
                 <a href={`tel:${CONQUESTING_PHONE.phone}`} suppressHydrationWarning>
-                  <Phone className="size-5" weight="fill" />
+                  <PhoneIcon className="size-5" weight="fill" />
                   <span suppressHydrationWarning>
                     {t.ctaCallPrefix} {CONQUESTING_PHONE.phoneFormatted}
                   </span>
@@ -577,7 +577,7 @@ export default async function LandingComparacionClinicasHouston({ params }: Prop
                 className="text-base md:text-lg px-8 py-6 gap-2 bg-transparent text-white border-white hover:bg-white hover:text-red-primary"
               >
                 <a href={CONTACT_INFO.googleMapsUrl} target="_blank" rel="noopener noreferrer">
-                  <MapPin className="size-5" weight="fill" />
+                  <MapPinIcon className="size-5" weight="fill" />
                   {t.ctaDirections}
                 </a>
               </Button>
@@ -585,7 +585,7 @@ export default async function LandingComparacionClinicasHouston({ params }: Prop
             <p className="mt-6 text-sm text-white/80 flex items-center justify-center gap-2 flex-wrap">
               {t.finalCtaBullets.map((bullet, i) => (
                 <span key={i} className="flex items-center gap-2">
-                  <CheckCircle className="size-4" weight="fill" />
+                  <CheckCircleIcon className="size-4" weight="fill" />
                   {bullet}
                   {i < t.finalCtaBullets.length - 1 && <span className="opacity-50">·</span>}
                 </span>

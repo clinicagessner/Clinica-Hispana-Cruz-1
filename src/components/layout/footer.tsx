@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { getTranslations, getLocale } from "next-intl/server";
-import { Phone, MapPin, Clock, InstagramLogo, FacebookLogo, XLogo, LinkedinLogo, GoogleLogo } from "@phosphor-icons/react/dist/ssr";
+import { PhoneIcon, MapPinIcon, ClockIcon, InstagramLogoIcon, FacebookLogoIcon, XLogoIcon, LinkedinLogoIcon, GoogleLogoIcon } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { SITE_CONFIG, CONTACT_INFO, SOCIAL_LINKS, NAV_ITEMS, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getGooglePlaceData } from "@/lib/google-places";
@@ -56,13 +56,13 @@ export async function Footer({ phoneOverride }: FooterProps = {}) {
             <div className="flex flex-col sm:flex-row gap-3">
               <Button asChild size="sm" className="gap-2 bg-red-primary hover:bg-red-dark">
                 <a href={`tel:${phone}`} suppressHydrationWarning>
-                  <Phone className="size-4" weight="fill" />
+                  <PhoneIcon className="size-4" weight="fill" />
                   {t("cta.callNow")}
                 </a>
               </Button>
               <Button asChild size="sm" variant="outline" className="gap-2 bg-white/10 border-white/50 text-white hover:bg-white hover:text-slate-dark hover:border-white">
                 <a href={CONTACT_INFO.googleMapsUrl} target="_blank" rel="noopener noreferrer">
-                  <MapPin className="size-4" weight="fill" />
+                  <MapPinIcon className="size-4" weight="fill" />
                   {t("cta.getDirections")}
                 </a>
               </Button>
@@ -81,7 +81,7 @@ export async function Footer({ phoneOverride }: FooterProps = {}) {
                   className="flex items-start gap-3 text-white/70 hover:text-white transition-colors text-sm group"
                   suppressHydrationWarning
                 >
-                  <Phone className="size-5 shrink-0 mt-0.5 text-red-primary group-hover:text-white transition-colors" weight="fill" />
+                  <PhoneIcon className="size-5 shrink-0 mt-0.5 text-red-primary group-hover:text-white transition-colors" weight="fill" />
                   <span suppressHydrationWarning>{phoneFormatted}</span>
                 </a>
               </li>
@@ -92,7 +92,7 @@ export async function Footer({ phoneOverride }: FooterProps = {}) {
                   rel="noopener noreferrer"
                   className="flex items-start gap-3 text-white/70 hover:text-white transition-colors text-sm group"
                 >
-                  <MapPin className="size-5 shrink-0 mt-0.5 text-red-primary group-hover:text-white transition-colors" weight="fill" />
+                  <MapPinIcon className="size-5 shrink-0 mt-0.5 text-red-primary group-hover:text-white transition-colors" weight="fill" />
                   <span>
                     {CONTACT_INFO.address}<br />
                     {CONTACT_INFO.city}, {CONTACT_INFO.state} {CONTACT_INFO.zip}
@@ -100,7 +100,7 @@ export async function Footer({ phoneOverride }: FooterProps = {}) {
                 </a>
               </li>
               <li className="flex items-start gap-3 text-white/70 text-sm">
-                <Clock className="size-5 shrink-0 mt-0.5 text-red-primary" weight="fill" />
+                <ClockIcon className="size-5 shrink-0 mt-0.5 text-red-primary" weight="fill" />
                 <div>
                   <p>{t("footer.hoursWeekday")}</p>
                   <p>{t("footer.hoursWeekend")}</p>
@@ -147,7 +147,7 @@ export async function Footer({ phoneOverride }: FooterProps = {}) {
                   className="size-11 rounded-full bg-white/10 flex items-center justify-center hover:bg-red-primary transition-colors"
                   aria-label="Facebook"
                 >
-                  <FacebookLogo className="size-5" weight="fill" />
+                  <FacebookLogoIcon className="size-5" weight="fill" />
                 </a>
               )}
               {SOCIAL_LINKS.x && (
@@ -158,7 +158,7 @@ export async function Footer({ phoneOverride }: FooterProps = {}) {
                   className="size-11 rounded-full bg-white/10 flex items-center justify-center hover:bg-red-primary transition-colors"
                   aria-label="X (Twitter)"
                 >
-                  <XLogo className="size-5" weight="fill" />
+                  <XLogoIcon className="size-5" weight="fill" />
                 </a>
               )}
               {SOCIAL_LINKS.linkedin && (
@@ -169,7 +169,7 @@ export async function Footer({ phoneOverride }: FooterProps = {}) {
                   className="size-11 rounded-full bg-white/10 flex items-center justify-center hover:bg-red-primary transition-colors"
                   aria-label="LinkedIn"
                 >
-                  <LinkedinLogo className="size-5" weight="fill" />
+                  <LinkedinLogoIcon className="size-5" weight="fill" />
                 </a>
               )}
               {SOCIAL_LINKS.google && (
@@ -180,7 +180,7 @@ export async function Footer({ phoneOverride }: FooterProps = {}) {
                   className="size-11 rounded-full bg-white/10 flex items-center justify-center hover:bg-red-primary transition-colors"
                   aria-label="Google Business"
                 >
-                  <GoogleLogo className="size-5" weight="fill" />
+                  <GoogleLogoIcon className="size-5" weight="fill" />
                 </a>
               )}
               {SOCIAL_LINKS.instagram && (
@@ -191,7 +191,7 @@ export async function Footer({ phoneOverride }: FooterProps = {}) {
                   className="size-11 rounded-full bg-white/10 flex items-center justify-center hover:bg-red-primary transition-colors"
                   aria-label="Instagram"
                 >
-                  <InstagramLogo className="size-5" weight="fill" />
+                  <InstagramLogoIcon className="size-5" weight="fill" />
                 </a>
               )}
             </div>
@@ -199,7 +199,7 @@ export async function Footer({ phoneOverride }: FooterProps = {}) {
             {/* Google Reviews Badge */}
             <div className="bg-white/5 rounded-xl p-4 border border-white/10">
               <div className="flex items-center gap-2 mb-2">
-                <GoogleLogo className="size-5 text-red-primary" weight="fill" />
+                <GoogleLogoIcon className="size-5 text-red-primary" weight="fill" />
                 <span className="text-sm font-medium">Google Reviews</span>
               </div>
               <div className="flex items-center gap-1">

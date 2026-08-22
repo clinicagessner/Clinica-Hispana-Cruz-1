@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
-import { Phone, MapPin, WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
+import { PhoneIcon, MapPinIcon, WhatsappLogoIcon } from "@phosphor-icons/react/dist/ssr";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { CONTACT_INFO } from "@/lib/constants";
 import { cn } from "@/lib/utils";
@@ -47,7 +47,7 @@ export function FloatingButtons({ phoneOverride }: FloatingButtonsProps = {}) {
             className="size-12 rounded-full bg-white text-slate-dark border border-slate-200 shadow-md flex items-center justify-center hover:bg-slate-50 hover:shadow-lg transition-all"
             aria-label="Ver ubicación en Google Maps"
           >
-            <MapPin className="size-5" weight="fill" />
+            <MapPinIcon className="size-5" weight="fill" />
           </a>
         </TooltipTrigger>
         <TooltipContent side="left">
@@ -64,7 +64,7 @@ export function FloatingButtons({ phoneOverride }: FloatingButtonsProps = {}) {
             aria-label="Llamar ahora"
             suppressHydrationWarning
           >
-            <Phone className="size-6" weight="fill" />
+            <PhoneIcon className="size-6" weight="fill" />
           </a>
         </TooltipTrigger>
         <TooltipContent side="left">
@@ -82,7 +82,7 @@ export function FloatingButtons({ phoneOverride }: FloatingButtonsProps = {}) {
             className="size-12 rounded-full bg-whatsapp text-white shadow-md shadow-whatsapp/30 flex items-center justify-center hover:bg-whatsapp-dark hover:shadow-lg transition-all"
             aria-label={t("whatsapp")}
           >
-            <WhatsappLogo className="size-6" weight="fill" />
+            <WhatsappLogoIcon className="size-6" weight="fill" />
           </a>
         </TooltipTrigger>
         <TooltipContent side="left">

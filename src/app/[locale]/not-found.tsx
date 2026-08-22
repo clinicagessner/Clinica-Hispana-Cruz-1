@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
-import { HouseLine, ArrowLeft } from "@phosphor-icons/react/dist/ssr";
+import { HouseLineIcon, ArrowLeftIcon } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
@@ -19,7 +19,7 @@ export default async function NotFound() {
     <div className="min-h-screen flex items-center justify-center bg-red-warm px-4">
       <div className="text-center max-w-md">
         <div className="inline-flex items-center justify-center size-20 rounded-full bg-red-light mb-8">
-          <HouseLine className="size-10 text-red-primary" weight="duotone" />
+          <HouseLineIcon className="size-10 text-red-primary" weight="duotone" />
         </div>
 
         <h1 className="text-6xl font-heading font-bold text-slate-dark mb-4">
@@ -33,13 +33,13 @@ export default async function NotFound() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button asChild size="lg" className="gap-2">
             <Link href="/">
-              <HouseLine className="size-5" />
+              <HouseLineIcon className="size-5" />
               {t("backHome")}
             </Link>
           </Button>
           <Button asChild size="lg" variant="outline" className="gap-2">
             <Link href="/#contacto">
-              <ArrowLeft className="size-5" />
+              <ArrowLeftIcon className="size-5" />
               {t("contact")}
             </Link>
           </Button>

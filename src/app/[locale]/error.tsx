@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import { useTranslations } from "next-intl";
-import { WarningCircle, ArrowClockwise } from "@phosphor-icons/react/dist/ssr";
+import { WarningCircleIcon, ArrowClockwiseIcon } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 
 interface ErrorProps {
@@ -22,7 +22,7 @@ export default function Error({ error, reset }: ErrorProps) {
     <div className="min-h-screen flex items-center justify-center bg-red-warm px-4">
       <div className="text-center max-w-md">
         <div className="inline-flex items-center justify-center size-20 rounded-full bg-error-light mb-8">
-          <WarningCircle
+          <WarningCircleIcon
             className="size-10 text-destructive"
             weight="duotone"
           />
@@ -37,7 +37,7 @@ export default function Error({ error, reset }: ErrorProps) {
         </p>
 
         <Button onClick={reset} size="lg" className="gap-2">
-          <ArrowClockwise className="size-5" />
+          <ArrowClockwiseIcon className="size-5" />
           {t("tryAgain")}
         </Button>
       </div>

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { getTranslations, getLocale } from "next-intl/server";
-import { ArrowRight, Calendar, Clock } from "@phosphor-icons/react/dist/ssr";
+import { ArrowRightIcon, CalendarIcon, ClockIcon } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -63,7 +63,7 @@ export async function BlogPreview() {
               <CardContent className="p-6 md:p-8 flex flex-col justify-center">
                 <div className="flex items-center gap-4 text-sm text-muted-foreground mb-4">
                   <div className="flex items-center gap-1.5">
-                    <Calendar className="size-4" weight="fill" />
+                    <CalendarIcon className="size-4" weight="fill" />
                     <span>{new Date(featuredPost.date).toLocaleDateString(locale === "en" ? "en-US" : "es-MX", {
                       year: "numeric",
                       month: "long",
@@ -72,7 +72,7 @@ export async function BlogPreview() {
                   </div>
                   {featuredPost.readTime && (
                     <div className="flex items-center gap-1.5">
-                      <Clock className="size-4" weight="fill" />
+                      <ClockIcon className="size-4" weight="fill" />
                       <span>{featuredPost.readTime} min</span>
                     </div>
                   )}
@@ -91,7 +91,7 @@ export async function BlogPreview() {
                   className="inline-flex items-center gap-2 text-red-primary font-semibold hover:gap-3 transition-all"
                 >
                   {t("readMore")}
-                  <ArrowRight className="size-5" />
+                  <ArrowRightIcon className="size-5" />
                 </Link>
               </CardContent>
             </div>
@@ -103,7 +103,7 @@ export async function BlogPreview() {
           <Button asChild size="lg" variant="outline" className="gap-2">
             <Link href={getLocalizedHref("/blog")}>
               {t("viewAll")}
-              <ArrowRight className="size-5" />
+              <ArrowRightIcon className="size-5" />
             </Link>
           </Button>
         </div>

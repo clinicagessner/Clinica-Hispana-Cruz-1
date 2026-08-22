@@ -4,33 +4,33 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import {
-  ArrowLeft,
-  ArrowRight,
-  CheckCircle,
-  Phone,
-  MapPin,
-  Stethoscope,
-  FirstAid,
-  Flask,
-  Heartbeat,
-  Drop,
-  Heart,
-  GenderFemale,
-  Syringe,
-  Clipboard,
-  Virus,
-  Lightning,
-  TestTube,
-  ShieldCheck,
-  FileText,
-  Wind,
-  Truck,
-  Scissors,
-  Users,
-  Bone,
-  Monitor,
-  Pill,
-  Pulse,
+  ArrowLeftIcon,
+  ArrowRightIcon,
+  CheckCircleIcon,
+  PhoneIcon,
+  MapPinIcon,
+  StethoscopeIcon,
+  FirstAidIcon,
+  FlaskIcon,
+  HeartbeatIcon,
+  DropIcon,
+  HeartIcon,
+  GenderFemaleIcon,
+  SyringeIcon,
+  ClipboardIcon,
+  VirusIcon,
+  LightningIcon,
+  TestTubeIcon,
+  ShieldCheckIcon,
+  FileTextIcon,
+  WindIcon,
+  TruckIcon,
+  ScissorsIcon,
+  UsersIcon,
+  BoneIcon,
+  MonitorIcon,
+  PillIcon,
+  PulseIcon,
 } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -41,29 +41,29 @@ import { getServiceFAQs } from "@/lib/service-faqs";
 import { JsonLdBreadcrumb, JsonLdMedicalProcedure, JsonLdFAQ } from "@/components/seo/json-ld";
 
 const iconMap: Record<string, React.ElementType> = {
-  Stethoscope,
-  FirstAid,
-  Flask,
-  Heartbeat,
-  Drop,
-  Heart,
-  GenderFemale,
-  Syringe,
-  Clipboard,
-  Virus,
-  Lightning,
-  TestTube,
-  Activity: Pulse,
-  ShieldCheck,
-  Shield: ShieldCheck,
-  FileText,
-  Wind,
-  Truck,
-  Scissors,
-  Users,
-  Bone,
-  Monitor,
-  Pill,
+  Stethoscope: StethoscopeIcon,
+  FirstAid: FirstAidIcon,
+  Flask: FlaskIcon,
+  Heartbeat: HeartbeatIcon,
+  Drop: DropIcon,
+  Heart: HeartIcon,
+  GenderFemale: GenderFemaleIcon,
+  Syringe: SyringeIcon,
+  Clipboard: ClipboardIcon,
+  Virus: VirusIcon,
+  Lightning: LightningIcon,
+  TestTube: TestTubeIcon,
+  Activity: PulseIcon,
+  ShieldCheck: ShieldCheckIcon,
+  Shield: ShieldCheckIcon,
+  FileText: FileTextIcon,
+  Wind: WindIcon,
+  Truck: TruckIcon,
+  Scissors: ScissorsIcon,
+  Users: UsersIcon,
+  Bone: BoneIcon,
+  Monitor: MonitorIcon,
+  Pill: PillIcon,
 };
 
 interface Props {
@@ -135,7 +135,7 @@ export default async function ServicePage({ params }: Props) {
   }
 
   const service = getLocalizedService(rawService, locale);
-  const IconComponent = iconMap[service.icon] || Stethoscope;
+  const IconComponent = iconMap[service.icon] || StethoscopeIcon;
 
   // Get related services (same category, excluding current)
   const relatedServices = SERVICES.filter(
@@ -172,7 +172,7 @@ export default async function ServicePage({ params }: Props) {
               href="/services"
               className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors"
             >
-              <ArrowLeft className="size-4" weight="bold" />
+              <ArrowLeftIcon className="size-4" weight="bold" />
               {t("backToServices")}
             </Link>
 
@@ -200,7 +200,7 @@ export default async function ServicePage({ params }: Props) {
               <div className="flex flex-col sm:flex-row gap-3">
                 <Button asChild size="lg" className="gap-2 bg-red-primary hover:bg-red-dark shadow-lg">
                   <a href={`tel:${CONTACT_INFO.phone}`} suppressHydrationWarning>
-                    <Phone className="size-5" weight="fill" />
+                    <PhoneIcon className="size-5" weight="fill" />
                     {t("callNow")}
                   </a>
                 </Button>
@@ -215,7 +215,7 @@ export default async function ServicePage({ params }: Props) {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <MapPin className="size-5" weight="fill" />
+                    <MapPinIcon className="size-5" weight="fill" />
                     {t("getDirections")}
                   </a>
                 </Button>
@@ -247,7 +247,7 @@ export default async function ServicePage({ params }: Props) {
                   className="flex items-start gap-3 p-4 bg-white rounded-xl border border-slate-100 shadow-sm hover:shadow-md hover:border-red-200 transition-all"
                 >
                   <div className="size-8 rounded-lg bg-green-100 text-green-600 flex items-center justify-center shrink-0">
-                    <CheckCircle className="size-5" weight="fill" />
+                    <CheckCircleIcon className="size-5" weight="fill" />
                   </div>
                   <span className="text-slate-dark font-medium">{feature}</span>
                 </div>
@@ -275,7 +275,7 @@ export default async function ServicePage({ params }: Props) {
                   className="gap-2 bg-white text-red-primary hover:bg-white/90"
                 >
                   <a href={`tel:${CONTACT_INFO.phone}`} suppressHydrationWarning>
-                    <Phone className="size-5" weight="fill" />
+                    <PhoneIcon className="size-5" weight="fill" />
                     {CONTACT_INFO.phoneFormatted}
                   </a>
                 </Button>
@@ -328,7 +328,7 @@ export default async function ServicePage({ params }: Props) {
 
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
                 {relatedServices.map((related) => {
-                  const RelatedIcon = iconMap[related.icon] || Stethoscope;
+                  const RelatedIcon = iconMap[related.icon] || StethoscopeIcon;
                   return (
                     <Link
                       key={related.id}
@@ -360,7 +360,7 @@ export default async function ServicePage({ params }: Props) {
                           </p>
                           <span className="inline-flex items-center gap-1 text-red-primary font-medium text-sm group-hover:gap-2 transition-all">
                             {t("learnMore")}
-                            <ArrowRight className="size-4" weight="bold" />
+                            <ArrowRightIcon className="size-4" weight="bold" />
                           </span>
                         </div>
                       </article>
@@ -413,7 +413,7 @@ function ServiceContent({ content }: { content: string }) {
                 <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2 ml-4">
                   {listItems.map((item, j) => (
                     <li key={j} className="flex items-start gap-2.5 text-slate-600">
-                      <CheckCircle className="size-4 text-red-primary shrink-0 mt-1" weight="fill" />
+                      <CheckCircleIcon className="size-4 text-red-primary shrink-0 mt-1" weight="fill" />
                       <span className="text-sm md:text-base">{item}</span>
                     </li>
                   ))}

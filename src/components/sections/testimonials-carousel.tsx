@@ -3,7 +3,7 @@
 import Image from "next/image";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-import { Star, CaretLeft, CaretRight } from "@phosphor-icons/react/dist/ssr";
+import { StarIcon, CaretLeftIcon, CaretRightIcon } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { useCallback, useEffect, useState } from "react";
 import type { GoogleReview } from "@/lib/google-places";
@@ -78,7 +78,7 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
                 {/* Stars */}
                 <div className="flex gap-0.5 mb-4">
                   {[...Array(5)].map((_, i) => (
-                    <Star
+                    <StarIcon
                       key={i}
                       className={`size-4 ${
                         i < review.rating ? "text-yellow-500" : "text-slate-200"
@@ -128,7 +128,7 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
           className="size-10 rounded-full hover:bg-red-primary/10 text-slate-500 hover:text-red-primary"
           aria-label="Anterior"
         >
-          <CaretLeft className="size-5" weight="bold" />
+          <CaretLeftIcon className="size-5" weight="bold" />
         </Button>
 
         <div className="flex gap-1">
@@ -157,7 +157,7 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
           className="size-10 rounded-full hover:bg-red-primary/10 text-slate-500 hover:text-red-primary"
           aria-label="Siguiente"
         >
-          <CaretRight className="size-5" weight="bold" />
+          <CaretRightIcon className="size-5" weight="bold" />
         </Button>
       </div>
     </div>

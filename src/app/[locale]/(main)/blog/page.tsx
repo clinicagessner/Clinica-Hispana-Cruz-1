@@ -6,7 +6,7 @@ import { SITE_CONFIG } from "@/lib/constants";
 import { getBlogPosts, getFeaturedPost } from "@/lib/blog";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import { CalendarDots, Clock, ArrowRight } from "@phosphor-icons/react/dist/ssr";
+import { CalendarDotsIcon, ClockIcon, ArrowRightIcon } from "@phosphor-icons/react/dist/ssr";
 import { JsonLdCollectionPage } from "@/components/seo/json-ld";
 
 type Props = {
@@ -81,7 +81,7 @@ export default async function BlogPage({ params }: Props) {
             <Link href={getLocalizedHref(`/blog/${featuredPost.slug}`)} className="block group">
               <Card className="overflow-hidden border-0 shadow-lg hover:shadow-xl transition-shadow">
                 <div className="grid md:grid-cols-2 gap-0">
-                  <div className="relative aspect-video md:aspect-auto md:min-h-[400px]">
+                  <div className="relative aspect-video md:aspect-auto md:min-h-100">
                     <Image
                       src={featuredPost.image || "/images/blog/default.webp"}
                       alt={`${featuredPost.title} - Blog de salud Clínica Hispana Cruz Houston`}
@@ -107,7 +107,7 @@ export default async function BlogPage({ params }: Props) {
                     </p>
                     <div className="flex items-center gap-4 text-sm text-muted-foreground mb-6">
                       <span className="flex items-center gap-1">
-                        <CalendarDots className="w-4 h-4" />
+                        <CalendarDotsIcon className="w-4 h-4" />
                         {new Date(featuredPost.date).toLocaleDateString(locale, {
                           year: "numeric",
                           month: "long",
@@ -116,14 +116,14 @@ export default async function BlogPage({ params }: Props) {
                       </span>
                       {featuredPost.readTime && (
                         <span className="flex items-center gap-1">
-                          <Clock className="w-4 h-4" />
+                          <ClockIcon className="w-4 h-4" />
                           {featuredPost.readTime} {t("minRead")}
                         </span>
                       )}
                     </div>
                     <span className="inline-flex items-center gap-2 text-red-primary font-medium group-hover:gap-3 transition-all">
                       {t("readMore")}
-                      <ArrowRight className="w-4 h-4" />
+                      <ArrowRightIcon className="w-4 h-4" />
                     </span>
                   </CardContent>
                 </div>
@@ -162,7 +162,7 @@ export default async function BlogPage({ params }: Props) {
                     </p>
                     <div className="flex items-center justify-between text-sm text-muted-foreground">
                       <span className="flex items-center gap-1">
-                        <CalendarDots className="w-4 h-4" />
+                        <CalendarDotsIcon className="w-4 h-4" />
                         {new Date(post.date).toLocaleDateString(locale, {
                           year: "numeric",
                           month: "short",
@@ -171,7 +171,7 @@ export default async function BlogPage({ params }: Props) {
                       </span>
                       {post.readTime && (
                         <span className="flex items-center gap-1">
-                          <Clock className="w-4 h-4" />
+                          <ClockIcon className="w-4 h-4" />
                           {post.readTime} {t("minRead")}
                         </span>
                       )}

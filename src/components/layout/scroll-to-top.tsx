@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { CaretUp } from "@phosphor-icons/react/dist/ssr";
+import { CaretUpIcon } from "@phosphor-icons/react/dist/ssr";
 import { useTranslations } from "next-intl";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
@@ -40,7 +40,7 @@ export function ScrollToTop() {
             className="size-12 rounded-full bg-red-light text-red-dark shadow-md flex items-center justify-center hover:bg-red-primary hover:text-white transition-all"
             aria-label={t("scrollToTop")}
           >
-            <CaretUp className="size-6" weight="bold" />
+            <CaretUpIcon className="size-6" weight="bold" />
           </button>
         </TooltipTrigger>
         <TooltipContent side="right">

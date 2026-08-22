@@ -1,5 +1,5 @@
 import { getTranslations } from "next-intl/server";
-import { Phone, Envelope, MapPin, Clock } from "@phosphor-icons/react/dist/ssr";
+import { PhoneIcon, EnvelopeIcon, MapPinIcon, ClockIcon } from "@phosphor-icons/react/dist/ssr";
 import { ContactForm } from "@/components/forms/contact-form";
 import { CONTACT_INFO } from "@/lib/constants";
 import { EkgLine } from "@/components/animations/ekg-line";
@@ -45,7 +45,7 @@ export async function Contact() {
                   suppressHydrationWarning
                 >
                   <div className="size-12 rounded-xl bg-white/10 flex items-center justify-center shrink-0 group-hover:bg-white/20 transition-colors">
-                    <Phone className="size-6" weight="fill" />
+                    <PhoneIcon className="size-6" weight="fill" />
                   </div>
                   <div>
                     <p className="font-medium mb-1">{t("info.phone")}</p>
@@ -61,7 +61,7 @@ export async function Contact() {
                   className="flex items-start gap-4 group"
                 >
                   <div className="size-12 rounded-xl bg-white/10 flex items-center justify-center shrink-0 group-hover:bg-white/20 transition-colors">
-                    <Envelope className="size-6" weight="fill" />
+                    <EnvelopeIcon className="size-6" weight="fill" />
                   </div>
                   <div>
                     <p className="font-medium mb-1">{t("info.email")}</p>
@@ -77,7 +77,7 @@ export async function Contact() {
                   className="flex items-start gap-4 group"
                 >
                   <div className="size-12 rounded-xl bg-white/10 flex items-center justify-center shrink-0 group-hover:bg-white/20 transition-colors">
-                    <MapPin className="size-6" weight="fill" />
+                    <MapPinIcon className="size-6" weight="fill" />
                   </div>
                   <div>
                     <p className="font-medium mb-1">{t("info.address")}</p>
@@ -92,7 +92,7 @@ export async function Contact() {
                 {/* Hours */}
                 <div className="flex items-start gap-4">
                   <div className="size-12 rounded-xl bg-white/10 flex items-center justify-center shrink-0">
-                    <Clock className="size-6" weight="fill" />
+                    <ClockIcon className="size-6" weight="fill" />
                   </div>
                   <div>
                     <p className="font-medium mb-1">{t("info.hours")}</p>

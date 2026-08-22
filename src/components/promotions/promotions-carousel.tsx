@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useCallback, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-import { CaretLeft, CaretRight } from "@phosphor-icons/react/dist/ssr";
+import { CaretLeftIcon, CaretRightIcon } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { PromotionDialog } from "@/components/promotions/promotion-dialog";
 import type {
@@ -92,7 +92,7 @@ export function PromotionsCarousel({
           className="size-10 rounded-full text-slate-500 hover:bg-red-primary/10 hover:text-red-primary"
           aria-label={labels.prev}
         >
-          <CaretLeft className="size-5" weight="bold" />
+          <CaretLeftIcon className="size-5" weight="bold" />
         </Button>
         <span className="text-sm text-slate-primary sm:hidden">{labels.swipeHint}</span>
         <Button
@@ -102,7 +102,7 @@ export function PromotionsCarousel({
           className="size-10 rounded-full text-slate-500 hover:bg-red-primary/10 hover:text-red-primary"
           aria-label={labels.next}
         >
-          <CaretRight className="size-5" weight="bold" />
+          <CaretRightIcon className="size-5" weight="bold" />
         </Button>
       </div>
 

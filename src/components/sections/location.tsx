@@ -1,12 +1,12 @@
 import { getTranslations } from "next-intl/server";
 import {
-  MapPin,
-  Car,
-  Wheelchair,
-  Bus,
-  Clock,
-  Phone,
-  NavigationArrow,
+  MapPinIcon,
+  CarIcon,
+  WheelchairIcon,
+  BusIcon,
+  ClockIcon,
+  PhoneIcon,
+  NavigationArrowIcon,
 } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { CONTACT_INFO } from "@/lib/constants";
@@ -16,10 +16,10 @@ export async function Location() {
   const t = await getTranslations("location");
 
   const features = [
-    { icon: Car, label: t("features.parking") },
-    { icon: Wheelchair, label: t("features.wheelchair") },
-    { icon: Bus, label: t("features.bus") },
-    { icon: Clock, label: t("hours") },
+    { icon: CarIcon, label: t("features.parking") },
+    { icon: WheelchairIcon, label: t("features.wheelchair") },
+    { icon: BusIcon, label: t("features.bus") },
+    { icon: ClockIcon, label: t("hours") },
   ];
 
   return (
@@ -58,7 +58,7 @@ export async function Location() {
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
               <div className="flex items-start gap-4 mb-5">
                 <div className="size-12 rounded-xl bg-red-primary flex items-center justify-center shrink-0">
-                  <MapPin className="size-6" weight="fill" />
+                  <MapPinIcon className="size-6" weight="fill" />
                 </div>
                 <div>
                   <h3 className="text-lg font-heading font-bold mb-1">
@@ -83,7 +83,7 @@ export async function Location() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <NavigationArrow className="size-4" weight="fill" />
+                    <NavigationArrowIcon className="size-4" weight="fill" />
                     {t("getDirections")}
                   </a>
                 </Button>
@@ -93,7 +93,7 @@ export async function Location() {
                   className="flex-1 gap-2 bg-red-primary text-white hover:bg-red-dark border-0"
                 >
                   <a href={`tel:${CONTACT_INFO.phone}`} suppressHydrationWarning>
-                    <Phone className="size-4" weight="fill" />
+                    <PhoneIcon className="size-4" weight="fill" />
                     {t("call")}
                   </a>
                 </Button>

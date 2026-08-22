@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useTranslations } from "next-intl";
-import { CircleNotch, CheckCircle, XCircle } from "@phosphor-icons/react/dist/ssr";
+import { CircleNotchIcon, CheckCircleIcon, XCircleIcon } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -167,7 +167,7 @@ export function ContactForm() {
       >
         {status === "loading" ? (
           <>
-            <CircleNotch className="size-5 mr-2 animate-spin" />
+            <CircleNotchIcon className="size-5 mr-2 animate-spin" />
             {t("submitting")}
           </>
         ) : (
@@ -182,7 +182,7 @@ export function ContactForm() {
           aria-live="polite"
           className="flex items-center gap-2 text-success bg-success-light p-4 rounded-lg"
         >
-          <CheckCircle className="size-5" weight="fill" />
+          <CheckCircleIcon className="size-5" weight="fill" />
           <p>{t("success")}</p>
         </div>
       )}
@@ -193,7 +193,7 @@ export function ContactForm() {
           aria-live="assertive"
           className="flex items-center gap-2 text-destructive bg-error-light p-4 rounded-lg"
         >
-          <XCircle className="size-5" weight="fill" />
+          <XCircleIcon className="size-5" weight="fill" />
           <p>{t("error")}</p>
         </div>
       )}

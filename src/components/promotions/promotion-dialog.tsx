@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import * as Dialog from "@radix-ui/react-dialog";
-import { Phone, MapPin, ChatCircleText, CheckCircle, X } from "@phosphor-icons/react/dist/ssr";
+import { PhoneIcon, MapPinIcon, ChatCircleTextIcon, CheckCircleIcon, XIcon } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import type {
   LocalizedPromotion,
@@ -46,7 +46,7 @@ export function PromotionDialog({
                 aria-label={labels.close}
                 className="absolute right-3 top-3 z-10 flex size-9 items-center justify-center rounded-full bg-slate-900/50 text-white transition-colors hover:bg-slate-900/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
               >
-                <X className="size-5" weight="bold" />
+                <XIcon className="size-5" weight="bold" />
               </Dialog.Close>
 
               {/* Limited-time badge */}
@@ -94,7 +94,7 @@ export function PromotionDialog({
                     <ul className="flex flex-col gap-2">
                       {promo.includes.map((item) => (
                         <li key={item} className="flex items-start gap-2 text-sm text-slate-primary">
-                          <CheckCircle className="mt-0.5 size-4 shrink-0 text-success" weight="fill" />
+                          <CheckCircleIcon className="mt-0.5 size-4 shrink-0 text-success" weight="fill" />
                           <span>{item}</span>
                         </li>
                       ))}
@@ -110,7 +110,7 @@ export function PromotionDialog({
                       aria-label={`${labels.ctaCall} ${contact.phoneFormatted} — ${promo.title}`}
                       suppressHydrationWarning
                     >
-                      <Phone className="size-5" weight="fill" />
+                      <PhoneIcon className="size-5" weight="fill" />
                       {labels.ctaCall}
                     </a>
                   </Button>
@@ -122,14 +122,14 @@ export function PromotionDialog({
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <MapPin className="size-5" weight="fill" />
+                        <MapPinIcon className="size-5" weight="fill" />
                         {labels.ctaDirections}
                       </a>
                     </Button>
 
                     <Button asChild variant="secondary" className="gap-2">
                       <a href={formHref} onClick={onClose}>
-                        <ChatCircleText className="size-5" weight="fill" />
+                        <ChatCircleTextIcon className="size-5" weight="fill" />
                         {labels.ctaForm}
                       </a>
                     </Button>

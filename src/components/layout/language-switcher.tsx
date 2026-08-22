@@ -2,7 +2,7 @@
 
 import { useLocale } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/routing";
-import { Globe } from "@phosphor-icons/react/dist/ssr";
+import { GlobeIcon } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -33,7 +33,7 @@ export function LanguageSwitcher({ isScrolled = true }: LanguageSwitcherProps) {
       )}
       aria-label={locale === "es" ? "Switch to English" : "Cambiar a Español"}
     >
-      <Globe className="size-4" weight="bold" />
+      <GlobeIcon className="size-4" weight="bold" />
       <span className="uppercase">{locale === "es" ? "EN" : "ES"}</span>
     </Button>
   );

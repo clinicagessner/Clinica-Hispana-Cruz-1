@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { setRequestLocale } from "next-intl/server";
-import { Phone, MapPin, Envelope, ArrowLeft } from "@phosphor-icons/react/dist/ssr";
+import { PhoneIcon, MapPinIcon, EnvelopeIcon, ArrowLeftIcon } from "@phosphor-icons/react/dist/ssr";
 import { SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
 
 type MetadataProps = {
@@ -53,7 +53,7 @@ export default async function PrivacyPage({ params }: Props) {
             href="/"
             className="inline-flex items-center gap-2 text-slate-dark/70 hover:text-red-primary mb-6 transition-colors"
           >
-            <ArrowLeft className="size-4" weight="bold" />
+            <ArrowLeftIcon className="size-4" weight="bold" />
             Volver al inicio
           </Link>
 
@@ -184,7 +184,7 @@ export default async function PrivacyPage({ params }: Props) {
                 suppressHydrationWarning
               >
                 <div className="size-10 rounded-full bg-red-primary/10 flex items-center justify-center group-hover:bg-red-primary/20 transition-colors">
-                  <Phone className="size-5 text-red-primary" weight="fill" />
+                  <PhoneIcon className="size-5 text-red-primary" weight="fill" />
                 </div>
                 <div>
                   <p className="text-xs text-muted-foreground">Teléfono</p>
@@ -197,7 +197,7 @@ export default async function PrivacyPage({ params }: Props) {
                 className="flex items-center gap-3 p-4 bg-slate-50 rounded-xl hover:bg-red-50 transition-colors group"
               >
                 <div className="size-10 rounded-full bg-red-primary/10 flex items-center justify-center group-hover:bg-red-primary/20 transition-colors">
-                  <Envelope className="size-5 text-red-primary" weight="fill" />
+                  <EnvelopeIcon className="size-5 text-red-primary" weight="fill" />
                 </div>
                 <div>
                   <p className="text-xs text-muted-foreground">Correo</p>
@@ -212,7 +212,7 @@ export default async function PrivacyPage({ params }: Props) {
                 className="flex items-center gap-3 p-4 bg-slate-50 rounded-xl hover:bg-red-50 transition-colors group sm:col-span-2"
               >
                 <div className="size-10 rounded-full bg-red-primary/10 flex items-center justify-center group-hover:bg-red-primary/20 transition-colors">
-                  <MapPin className="size-5 text-red-primary" weight="fill" />
+                  <MapPinIcon className="size-5 text-red-primary" weight="fill" />
                 </div>
                 <div>
                   <p className="text-xs text-muted-foreground">Dirección</p>

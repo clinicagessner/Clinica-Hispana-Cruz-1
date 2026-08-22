@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Montserrat, Source_Sans_3 } from "next/font/google";
-import { NextIntlClientProvider } from "next-intl";
+import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
+import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { ScrollToTop } from "@/components/layout/scroll-to-top";
@@ -35,6 +36,9 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
   const [t, googleData] = await Promise.all([
     getTranslations({ locale, namespace: "metadata" }),
     getGooglePlaceData(),
@@ -135,6 +139,12 @@ const CALLRAIL_SWAP_SRC = process.env.NEXT_PUBLIC_CALLRAIL_SWAP_SRC;
 
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
+
+  // Rutas con punto (/index.php, /wp-login.php...) saltan el middleware de next-intl
+  // y llegan aqui como "locale": sin esta validacion se servia la home con 200.
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
 
   // Enable static rendering
   setRequestLocale(locale);

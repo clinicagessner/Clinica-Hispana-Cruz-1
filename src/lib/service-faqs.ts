@@ -680,6 +680,10 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "sueros-vitaminados": {
     "faqs": [
       {
+        "question": "¿Qué vitaminas lleva un suero vitaminado?",
+        "answer": "Depende del suero que elijamos contigo tras una breve evaluación. Los más comunes combinan hidratación con vitaminas del complejo B, vitamina C y minerales como magnesio o zinc; también hay opciones multivitamínicas. Pregúntanos y te orientamos según lo que necesites."
+      },
+      {
         "question": "¿Quién aplica el suero vitaminado?",
         "answer": "Lo aplica y supervisa personal médico, tras una breve evaluación para elegir el suero adecuado para ti."
       },
@@ -693,6 +697,10 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       }
     ],
     "faqsEn": [
+      {
+        "question": "What vitamins are in a vitamin IV drip?",
+        "answer": "It depends on the drip we choose with you after a brief evaluation. The most common ones combine hydration with B-complex vitamins, vitamin C and minerals such as magnesium or zinc; multivitamin options are also available. Ask us and we'll guide you based on what you need."
+      },
       {
         "question": "Who administers the vitamin IV?",
         "answer": "It's administered and monitored by medical staff, after a brief evaluation to choose the right drip for you."

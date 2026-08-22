@@ -612,6 +612,10 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "examenes-inmigracion": {
     "faqs": [
       {
+        "question": "¿Es lo mismo el examen migratorio que el I-693?",
+        "answer": "Sí. \"Examen migratorio\", \"examen médico de inmigración\" y \"examen físico para inmigración\" son nombres comunes del mismo examen: el Formulario I-693 que exige USCIS para la residencia (Green Card). Lo realizamos en Houston con un médico civil surgeon autorizado."
+      },
+      {
         "question": "¿El médico está autorizado por USCIS?",
         "answer": "Sí, el examen lo realiza un médico autorizado (civil surgeon) y te entregamos el Formulario I-693 sellado."
       },
@@ -625,6 +629,10 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       }
     ],
     "faqsEn": [
+      {
+        "question": "Is the \"immigration physical\" the same as the I-693?",
+        "answer": "Yes. \"Immigration physical\", \"green card medical exam\" and \"immigration medical exam\" are common names for the same exam: Form I-693, required by USCIS for permanent residency (Green Card). We perform it in Houston with an authorized civil surgeon."
+      },
       {
         "question": "Is the doctor authorized by USCIS?",
         "answer": "Yes, the exam is performed by an authorized civil surgeon and we give you the sealed Form I-693."

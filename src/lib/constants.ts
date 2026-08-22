@@ -864,10 +864,10 @@ export const SERVICES: Service[] = [
   {
     "id": "examenes-inmigracion",
     "slug": "examenes-inmigracion",
-    "title": "Examen Médico de Inmigración I-693",
+    "title": "Examen Médico de Inmigración I-693 (Examen Migratorio)",
     "titleEn": "Immigration Medical Exam I-693",
     "shortTitle": "Inmigración",
-    "description": "Examen médico de inmigración I-693 en Houston, TX con médico autorizado por USCIS. Vacunas y formulario sellado.",
+    "description": "Examen médico de inmigración I-693 (examen migratorio) en Houston, TX con médico autorizado por USCIS. Vacunas y formulario sellado.",
     "descriptionEn": "I-693 immigration medical exam in Houston, TX with a USCIS-authorized physician. Vaccines and sealed form.",
     "longDescription": "El examen médico de inmigración (Formulario I-693) es un requisito para el ajuste de estatus. En Clínica Hispana Cruz lo realizamos con un médico autorizado por USCIS (civil surgeon) y te entregamos el formulario sellado listo para enviar.\n\n**¿Qué incluye?**\n- Revisión de historial médico y de vacunas\n- Examen físico completo\n- Pruebas requeridas por USCIS (incluida la de tuberculosis)\n- Aplicación de las vacunas que te falten\n- Formulario I-693 completado y sellado en sobre oficial\n\n**Qué traer a tu cita**\nIdentificación con foto, registro de vacunas si lo tienes y cualquier documento médico relevante. Te explicamos todo el proceso en español para que llegues tranquilo.\n\n**¿Por qué elegir Clínica Hispana Cruz?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 7640 Airline Dr # D, Houston, TX 77037, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Aldine, Greenspoint, Hidden Valley, Northline, East Aldine, North Houston y comunidades cercanas.",
     "longDescriptionEn": "The immigration medical exam (Form I-693) is required for adjustment of status. At Clínica Hispana Cruz we perform it with a USCIS-authorized physician (civil surgeon) and give you the sealed form ready to submit.\n\n**What's included?**\n- Review of medical and vaccination history\n- Complete physical exam\n- USCIS-required tests (including tuberculosis)\n- Administration of any missing vaccines\n- Form I-693 completed and sealed in the official envelope\n\n**What to bring**\nPhoto ID, your vaccination record if you have it and any relevant medical documents. We explain the entire process in Spanish so you arrive with peace of mind.\n\n**Why choose Clínica Hispana Cruz?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 7640 Airline Dr # D, Houston, TX 77037, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Aldine, Greenspoint, Hidden Valley, Northline, East Aldine, North Houston and nearby communities.",
@@ -876,6 +876,7 @@ export const SERVICES: Service[] = [
     "category": "examenes",
     "keywords": [
       "examen de inmigracion houston",
+      "examen migratorio houston",
       "examen medico i-693 houston",
       "civil surgeon houston español",
       "medico autorizado uscis houston"

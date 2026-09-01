@@ -1252,32 +1252,6 @@ export const PROMOTIONS: Promotion[] = [
     order: 0,
   },
   {
-    slug: "chequeo-testosterona",
-    title: "Chequeo de Testosterona",
-    titleEn: "Testosterone Checkup",
-    price: "$99",
-    blurb:
-      "¿Cansado, sin deseo y con más barriga? Puede ser tu testosterona. Chequeo con examen general de sangre y de orina, más consulta gratis. Precio regular $299, ahora por solo $99.",
-    blurbEn:
-      "Tired, low desire, and gaining belly fat? It could be your testosterone. Checkup with a general blood and urine test, plus a free consultation. Regular price $299, now only $99.",
-    includes: [
-      "Examen de testosterona",
-      "Examen general de sangre",
-      "Examen general de orina",
-      "Consulta gratis",
-    ],
-    includesEn: [
-      "Testosterone test",
-      "General blood test",
-      "General urine test",
-      "Free consultation",
-    ],
-    image: "/images/promotions/chequeo-testosterona.webp",
-    alt: "Promoción de chequeo de testosterona por $99 con examen general de sangre y orina en Clínica Hispana Cruz Houston",
-    altEn: "Testosterone checkup promotion for $99 with general blood and urine tests at Clínica Hispana Cruz Houston",
-    order: 1,
-  },
-  {
     slug: "chequeo-prostata",
     title: "Chequeo Completo de Próstata",
     titleEn: "Complete Prostate Checkup",

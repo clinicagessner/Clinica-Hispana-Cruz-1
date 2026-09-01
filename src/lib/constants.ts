@@ -1228,6 +1228,108 @@ export const SERVICES: Service[] = [
 
 export const PROMOTIONS: Promotion[] = [
   {
+    slug: "examen-testosterona",
+    title: "Revisa tu Testosterona",
+    titleEn: "Testosterone Check",
+    price: "$79",
+    blurb:
+      "¿Cansado, con menos energía o con menos deseo sexual? Revisa tu testosterona con examen de orina incluido y consulta médica gratis. Precio regular $220, ahora por solo $79.",
+    blurbEn:
+      "Tired, low on energy, or experiencing less sexual desire? Check your testosterone with a urine test included and a free medical consultation. Regular price $220, now only $79.",
+    includes: [
+      "Examen de testosterona",
+      "Examen de orina",
+      "Consulta médica gratis",
+    ],
+    includesEn: [
+      "Testosterone test",
+      "Urine test",
+      "Free medical consultation",
+    ],
+    image: "/images/promotions/examen-testosterona.webp",
+    alt: "Promoción de examen de testosterona por $79 con examen de orina y consulta médica gratis en Clínica Hispana Cruz Houston",
+    altEn: "Testosterone test promotion for $79 with urine test and free medical consultation at Clínica Hispana Cruz Houston",
+    order: 0,
+  },
+  {
+    slug: "chequeo-testosterona",
+    title: "Chequeo de Testosterona",
+    titleEn: "Testosterone Checkup",
+    price: "$99",
+    blurb:
+      "¿Cansado, sin deseo y con más barriga? Puede ser tu testosterona. Chequeo con examen general de sangre y de orina, más consulta gratis. Precio regular $299, ahora por solo $99.",
+    blurbEn:
+      "Tired, low desire, and gaining belly fat? It could be your testosterone. Checkup with a general blood and urine test, plus a free consultation. Regular price $299, now only $99.",
+    includes: [
+      "Examen de testosterona",
+      "Examen general de sangre",
+      "Examen general de orina",
+      "Consulta gratis",
+    ],
+    includesEn: [
+      "Testosterone test",
+      "General blood test",
+      "General urine test",
+      "Free consultation",
+    ],
+    image: "/images/promotions/chequeo-testosterona.webp",
+    alt: "Promoción de chequeo de testosterona por $99 con examen general de sangre y orina en Clínica Hispana Cruz Houston",
+    altEn: "Testosterone checkup promotion for $99 with general blood and urine tests at Clínica Hispana Cruz Houston",
+    order: 1,
+  },
+  {
+    slug: "chequeo-prostata",
+    title: "Chequeo Completo de Próstata",
+    titleEn: "Complete Prostate Checkup",
+    price: "$149",
+    blurb:
+      "Chequea tu salud hoy y gana tranquilidad: PSA en sangre, ultrasonido prostático y examen de orina, con consulta gratis. Precio regular $300, ahora en promoción por $149.",
+    blurbEn:
+      "Check your health today and gain peace of mind: blood PSA, prostate ultrasound and urine test, with a free consultation. Regular price $300, now on promotion for $149.",
+    includes: [
+      "Examen de PSA (próstata) en sangre",
+      "Ultrasonido prostático",
+      "Examen de orina",
+      "Consulta gratis",
+    ],
+    includesEn: [
+      "Blood PSA (prostate) test",
+      "Prostate ultrasound",
+      "Urine test",
+      "Free consultation",
+    ],
+    image: "/images/promotions/chequeo-prostata.webp",
+    alt: "Promoción de chequeo completo de próstata por $149 con PSA, ultrasonido prostático y examen de orina en Clínica Hispana Cruz Houston",
+    altEn: "Complete prostate checkup promotion for $149 with PSA, prostate ultrasound and urine test at Clínica Hispana Cruz Houston",
+    order: 2,
+  },
+  {
+    slug: "chequeo-mujer-ultrasonido",
+    title: "Chequeo de la Mujer con Ultrasonido",
+    titleEn: "Women's Checkup with Ultrasound",
+    price: "$179",
+    blurb:
+      "¿Hace cuánto no revisas tu salud femenina? Chequeo completo con ultrasonido pélvico, Papanicolaou y examen de orina, más consulta médica gratis. Precio regular $300, ahora por solo $179.",
+    blurbEn:
+      "How long since you last checked your feminine health? Complete checkup with a pelvic ultrasound, Pap smear and urine test, plus a free medical consultation. Regular price $300, now only $179.",
+    includes: [
+      "Ultrasonido pélvico",
+      "Examen de Papanicolaou",
+      "Examen de orina",
+      "Consulta médica gratis",
+    ],
+    includesEn: [
+      "Pelvic ultrasound",
+      "Pap smear",
+      "Urine test",
+      "Free medical consultation",
+    ],
+    image: "/images/promotions/chequeo-mujer-ultrasonido.webp",
+    alt: "Promoción de chequeo completo de la mujer por $179 con ultrasonido pélvico, Papanicolaou y examen de orina en Clínica Hispana Cruz Houston",
+    altEn: "Complete women's checkup promotion for $179 with pelvic ultrasound, Pap smear and urine test at Clínica Hispana Cruz Houston",
+    order: 3,
+  },
+  {
     slug: "examen-completo-hombres",
     title: "Examen Completo para Hombres",
     titleEn: "Complete Checkup for Men",
@@ -1252,7 +1354,7 @@ export const PROMOTIONS: Promotion[] = [
     alt: "Promoción de examen completo para hombres por $89 con orina, próstata y testosterona en Clínica Hispana Cruz Houston",
     altEn: "Complete checkup for men promotion for $89 with urine, prostate and testosterone tests at Clínica Hispana Cruz Houston",
     highlighted: true,
-    order: 1,
+    order: 5,
   },
   {
     slug: "chequeo-completo-mujer",
@@ -1277,7 +1379,7 @@ export const PROMOTIONS: Promotion[] = [
     alt: "Promoción de chequeo completo de mujer por $79 con Papanicolaou, consulta ginecológica y orden de mamografía en Clínica Hispana Cruz Houston",
     altEn: "Complete women's checkup promotion for $79 with Pap smear, gynecological consultation and mammogram order at Clínica Hispana Cruz Houston",
     highlighted: true,
-    order: 2,
+    order: 6,
   },
   {
     slug: "general-sangre-b12",
@@ -1301,7 +1403,7 @@ export const PROMOTIONS: Promotion[] = [
     image: "/images/promotions/general-sangre-b12.webp",
     alt: "Promoción de examen general de sangre más inyección de Vitamina B12 por $99 en Clínica Hispana Cruz Houston",
     altEn: "General blood test plus Vitamin B12 injection promotion for $99 at Clínica Hispana Cruz Houston",
-    order: 3,
+    order: 7,
   },
   {
     slug: "salud-intima-femenina",
@@ -1325,7 +1427,7 @@ export const PROMOTIONS: Promotion[] = [
     image: "/images/promotions/salud-intima-femenina.webp",
     alt: "Promoción de salud íntima femenina por $69 con cultivo íntimo, consulta médica y examen de orina en Clínica Hispana Cruz Houston",
     altEn: "Women's intimate health promotion for $69 with intimate culture test, medical consultation and urine test at Clínica Hispana Cruz Houston",
-    order: 4,
+    order: 8,
   },
   {
     slug: "perfil-hormonal-masculino",
@@ -1351,7 +1453,7 @@ export const PROMOTIONS: Promotion[] = [
     image: "/images/promotions/perfil-hormonal-masculino.webp",
     alt: "Promoción de perfil hormonal masculino por $200 en Clínica Hispana Cruz Houston",
     altEn: "Male hormone profile promotion for $200 at Clínica Hispana Cruz Houston",
-    order: 5,
+    order: 9,
   },
   {
     slug: "diagnostico-ets",
@@ -1381,7 +1483,7 @@ export const PROMOTIONS: Promotion[] = [
     image: "/images/promotions/diagnostico-ets.webp",
     alt: "Promoción de diagnóstico completo de enfermedades de transmisión sexual por $249 en Clínica Hispana Cruz Houston",
     altEn: "Complete sexually transmitted disease diagnosis promotion for $249 at Clínica Hispana Cruz Houston",
-    order: 6,
+    order: 10,
   },
   {
     slug: "examen-dot",
@@ -1405,7 +1507,7 @@ export const PROMOTIONS: Promotion[] = [
     image: "/images/promotions/examen-dot.webp",
     alt: "Promoción de examen médico DOT para conductores comerciales con certificación oficial en Clínica Hispana Cruz Houston",
     altEn: "DOT medical exam promotion for commercial drivers with official certification at Clínica Hispana Cruz Houston",
-    order: 7,
+    order: 11,
   },
   {
     slug: "vitamina-b12-6-dosis",
@@ -1431,7 +1533,7 @@ export const PROMOTIONS: Promotion[] = [
     image: "/images/promotions/vitamina-b12-6-dosis.webp",
     alt: "Promoción de 6 dosis de Vitamina B12 por $150 con consulta médica gratis en Clínica Hispana Cruz Houston",
     altEn: "6 Vitamin B12 doses promotion for $150 with free medical consultation at Clínica Hispana Cruz Houston",
-    order: 8,
+    order: 12,
   },
   {
     slug: "perfil-hormonal-femenino",
@@ -1457,7 +1559,7 @@ export const PROMOTIONS: Promotion[] = [
     image: "/images/promotions/perfil-hormonal-femenino.webp",
     alt: "Promoción de perfil hormonal femenino por $250 en Clínica Hispana Cruz Houston",
     altEn: "Female hormone profile promotion for $250 at Clínica Hispana Cruz Houston",
-    order: 9,
+    order: 13,
   },
   {
     slug: "chequeo-completo-hombre",
@@ -1485,7 +1587,7 @@ export const PROMOTIONS: Promotion[] = [
     image: "/images/promotions/chequeo-completo-hombre.webp",
     alt: "Promoción de chequeo completo del hombre por $149 con PSA, testosterona y examen de sangre en Clínica Hispana Cruz Houston",
     altEn: "Complete men's health package promotion for $149 with PSA, testosterone and blood test at Clínica Hispana Cruz Houston",
-    order: 10,
+    order: 14,
   },
   {
     slug: "chequeo-completo-salud",
@@ -1512,7 +1614,7 @@ export const PROMOTIONS: Promotion[] = [
     alt: "Promoción de chequeo general completo por $99 (valor regular $250) con examen de sangre, A1C, orina y consulta médica gratis en Clínica Hispana Cruz Houston",
     altEn: "Complete general checkup promotion for $99 (regular value $250) with blood test, A1C, urine test and free medical consultation at Clínica Hispana Cruz Houston",
     highlighted: true,
-    order: 0,
+    order: 4,
   },
   {
     slug: "salud-estomacal",
@@ -1536,7 +1638,7 @@ export const PROMOTIONS: Promotion[] = [
     image: "/images/promotions/salud-estomacal.webp",
     alt: "Promoción de paquete de salud estomacal por $99 con consulta médica, prueba de H. Pylori y examen de orina en Clínica Hispana Cruz Houston",
     altEn: "Stomach health package promotion for $99 with medical consultation, H. Pylori test and urine test at Clínica Hispana Cruz Houston",
-    order: 12,
+    order: 16,
   },
   {
     slug: "promocion-familiar",
@@ -1564,7 +1666,7 @@ export const PROMOTIONS: Promotion[] = [
     image: "/images/promotions/promocion-familiar.webp",
     alt: "Promoción especial familiar con examen de orina y glucosa gratis y chequeo médico a bajo costo en Clínica Hispana Cruz Houston",
     altEn: "Special family promotion with free urine test and glucose and low-cost medical checkup at Clínica Hispana Cruz Houston",
-    order: 13,
+    order: 17,
   },
 ];
 

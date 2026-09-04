@@ -44,7 +44,7 @@ export function Services() {
             <div className="md:row-span-2 group animate-on-scroll fade-up">
               <Link
                 href={getLocalizedHref(`/services/${highlightedServices[0].slug}`)}
-                className="block relative h-72 md:h-full min-h-[280px] md:min-h-[360px] rounded-2xl overflow-hidden"
+                className="block relative h-72 md:h-full min-h-70 md:min-h-90 rounded-2xl overflow-hidden"
               >
                 <Image
                   src={highlightedServices[0].image}
@@ -79,7 +79,7 @@ export function Services() {
             <div className="group animate-on-scroll fade-up stagger-1">
               <Link
                 href={getLocalizedHref(`/services/${highlightedServices[1].slug}`)}
-                className="block relative h-72 md:h-[calc(50%-10px)] min-h-[170px] rounded-2xl overflow-hidden"
+                className="block relative h-72 md:h-[calc(50%-10px)] min-h-42.5 rounded-2xl overflow-hidden"
               >
                 <Image
                   src={highlightedServices[1].image}
@@ -108,7 +108,7 @@ export function Services() {
             <div className="group animate-on-scroll fade-up stagger-2">
               <Link
                 href={getLocalizedHref(`/services/${highlightedServices[2].slug}`)}
-                className="block relative h-72 md:h-[calc(50%-10px)] min-h-[170px] rounded-2xl overflow-hidden"
+                className="block relative h-72 md:h-[calc(50%-10px)] min-h-42.5 rounded-2xl overflow-hidden"
               >
                 <Image
                   src={highlightedServices[2].image}

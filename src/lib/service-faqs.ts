@@ -260,6 +260,10 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "extraccion-implantes": {
     "faqs": [
       {
+        "question": "¿Cuánto tarda el retiro del implante del brazo?",
+        "answer": "Normalmente entre 10 y 20 minutos. Localizamos el implante, aplicamos anestesia local y lo retiramos por una pequeña incisión. Sales el mismo día con indicaciones de cuidado."
+      },
+      {
         "question": "¿Duele la extracción del implante?",
         "answer": "Se realiza con anestesia local, por lo que las molestias son mínimas. El procedimiento toma pocos minutos."
       },
@@ -273,6 +277,10 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       }
     ],
     "faqsEn": [
+      {
+        "question": "How long does arm implant removal take?",
+        "answer": "Usually 10 to 20 minutes. We locate the implant, apply local anesthesia and remove it through a small incision. You leave the same day with after-care instructions."
+      },
       {
         "question": "Does implant removal hurt?",
         "answer": "It's done with local anesthesia, so discomfort is minimal. The procedure takes just a few minutes."

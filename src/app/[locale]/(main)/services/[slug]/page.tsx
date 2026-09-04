@@ -401,7 +401,11 @@ function ServiceContent({ content }: { content: string }) {
           const headingMatch = lines[0].match(/^\*\*(.*?)\*\*$/);
           const heading = headingMatch ? headingMatch[1] : lines[0].replace(/\*\*/g, "");
           const listItems = lines.slice(1).filter((l) => l.startsWith("- ")).map((l) => l.replace(/^- /, ""));
-          const paragraphs = lines.slice(1).filter((l) => !l.startsWith("- ") && l.trim());
+          // Numbered lines ("1. ...") become an ordered list so steps are machine-readable
+          const steps = lines.slice(1).filter((l) => /^\d+\.\s/.test(l)).map((l) => l.replace(/^\d+\.\s/, ""));
+          const paragraphs = lines
+            .slice(1)
+            .filter((l) => !l.startsWith("- ") && !/^\d+\.\s/.test(l) && l.trim());
 
           return (
             <div key={i}>
@@ -418,6 +422,13 @@ function ServiceContent({ content }: { content: string }) {
                     </li>
                   ))}
                 </ul>
+              )}
+              {steps.length > 0 && (
+                <ol className="list-decimal ml-9 space-y-1.5 text-slate-600 text-sm md:text-base marker:font-semibold marker:text-red-primary">
+                  {steps.map((step, j) => (
+                    <li key={j} className="pl-1 leading-relaxed">{step}</li>
+                  ))}
+                </ol>
               )}
               {paragraphs.map((p, j) => (
                 <p key={j} className="text-slate-600 leading-relaxed mt-2 ml-4 text-sm md:text-base">{p}</p>

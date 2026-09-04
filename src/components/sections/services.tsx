@@ -7,6 +7,7 @@ import { useTranslations } from "next-intl";
 import { ArrowRightIcon } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { SERVICES } from "@/lib/constants";
+import { getLocalizedService } from "@/lib/utils";
 import { EkgLine } from "@/components/animations/ekg-line";
 
 export function Services() {
@@ -18,7 +19,9 @@ export function Services() {
     return href.startsWith("/") ? `/${locale}${href}` : `/${locale}/${href}`;
   };
 
-  const highlightedServices = SERVICES.filter((s) => s.highlighted).slice(0, 4);
+  const highlightedServices = SERVICES.filter((s) => s.highlighted)
+    .slice(0, 4)
+    .map((s) => getLocalizedService(s, locale));
 
   return (
     <section id="servicios" className="py-16 md:py-24 bg-slate-light">

@@ -7,7 +7,10 @@ type Props = {
 };
 
 export function JsonLdBlogPosting({ post, locale }: Props) {
-  const url = `${SITE_CONFIG.baseUrl}/${locale}/blog/${post.slug}`;
+  // Spanish is the default locale and has no URL prefix
+  const localePath = locale === "es" ? "" : `/${locale}`;
+  const url = `${SITE_CONFIG.baseUrl}${localePath}/blog/${post.slug}`;
+  const clinicId = `${SITE_CONFIG.baseUrl}/#clinic`;
 
   const blogPostingSchema = {
     "@context": "https://schema.org",
@@ -26,11 +29,21 @@ export function JsonLdBlogPosting({ post, locale }: Props) {
     dateModified: post.dateModified || post.date,
     author: {
       "@type": "Organization",
+      "@id": clinicId,
       name: post.author,
       url: SITE_CONFIG.baseUrl,
     },
+    reviewedBy: {
+      "@type": "Organization",
+      "@id": clinicId,
+      name:
+        locale === "es"
+          ? `Equipo médico de ${SITE_CONFIG.name}`
+          : `${SITE_CONFIG.name} medical team`,
+    },
     publisher: {
       "@type": "MedicalClinic",
+      "@id": clinicId,
       name: SITE_CONFIG.name,
       logo: {
         "@type": "ImageObject",
@@ -72,7 +85,7 @@ export function JsonLdBlogPosting({ post, locale }: Props) {
         "@type": "ListItem",
         position: 2,
         name: "Blog",
-        item: `${SITE_CONFIG.baseUrl}/${locale}/blog`,
+        item: `${SITE_CONFIG.baseUrl}${localePath}/blog`,
       },
       {
         "@type": "ListItem",

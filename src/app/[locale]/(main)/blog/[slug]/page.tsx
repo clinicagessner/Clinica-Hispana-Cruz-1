@@ -10,6 +10,17 @@ import { Button } from "@/components/ui/button";
 import { CalendarDotsIcon, ClockIcon, ArrowLeftIcon, PhoneIcon } from "@phosphor-icons/react/dist/ssr";
 import { JsonLdBlogPosting } from "@/components/seo/json-ld-blog";
 
+// Dates in frontmatter are plain YYYY-MM-DD; format them in UTC so the day
+// does not shift depending on the server timezone.
+function formatPostDate(iso: string, locale: string) {
+  return new Date(iso).toLocaleDateString(locale, {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    timeZone: "UTC",
+  });
+}
+
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
 };
@@ -142,12 +153,16 @@ export default async function BlogPostPage({ params }: Props) {
               <div className="flex flex-wrap items-center gap-4 text-sm text-white/70">
                 <span className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded-full">
                   <CalendarDotsIcon className="w-4 h-4" weight="fill" />
-                  {new Date(post.date).toLocaleDateString(locale, {
-                    year: "numeric",
-                    month: "long",
-                    day: "numeric",
-                  })}
+                  <time dateTime={post.date}>{formatPostDate(post.date, locale)}</time>
                 </span>
+                {post.dateModified && post.dateModified !== post.date && (
+                  <span className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded-full">
+                    {t("updated")}{" "}
+                    <time dateTime={post.dateModified}>
+                      {formatPostDate(post.dateModified, locale)}
+                    </time>
+                  </span>
+                )}
                 {post.readTime && (
                   <span className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded-full">
                     <ClockIcon className="w-4 h-4" weight="fill" />
@@ -158,6 +173,7 @@ export default async function BlogPostPage({ params }: Props) {
                   {t("by")} <strong className="text-white">{post.author}</strong>
                 </span>
               </div>
+              <p className="mt-4 text-sm text-white/70">{t("reviewedBy")}</p>
             </div>
           </div>
         </header>

@@ -61,7 +61,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const blogRoutes: SitemapEntry[] = blogPosts.flatMap((post) =>
     locales.map((locale) => ({
       url: `${baseUrl}${locale === "es" ? "" : `/${locale}`}/blog/${post.slug}`,
-      lastModified: new Date(post.date),
+      lastModified: new Date(post.dateModified ?? post.date),
       changeFrequency: "monthly" as const,
       priority: 0.6,
       alternates: createAlternates(`/blog/${post.slug}`),

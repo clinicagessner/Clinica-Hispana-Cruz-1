@@ -93,6 +93,8 @@ export interface FAQItem {
   id: string;
   question: string;
   answer: string;
+  /** Destino del <link> opcional dentro de la respuesta (ruta sin locale) */
+  href?: string;
 }
 
 export interface SocialLinks {

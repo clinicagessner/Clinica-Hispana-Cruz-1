@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/routing";
 import {
   Accordion,
   AccordionContent,
@@ -12,10 +13,10 @@ import { EkgLine } from "@/components/animations/ekg-line";
 export async function FAQ() {
   const t = await getTranslations();
 
-  // Prepare FAQ data for JSON-LD
+  // Prepare FAQ data for JSON-LD (t.markup strips the <link> tag to plain text)
   const faqData = FAQ_ITEMS.map((item) => ({
     question: t(item.question),
-    answer: t(item.answer),
+    answer: t.markup(item.answer, { link: (chunks) => chunks }),
   }));
 
   return (
@@ -50,7 +51,18 @@ export async function FAQ() {
                   </span>
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground pb-5 pl-12 leading-relaxed">
-                  {t(item.answer)}
+                  {item.href
+                    ? t.rich(item.answer, {
+                        link: (chunks) => (
+                          <Link
+                            href={item.href!}
+                            className="font-medium text-red-primary underline underline-offset-2 hover:text-red-dark"
+                          >
+                            {chunks}
+                          </Link>
+                        ),
+                      })
+                    : t(item.answer)}
                 </AccordionContent>
               </AccordionItem>
             ))}

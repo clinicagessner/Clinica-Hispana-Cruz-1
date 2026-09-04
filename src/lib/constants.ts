@@ -1760,6 +1760,7 @@ export const FAQ_ITEMS: FAQItem[] = [
     id: "examen-inmigracion",
     question: "faq.q8",
     answer: "faq.a8",
+    href: "/services/examenes-inmigracion",
   },
   {
     id: "tiempo-espera",

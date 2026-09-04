@@ -162,6 +162,10 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "ginecologia": {
     "faqs": [
       {
+        "question": "¿Es lo mismo el Papanicolau que la prueba de Pap?",
+        "answer": "Sí. Papanicolaou, Papanicolau y prueba de Pap son nombres del mismo examen, que detecta cambios en el cuello uterino. Lo realizamos sin cita, en español, y te explicamos el resultado."
+      },
+      {
         "question": "¿Necesito cita para el papanicolaou?",
         "answer": "No es obligatorio, atendemos sin cita; pero puedes llamarnos para reservar un horario cómodo."
       },
@@ -175,6 +179,10 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       }
     ],
     "faqsEn": [
+      {
+        "question": "Is a Pap test the same as a Papanicolaou?",
+        "answer": "Yes. Pap smear, Pap test and Papanicolaou are names for the same exam, which detects changes in the cervix. We do it without an appointment, in Spanish, and explain your results."
+      },
       {
         "question": "Do I need an appointment for a Pap smear?",
         "answer": "It's not required, we welcome walk-ins; but you can call us to reserve a convenient time."

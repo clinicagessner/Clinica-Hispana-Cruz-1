@@ -106,6 +106,7 @@ export interface SocialLinks {
   youtube?: string;
   tiktok?: string;
   google?: string;
+  yelp?: string;
 }
 
 export interface SiteConfig {

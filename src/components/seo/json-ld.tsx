@@ -77,9 +77,13 @@ export async function JsonLdMedicalClinic() {
         },
         sameAs: [
           SOCIAL_LINKS.facebook,
+          SOCIAL_LINKS.instagram,
+          SOCIAL_LINKS.google,
+          SOCIAL_LINKS.yelp,
           SOCIAL_LINKS.x,
           SOCIAL_LINKS.linkedin,
-          SOCIAL_LINKS.google,
+          SOCIAL_LINKS.youtube,
+          SOCIAL_LINKS.tiktok,
         ].filter(Boolean),
         areaServed: {
           "@type": "City",

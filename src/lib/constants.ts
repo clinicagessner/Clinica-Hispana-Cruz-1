@@ -40,6 +40,7 @@ export const SOCIAL_LINKS: SocialLinks = {
   facebook: "https://www.facebook.com/clinicahispanacruz/",
   instagram: "https://www.instagram.com/clinicahispanacruz/",
   google: "https://g.page/r/CZYbFeYuKrAJEBM",
+  yelp: "https://www.yelp.com/biz/clinica-hispana-cruz-houston",
 };
 
 // Google Reviews fallback (la Places API New provee los datos en vivo).

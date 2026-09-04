@@ -34,6 +34,11 @@ export async function Location() {
           <p className="text-lg text-white/70">{t("subtitle")}</p>
         </div>
 
+        {/* Entity definition: plain factual text that search engines and AI assistants can quote */}
+        <p className="animate-on-scroll fade-up max-w-3xl mx-auto mb-12 text-white/80 leading-relaxed">
+          {t("about")}
+        </p>
+
         <div className="grid lg:grid-cols-5 gap-8 max-w-6xl mx-auto">
           {/* Map - Takes 3 columns */}
           <div className="animate-on-scroll fade-left stagger-1 lg:col-span-3 relative rounded-2xl overflow-hidden shadow-2xl">

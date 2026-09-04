@@ -538,7 +538,7 @@ export const SERVICES: Service[] = [
       "Same-day treatment",
       "Walk-in care in Spanish"
     ],
-    "highlighted": false,
+    "highlighted": true,
     "order": 12
   },
   {

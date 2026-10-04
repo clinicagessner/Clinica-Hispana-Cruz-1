@@ -1,8 +1,10 @@
 import { SITE_CONFIG, CONTACT_INFO, SERVICES, SOCIAL_LINKS, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getGooglePlaceData } from "@/lib/google-places";
+import { getLocale } from "next-intl/server";
 
 export async function JsonLdMedicalClinic() {
   const googleData = await getGooglePlaceData();
+  const isEn = (await getLocale()) === "en";
   const ratingValue = googleData?.rating ?? GOOGLE_REVIEWS_DATA.averageRating;
   const reviewCount = googleData?.totalReviews ?? GOOGLE_REVIEWS_DATA.totalReviews;
 
@@ -22,6 +24,9 @@ export async function JsonLdMedicalClinic() {
         priceRange: "$$",
         currenciesAccepted: "USD",
         paymentAccepted: "Cash, Credit Card, Debit Card",
+        amenityFeature: [
+          { "@type": "LocationFeatureSpecification", name: isEn ? "Free parking" : "Estacionamiento gratuito", value: true },
+        ],
         address: {
           "@type": "PostalAddress",
           streetAddress: CONTACT_INFO.address,

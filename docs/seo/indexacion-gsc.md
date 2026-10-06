@@ -12,17 +12,17 @@ Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com*
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 <!-- /tandas:auto -->
 
-## Tanda 1 — 📨 ENVIADA 05/10/2026
+## Tanda 1  ✅ PEDIDA 05/10/2026
 
-- [ ] https://www.clinicahispanacruz.com  — cambiada 2026-10-04 · rastreada 2026-10-03 · indexada · 21404 impr.
-- [ ] https://www.clinicahispanacruz.com/blog/bienvenidos-clinica-hispana-cruz  — cambiada 2026-10-04 · rastreada 2026-09-14 · indexada · 99 impr.
-- [ ] https://www.clinicahispanacruz.com/en  — cambiada 2026-10-04 · rastreada 2026-09-30 · indexada · 3156 impr.
-- [ ] https://www.clinicahispanacruz.com/en/blog/bienvenidos-clinica-hispana-cruz  — cambiada 2026-10-04 · rastreada 2026-07-11 · indexada · 179 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/ginecologia  — cambiada 2026-09-04 · rastreada 2026-07-11 · indexada · 21 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/sueros-vitaminados  — cambiada 2026-09-04 · rastreada 2026-07-11 · indexada · 11 impr.
-- [ ] https://www.clinicahispanacruz.com/blog/vitamina-b12-beneficios-inyecciones-houston  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacruz.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — rastreada 2026-07-11 · rastreada sin indexar · 12 impr.
-- [ ] https://www.clinicahispanacruz.com/en/blog/vitamina-b12-beneficios-inyecciones-houston  — descubierta sin indexar · 0 impr.
+- [x] https://www.clinicahispanacruz.com  — cambiada 2026-10-04 · rastreada 2026-10-03 · indexada · 21404 impr.
+- [x] https://www.clinicahispanacruz.com/blog/bienvenidos-clinica-hispana-cruz  — cambiada 2026-10-04 · rastreada 2026-09-14 · indexada · 99 impr.
+- [x] https://www.clinicahispanacruz.com/en  — cambiada 2026-10-04 · rastreada 2026-09-30 · indexada · 3156 impr.
+- [x] https://www.clinicahispanacruz.com/en/blog/bienvenidos-clinica-hispana-cruz  — cambiada 2026-10-04 · rastreada 2026-07-11 · indexada · 179 impr.
+- [x] https://www.clinicahispanacruz.com/en/services/ginecologia  — cambiada 2026-09-04 · rastreada 2026-07-11 · indexada · 21 impr.
+- [x] https://www.clinicahispanacruz.com/en/services/sueros-vitaminados  — cambiada 2026-09-04 · rastreada 2026-07-11 · indexada · 11 impr.
+- [x] https://www.clinicahispanacruz.com/blog/vitamina-b12-beneficios-inyecciones-houston  — descubierta sin indexar · 0 impr.
+- [x] https://www.clinicahispanacruz.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — rastreada 2026-07-11 · rastreada sin indexar · 12 impr.
+- [x] https://www.clinicahispanacruz.com/en/blog/vitamina-b12-beneficios-inyecciones-houston  — descubierta sin indexar · 0 impr.
 
 ## Tanda 2
 

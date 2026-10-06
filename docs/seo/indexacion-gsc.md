@@ -6,11 +6,19 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-05; URL Inspection API, datos de hoy 2026-10-05):** 81 de 86 URLs del sitemap indexadas · 5 sin indexar (2 sin datos · 2 descubierta sin indexar · 1 rastreada sin indexar).
+**Estado (actualizado 2026-10-06; URL Inspection API, datos ANTIGUOS del 2026-10-05: antiguos (2026-10-05): --sin-fetch):** 81 de 86 URLs del sitemap indexadas · 5 sin indexar (2 sin datos · 2 descubierta sin indexar · 1 rastreada sin indexar).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 2 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
+3 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-19).
 <!-- /tandas:auto -->
+
+## Tanda 2  📨 ENVIADA 06/10/2026
+
+- [ ] https://www.clinicahispanacruz.com/blog/trabajar-con-gripe-cuando-volver-al-trabajo  — cambiada 2026-10-05 · sin datos de inspección · 0 impr.
+- [ ] https://www.clinicahispanacruz.com/en/blog/trabajar-con-gripe-cuando-volver-al-trabajo  — cambiada 2026-10-05 · sin datos de inspección · 0 impr.
+
+## Historial (tandas pedidas)
 
 ## Tanda 1  ✅ PEDIDA 05/10/2026
 
@@ -23,8 +31,3 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [x] https://www.clinicahispanacruz.com/blog/vitamina-b12-beneficios-inyecciones-houston  — descubierta sin indexar · 0 impr.
 - [x] https://www.clinicahispanacruz.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — rastreada 2026-07-11 · rastreada sin indexar · 12 impr.
 - [x] https://www.clinicahispanacruz.com/en/blog/vitamina-b12-beneficios-inyecciones-houston  — descubierta sin indexar · 0 impr.
-
-## Tanda 2
-
-- [ ] https://www.clinicahispanacruz.com/blog/trabajar-con-gripe-cuando-volver-al-trabajo  — cambiada 2026-10-05 · sin datos de inspección · 0 impr.
-- [ ] https://www.clinicahispanacruz.com/en/blog/trabajar-con-gripe-cuando-volver-al-trabajo  — cambiada 2026-10-05 · sin datos de inspección · 0 impr.

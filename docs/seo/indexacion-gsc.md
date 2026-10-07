@@ -13,10 +13,10 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 3 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-19).
 <!-- /tandas:auto -->
 
-## Tanda 2  📨 ENVIADA 06/10/2026
+## Tanda 2  ✅ PEDIDA 06/10/2026
 
-- [ ] https://www.clinicahispanacruz.com/blog/trabajar-con-gripe-cuando-volver-al-trabajo  — cambiada 2026-10-05 · sin datos de inspección · 0 impr.
-- [ ] https://www.clinicahispanacruz.com/en/blog/trabajar-con-gripe-cuando-volver-al-trabajo  — cambiada 2026-10-05 · sin datos de inspección · 0 impr.
+- [x] https://www.clinicahispanacruz.com/blog/trabajar-con-gripe-cuando-volver-al-trabajo  — cambiada 2026-10-05 · sin datos de inspección · 0 impr.
+- [x] https://www.clinicahispanacruz.com/en/blog/trabajar-con-gripe-cuando-volver-al-trabajo  — cambiada 2026-10-05 · sin datos de inspección · 0 impr.
 
 ## Historial (tandas pedidas)
 

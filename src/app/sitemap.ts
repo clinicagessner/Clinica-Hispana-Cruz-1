@@ -2,20 +2,27 @@ import type { MetadataRoute } from "next";
 import { SERVICES, SITE_CONFIG } from "@/lib/constants";
 import { getBlogPosts } from "@/lib/blog";
 import { locales } from "@/i18n/config";
+import { PAGE_DATES, serviceLastReviewed } from "@/lib/content-dates";
 
 type SitemapEntry = {
   url: string;
   lastModified: Date;
-  changeFrequency: "always" | "hourly" | "daily" | "weekly" | "monthly" | "yearly" | "never";
-  priority: number;
   alternates?: {
     languages: Record<string, string>;
   };
 };
 
+// Sin priority ni changefreq: Google los ignora. lastmod real: antes todas
+// las URLs llevaban la fecha del build y Google deja de leer un <lastmod>
+// que siempre dice "hoy".
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = SITE_CONFIG.baseUrl;
-  const now = new Date();
+  const blogPosts = getBlogPosts("es");
+  const latestPostDate = blogPosts.reduce((latest, post) => {
+    const d = post.dateModified ?? post.date;
+    return d > latest ? d : latest;
+  }, "1970-01-01");
+  const latestOf = (...dates: string[]) => new Date(dates.sort().at(-1)!);
 
   // Helper to create alternates for hreflang
   const createAlternates = (path: string) => ({
@@ -26,21 +33,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   });
 
-  // Static pages
+  // Static pages. La home muestra el último post y las promociones.
   const staticPages = [
-    { path: "", priority: 1.0, changeFrequency: "daily" as const },
-    { path: "/services", priority: 0.9, changeFrequency: "weekly" as const },
-    { path: "/promociones", priority: 0.8, changeFrequency: "monthly" as const },
-    { path: "/blog", priority: 0.8, changeFrequency: "daily" as const },
-    { path: "/privacy", priority: 0.3, changeFrequency: "monthly" as const },
+    { path: "", lastModified: latestOf(PAGE_DATES[""], PAGE_DATES["/promociones"], latestPostDate) },
+    { path: "/services", lastModified: new Date(PAGE_DATES["/services"]) },
+    { path: "/promociones", lastModified: new Date(PAGE_DATES["/promociones"]) },
+    { path: "/blog", lastModified: new Date(latestPostDate) },
+    { path: "/privacy", lastModified: new Date(PAGE_DATES["/privacy"]) },
   ];
 
   const staticRoutes: SitemapEntry[] = staticPages.flatMap((page) =>
     locales.map((locale) => ({
       url: `${baseUrl}${locale === "es" ? "" : `/${locale}`}${page.path}`,
-      lastModified: now,
-      changeFrequency: page.changeFrequency,
-      priority: page.priority,
+      lastModified: page.lastModified,
       alternates: createAlternates(page.path),
     }))
   );
@@ -49,21 +54,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const serviceRoutes: SitemapEntry[] = SERVICES.flatMap((service) =>
     locales.map((locale) => ({
       url: `${baseUrl}${locale === "es" ? "" : `/${locale}`}/services/${service.slug}`,
-      lastModified: now,
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
+      lastModified: new Date(serviceLastReviewed(service.slug)),
       alternates: createAlternates(`/services/${service.slug}`),
     }))
   );
 
   // Blog posts
-  const blogPosts = getBlogPosts("es");
   const blogRoutes: SitemapEntry[] = blogPosts.flatMap((post) =>
     locales.map((locale) => ({
       url: `${baseUrl}${locale === "es" ? "" : `/${locale}`}/blog/${post.slug}`,
       lastModified: new Date(post.dateModified ?? post.date),
-      changeFrequency: "monthly" as const,
-      priority: 0.6,
       alternates: createAlternates(`/blog/${post.slug}`),
     }))
   );

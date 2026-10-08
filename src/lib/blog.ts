@@ -62,3 +62,22 @@ export function getRelatedPosts(slug: string, locale: string = "es", limit: numb
   const posts = getBlogPosts(locale);
   return posts.filter((p) => p.slug !== slug).slice(0, limit);
 }
+
+// Servicios de cada post (§12 B1): cada servicio enlaza a sus artículos y así
+// ningún post queda con menos de 3 enlaces de contenido entrantes.
+export const POST_SERVICES: Record<string, string[]> = {
+  "atencion-medica-sin-seguro-houston": ["condiciones-cronicas", "examen-fisico-escolar", "farmacia"],
+  "bienvenidos-clinica-hispana-cruz": ["suturas-heridas", "unas-encarnadas", "alergias", "curacion-heridas"],
+  "control-diabetes-houston-guia-pacientes": ["condiciones-cronicas", "examenes-sangre", "electrocardiograma"],
+  "examen-dot-cdl-camioneros-houston": ["examen-dot", "examen-alcohol-drogas", "prueba-tuberculosis"],
+  "guia-examen-medico-inmigracion-i693-houston": ["examenes-inmigracion", "vacunas", "prueba-tuberculosis"],
+  "laboratorio-clinico-houston-analisis-sangre": ["examenes-sangre", "tiroides", "examen-heces"],
+  "salud-hombre-houston-chequeos-prevencion": ["salud-hombre", "infecciones-urinarias", "ultrasonido"],
+  "salud-mujer-houston-servicios-ginecologia": ["ginecologia", "prueba-embarazo", "anticonceptivos", "extraccion-implantes"],
+  "trabajar-con-gripe-cuando-volver-al-trabajo": ["enfermedades-respiratorias", "prueba-strep", "vacunas"],
+  "vitamina-b12-beneficios-inyecciones-houston": ["examenes-sangre", "sueros-vitaminados", "enfermedades-transmision-sexual", "drenaje-abscesos", "cirugias-menores"],
+};
+
+export function getPostsForService(serviceSlug: string, locale: string = "es"): BlogPost[] {
+  return getBlogPosts(locale).filter((post) => POST_SERVICES[post.slug]?.includes(serviceSlug));
+}

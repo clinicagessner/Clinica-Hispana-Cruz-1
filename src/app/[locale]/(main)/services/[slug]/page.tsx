@@ -41,6 +41,8 @@ import { getServiceFAQs } from "@/lib/service-faqs";
 import { JsonLdBreadcrumb, JsonLdMedicalProcedure, JsonLdFAQ, JsonLdMedicalClinicRef, JsonLdMedicalWebPage } from "@/components/seo/json-ld";
 import { MedicalReview } from "@/components/seo/medical-review";
 import { serviceLastReviewed } from "@/lib/content-dates";
+import { seoTitle, social } from "@/lib/seo";
+import { getPostsForService } from "@/lib/blog";
 
 const iconMap: Record<string, React.ElementType> = {
   Stethoscope: StethoscopeIcon,
@@ -95,8 +97,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const service = getLocalizedService(rawService, locale);
   const localePath = locale === "en" ? "/en" : "";
 
+  const pageTitle = seoTitle(service.title);
+  const pageUrl = `${SITE_CONFIG.baseUrl}${localePath}/services/${slug}`;
+
   return {
-    title: service.title,
+    title: { absolute: pageTitle },
     description: service.description,
     keywords: service.keywords,
     alternates: {
@@ -107,19 +112,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         "x-default": `/services/${slug}`,
       },
     },
-    openGraph: {
-      title: `${service.title} | ${SITE_CONFIG.name}`,
-      description: service.description,
-      url: `${SITE_CONFIG.baseUrl}${localePath}/services/${slug}`,
-      images: [
-        {
-          url: `${SITE_CONFIG.baseUrl}${service.image}`,
-          width: 1200,
-          height: 630,
-          alt: service.title,
-        },
-      ],
-    },
+    ...social(pageTitle, service.description, pageUrl, `${SITE_CONFIG.baseUrl}${service.image}`),
   };
 }
 
@@ -139,10 +132,16 @@ export default async function ServicePage({ params }: Props) {
   const service = getLocalizedService(rawService, locale);
   const IconComponent = iconMap[service.icon] || StethoscopeIcon;
 
-  // Get related services (same category, excluding current)
-  const relatedServices = SERVICES.filter(
-    (s) => s.category === rawService.category && s.id !== rawService.id
-  ).slice(0, 3).map((s) => getLocalizedService(s, locale));
+  // Relacionados rotativos (§12 B1): los 3 siguientes de la misma categoría a
+  // partir de este servicio, dando la vuelta; así cada servicio recibe enlaces
+  // de sus vecinos y no solo los 3 primeros de cada categoría.
+  const sameCategory = SERVICES.filter((s) => s.category === rawService.category);
+  const pos = sameCategory.findIndex((s) => s.id === rawService.id);
+  const rotated = [...sameCategory.slice(pos + 1), ...sameCategory.slice(0, pos)];
+  const nextInCatalog = SERVICES[(SERVICES.findIndex((s) => s.id === rawService.id) + 1) % SERVICES.length];
+  const relatedPool = rotated.length >= 3 ? rotated : [...rotated, nextInCatalog].filter((s) => s.id !== rawService.id);
+  const relatedServices = relatedPool.slice(0, 3).map((s) => getLocalizedService(s, locale));
+  const servicePosts = getPostsForService(rawService.slug, locale);
 
   const localePath = locale === "en" ? "/en" : "";
   const breadcrumbs = [
@@ -171,7 +170,7 @@ export default async function ServicePage({ params }: Props) {
           <div className="container relative z-10 mx-auto px-4">
             {/* Back Link */}
             <Link
-              href="/services"
+              href={`${localePath}/services`}
               className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors"
             >
               <ArrowLeftIcon className="size-4" weight="bold" />
@@ -320,6 +319,31 @@ export default async function ServicePage({ params }: Props) {
           </section>
         )}
 
+        {/* Artículos del blog sobre este servicio (§12 B1, enlazado interno) */}
+        {servicePosts.length > 0 && (
+          <section className="pb-8">
+            <div className="container mx-auto px-4">
+              <div className="max-w-4xl mx-auto">
+                <h2 className="text-xl md:text-2xl font-heading font-bold text-slate-dark mb-4">
+                  {locale === "en" ? "Articles about this service" : "Artículos sobre este servicio"}
+                </h2>
+                <ul className="space-y-2">
+                  {servicePosts.map((post) => (
+                    <li key={post.slug}>
+                      <a
+                        href={`${locale === "en" ? "/en" : ""}/blog/${post.slug}`}
+                        className="text-red-dark font-medium hover:underline underline-offset-4"
+                      >
+                        {post.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* Revisión médica (§12 B2) */}
         <section className="pb-4">
           <div className="container mx-auto px-4">
@@ -352,7 +376,7 @@ export default async function ServicePage({ params }: Props) {
                   return (
                     <Link
                       key={related.id}
-                      href={`/services/${related.slug}`}
+                      href={`${localePath}/services/${related.slug}`}
                       className="group block"
                     >
                       <article className="relative h-full bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 hover:border-red-200">

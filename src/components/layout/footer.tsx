@@ -3,7 +3,9 @@ import Image from "next/image";
 import { getTranslations, getLocale } from "next-intl/server";
 import { PhoneIcon, MapPinIcon, ClockIcon, InstagramLogoIcon, FacebookLogoIcon, XLogoIcon, LinkedinLogoIcon, GoogleLogoIcon } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
-import { SITE_CONFIG, CONTACT_INFO, SOCIAL_LINKS, NAV_ITEMS, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
+import { SITE_CONFIG, CONTACT_INFO, SOCIAL_LINKS, NAV_ITEMS, GOOGLE_REVIEWS_DATA, SERVICES } from "@/lib/constants";
+import { getLocalizedService } from "@/lib/utils";
+import type { Service } from "@/types";
 import { getGooglePlaceData } from "@/lib/google-places";
 
 type FooterProps = {
@@ -26,6 +28,25 @@ export async function Footer({ phoneOverride }: FooterProps = {}) {
     if (locale === "es") return href;
     return href.startsWith("/") ? `/${locale}${href}` : `/${locale}/${href}`;
   };
+
+  // Todos los servicios por categoría (§12 B1): enlaces rastreables desde
+  // cada página hacia los 29 servicios.
+  const categories: { key: Service["category"]; label: string }[] = [
+    { key: "medicina-general", label: t("services.categoryMedicinaGeneral") },
+    { key: "salud-mujer", label: t("services.categorySaludMujer") },
+    { key: "examenes", label: t("services.categoryExamenes") },
+    { key: "laboratorio", label: t("services.categoryLaboratorio") },
+    { key: "tratamientos", label: t("services.categoryTratamientos") },
+  ];
+  const servicesByCategory = categories
+    .map((c) => ({
+      ...c,
+      services: [...SERVICES]
+        .filter((s) => s.category === c.key)
+        .sort((a, b) => a.order - b.order)
+        .map((s) => getLocalizedService(s, locale)),
+    }))
+    .filter((c) => c.services.length > 0);
 
   return (
     <footer className="bg-slate-dark text-white">
@@ -211,6 +232,34 @@ export async function Footer({ phoneOverride }: FooterProps = {}) {
               </div>
               <p className="text-xs text-white/60 mt-1">{t("footer.stars", { rating, reviews })}</p>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Servicios por categoría */}
+      <div className="border-t border-white/10">
+        <div className="container mx-auto px-4 py-10">
+          <h2 className="font-heading font-bold text-lg mb-6">
+            {locale === "en" ? "Our services" : "Nuestros servicios"}
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+            {servicesByCategory.map((c) => (
+              <div key={c.key}>
+                <h3 className="text-sm font-semibold uppercase tracking-wide text-white/90 mb-3">{c.label}</h3>
+                <ul className="space-y-2">
+                  {c.services.map((s) => (
+                    <li key={s.slug}>
+                      <Link
+                        href={getLocalizedHref(`/services/${s.slug}`)}
+                        className="text-sm text-white/70 hover:text-white transition-colors"
+                      >
+                        {s.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
         </div>
       </div>

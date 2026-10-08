@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { setRequestLocale } from "next-intl/server";
 import { PhoneIcon, MapPinIcon, EnvelopeIcon, ArrowLeftIcon } from "@phosphor-icons/react/dist/ssr";
+import { seoTitle, social } from "@/lib/seo";
 import { SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
 import { JsonLdMedicalClinicRef } from "@/components/seo/json-ld";
 
@@ -13,9 +14,15 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
   const { locale } = await params;
   const localePath = locale === "en" ? "/en" : "";
 
+  const pageTitle = seoTitle(locale === "en" ? "HIPAA Privacy Policy" : "Política de privacidad HIPAA");
+  const description = locale === "en"
+    ? "Privacy policy and HIPAA notice of privacy practices of Clínica Hispana Cruz: how we protect your health information."
+    : "Política de privacidad y aviso de prácticas de privacidad HIPAA de Clínica Hispana Cruz: cómo protegemos tu información de salud.";
+  const pageUrl = `${SITE_CONFIG.baseUrl}${localePath}/privacy`;
+
   return {
-    title: "Política de Privacidad HIPAA",
-    description: `Política de privacidad y aviso de prácticas de privacidad HIPAA de ${SITE_CONFIG.name}. Conozca cómo protegemos su información de salud.`,
+    title: { absolute: pageTitle },
+    description,
     alternates: {
       canonical: `${SITE_CONFIG.baseUrl}${localePath}/privacy`,
       languages: {
@@ -24,12 +31,7 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
         "x-default": "/privacy",
       },
     },
-    openGraph: {
-      title: `Política de Privacidad HIPAA | ${SITE_CONFIG.name}`,
-      description: `Política de privacidad y aviso de prácticas de privacidad HIPAA. Conozca cómo protegemos su información de salud en ${SITE_CONFIG.name}.`,
-      url: `${SITE_CONFIG.baseUrl}${localePath}/privacy`,
-      type: "website",
-    },
+    ...social(pageTitle, description, pageUrl),
     robots: {
       index: true,
       follow: true,
@@ -53,7 +55,7 @@ export default async function PrivacyPage({ params }: Props) {
         <div className="max-w-4xl mx-auto">
           {/* Back Link */}
           <Link
-            href="/"
+            href={locale === "en" ? "/en" : "/"}
             className="inline-flex items-center gap-2 text-slate-dark/70 hover:text-red-primary mb-6 transition-colors"
           >
             <ArrowLeftIcon className="size-4" weight="bold" />

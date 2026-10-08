@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ServicesFilter } from "@/components/services/services-filter";
 import { SERVICES, SITE_CONFIG } from "@/lib/constants";
+import { seoTitle, social } from "@/lib/seo";
 import { getLocalizedService } from "@/lib/utils";
 import { JsonLdCollectionPage, JsonLdMedicalClinicRef } from "@/components/seo/json-ld";
 
@@ -24,11 +25,15 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
   const t = await getTranslations({ locale, namespace: "services" });
   const localePath = locale === "en" ? "/en" : "";
 
+  const pageTitle = seoTitle(locale === "en" ? "Medical Services in North Houston" : "Servicios médicos en el norte de Houston");
+  const description = locale === "en"
+    ? "29 walk-in services on Airline Dr, Houston: family medicine, I-693 exams, lab work, gynecology, ultrasound and DOT physicals. In Spanish."
+    : "29 servicios sin cita en Airline Dr, Houston: medicina familiar, examen I-693, laboratorio, ginecología, ultrasonido y examen DOT. En español.";
+  const pageUrl = `${SITE_CONFIG.baseUrl}${localePath}/services`;
+
   return {
-    title: t("title"),
-    description: locale === "en"
-      ? "Medical services in Houston TX: family medicine, I-693 immigration exams, lab tests, gynecology, ultrasound, DOT physicals and more. Walk-ins welcome, Spanish-speaking staff."
-      : "Servicios médicos en Houston TX: medicina familiar, exámenes I-693, laboratorio, ginecología, ultrasonido, examen DOT y más. Sin cita previa, atención en español.",
+    title: { absolute: pageTitle },
+    description,
     alternates: {
       canonical: `${SITE_CONFIG.baseUrl}${localePath}/services`,
       languages: {
@@ -37,19 +42,7 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
         "x-default": "/services",
       },
     },
-    openGraph: {
-      title: t("title"),
-      description: t("subtitle"),
-      url: `${SITE_CONFIG.baseUrl}${localePath}/services`,
-      images: [
-        {
-          url: `${SITE_CONFIG.baseUrl}/images/clinic-interior.webp`,
-          width: 1200,
-          height: 630,
-          alt: t("title"),
-        },
-      ],
-    },
+    ...social(pageTitle, description, pageUrl),
   };
 }
 

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { seoTitle, social } from "@/lib/seo";
 import { SITE_CONFIG } from "@/lib/constants";
 import { getBlogPosts, getFeaturedPost } from "@/lib/blog";
 import { Badge } from "@/components/ui/badge";
@@ -19,9 +20,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const localePath = locale === "en" ? "/en" : "";
 
+  const pageTitle = seoTitle(locale === "en" ? "Health Blog in Spanish and English" : "Blog de salud en español");
+  const description = locale === "en"
+    ? "Health articles from the Clínica Hispana Cruz medical team in north Houston: diabetes, I-693, DOT physicals, lab work and women's health."
+    : "Artículos de salud del equipo médico de Clínica Hispana Cruz en el norte de Houston: diabetes, I-693, examen DOT, laboratorio y salud de la mujer.";
+  const pageUrl = `${SITE_CONFIG.baseUrl}${localePath}/blog`;
+
   return {
-    title: t("metaTitle"),
-    description: t("metaDescription"),
+    title: { absolute: pageTitle },
+    description,
     alternates: {
       canonical: `${SITE_CONFIG.baseUrl}${localePath}/blog`,
       languages: {
@@ -30,12 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         "x-default": "/blog",
       },
     },
-    openGraph: {
-      title: t("metaTitle"),
-      description: t("metaDescription"),
-      type: "website",
-      url: `${SITE_CONFIG.baseUrl}${localePath}/blog`,
-    },
+    ...social(pageTitle, description, pageUrl),
   };
 }
 

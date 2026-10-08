@@ -12,6 +12,7 @@ import {
 } from "@/components/seo/json-ld";
 import { getLocalizedPromotions } from "@/lib/promotions";
 import { CONTACT_INFO, GOOGLE_REVIEWS_DATA, SITE_CONFIG } from "@/lib/constants";
+import { seoTitle, social } from "@/lib/seo";
 import { getGooglePlaceData } from "@/lib/google-places";
 
 type MetadataProps = {
@@ -23,9 +24,15 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
   const t = await getTranslations({ locale, namespace: "promotions" });
   const localePath = locale === "en" ? "/en" : "";
 
+  const pageTitle = seoTitle(locale === "en" ? "Medical Promotions and Packages in Houston" : "Promociones y paquetes médicos en Houston");
+  const description = locale === "en"
+    ? "Self-pay packages at Clínica Hispana Cruz on Airline Dr: men's and women's checkups, hormone profiles, intimate health and more. Walk-ins, in Spanish."
+    : "Paquetes de pago directo en Clínica Hispana Cruz, Airline Dr: chequeos de hombre y mujer, perfiles hormonales, salud íntima y más. Sin cita, en español.";
+  const pageUrl = `${SITE_CONFIG.baseUrl}${localePath}/promociones`;
+
   return {
-    title: t("metaTitle"),
-    description: t("metaDescription"),
+    title: { absolute: pageTitle },
+    description,
     alternates: {
       canonical: `${SITE_CONFIG.baseUrl}${localePath}/promociones`,
       languages: {
@@ -34,19 +41,7 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
         "x-default": "/promociones",
       },
     },
-    openGraph: {
-      title: t("metaTitle"),
-      description: t("metaDescription"),
-      url: `${SITE_CONFIG.baseUrl}${localePath}/promociones`,
-      images: [
-        {
-          url: `${SITE_CONFIG.baseUrl}/images/clinic-interior.webp`,
-          width: 1200,
-          height: 630,
-          alt: t("pageTitle"),
-        },
-      ],
-    },
+    ...social(pageTitle, description, pageUrl),
   };
 }
 

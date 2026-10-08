@@ -23,7 +23,7 @@
   "hero": {
     "badge": "Quality medical care",
     "title": "Your Trusted Hispanic Clinic in <hl>Houston</hl>",
-    "subtitle": "One of the leading hispanic clinics in Houston TX. Family medicine, gynecology, diabetes care, and laboratory. Walk-ins welcome, with or without insurance, open 7 days from 9 AM to 9 PM.",
+    "subtitle": "Hispanic clinic in north Houston, on Airline Drive. Family medicine, gynecology, diabetes care, and laboratory. Walk-ins welcome, with or without insurance, open 7 days from 9 AM to 9 PM.",
     "ctaCall": "Call Now",
     "ctaWhatsapp": "WhatsApp",
     "ctaLocation": "Get Directions",
@@ -210,7 +210,7 @@
   "chronicCare": {
     "badge": "Ongoing Care",
     "title": "Diabetes & Hypertension Management in Houston",
-    "subtitle": "Comprehensive monitoring and treatment program for diabetes, hypertension, high cholesterol, and thyroid conditions. Same-day lab results, medication adjustments, and patient education in Spanish.",
+    "subtitle": "Comprehensive monitoring and treatment program for diabetes, hypertension, high cholesterol, and thyroid conditions. On-site lab work with fast results, medication adjustments, and patient education in Spanish.",
     "conditionsTitle": "Conditions we manage",
     "conditions": {
       "diabetes": "Diabetes",

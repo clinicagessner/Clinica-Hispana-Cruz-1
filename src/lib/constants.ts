@@ -276,14 +276,14 @@ export const SERVICES: Service[] = [
     "category": "salud-mujer",
     "keywords": [
       "ginecologia en houston",
-      "ginecologo houston español",
+      "papanicolaou sin cita houston",
       "papanicolaou houston",
       "cultivo vaginal houston",
       "infeccion vaginal tratamiento houston"
     ],
     "keywordsEn": [
       "gynecology houston",
-      "gynecologist houston spanish",
+      "pap smear walk in houston",
       "pap smear houston",
       "vaginal culture houston",
       "vaginal infection treatment houston"
@@ -389,8 +389,8 @@ export const SERVICES: Service[] = [
     "title": "Retiro de Implante Subdérmico (Implante del Brazo)",
     "titleEn": "Subdermal Implant Removal (Arm Implant)",
     "shortTitle": "Implantes",
-    "description": "Retiro de implante subdérmico (implante anticonceptivo del brazo) en Houston, TX. Procedimiento rápido con anestesia local, en español, sin cita y sin seguro.",
-    "descriptionEn": "Subdermal implant removal (contraceptive arm implant) in Houston, TX. Quick procedure with local anesthesia, in Spanish, walk-ins welcome, no insurance needed.",
+    "description": "Retiro del implante anticonceptivo del brazo en Houston, TX: procedimiento con anestesia local, en español, sin cita y sin seguro.",
+    "descriptionEn": "Contraceptive arm implant removal in Houston, TX: procedure with local anesthesia, in Spanish, walk-ins welcome, no insurance needed.",
     "longDescription": "El implante anticonceptivo del brazo tiene una fecha de vencimiento, y también puedes querer quitártelo antes porque buscas embarazarte o prefieres otro método. En la clínica el retiro se hace en la misma consulta, con anestesia local y una incisión pequeña, y te explicamos cada paso en español.\n\n**¿Qué conviene saber antes de venir?**\n- Trae, si la tienes, la tarjeta o el papel con la fecha en que te colocaron el implante\n- Avisa si tomas aspirina u otros medicamentos que adelgazan la sangre\n- Come algo ligero antes; no necesitas ayuno\n- Si quieres salir ya con otro método, dilo al llegar para planearlo juntos\n\n**¿Cómo se retira el implante?**\n1. El equipo médico palpa tu brazo para localizar la varilla bajo la piel.\n2. Limpia la zona y aplica anestesia local con una aguja fina.\n3. Hace un corte muy pequeño en un extremo del implante.\n4. Empuja suavemente la varilla hasta sacarla y comprueba que salió completa.\n5. Cierra con cintas adhesivas y coloca un vendaje de presión.\n\nEn total suele tomar entre 10 y 20 minutos y sentirás sobre todo presión, porque la piel ya está dormida.\n\n**¿Y si al tocarte el brazo no aparece la varilla?**\nA veces la varilla queda más profunda o se movió un poco. Si no se puede localizar al tacto, no se intenta sacarla a ciegas: se orienta la referencia para un estudio de imagen o a un especialista.\n\n**¿Cómo cuidar tu brazo después?**\n- Mantén el vendaje de presión seco y puesto el tiempo que te indiquen\n- Deja las cintas adhesivas unos días hasta que la herida cierre\n- Un moretón o algo de dolor es normal; mejora en pocos días\n- Vuelve a la clínica si la piel alrededor del corte se pone caliente y roja día tras día, sale líquido amarillo o te da temperatura\n\n**¿Y la protección contra el embarazo?**\nEn cuanto sale el implante, tu fertilidad regresa rápido. Si no buscas embarazarte, necesitas otro método desde ese momento: el equipo médico te puede iniciar las pastillas o la inyección en la misma visita. Sin cita, pasa por la clínica de Airline Drive con tu fecha de colocación a la mano.",
     "longDescriptionEn": "The birth control implant in your arm has an expiration date, and you may also want it out sooner because you're planning a pregnancy or prefer another method. At the clinic the removal is done during the visit, with local anesthesia and a tiny incision, and every step is explained to you.\n\n**What should you know before coming in?**\n- Bring the card or paper with your insertion date, if you have it\n- Let us know if you take aspirin or other blood thinners\n- Eat something light beforehand; no fasting is needed\n- If you want to start another method right away, say so when you arrive so it can be planned together\n\n**How is the implant removed?**\n1. The medical team feels your arm to locate the rod under the skin.\n2. The area is cleaned and numbed with a fine needle.\n3. A very small cut is made at one end of the implant.\n4. The rod is gently pushed out and checked to make sure it came out whole.\n5. The cut is closed with adhesive strips and a pressure bandage is applied.\n\nIt usually takes 10 to 20 minutes, and you'll mostly feel pressure because the skin is already numb.\n\n**What if the implant can't be felt?**\nSometimes the rod sits deeper or has shifted slightly. If it can't be located by touch, there's no blind attempt to remove it: a referral is arranged for an imaging study or a specialist.\n\n**How do you care for your arm afterward?**\n- Keep the pressure bandage dry and on for as long as instructed\n- Leave the adhesive strips for a few days until the cut closes\n- A bruise or some soreness is normal and improves within days\n- Come back if the skin around the cut gets hot and redder each day, yellow fluid drains or you run a temperature\n\n**What about pregnancy protection?**\nOnce the implant is out, fertility returns quickly. If you're not trying to get pregnant, you need another method right away: the medical team can start you on the pill or the shot during the same visit. No appointment needed; come to the Airline Drive clinic with your insertion date handy.",
     "icon": "FirstAid",
@@ -426,37 +426,37 @@ export const SERVICES: Service[] = [
   {
     "id": "salud-hombre",
     "slug": "salud-hombre",
-    "title": "Exámenes del Hombre: PSA y Testosterona",
-    "titleEn": "Men's Health Exams: PSA & Testosterone",
+    "title": "Salud del Hombre: Examen de Próstata (PSA)",
+    "titleEn": "Men's Health: Prostate (PSA) Exam",
     "shortTitle": "Salud del Hombre",
-    "description": "Exámenes del hombre en Houston, TX: PSA y testosterona. Laboratorio y atención en español, con precios accesibles.",
-    "descriptionEn": "Men's health exams in Houston, TX: PSA and testosterone. Lab work and care in Spanish, with affordable pricing.",
+    "description": "Salud del hombre en Houston, TX: examen de próstata (PSA), chequeo general y laboratorio en español, sin cita y sin seguro médico.",
+    "descriptionEn": "Men's health in Houston, TX: prostate (PSA) exam, general checkup and lab work in Spanish, walk-ins welcome, no insurance needed.",
     "longDescription": "Entre el trabajo y la familia, muchos hombres dejan pasar años sin revisarse hasta que algo molesta. Este chequeo está pensado para revisar a tiempo la próstata, los niveles de testosterona y tu salud general, con el equipo médico explicándote cada resultado en español y sin rodeos.\n\n**¿Qué incluye el chequeo?**\n- Análisis de antígeno prostático específico (PSA) en sangre\n- Medición del nivel de testosterona, cuando tus síntomas lo justifican\n- Presión arterial, pulso, peso y cintura\n- Preguntas sobre cómo orinas, cómo duermes y cómo está tu energía\n- Referencia a un especialista si algún resultado lo requiere\n\n**¿Qué molestias vale la pena comentar?**\nLevantarte varias veces en la noche a orinar, un chorro débil, sentir que la vejiga no se vacía o ardor al orinar pueden venir de la próstata. Cansancio constante, menos deseo sexual o problemas de erección también merecen una revisión, porque a veces se relacionan con la presión, el azúcar, el peso o las hormonas.\n\n**¿Cómo prepararte para la toma de sangre?**\n1. Ven en la mañana si te van a medir la testosterona, porque sus niveles son más altos temprano.\n2. Durante los dos días previos al PSA evita eyacular y hacer bicicleta o ejercicio intenso, que pueden subirlo un poco.\n3. Avisa si tienes una infección urinaria reciente o si tomas medicamentos para la próstata o para el cabello.\n4. Trae resultados de PSA anteriores, si tienes: la tendencia con los años dice tanto como un solo número.\n\n**¿Qué significa un PSA alto?**\nNo es un diagnóstico de cáncer. El PSA puede subir por una próstata agrandada, una inflamación o una infección. Por eso el equipo médico lo interpreta junto con tu edad, tus síntomas y tus resultados previos, y decide si conviene repetirlo o hacer una referencia a un especialista.\n\n**¿A qué edad empezar?**\nLas guías generales sugieren platicar sobre el PSA desde los 50 años, o antes si tu papá o un hermano tuvo cáncer de próstata, o si eres de raza negra. Los resultados llegan del laboratorio y te avisamos en cuanto los tengamos. La clínica de Airline Drive abre hasta las 9 PM, así que puedes venir saliendo del trabajo.",
     "longDescriptionEn": "Many men only see a provider once something already hurts. This checkup is designed to look at your prostate, your testosterone levels and your overall health early, with the medical team explaining each result in plain Spanish or English.\n\n**What does the checkup include?**\n- A prostate-specific antigen (PSA) blood test\n- A testosterone level, when your symptoms make it worthwhile\n- Blood pressure, pulse, weight and waist size\n- Questions about how you urinate, sleep and how your energy is\n- A referral to a specialist if any result calls for it\n\n**Which symptoms are worth bringing up?**\nGetting up several times at night to pee, a weak stream, feeling that your bladder doesn't empty or burning when you urinate can come from the prostate. Constant tiredness, lower sex drive or erection problems also deserve a look, since they're sometimes tied to blood pressure, blood sugar, weight or hormones.\n\n**How should you prepare for the blood draw?**\n1. Come in the morning if testosterone is being measured, since levels are highest early in the day.\n2. For two days before a PSA test, avoid ejaculation and cycling or hard workouts, which can nudge it up.\n3. Mention a recent urinary infection or any prostate or hair-loss medicine you take.\n4. Bring earlier PSA results if you have them: the trend over the years says as much as a single number.\n\n**What does a high PSA mean?**\nIt isn't a cancer diagnosis. PSA can rise from an enlarged prostate, inflammation or infection. That's why the medical team reads it alongside your age, symptoms and earlier results, and decides whether to repeat it or arrange a referral to a specialist.\n\n**At what age should you start?**\nCommon guidance puts the PSA conversation at 50, moved earlier when a father or brother had prostate cancer and for Black men, who carry higher risk. The PSA and testosterone samples are processed by an outside lab, and you get a call once the numbers are in. The Airline Drive clinic stays open until 9 PM, so you can come straight from work.",
     "icon": "Activity",
     "image": "/images/services/salud-hombre.webp",
     "category": "medicina-general",
     "keywords": [
-      "examen del hombre houston",
+      "salud del hombre houston",
       "prueba psa houston",
       "examen de prostata houston",
-      "examen de testosterona houston"
+      "chequeo del hombre houston"
     ],
     "keywordsEn": [
       "mens health houston",
       "psa test houston",
       "prostate exam houston",
-      "testosterone test houston"
+      "mens checkup houston"
     ],
     "features": [
       "Antígeno prostático (PSA)",
-      "Nivel de testosterona",
+      "Análisis de laboratorio",
       "Chequeo general del hombre",
       "Resultados explicados en español"
     ],
     "featuresEn": [
       "Prostate antigen (PSA)",
-      "Testosterone level",
+      "Lab tests",
       "General men's checkup",
       "Results explained in Spanish"
     ],
@@ -950,8 +950,8 @@ export const SERVICES: Service[] = [
     "title": "Sueros Vitaminados Intravenosos (Terapia IV)",
     "titleEn": "Vitamin IV Therapy",
     "shortTitle": "Sueros Vitaminados",
-    "description": "Sueros vitaminados intravenosos (terapia IV) en Houston, TX: hidratación y vitaminas por vía intravenosa, aplicados por personal médico en español, con precios accesibles.",
-    "descriptionEn": "Vitamin IV therapy in Houston, TX. Hydration and vitamins in Spanish, with affordable pricing.",
+    "description": "Sueros vitaminados (terapia IV) en Houston, TX: el equipo médico revisa tu salud antes de aplicarlos. En español, sin cita y sin seguro.",
+    "descriptionEn": "Vitamin IV therapy in Houston, TX: the medical team reviews your health before it is given. In Spanish, walk-ins welcome, no insurance needed.",
     "longDescription": "La terapia IV o suero vitaminado se aplica gota a gota por una vena del brazo mientras estás sentado. En Clínica Hispana Cruz no se pone a nadie sin una revisión previa: el equipo médico conversa contigo, revisa tu salud y decide si el suero es apropiado para ti antes de colocar la vía.\n\n**¿Qué revisa el equipo médico antes de empezar?**\n- Tu presión, tu pulso y otros signos vitales medidos en ese momento\n- Enfermedades del corazón, de los riñones o del hígado\n- Alergias a medicamentos, al látex o a la cinta adhesiva\n- Los medicamentos y suplementos que tomas\n- Si estás embarazada o amamantando\n- Cómo te has sentido los últimos días\n\n**¿Cómo transcurre la sesión en la clínica?**\n1. Te sientas en un sillón cómodo y te explicamos el procedimiento en español.\n2. Se busca una vena cómoda del antebrazo, se desinfecta y se deja ahí un catéter fino de plástico.\n3. El suero baja despacio y el personal médico vigila la vía durante toda la aplicación.\n4. Cuando la bolsa se vacía, el personal saca el catéter y presiona el punto con algodón unos instantes.\n5. Antes de irte te damos indicaciones para cuidar el sitio del pinchazo.\n\n**¿Cuánto tiempo debes reservar?**\nLa duración depende del volumen del suero y de la velocidad que indique el equipo médico, así que calcula un rato tranquilo, sin prisas. Puedes leer, usar el celular o descansar mientras pasa. Come algo ligero antes de venir y avísanos si necesitas ir al baño a mitad de la sesión.\n\n**¿Qué preguntas vale la pena hacer?**\n- ¿Qué contiene exactamente el suero que me van a poner?\n- ¿Es compatible con mis medicamentos y mis condiciones?\n- ¿Qué molestias pueden aparecer y qué hago si se presentan?\n- ¿En qué se diferencia de una inyección de vitamina B12?\n\n**¿Cuándo debes avisar de inmediato?**\nSi durante la aplicación sientes ardor o hinchazón donde está la vía, mareo, palpitaciones, falta de aire o comezón en el cuerpo, díselo al personal en ese momento para que detenga el goteo y te revise. Pregunta el precio del suero en la recepción de Airline Drive antes de sentarte.",
     "longDescriptionEn": "A vitamin IV, or IV therapy, drips slowly through a vein in your arm while you sit back. At Clínica Hispana Cruz no one gets an IV without a check first: the medical team talks with you, reviews your health and decides whether the IV is appropriate for you before placing the line.\n\n**What does the medical team check before starting?**\n- Your blood pressure, pulse and other vital signs taken on the spot\n- Heart, kidney or liver conditions\n- Allergies to medications, latex or medical tape\n- The medications and supplements you take\n- Whether you are pregnant or breastfeeding\n- How you have been feeling the last few days\n\n**How does the session go at the clinic?**\n1. You sit in a comfortable chair and we explain the procedure in Spanish or English.\n2. A comfortable forearm vein is found and disinfected, and a thin plastic catheter is left in place.\n3. The fluid drips slowly while the medical staff watches the line the whole time.\n4. When the bag empties, the staff takes out the catheter and presses cotton on the spot for a moment.\n5. Before you leave, we tell you how to care for the needle site.\n\n**How much time should you set aside?**\nThe length depends on the volume of the IV and the drip rate the medical team sets, so plan for an unhurried visit. You can read, use your phone or rest while it runs. Eat something light beforehand and let us know if you need a restroom break midway.\n\n**Which questions are worth asking?**\n- What exactly is in the IV I am getting?\n- Is it compatible with my medications and conditions?\n- What side effects could show up, and what do I do if they do?\n- How is it different from a vitamin B12 shot?\n\n**When should you speak up right away?**\nIf during the drip you feel burning or swelling where the line is, dizziness, a racing heart, shortness of breath or itching, tell the staff at once so they can stop the flow and check you. Ask the IV price at the Airline Drive front desk before you sit down.",
     "icon": "Drop",
@@ -962,25 +962,24 @@ export const SERVICES: Service[] = [
       "suero intravenoso vitaminado houston",
       "vitaminas iv houston",
       "terapia iv houston",
-      "suero de vitaminas houston",
-      "hidratacion intravenosa houston"
+      "suero de vitaminas houston"
     ],
     "keywordsEn": [
       "vitamin iv therapy houston",
       "iv drip houston",
-      "iv hydration houston",
+      "iv therapy clinic houston",
       "vitamin drip houston"
     ],
     "features": [
-      "Hidratación intravenosa",
-      "Vitaminas y minerales",
+      "Revisión médica previa",
       "Aplicación por personal médico",
+      "Sesión en la clínica",
       "Atención en español"
     ],
     "featuresEn": [
-      "Intravenous hydration",
-      "Vitamins and minerals",
+      "Medical review beforehand",
       "Administered by medical staff",
+      "Session at the clinic",
       "Care in Spanish"
     ],
     "highlighted": false,
@@ -1192,8 +1191,8 @@ export const SERVICES: Service[] = [
     "title": "Farmacia",
     "titleEn": "Pharmacy",
     "shortTitle": "Farmacia",
-    "description": "Farmacia en Houston, TX dentro de la clínica. Surtimos tu receta al terminar la consulta, atención en español.",
-    "descriptionEn": "Pharmacy in Houston, TX inside the clinic. We fill your prescription right after your visit, service in Spanish.",
+    "description": "Farmacia dentro de la clínica en Houston, TX: los medicamentos indicados en tu consulta se entregan ahí mismo, más productos de venta libre.",
+    "descriptionEn": "In-clinic pharmacy in Houston, TX: the medications prescribed during your visit are handed to you on site, plus over-the-counter products.",
     "longDescription": "Cuando el equipo médico te indica un tratamiento en tu consulta, el medicamento se te entrega ahí mismo en Clínica Hispana Cruz, antes de salir. Así no tienes que hacer otra parada con un malestar encima, y te vas a casa sabiendo en español cómo y cuándo tomarlo.\n\n**¿Qué te llevas de la farmacia al salir de la consulta?**\n- Los medicamentos que te indicaron en la consulta, de marca o genéricos\n- Medicamentos de venta libre para el dolor, la fiebre, la gripe o las alergias\n- Explicación del personal sobre la dosis y el horario de cada uno\n\n**¿Cómo funciona al terminar tu consulta?**\n1. El equipo médico te revisa y decide qué tratamiento necesitas.\n2. Pasas al área de farmacia dentro de la misma clínica.\n3. Te entregan el medicamento con su etiqueta e indicaciones.\n4. Te explican cuántas veces al día tomarlo, si va con comida y por cuántos días.\n5. Resuelves tus dudas antes de irte, sin prisas.\n\n**¿Qué debes avisar antes de recibir tu medicamento?**\nComenta si eres alérgico a algún medicamento, si estás embarazada o amamantando y qué otras medicinas, vitaminas o tés tomas. Trae una foto de las cajas o una lista: algunas combinaciones no se llevan bien y el equipo médico prefiere saberlo desde el principio.\n\n**¿Cómo tomarlo bien en casa?**\n- Respeta la dosis y el horario, aunque ya te sientas mejor\n- Termina los antibióticos completos si así te lo indicaron\n- No compartas tu tratamiento con otros familiares\n- Guarda las medicinas lejos de los niños y del calor\n\n**¿Y si algo te cae mal?**\nSi aparecen ronchas, comezón fuerte, vómito o te sientes peor, deja de tomarlo y llámanos para orientarte. Si se te hincha la cara o te falta el aire, llama al 911. Cuando una dosis te genere dudas en casa, escríbenos por WhatsApp a la clínica de Airline Drive.",
     "longDescriptionEn": "When the medical team prescribes treatment during your visit, you get the medication right there at Clínica Hispana Cruz before you leave. That spares you another stop while you are feeling sick, and you head home knowing, in Spanish or English, how and when to take it.\n\n**What can you take home from the pharmacy after your visit?**\n- The medications prescribed during your visit, brand-name or generic\n- Over-the-counter medicines for pain, fever, colds or allergies\n- Staff explanation of the dose and schedule for each one\n\n**How does it work once your visit ends?**\n1. The medical team examines you and decides which treatment you need.\n2. You go to the pharmacy area inside the same clinic.\n3. You receive the medication with its label and directions.\n4. Staff explains how many times a day to take it, whether with food and for how many days.\n5. You get your questions answered before leaving, with no rush.\n\n**What should you mention before getting your medication?**\nLet us know if you are allergic to any medicine, if you are pregnant or breastfeeding, and which other medicines, vitamins or teas you take. Bring a photo of the boxes or a list: some combinations don't mix well, and the medical team wants to know from the start.\n\n**How do you take it correctly at home?**\n- Stick to the dose and schedule, even once you feel better\n- Finish antibiotics completely if you were told to\n- Don't share your treatment with other family members\n- Store medicines away from children and heat\n\n**What if something doesn't agree with you?**\nIf you get hives, strong itching, vomiting or feel worse, stop taking it and call us for guidance. If your face swells or you can't breathe, call 911. When a dose leaves you unsure at home, message our Airline Drive clinic on WhatsApp.",
     "icon": "Pill",
@@ -1202,26 +1201,26 @@ export const SERVICES: Service[] = [
     "keywords": [
       "farmacia en houston",
       "farmacia hispana houston",
-      "farmacia cerca de mí houston",
-      "surtir receta houston"
+      "farmacia dentro de la clinica houston",
+      "medicamentos en la consulta houston"
     ],
     "keywordsEn": [
       "pharmacy houston",
       "hispanic pharmacy houston",
-      "pharmacy near me houston",
-      "fill prescription houston"
+      "in-clinic pharmacy houston",
+      "medications at your visit houston"
     ],
     "features": [
-      "Surtido de tu receta al instante",
-      "Medicamentos de marca y genéricos",
+      "Medicamentos indicados en la consulta",
       "Medicamentos de venta libre (OTC)",
-      "Asesoría sobre tus medicamentos en español"
+      "Indicaciones de uso en español",
+      "Sin ir a otra farmacia"
     ],
     "featuresEn": [
-      "Prescriptions filled on the spot",
-      "Brand-name and generic medications",
+      "Medications prescribed at your visit",
       "Over-the-counter (OTC) medications",
-      "Guidance about your medications in Spanish"
+      "Usage instructions in Spanish",
+      "No trip to another pharmacy"
     ],
     "highlighted": false,
     "order": 29
@@ -1749,7 +1748,7 @@ export const FAQ_ITEMS: FAQItem[] = [
     answer: "faq.a5",
   },
   {
-    id: "planes-pago",
+    id: "primera-visita",
     question: "faq.q6",
     answer: "faq.a6",
   },
@@ -1765,7 +1764,7 @@ export const FAQ_ITEMS: FAQItem[] = [
     href: "/services/examenes-inmigracion",
   },
   {
-    id: "tiempo-espera",
+    id: "laboratorio",
     question: "faq.q9",
     answer: "faq.a9",
   },

@@ -42,7 +42,7 @@ export async function Promotions() {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="animate-on-scroll fade-up mx-auto mb-12 max-w-2xl text-center md:mb-16">
-          <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-red-primary">
+          <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-red-dark">
             {t("eyebrow")}
           </p>
           <EkgLine static className="h-6 w-36 text-red-primary mx-auto mb-4" />

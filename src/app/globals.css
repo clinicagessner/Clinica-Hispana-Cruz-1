@@ -20,8 +20,9 @@
   --slate-light: #F1F5F9;
 
   /* WhatsApp (color oficial de la marca) */
-  --whatsapp: #25D366;
-  --whatsapp-dark: #1DA851;
+  /* Verde oscuro de WhatsApp: el blanco sobre #25D366 daba 1,98:1 (AA pide 4,5) */
+  --whatsapp: #15803D;
+  --whatsapp-dark: #166534;
 
   /* Estados */
   --error: #DC2626;

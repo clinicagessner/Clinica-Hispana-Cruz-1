@@ -193,7 +193,7 @@ export default async function ServicePage({ params }: Props) {
                 {service.title}
               </h1>
 
-              <p className="text-base sm:text-lg text-white/90 mb-6">
+              <p className="text-base sm:text-lg text-white mb-6">
                 {service.description}
               </p>
 
@@ -265,7 +265,7 @@ export default async function ServicePage({ params }: Props) {
                 <h3 className="text-xl md:text-2xl font-heading font-bold text-white mb-1">
                   {t("readyToSchedule")}
                 </h3>
-                <p className="text-white/90">
+                <p className="text-white">
                   {t("callOrVisit")}
                 </p>
               </div>
@@ -463,10 +463,10 @@ function ServiceContent({ content }: { content: string }) {
 
           return (
             <div key={i}>
-              <h3 className="text-lg md:text-xl font-heading font-bold text-slate-dark mb-3 flex items-center gap-2">
+              <h2 className="text-lg md:text-xl font-heading font-bold text-slate-dark mb-3 flex items-center gap-2">
                 <span className="size-1.5 rounded-full bg-red-primary shrink-0" />
                 {heading}
-              </h3>
+              </h2>
               {listItems.length > 0 && (
                 <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2 ml-4">
                   {listItems.map((item, j) => (

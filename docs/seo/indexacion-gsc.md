@@ -12,7 +12,7 @@ Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com*
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 <!-- /tandas:auto -->
 
-## Tanda 3 — cambios del 2026-10-08 (Cruz 1: cierre B0-B4 (home = landing de Ads; schema y footer globales))
+## Tanda 3 — cambios del 2026-10-08 (Cruz 1: cierre B0-B4 (home = landing de Ads; schema y footer globales))  📨 ENVIADA 08/10/2026
 
 - [ ] https://www.clinicahispanacruz.com/  — cambiada 2026-10-08
 - [ ] https://www.clinicahispanacruz.com/en  — cambiada 2026-10-08

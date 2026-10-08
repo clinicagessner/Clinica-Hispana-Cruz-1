@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { getLocale, getTranslations, setRequestLocale } from "next-intl/server";
 import { ArrowLeftIcon, StarIcon } from "@phosphor-icons/react/dist/ssr";
 import { Link } from "@/i18n/routing";
-import { ContactForm } from "@/components/forms/contact-form";
+import { LazyContactForm } from "@/components/forms/lazy-contact-form";
 import { PromotionsGrid } from "@/components/promotions/promotions-grid";
 import {
   JsonLdBreadcrumb,
@@ -185,7 +185,7 @@ export default async function PromotionsPage({ params }: Props) {
               <p className="text-lg text-muted-foreground">{t("formSubtitle")}</p>
             </div>
             <div className="mx-auto max-w-2xl rounded-2xl border border-slate-100 bg-white p-6 shadow-lg md:p-8">
-              <ContactForm />
+              <LazyContactForm />
             </div>
           </div>
         </section>

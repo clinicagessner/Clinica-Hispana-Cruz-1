@@ -9,6 +9,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { CalendarDotsIcon, ClockIcon, ArrowLeftIcon, PhoneIcon } from "@phosphor-icons/react/dist/ssr";
 import { JsonLdBlogPosting } from "@/components/seo/json-ld-blog";
+import { JsonLdMedicalClinicRef } from "@/components/seo/json-ld";
 
 // Dates in frontmatter are plain YYYY-MM-DD; format them in UTC so the day
 // does not shift depending on the server timezone.
@@ -109,6 +110,7 @@ export default async function BlogPostPage({ params }: Props) {
   return (
     <>
       <JsonLdBlogPosting post={post} locale={locale} />
+      <JsonLdMedicalClinicRef />
 
       <article>
         {/* Hero Header with Background Image */}

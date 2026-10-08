@@ -34,10 +34,11 @@ export async function Location() {
           <p className="text-lg text-white/70">{t("subtitle")}</p>
         </div>
 
-        {/* Entity definition: plain factual text that search engines and AI assistants can quote */}
-        <p className="animate-on-scroll fade-up max-w-3xl mx-auto mb-12 text-white/80 leading-relaxed">
-          {t("about")}
-        </p>
+        {/* Bloque de entidad (§12 B1): texto factual que buscadores e IAs pueden citar */}
+        <div className="animate-on-scroll fade-up max-w-3xl mx-auto mb-12">
+          <h3 className="font-heading font-bold text-xl md:text-2xl text-white mb-3">{t("aboutTitle")}</h3>
+          <p className="text-white/80 leading-relaxed">{t("about")}</p>
+        </div>
 
         <div className="grid lg:grid-cols-5 gap-8 max-w-6xl mx-auto">
           {/* Map - Takes 3 columns */}

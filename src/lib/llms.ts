@@ -67,7 +67,7 @@ function header({ reviews, rating, generatedAt }: LlmsOptions) {
 
 > ${es.location.about}
 
-Sitio en español: ${BASE}/ · Sitio en inglés: ${BASE}/en
+Sitio en español: [${BASE}/](${BASE}/) · Sitio en inglés: [${BASE}/en](${BASE}/en)
 Actualizado: ${formatDate(generatedAt.toISOString())}
 
 ## Datos de contacto
@@ -75,7 +75,7 @@ Actualizado: ${formatDate(generatedAt.toISOString())}
 - Nombre: ${SITE_CONFIG.name}
 - Dirección: ${CONTACT_INFO.address}, ${CONTACT_INFO.city}, ${CONTACT_INFO.state} ${CONTACT_INFO.zip} (norte de Houston, cerca de la I-45)
 - Teléfono: ${CONTACT_INFO.phoneFormatted}
-- WhatsApp: https://wa.me/${CONTACT_INFO.whatsapp}
+- WhatsApp: [wa.me/${CONTACT_INFO.whatsapp}](https://wa.me/${CONTACT_INFO.whatsapp})
 - Correo: ${CONTACT_INFO.email}
 - Horario: ${CONTACT_INFO.hours}
 - Cita previa: no es necesaria, se atiende por orden de llegada
@@ -84,14 +84,15 @@ Actualizado: ${formatDate(generatedAt.toISOString())}
 - Idiomas: español (principal) e inglés
 - Estacionamiento gratuito y acceso para sillas de ruedas
 - Reseñas: ${reviews.toLocaleString("en-US")} reseñas en Google con calificación ${rating.toFixed(1)} de 5
-- Google Maps: ${CONTACT_INFO.googleMapsUrl}
+- Google Maps: [cómo llegar](${CONTACT_INFO.googleMapsUrl})
 
 ## Perfiles externos
 
-- Google Business Profile: ${SOCIAL_LINKS.google}
-- Facebook: ${SOCIAL_LINKS.facebook}
-- Instagram: ${SOCIAL_LINKS.instagram}
-- Yelp: ${SOCIAL_LINKS.yelp}
+- [Google Business Profile](${SOCIAL_LINKS.google})
+- [Facebook](${SOCIAL_LINKS.facebook})
+- [Instagram](${SOCIAL_LINKS.instagram})
+- [TikTok](https://www.tiktok.com/@clinica.hispana.c)
+- [Yelp](${SOCIAL_LINKS.yelp})
 
 ## Otras clínicas del grupo Cruz en Houston
 
@@ -111,7 +112,7 @@ export function buildLlmsTxt(options: LlmsOptions) {
         g.services
           .map(
             (s) =>
-              `- [${s.title}](${BASE}/services/${s.slug}) (${s.titleEn ?? s.title}: ${BASE}/en/services/${s.slug}): ${s.description}`
+              `- [${s.title}](${BASE}/services/${s.slug}) ([${s.titleEn ?? s.title}](${BASE}/en/services/${s.slug})): ${s.description}`
           )
           .join("\n")
     )
@@ -135,11 +136,11 @@ Todos los servicios se atienden sin cita previa, en español, con o sin seguro m
 
 ${services}
 
-Listado completo: ${BASE}/services · English: ${BASE}/en/services
+Listado completo: [servicios](${BASE}/services) · English: [services](${BASE}/en/services)
 
 ## Promociones y paquetes (${promotions.length})
 
-Precios de pago directo vigentes en ${BASE}/promociones (English: ${BASE}/en/promociones).
+Precios de pago directo vigentes en [promociones](${BASE}/promociones) (English: [promotions](${BASE}/en/promociones)).
 
 ${promos}
 
@@ -147,12 +148,12 @@ ${promos}
 
 ${blog}
 
-Blog completo: ${BASE}/blog · English: ${BASE}/en/blog
+Blog completo: [blog](${BASE}/blog) · English: [blog in English](${BASE}/en/blog)
 
 ## Más información
 
-- Versión detallada de este archivo (descripciones completas y preguntas frecuentes): ${BASE}/llms-full.txt
-- Mapa del sitio: ${BASE}/sitemap.xml
+- [Versión detallada de este archivo](${BASE}/llms-full.txt) (descripciones completas y preguntas frecuentes)
+- [Mapa del sitio](${BASE}/sitemap.xml)
 `;
 }
 
@@ -175,8 +176,8 @@ export function buildLlmsFullTxt(options: LlmsOptions) {
               : "";
             return `### ${s.title}
 
-URL: ${BASE}/services/${s.slug}
-English: ${s.titleEn ?? s.title} — ${BASE}/en/services/${s.slug}
+URL: [${BASE}/services/${s.slug}](${BASE}/services/${s.slug})
+English: [${s.titleEn ?? s.title}](${BASE}/en/services/${s.slug})
 
 ${s.description}
 
@@ -223,7 +224,7 @@ ${services}
 
 # Promociones y paquetes (${promotions.length})
 
-Precios de pago directo vigentes en ${BASE}/promociones.
+Precios de pago directo vigentes en [promociones](${BASE}/promociones).
 
 ${promos}
 

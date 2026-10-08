@@ -277,5 +277,11 @@
     "formSubtitle": "Leave us your details and we'll contact you to schedule your appointment.",
     "metaTitle": "Medical Promotions & Packages in Houston TX",
     "metaDescription": "Affordable medical promotions and packages at Clínica Hispana Cruz, Houston TX. Checkups for men and women, hormone profile, intimate health, DOT exam, and more. 100% Spanish-speaking care, walk-ins welcome."
+  },
+  "medicalReview": {
+    "heading": "Medical review",
+    "reviewedBy": "Content reviewed by the {name} medical team.",
+    "published": "Published on",
+    "lastReviewed": "Last reviewed:"
   }
 }

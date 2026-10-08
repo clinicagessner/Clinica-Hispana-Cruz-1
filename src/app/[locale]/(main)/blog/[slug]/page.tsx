@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { CalendarDotsIcon, ClockIcon, ArrowLeftIcon, PhoneIcon } from "@phosphor-icons/react/dist/ssr";
 import { JsonLdBlogPosting } from "@/components/seo/json-ld-blog";
 import { JsonLdMedicalClinicRef } from "@/components/seo/json-ld";
+import { MedicalReview } from "@/components/seo/medical-review";
 
 // Dates in frontmatter are plain YYYY-MM-DD; format them in UTC so the day
 // does not shift depending on the server timezone.
@@ -92,7 +93,7 @@ export default async function BlogPostPage({ params }: Props) {
 
   setRequestLocale(locale);
 
-  const t = await getTranslations("blog");
+  const [t, tReview] = await Promise.all([getTranslations("blog"), getTranslations("medicalReview")]);
 
   const getLocalizedHref = (href: string) => {
     if (locale === "es") return href;
@@ -185,6 +186,21 @@ export default async function BlogPostPage({ params }: Props) {
           <div className="max-w-3xl mx-auto">
             <div className="blog-content">
               <div dangerouslySetInnerHTML={{ __html: parseMarkdown(post.content, locale) }} />
+            </div>
+
+            {/* Revisión médica (§12 B2) */}
+            <div className="mt-10">
+              <MedicalReview
+                published={post.date}
+                reviewed={post.dateModified ?? post.date}
+                locale={locale}
+                labels={{
+                  heading: tReview("heading"),
+                  reviewedBy: tReview("reviewedBy", { name: SITE_CONFIG.name }),
+                  published: tReview("published"),
+                  lastReviewed: tReview("lastReviewed"),
+                }}
+              />
             </div>
 
             {/* CTA Section */}

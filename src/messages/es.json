@@ -277,5 +277,11 @@
     "formSubtitle": "Déjenos sus datos y le contactamos para agendar su cita.",
     "metaTitle": "Promociones y Paquetes Médicos en Houston TX",
     "metaDescription": "Promociones y paquetes médicos a precios accesibles en Clínica Hispana Cruz, Houston TX. Exámenes para hombres y mujeres, perfil hormonal, salud íntima, examen DOT y más. Atención 100% en español, sin cita previa."
+  },
+  "medicalReview": {
+    "heading": "Revisión médica",
+    "reviewedBy": "Contenido revisado por el equipo médico de {name}.",
+    "published": "Publicado el",
+    "lastReviewed": "Última revisión:"
   }
 }

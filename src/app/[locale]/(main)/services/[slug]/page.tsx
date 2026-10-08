@@ -38,7 +38,9 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { SERVICES, SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
 import { getLocalizedService } from "@/lib/utils";
 import { getServiceFAQs } from "@/lib/service-faqs";
-import { JsonLdBreadcrumb, JsonLdMedicalProcedure, JsonLdFAQ, JsonLdMedicalClinicRef } from "@/components/seo/json-ld";
+import { JsonLdBreadcrumb, JsonLdMedicalProcedure, JsonLdFAQ, JsonLdMedicalClinicRef, JsonLdMedicalWebPage } from "@/components/seo/json-ld";
+import { MedicalReview } from "@/components/seo/medical-review";
+import { serviceLastReviewed } from "@/lib/content-dates";
 
 const iconMap: Record<string, React.ElementType> = {
   Stethoscope: StethoscopeIcon,
@@ -127,7 +129,7 @@ export default async function ServicePage({ params }: Props) {
   // Enable static rendering for this page
   setRequestLocale(locale);
 
-  const t = await getTranslations("services");
+  const [t, tReview] = await Promise.all([getTranslations("services"), getTranslations("medicalReview")]);
   const rawService = SERVICES.find((s) => s.slug === slug);
 
   if (!rawService) {
@@ -318,6 +320,24 @@ export default async function ServicePage({ params }: Props) {
           </section>
         )}
 
+        {/* Revisión médica (§12 B2) */}
+        <section className="pb-4">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              <MedicalReview
+                reviewed={serviceLastReviewed(rawService.slug)}
+                locale={locale}
+                labels={{
+                  heading: tReview("heading"),
+                  reviewedBy: tReview("reviewedBy", { name: SITE_CONFIG.name }),
+                  published: tReview("published"),
+                  lastReviewed: tReview("lastReviewed"),
+                }}
+              />
+            </div>
+          </div>
+        </section>
+
         {/* Related Services */}
         {relatedServices.length > 0 && (
           <section className="py-12 md:py-16 bg-slate-50">
@@ -382,6 +402,14 @@ export default async function ServicePage({ params }: Props) {
         slug={service.slug}
       />
       <JsonLdMedicalClinicRef />
+      <JsonLdMedicalWebPage
+        url={`${SITE_CONFIG.baseUrl}${localePath}/services/${service.slug}`}
+        slug={rawService.slug}
+        name={service.title}
+        description={service.description}
+        lastReviewed={serviceLastReviewed(rawService.slug)}
+        locale={locale}
+      />
       {getServiceFAQs(rawService.slug, locale).length > 0 && (
         <JsonLdFAQ questions={getServiceFAQs(rawService.slug, locale)} />
       )}

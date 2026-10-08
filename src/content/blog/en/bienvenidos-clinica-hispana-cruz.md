@@ -1,103 +1,94 @@
 ---
 slug: "bienvenidos-clinica-hispana-cruz"
-title: "Welcome to Clínica Hispana Cruz!"
-description: "Discover our Hispanic medical clinic in Houston, TX. Professional care in Spanish, affordable prices, and a team committed to your health."
+title: "Welcome to Clínica Hispana Cruz on Airline Dr, Houston"
+description: "Meet Clínica Hispana Cruz: Spanish-speaking care in North Houston, walk-in and no insurance needed, open every day from 9 AM to 9 PM on Airline Drive."
 date: "2026-03-16"
-dateModified: "2026-03-21"
+dateModified: "2026-10-08"
 author: "Clínica Hispana Cruz"
 image: "/images/hero-bg.webp"
 featured: false
 category: "Announcements"
-readTime: 4
+readTime: 3
 keywords:
-  - "Hispanic clinic Houston"
-  - "Spanish speaking doctor Houston"
-  - "Hispanic doctor Houston TX"
-  - "medical care in Spanish Houston"
-  - "walk-in clinic Houston"
+  - "Hispanic clinic Airline Drive Houston"
+  - "Spanish-speaking clinic North Houston"
+  - "walk-in clinic Aldine Greenspoint"
+  - "medical care in Spanish 77037"
+  - "Latino clinic open weekends Houston"
 ---
 
-# Welcome to Clínica Hispana Cruz!
+# Welcome to Clínica Hispana Cruz on Airline Dr, Houston
 
-We are thrilled to welcome you to our website. At **Clínica Hispana Cruz**, we are dedicated to providing quality medical care to the Hispanic community in Houston, TX, and the surrounding areas.
+Clínica Hispana Cruz is a Spanish-speaking medical clinic at 7640 Airline Dr, Suite D, in North Houston. The clinic opened its doors in July 2023 and sees patients seven days a week, 9 AM to 9 PM; you don't need an appointment or insurance. This blog is here to explain, in plain language, how to look after your health and how to make the most of what the clinic offers.
 
-## Our Mission
+## Why We Opened in North Houston
 
-Our mission is simple but powerful: to deliver **accessible, professional, and fully Spanish-language medical care** to every family that walks through our doors. We understand that a language barrier can be a significant obstacle when it comes to your health, which is why we make sure every patient feels comfortable and truly understood.
+Many families in Aldine, Greenspoint, Hidden Valley, Northline, and East Aldine work long shifts, sometimes six or seven days a week. Taking time off for a weekday appointment isn't always possible, and describing a symptom in a second language can be hard. We wanted a clinic close to home, right on Airline Drive and a few minutes from I-45, with hours that work for people who get off late or only have Sunday free.
 
-## Why Choose Us?
+## What a Visit Looks Like
 
-### Care in Spanish
-Every member of our staff speaks fluent Spanish. From the moment you walk in to the moment you leave with your treatment, you will be served in your language.
+1. **Walk in.** Patients are seen in order of arrival.
+2. **Check in in Spanish** (or English, if you prefer).
+3. **Talk with the clinic's medical team**, who listen to why you came in and walk you through your options without rushing.
+4. **Get any tests you need**, many of them right at the clinic.
+5. **Head home with written instructions**, and if a medication is prescribed, it's given to you before you leave the clinic.
 
-### No Appointment Needed
-We know health emergencies don't wait. That's why we offer walk-in care so you can get the attention you need, when you need it.
+You can ask about cost before any service. Payment is direct, by cash or credit/debit card, and current offers are posted on the [promotions](/promociones) page.
 
-### Affordable Prices
-We believe health care should not be a luxury. We offer fair, transparent pricing and see patients without insurance.
+## What You Can Take Care of Here
 
-### Convenient Location
-We are located at **7640 Airline Dr # D, Houston, TX 77037**, with easy access and ample free parking.
+The clinic brings together services that families often have to track down in different places:
 
-## Our Services
+### Everyday Health
+- Flu, cough, asthma, and other [respiratory illnesses](/services/enfermedades-respiratorias)
+- Allergies, urinary tract infections, and rapid strep testing
+- Diabetes, blood pressure, and cholesterol care under [chronic conditions](/services/condiciones-cronicas)
 
-We offer a wide range of medical services for the whole family:
+### Lab Work and Testing
+- [Blood tests](/services/examenes-sangre), urine tests, and stool tests
+- EKG and [ultrasound](/services/ultrasonido)
 
-- [**Family Medicine**](/services/condiciones-cronicas) — Comprehensive care for all ages, from children to seniors. Preventive checkups, treatment of acute illnesses, and general health follow-up.
-- [**Immigration Medical Exams**](/services/examenes-inmigracion) — I-693 form completed by USCIS-certified Civil Surgeons. The entire process conducted in Spanish.
-- [**Clinical Laboratory**](/services/examenes-sangre) — Blood tests, urinalysis, and more with fast, accurate results — all in one place.
-- [**Gynecology**](/services/ginecologia) — Complete women's health care: Pap smears, pelvic exams, family planning, and more.
-- [**Chronic Conditions**](/services/condiciones-cronicas) — Specialized management of diabetes, hypertension, high cholesterol, and other long-term conditions.
-- [**Ultrasound & EKG**](/services/ultrasonido) — Diagnostic imaging available at our clinic, no outside referrals needed.
-- [**Respiratory Illnesses**](/services/enfermedades-respiratorias) — Treatment of asthma, bronchitis, pneumonia, and other lung conditions.
-- [**Urology**](/services/salud-hombre) — Care for urinary and male reproductive health concerns.
-- [**Vaccines & Contraceptives**](/services/vacunas) — Complete vaccination schedules for all ages and contraceptive methods.
+### Women's and Men's Health
+- Gynecology, pregnancy tests, and birth control
+- Men's health visits
 
-## Houston's Hispanic Community and Their Health Needs
+### Exams and Paperwork
+- The [I-693 immigration medical exam](/services/examenes-inmigracion), performed by a Civil Surgeon designated by USCIS
+- DOT physicals for commercial drivers
+- School physicals, TB testing, and drug and alcohol testing
 
-Houston is one of the cities with the largest Hispanic population in the entire United States. According to Census data, more than **1.5 million Hispanics** live in the Houston metropolitan area, representing nearly 44% of the total population. Despite this, many face significant barriers to accessing quality medical care:
+### Minor Procedures
+- Stitches, wound care, abscess drainage, and ingrown nails
 
-- **Language barrier:** Many Hispanics in Houston speak little or no English, making it difficult to accurately describe symptoms and understand diagnoses.
-- **Lack of health insurance:** Uninsured rates are higher in the Hispanic community than in other groups.
-- **Distrust of the healthcare system:** Negative past experiences or lack of awareness about available services can create fear or reluctance to seek care.
-- **Incompatible schedules:** Many Hispanic workers have jobs that don't align with typical clinic and office hours.
+If a result calls for it, the team will help guide a referral to a specialist.
 
-At Clínica Hispana Cruz, we understand these realities firsthand. That is why we designed our services to break down these barriers: fully bilingual staff, extended hours Monday through Friday until 9 PM and weekends, transparent pricing, and care for patients without insurance.
+## A Place Designed to Put You at Ease
 
-## Clínica Hispana Cruz vs. the Emergency Room
+| Detail | How it works |
+|---|---|
+| Language | Care in Spanish; English too |
+| Hours | Every day of the week, 9 AM–9 PM |
+| Appointments | Not needed: first come, first served |
+| Insurance | Not required; self-pay |
+| Parking | Free |
+| Accessibility | Wheelchair-accessible entrance and restrooms |
+| Contact | Phone and WhatsApp |
 
-Many patients in Houston go to hospital emergency rooms even for non-urgent situations because they don't know where else to turn. This can result in medical bills of thousands of dollars and waits of several hours. Clínica Hispana Cruz is the smart alternative for most healthcare needs:
+## When Not to Come to the Clinic
 
-| Situation | Emergency Room | Clínica Hispana Cruz |
-|---|---|---|
-| Flu, fever, cough | 3-6 hour wait, high cost | Fast care, affordable price |
-| Diabetes or blood pressure management | Generally not available | Yes, with ongoing follow-up |
-| I-693 immigration exam | Not available | USCIS-certified Civil Surgeons |
-| Lab results | Days of waiting | Same day in most cases |
-| Care in Spanish | Not guaranteed | 100% in Spanish |
+Some situations call for an emergency room, not a clinic. Call 911 for severe chest pain, serious trouble breathing, signs of a stroke (a drooping face, weakness on one side of the body, slurred speech), heavy bleeding, or loss of consciousness. [MedlinePlus](https://medlineplus.gov/) has clear, reliable information on recognizing these warning signs.
 
-For life-threatening conditions such as heart attacks, strokes, or serious accidents, always call 911 or go to the nearest emergency room. For everything else, **we are here for you**.
+## What You'll Find on This Blog
 
-## Our Commitment
+We'll publish practical guides on the topics patients ask us about most:
 
-Every day, we strive to:
+- How to prepare for a lab test
+- What to bring to an immigration exam or a DOT physical
+- How to live well with diabetes or high blood pressure
+- What to do if you don't have health insurance
 
-1. **Listen** to our patients with attention and empathy
-2. **Diagnose** accurately using modern technology
-3. **Treat** to the highest medical standards
-4. **Educate** on prevention and healthy living
+Everything on the blog is general information and isn't a substitute for a visit. If something you read worries you, the best next step is to have the clinic's medical team check it in person.
 
-## Visit Us Today
+## We Look Forward to Meeting You
 
-We invite you to come see our facility and meet our team of health care professionals. We are here to serve you and your family.
-
-**Office Hours:**
-- Monday through Sunday: 9:00 AM - 9:00 PM
-
-**Contact Us:**
-- Phone: (281) 741-2157
-- Address: 7640 Airline Dr # D, Houston, TX 77037
-
-We look forward to seeing you soon!
-
-*The Clínica Hispana Cruz team*
+If you live or work in North Houston, stop by any day from 9 AM to 9 PM at 7640 Airline Dr, Suite D, Houston, TX 77037. Feel free to message us on WhatsApp if you have questions before you come.

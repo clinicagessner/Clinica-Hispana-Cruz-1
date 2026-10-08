@@ -1360,9 +1360,9 @@ export const PROMOTIONS: Promotion[] = [
     titleEn: "Prostate Warning Signs",
     price: null,
     blurb:
-      "¿Te levantas varias veces en la noche a orinar? Podría ser una señal de que tu próstata necesita atención, sobre todo en hombres mayores de 40. Una evaluación médica ayuda a identificar la causa a tiempo.",
+      "Orinar más de una vez cada noche, un chorro que sale con poca fuerza o tardar en arrancar son molestias que muchos hombres pasados los 40 van dejando para después. En la clínica se revisan en una consulta para encontrar la causa a tiempo.",
     blurbEn:
-      "Getting up several times at night to urinate? It could be a sign your prostate needs attention, especially in men over 40. A medical evaluation helps identify the cause early.",
+      "Waking up more than once a night to pee, a stream that comes out with little force or trouble getting it started are things many men past 40 keep putting off. At the clinic they are checked during a visit so the cause is found early.",
     includes: [
       "Chorro débil",
       "Dificultad para empezar a orinar",
@@ -1646,9 +1646,9 @@ export const PROMOTIONS: Promotion[] = [
     titleEn: "Complete General Checkup",
     price: "$99",
     blurb:
-      "Chequeo general completo por solo $99 (valor regular $250) con examen general de sangre, A1C (hemoglobina glicosilada), examen general de orina y consulta médica gratis. Cuídate hoy, vive mejor mañana.",
+      "Por $99, frente a los $250 de valor regular, este paquete reúne en una sola visita el examen general de sangre, la A1C (que refleja el promedio del azúcar de los últimos meses), el examen general de orina y la consulta médica sin costo.",
     blurbEn:
-      "A complete general checkup for only $99 (regular value $250) with a general blood test, A1C (glycated hemoglobin), a general urine test, and a free medical consultation. Take care of yourself today, live better tomorrow.",
+      "For $99 instead of the $250 regular value, this package brings together in one visit a general blood panel, an A1C (which reflects your average blood sugar over recent months), a general urinalysis and the medical consultation at no charge.",
     includes: [
       "Examen general de sangre",
       "A1C (hemoglobina glicosilada)",
@@ -1697,9 +1697,9 @@ export const PROMOTIONS: Promotion[] = [
     titleEn: "Special Family Promotion",
     price: null,
     blurb:
-      "Cuida tu salud y la de toda tu familia: examen de orina y glucosa (glucotest) gratis, chequeo médico general a bajo costo, para adultos y niños. Pregunta por tu membresía gratis con 20% de descuento y consulta gratis durante 1 año.",
+      "Pensada para toda la familia, adultos y niños: el examen de orina y la glucosa con glucotest no cuestan nada y el chequeo médico general sale a bajo costo. En recepción pregunta por la membresía gratis, que da 20% de descuento y consulta gratis durante un año.",
     blurbEn:
-      "Take care of your health and your whole family's: free urine test and glucose (glucotest), a low-cost general medical checkup, for adults and children. Ask about your free membership with 20% off and a free consultation for 1 year.",
+      "Made for the whole family, adults and kids alike: the urine test and the glucotest blood sugar check cost nothing, and the general medical checkup is low cost. At the front desk, ask about the free membership, which gives 20% off and free visits for a year.",
     includes: [
       "Examen de orina gratis",
       "Glucosa (glucotest) gratis",

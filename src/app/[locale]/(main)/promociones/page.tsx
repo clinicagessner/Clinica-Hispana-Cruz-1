@@ -110,7 +110,7 @@ export default async function PromotionsPage({ params }: Props) {
       />
       <JsonLdFAQ questions={faqs} />
 
-      <main className="min-h-screen bg-background">
+      <div className="min-h-screen bg-background">
         <div className="container mx-auto px-4 pt-28 pb-16 md:pt-32 md:pb-24">
           {/* Back to home */}
           <Link
@@ -194,7 +194,7 @@ export default async function PromotionsPage({ params }: Props) {
             </div>
           </div>
         </section>
-      </main>
+      </div>
     </>
   );
 }

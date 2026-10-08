@@ -151,7 +151,7 @@ export default async function ServicePage({ params }: Props) {
 
   return (
     <>
-      <main className="min-h-screen bg-background">
+      <div className="min-h-screen bg-background">
         {/* Hero Section */}
         <section className="relative pt-28 pb-12 md:pt-32 md:pb-16 overflow-hidden">
           <div className="absolute inset-0">
@@ -371,7 +371,7 @@ export default async function ServicePage({ params }: Props) {
             </div>
           </section>
         )}
-      </main>
+      </div>
 
       <JsonLdBreadcrumb items={breadcrumbs} />
       <JsonLdMedicalProcedure

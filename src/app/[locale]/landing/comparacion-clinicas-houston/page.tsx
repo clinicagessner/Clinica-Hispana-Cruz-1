@@ -243,7 +243,7 @@ export default async function LandingComparacionClinicasHouston({ params }: Prop
     .map((s) => getLocalizedService(s, locale));
 
   return (
-    <main>
+    <div>
       {/* Hero */}
       <section className="relative min-h-[80vh] flex items-center overflow-hidden">
         <Image
@@ -594,6 +594,6 @@ export default async function LandingComparacionClinicasHouston({ params }: Prop
           </div>
         </div>
       </section>
-    </main>
+    </div>
   );
 }

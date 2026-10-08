@@ -81,7 +81,7 @@ export default async function ServicesPage({ params }: Props) {
         description={t("subtitle")}
         url={`${SITE_CONFIG.baseUrl}${localePath}/services`}
       />
-      <main className="min-h-screen bg-background">
+      <div className="min-h-screen bg-background">
         {/* Hero Header */}
         <section className="relative pt-28 pb-12 md:pt-32 md:pb-16 overflow-hidden">
           <div className="absolute inset-0 bg-linear-to-br from-red-primary via-red-dark to-slate-900" />
@@ -101,7 +101,7 @@ export default async function ServicesPage({ params }: Props) {
 
         {/* Services with Filter */}
         <ServicesFilter services={sortedServices} categories={categories} />
-      </main>
+      </div>
     </>
   );
 }

@@ -17,7 +17,7 @@ export default function ServiceError({
   }, [error]);
 
   return (
-    <main className="min-h-screen bg-background flex items-center justify-center px-4">
+    <div className="min-h-screen bg-background flex items-center justify-center px-4">
       <div className="text-center max-w-md">
         <div className="size-16 rounded-full bg-red-100 text-red-primary flex items-center justify-center mx-auto mb-6">
           <WarningCircleIcon className="size-8" weight="fill" />
@@ -44,6 +44,6 @@ export default function ServiceError({
           </Button>
         </div>
       </div>
-    </main>
+    </div>
   );
 }

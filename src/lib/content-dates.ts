@@ -3,7 +3,8 @@
 // MedicalWebPage.lastReviewed), para que las fechas no diverjan.
 // Fecha del catálogo según el historial de git; las excepciones van en
 // SERVICE_DATES con su propia fecha. Se sube solo cuando cambia el texto.
-export const SERVICES_LAST_REVIEWED = "2026-09-04";
+// 2026-10-08: B3 (texto y 3 FAQ propios en los 29 servicios).
+export const SERVICES_LAST_REVIEWED = "2026-10-08";
 export const SERVICE_DATES: Record<string, string> = {};
 
 export function serviceLastReviewed(slug: string): string {

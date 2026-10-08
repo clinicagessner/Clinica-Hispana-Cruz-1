@@ -7,13 +7,13 @@ import { routing } from "@/i18n/routing";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { ScrollToTop } from "@/components/layout/scroll-to-top";
 import { ScrollAnimations } from "@/components/animations/scroll-animations";
-import { GoogleAnalytics } from "@next/third-parties/google";
 import Script from "next/script";
 import { SITE_CONFIG, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getGooglePlaceData } from "@/lib/google-places";
 import "../globals.css";
 import Image from "next/image";
 import { ConversionEvents } from "@/components/tracking/conversion-events";
+import { GoogleTags } from "@/components/tracking/google-tags";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -133,8 +133,6 @@ export function generateStaticParams() {
 
 // IDs de analitica por variable de entorno: sin variable, el script no se inyecta
 // (evita mandar datos a cuentas equivocadas en dev/preview y permite rotar IDs sin tocar codigo).
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
-const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID;
 const META_PIXEL_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID;
 const CALLRAIL_SWAP_SRC = process.env.NEXT_PUBLIC_CALLRAIL_SWAP_SRC;
 
@@ -157,18 +155,6 @@ export default async function LocaleLayout({ children, params }: Props) {
       <head>
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#DC2626" />
-        {/* Preconnect to external domains for faster loading */}
-        <link rel="preconnect" href="https://connect.facebook.net" />
-        <link rel="preconnect" href="https://maps.googleapis.com" />
-        <link rel="preconnect" href="https://lh3.googleusercontent.com" />
-        {CALLRAIL_SWAP_SRC && (
-          <>
-            <link rel="preconnect" href="https://cdn.callrail.com" />
-            <link rel="dns-prefetch" href="https://cdn.callrail.com" />
-            {/* CallRail - Call Tracking (number swap) */}
-            <script type="text/javascript" src={CALLRAIL_SWAP_SRC} async />
-          </>
-        )}
         {/* Meta Pixel noscript fallback */}
         {META_PIXEL_ID && (
           <noscript>
@@ -192,38 +178,10 @@ export default async function LocaleLayout({ children, params }: Props) {
         </NextIntlClientProvider>
         <ConversionEvents />
       </body>
-      {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
-      {META_PIXEL_ID && (
-        <Script id="meta-pixel" strategy="afterInteractive">
-          {`
-            !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '${META_PIXEL_ID}');
-            fbq('track', 'PageView');
-          `}
-        </Script>
-      )}
-      {GOOGLE_ADS_ID && (
-        <>
-          <Script
-            src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ADS_ID}`}
-            strategy="afterInteractive"
-          />
-          <Script id="google-ads-tag" strategy="afterInteractive">
-            {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('config', '${GOOGLE_ADS_ID}');
-            `}
-          </Script>
-        </>
-      )}
+      {/* GA4, Ads y Meta Pixel: con la primera interacción (google-tags.tsx) */}
+      <GoogleTags />
+      {/* CallRail (cambio de número) tras la carga: no compite con el LCP (§7 B0.12) */}
+      {CALLRAIL_SWAP_SRC && <Script id="callrail-swap" src={CALLRAIL_SWAP_SRC} strategy="lazyOnload" />}
     </html>
   );
 }

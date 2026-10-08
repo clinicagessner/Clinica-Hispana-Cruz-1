@@ -45,7 +45,9 @@ async function fetchGooglePlaceDetails(): Promise<GooglePlaceData | null> {
     return null;
   }
 
-  try {
+  // Sin try/catch aquí: si falla, la promesa se rechaza y unstable_cache no
+  // guarda el fallo (se reintenta en la próxima petición).
+  {
     const url = new URL(`https://places.googleapis.com/v1/places/${placeId}`);
     url.searchParams.set("fields", "rating,userRatingCount,reviews");
     url.searchParams.set("languageCode", "es");
@@ -64,8 +66,13 @@ async function fetchGooglePlaceDetails(): Promise<GooglePlaceData | null> {
     const data: PlacesV1Response = await response.json();
 
     if (data.error) {
-      console.error("Google Places API error:", data.error.status, data.error.message);
-      return null;
+      throw new Error(`Google Places API error: ${data.error.status} ${data.error.message}`);
+    }
+
+    // Places omite `reviews` en silencio si el proyecto de la clave pierde la
+    // facturación: se trata como fallo para no cachear una respuesta vacía.
+    if (!data.reviews?.length) {
+      throw new Error("Google Places API: respuesta sin reseñas");
     }
 
     // Filter: only 5-star reviews with text
@@ -90,20 +97,26 @@ async function fetchGooglePlaceDetails(): Promise<GooglePlaceData | null> {
       totalReviews: data.userRatingCount ?? 0,
       reviews: filteredReviews,
     };
-  } catch (error) {
-    console.error("Error fetching Google Place details:", error);
-    return null;
   }
 }
 
-// Cached version - revalidates every week
-// v2: clave renombrada para invalidar la entrada cacheada mientras la API
-// devolvía 403 (facturación desactivada en Google Cloud, ago 2026).
-export const getGooglePlaceData = unstable_cache(
+// Cached version - revalidates every week. Solo se cachean respuestas buenas.
+// v3: clave renombrada para no heredar una entrada cacheada con el fallo
+// (la Data Cache de Vercel sobrevive a los deploys).
+const getCachedGooglePlaceData = unstable_cache(
   fetchGooglePlaceDetails,
-  ["google-place-data-v2"],
+  ["google-place-data-v3"],
   {
     revalidate: 604800, // 1 week
     tags: ["google-reviews"],
   }
 );
+
+export async function getGooglePlaceData(): Promise<GooglePlaceData | null> {
+  try {
+    return await getCachedGooglePlaceData();
+  } catch (error) {
+    console.error("Error fetching Google Place details:", error);
+    return null;
+  }
+}

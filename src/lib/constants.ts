@@ -44,9 +44,9 @@ export const SOCIAL_LINKS: SocialLinks = {
 };
 
 // Google Reviews fallback (la Places API New provee los datos en vivo).
-// Valores verificados contra la Places API el 10 jul 2026.
+// Valores verificados contra la web en producción (Places) el 8 oct 2026.
 export const GOOGLE_REVIEWS_DATA = {
-  totalReviews: 952,
+  totalReviews: 1082,
   averageRating: 5.0,
   placeId: "ChIJA73gaPq3QIYRlhsV5i4qsAk",
 };

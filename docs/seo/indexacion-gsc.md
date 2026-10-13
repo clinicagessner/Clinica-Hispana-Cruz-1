@@ -12,18 +12,18 @@ Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com*
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 <!-- /tandas:auto -->
 
-## Tanda 4  📨 ENVIADA 13/10/2026
+## Tanda 4  ✅ PEDIDA 13/10/2026
 
-- [ ] https://www.clinicahispanacruz.com/services/extraccion-implantes  — cambiada 2026-10-08 · rastreada 2026-10-07 · indexada · 707 impr.
-- [ ] https://www.clinicahispanacruz.com/services  — cambiada 2026-10-08 · rastreada 2026-10-06 · indexada · 280 impr.
-- [ ] https://www.clinicahispanacruz.com/services/prueba-embarazo  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 251 impr.
-- [ ] https://www.clinicahispanacruz.com/services/sueros-vitaminados  — cambiada 2026-10-08 · rastreada 2026-10-07 · indexada · 218 impr.
-- [ ] https://www.clinicahispanacruz.com/promociones  — cambiada 2026-10-08 · rastreada 2026-10-03 · indexada · 175 impr.
-- [ ] https://www.clinicahispanacruz.com/services/examenes-inmigracion  — cambiada 2026-10-08 · rastreada 2026-09-26 · indexada · 149 impr.
-- [ ] https://www.clinicahispanacruz.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-10-08 · rastreada 2026-09-27 · indexada · 122 impr.
-- [ ] https://www.clinicahispanacruz.com/services/ginecologia  — cambiada 2026-10-08 · rastreada 2026-09-21 · indexada · 119 impr.
-- [ ] https://www.clinicahispanacruz.com/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-10-08 · rastreada 2026-09-27 · indexada · 88 impr.
-- [ ] https://www.clinicahispanacruz.com/services/prueba-strep  — cambiada 2026-10-08 · rastreada 2026-09-26 · indexada · 77 impr.
+- [x] https://www.clinicahispanacruz.com/services/extraccion-implantes  — cambiada 2026-10-08 · rastreada 2026-10-07 · indexada · 707 impr.
+- [x] https://www.clinicahispanacruz.com/services  — cambiada 2026-10-08 · rastreada 2026-10-06 · indexada · 280 impr.
+- [x] https://www.clinicahispanacruz.com/services/prueba-embarazo  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 251 impr.
+- [x] https://www.clinicahispanacruz.com/services/sueros-vitaminados  — cambiada 2026-10-08 · rastreada 2026-10-07 · indexada · 218 impr.
+- [x] https://www.clinicahispanacruz.com/promociones  — cambiada 2026-10-08 · rastreada 2026-10-03 · indexada · 175 impr.
+- [x] https://www.clinicahispanacruz.com/services/examenes-inmigracion  — cambiada 2026-10-08 · rastreada 2026-09-26 · indexada · 149 impr.
+- [x] https://www.clinicahispanacruz.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-10-08 · rastreada 2026-09-27 · indexada · 122 impr.
+- [x] https://www.clinicahispanacruz.com/services/ginecologia  — cambiada 2026-10-08 · rastreada 2026-09-21 · indexada · 119 impr.
+- [x] https://www.clinicahispanacruz.com/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-10-08 · rastreada 2026-09-27 · indexada · 88 impr.
+- [x] https://www.clinicahispanacruz.com/services/prueba-strep  — cambiada 2026-10-08 · rastreada 2026-09-26 · indexada · 77 impr.
 
 ## Tanda 5
 

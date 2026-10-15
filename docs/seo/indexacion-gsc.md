@@ -34,9 +34,21 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/services/anticonceptivos  — cambiada 2026-10-08 · rastreada 2026-09-26 · indexada · 177 impr.
 - [ ] https://www.clinicahispanacruz.com/services/unas-encarnadas  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 147 impr.
 
+## Tanda 29 — cambios del 2026-10-15 (farmacia en la clínica)
+
+- [ ] https://www.clinicahispanacruz.com/services/farmacia  — cambiada 2026-10-15
+- [ ] https://www.clinicahispanacruz.com/en/services/farmacia  — cambiada 2026-10-15
+- [ ] https://www.clinicahispanacruz.com/services/infecciones-urinarias  — cambiada 2026-10-15
+- [ ] https://www.clinicahispanacruz.com/en/services/infecciones-urinarias  — cambiada 2026-10-15
+- [ ] https://www.clinicahispanacruz.com/services/alergias  — cambiada 2026-10-15
+- [ ] https://www.clinicahispanacruz.com/en/services/alergias  — cambiada 2026-10-15
+- [ ] https://www.clinicahispanacruz.com/services/enfermedades-respiratorias  — cambiada 2026-10-15
+- [ ] https://www.clinicahispanacruz.com/en/services/enfermedades-respiratorias  — cambiada 2026-10-15
+- [ ] https://www.clinicahispanacruz.com/services/prueba-strep  — cambiada 2026-10-15
+- [ ] https://www.clinicahispanacruz.com/en/services/prueba-strep  — cambiada 2026-10-15
+
 ## Tanda 23
 
-- [ ] https://www.clinicahispanacruz.com/services/infecciones-urinarias  — cambiada 2026-10-08 · rastreada 2026-09-26 · indexada · 31 impr.
 - [ ] https://www.clinicahispanacruz.com/services/ultrasonido  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 26 impr.
 - [ ] https://www.clinicahispanacruz.com/services/tiroides  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 20 impr.
 - [ ] https://www.clinicahispanacruz.com/services/condiciones-cronicas  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 18 impr.
@@ -56,28 +68,23 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/services/examen-fisico-escolar  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 5 impr.
 - [ ] https://www.clinicahispanacruz.com/services/vacunas  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 5 impr.
 - [ ] https://www.clinicahispanacruz.com/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-10-08 · rastreada 2026-10-04 · indexada · 4 impr.
-- [ ] https://www.clinicahispanacruz.com/services/alergias  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 4 impr.
 - [ ] https://www.clinicahispanacruz.com/services/suturas-heridas  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 3 impr.
 - [ ] https://www.clinicahispanacruz.com/blog  — cambiada 2026-10-08 · rastreada 2026-10-07 · indexada · 2 impr.
 
 ## Tanda 25
 
-- [ ] https://www.clinicahispanacruz.com/services/farmacia  — cambiada 2026-10-08 · rastreada 2026-09-26 · indexada · 2 impr.
-- [ ] https://www.clinicahispanacruz.com/services/enfermedades-respiratorias  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 1 impr.
 - [ ] https://www.clinicahispanacruz.com/en/blog/bienvenidos-clinica-hispana-cruz  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 198 impr.
 - [ ] https://www.clinicahispanacruz.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-10-08 · rastreada 2026-09-27 · indexada · 22 impr.
 - [ ] https://www.clinicahispanacruz.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 22 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services  — cambiada 2026-10-08 · rastreada 2026-09-09 · indexada · 19 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/vacunas  — cambiada 2026-10-08 · rastreada 2026-07-11 · rastreada sin indexar · 18 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/examen-fisico-escolar  — cambiada 2026-10-08 · rastreada 2026-09-21 · indexada · 16 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/farmacia  — cambiada 2026-10-08 · rastreada 2026-10-03 · indexada · 16 impr.
 - [ ] https://www.clinicahispanacruz.com/en/promociones  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 15 impr.
 
 ## Tanda 26
 
 - [ ] https://www.clinicahispanacruz.com/en/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 13 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/examen-dot  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 8 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/alergias  — cambiada 2026-10-08 · rastreada 2026-09-11 · indexada · 7 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/cirugias-menores  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 5 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/unas-encarnadas  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 5 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/ginecologia  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · pedida 2026-10-05 · 4 impr.
@@ -104,10 +111,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 0 impr.
 - [ ] https://www.clinicahispanacruz.com/en/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-10-08 · rastreada 2026-08-20 · indexada · 0 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/condiciones-cronicas  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 0 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/enfermedades-respiratorias  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · 0 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/infecciones-urinarias  — cambiada 2026-10-08 · rastreada 2026-09-27 · indexada · 0 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/prueba-embarazo  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 0 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/prueba-strep  — cambiada 2026-10-08 · rastreada 2026-09-27 · indexada · 0 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/suturas-heridas  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 0 impr.
 
 ## Historial (tandas pedidas)

@@ -3,7 +3,7 @@ slug: "bienvenidos-clinica-hispana-cruz"
 title: "Welcome to Clínica Hispana Cruz on Airline Dr, Houston"
 description: "Meet Clínica Hispana Cruz: Spanish-speaking care in North Houston, walk-in and no insurance needed, open every day from 9 AM to 9 PM on Airline Drive."
 date: "2026-03-16"
-dateModified: "2026-10-08"
+dateModified: "2026-10-15"
 author: "Clínica Hispana Cruz"
 image: "/images/hero-bg.webp"
 featured: false
@@ -31,7 +31,7 @@ Many families in Aldine, Greenspoint, Hidden Valley, Northline, and East Aldine 
 2. **Check in in Spanish** (or English, if you prefer).
 3. **Talk with the clinic's medical team**, who listen to why you came in and walk you through your options without rushing.
 4. **Get any tests you need**, many of them right at the clinic.
-5. **Head home with written instructions**, and if a medication is prescribed, it's given to you before you leave the clinic.
+5. **Head home with written instructions**, and if our doctor prescribes a medication, you buy it at the clinic's on-site pharmacy before you leave.
 
 You can ask about cost before any service. Payment is direct, by cash or credit/debit card, and current offers are posted on the [promotions](/promociones) page.
 

@@ -3,7 +3,7 @@ slug: "atencion-medica-sin-seguro-houston"
 title: "No Health Insurance in North Houston? Your Options"
 description: "Being uninsured doesn't mean waiting until you feel worse. How to get care in North Houston, what to ask, and when to choose the ER over a walk-in clinic."
 date: "2026-03-17"
-dateModified: "2026-10-08"
+dateModified: "2026-10-15"
 author: "Clínica Hispana Cruz"
 image: "/images/services/condiciones-cronicas.webp"
 featured: false
@@ -63,7 +63,7 @@ Every service at the clinic is open to uninsured patients. A few that self-pay p
 | Burning or urgency when you pee | [Urinary tract infections](/services/infecciones-urinarias) |
 | Vaccines for adults and children | [Vaccines](/services/vacunas) |
 
-If you're prescribed a medication during the visit, you receive it right there, with no extra stop on the way home.
+If our doctor prescribes a medication during the visit, you buy it right there at the clinic's on-site pharmacy, with no extra stop on the way home.
 
 ## Questions Worth Asking Every Time
 

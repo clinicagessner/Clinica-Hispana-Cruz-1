@@ -3,7 +3,7 @@ slug: "control-diabetes-houston-guia-pacientes"
 title: "Diabetes en Houston: su plan de control mes a mes"
 description: "Cómo controlar la diabetes tipo 2 en Houston: qué medir, cada cuánto revisarse, cómo comer comida latina sin descuidarse y cuándo pedir ayuda."
 date: "2026-03-19"
-dateModified: "2026-10-08"
+dateModified: "2026-10-15"
 author: "Clínica Hispana Cruz"
 image: "/images/services/condiciones-cronicas.webp"
 featured: false
@@ -92,7 +92,7 @@ El servicio de [condiciones crónicas](/services/condiciones-cronicas) acompaña
 - Un plan de comidas y de movimiento que se le explica en español, adaptado a su rutina
 - Referencia orientada a un especialista cuando un resultado lo requiere
 
-Si se le indica un medicamento nuevo o un cambio de dosis, lo recibe en la misma clínica. No necesita seguro médico: puede preguntar el costo antes de cualquier prueba y pagar con efectivo o tarjeta.
+Si nuestro médico le receta un medicamento nuevo o un cambio de dosis, lo compra en la farmacia de la misma clínica. No necesita seguro médico: puede preguntar el costo antes de cualquier prueba y pagar con efectivo o tarjeta.
 
 ## Visítenos
 

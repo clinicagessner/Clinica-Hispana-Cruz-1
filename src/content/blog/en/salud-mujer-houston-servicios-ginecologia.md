@@ -3,7 +3,7 @@ slug: "salud-mujer-houston-servicios-ginecologia"
 title: "Women's Health in North Houston: Checkups and Gynecology"
 description: "Pap smears, vaginal cultures, birth control, pregnancy tests and arm implant removal in north Houston: what each service covers and when to come in."
 date: "2026-03-20"
-dateModified: "2026-10-08"
+dateModified: "2026-10-15"
 author: "Clínica Hispana Cruz"
 image: "/images/services/ginecologia.webp"
 featured: false
@@ -41,7 +41,7 @@ During the checkup you can get a mammogram order when one is indicated, along wi
 
 ## If You Have Intimate Discomfort
 
-Itching, burning, unusual discharge or odor are common reasons women come in, and there's no reason to put up with them. The clinic evaluates those symptoms and, when needed, takes a **vaginal culture** to find out what's behind the infection (yeast or bacteria, for example) so the right treatment can be chosen. Medications recommended during your visit are provided at the clinic.
+Itching, burning, unusual discharge or odor are common reasons women come in, and there's no reason to put up with them. The clinic evaluates those symptoms and, when needed, takes a **vaginal culture** to find out what's behind the infection (yeast or bacteria, for example) so the right treatment can be chosen. Any medication our doctor prescribes during your visit can be bought right there at the clinic's on-site pharmacy.
 
 If you also feel burning when you pee or need to go constantly, it may be a urinary tract infection, which is checked with a urine test. And if you're worried about a possible sexually transmitted infection, the clinic offers confidential [STD testing](/services/enfermedades-transmision-sexual).
 

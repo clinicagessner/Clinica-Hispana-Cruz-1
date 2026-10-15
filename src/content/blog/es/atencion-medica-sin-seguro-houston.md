@@ -3,7 +3,7 @@ slug: "atencion-medica-sin-seguro-houston"
 title: "¿Sin seguro médico? Cómo atenderse en el norte de Houston"
 description: "No tener seguro no obliga a esperar a que el malestar empeore. Cómo atenderse en el norte de Houston, qué preguntar y cuándo ir a urgencias."
 date: "2026-03-17"
-dateModified: "2026-10-08"
+dateModified: "2026-10-15"
 author: "Clínica Hispana Cruz"
 image: "/images/services/condiciones-cronicas.webp"
 featured: false
@@ -63,7 +63,7 @@ Todos los servicios de la clínica están disponibles para personas sin seguro. 
 | Ardor o urgencia al orinar | [Infecciones urinarias](/services/infecciones-urinarias) |
 | Vacunas para adultos y niños | [Vacunas](/services/vacunas) |
 
-Si en la consulta se le indica algún medicamento, se le entrega ahí mismo, sin otra parada en el camino de regreso.
+Si en la consulta nuestro médico le receta algún medicamento, lo compra ahí mismo en la farmacia de la clínica, sin otra parada en el camino de regreso.
 
 ## Preguntas que conviene hacer siempre
 

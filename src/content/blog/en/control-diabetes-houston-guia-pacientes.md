@@ -3,7 +3,7 @@ slug: "control-diabetes-houston-guia-pacientes"
 title: "Diabetes in Houston: A Month-by-Month Control Plan"
 description: "How to stay on top of type 2 diabetes in Houston: what to track, how often to get checked, how to eat Latino food wisely, and when to get help right away."
 date: "2026-03-19"
-dateModified: "2026-10-08"
+dateModified: "2026-10-15"
 author: "Clínica Hispana Cruz"
 image: "/images/services/condiciones-cronicas.webp"
 featured: false
@@ -92,7 +92,7 @@ The [chronic conditions](/services/condiciones-cronicas) service supports patien
 - A nutrition and activity plan explained in Spanish
 - Help with a referral to a specialist when a result calls for it
 
-If you're given a new medication or a dose change, you receive it at the clinic itself. No health insurance is needed: you can ask about cost before any test and pay by cash or card.
+If our doctor prescribes a new medication or a dose change, you buy it at the clinic's own pharmacy. No health insurance is needed: you can ask about cost before any test and pay by cash or card.
 
 ## Come See Us
 

@@ -3,7 +3,7 @@ slug: "chorro-debil-orinar-de-noche-prostata-hombres"
 title: "Weak Stream, Night Trips to Pee: Prostate After 40"
 description: "Up at night to pee, a weak stream or dribbling at the end? Common causes in men over 40, what the clinic checks, and the warning signs that mean the ER."
 date: "2026-10-12"
-dateModified: "2026-10-12"
+dateModified: "2026-10-15"
 author: "Clínica Hispana Cruz"
 image: "/images/services/salud-hombre.webp"
 featured: false
@@ -62,7 +62,7 @@ Depending on what you share, the next steps may include:
 - **Blood work:** glucose to rule out diabetes and tests that show how well the kidneys are filtering, among others. It's drawn through our [blood tests](/services/examenes-sangre) service, and we reach out as soon as the lab sends the results back.
 - **A physical exam and blood pressure check**, since blood pressure, weight and certain medications all affect how the bladder behaves.
 
-If an infection is confirmed, you head home with your treatment in hand, because the medications prescribed during the visit are provided at the clinic. If things point to the prostate, you'll go over the options and how to tell whether they're working. And if you already live with diabetes or high blood pressure, the urinary symptoms become part of your [chronic conditions](/services/condiciones-cronicas) follow-up.
+If an infection is confirmed, you head home with your treatment in hand, because you buy the medicines our doctor prescribes at the clinic's on-site pharmacy. If things point to the prostate, you'll go over the options and how to tell whether they're working. And if you already live with diabetes or high blood pressure, the urinary symptoms become part of your [chronic conditions](/services/condiciones-cronicas) follow-up.
 
 ## The PSA test is a shared decision
 

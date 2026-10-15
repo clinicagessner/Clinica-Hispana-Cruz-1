@@ -3,7 +3,7 @@ slug: "salud-mujer-houston-servicios-ginecologia"
 title: "Salud de la mujer en Houston: chequeos y ginecología"
 description: "Papanicolaou, cultivos, anticonceptivos, prueba de embarazo y retiro de implante en el norte de Houston: qué incluye cada servicio y cuándo acudir."
 date: "2026-03-20"
-dateModified: "2026-10-08"
+dateModified: "2026-10-15"
 author: "Clínica Hispana Cruz"
 image: "/images/services/ginecologia.webp"
 featured: false
@@ -41,7 +41,7 @@ Durante el chequeo se puede extender la orden de mamografía cuando está indica
 
 ## Si tiene molestias íntimas
 
-Comezón, ardor, flujo distinto al habitual o mal olor son motivos frecuentes de consulta y no hay por qué aguantarlos. En la clínica se evalúan esas molestias y, cuando hace falta, se toma un **cultivo vaginal** para saber qué está causando la infección (hongos o bacterias, por ejemplo) y elegir el tratamiento adecuado. Si en la consulta se indica algún medicamento, se le entrega ahí mismo, en la clínica.
+Comezón, ardor, flujo distinto al habitual o mal olor son motivos frecuentes de consulta y no hay por qué aguantarlos. En la clínica se evalúan esas molestias y, cuando hace falta, se toma un **cultivo vaginal** para saber qué está causando la infección (hongos o bacterias, por ejemplo) y elegir el tratamiento adecuado. Si en la consulta nuestro médico le receta algún medicamento, lo compra ahí mismo, en la farmacia de la clínica.
 
 Si además siente ardor al orinar o ganas de ir al baño a cada rato, puede tratarse de una infección urinaria, que se revisa con un examen de orina. Y si le preocupa una posible infección de transmisión sexual, la clínica realiza [pruebas de ETS](/services/enfermedades-transmision-sexual) de forma confidencial.
 

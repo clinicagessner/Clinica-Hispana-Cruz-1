@@ -5,7 +5,15 @@
 // SERVICE_DATES con su propia fecha. Se sube solo cuando cambia el texto.
 // 2026-10-08: B3 (texto y 3 FAQ propios en los 29 servicios).
 export const SERVICES_LAST_REVIEWED = "2026-10-08";
-export const SERVICE_DATES: Record<string, string> = {};
+export const SERVICE_DATES: Record<string, string> = {
+  "farmacia": "2026-10-15",
+  "alergias": "2026-10-15",
+  "enfermedades-respiratorias": "2026-10-15",
+  "infecciones-urinarias": "2026-10-15",
+  "prueba-strep": "2026-10-15",
+  "enfermedades-transmision-sexual": "2026-10-15",
+  "condiciones-cronicas": "2026-10-15",
+};
 
 export function serviceLastReviewed(slug: string): string {
   return SERVICE_DATES[slug] ?? SERVICES_LAST_REVIEWED;

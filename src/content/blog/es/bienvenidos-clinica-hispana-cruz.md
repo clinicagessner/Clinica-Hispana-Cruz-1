@@ -3,7 +3,7 @@ slug: "bienvenidos-clinica-hispana-cruz"
 title: "Bienvenidos a Clínica Hispana Cruz en Airline Dr, Houston"
 description: "Presentamos Clínica Hispana Cruz: atención en español en el norte de Houston, sin cita y sin seguro, abierta a diario de 9 AM a 9 PM en Airline Drive."
 date: "2026-03-16"
-dateModified: "2026-10-08"
+dateModified: "2026-10-15"
 author: "Clínica Hispana Cruz"
 image: "/images/hero-bg.webp"
 featured: false
@@ -31,7 +31,7 @@ Muchas familias de Aldine, Greenspoint, Hidden Valley, Northline y East Aldine t
 2. **Se registra en español** (o en inglés, si así lo prefiere).
 3. **Habla con el equipo médico de la clínica**, que escucha su motivo de consulta y le explica las opciones con calma.
 4. **Se hacen las pruebas necesarias**, muchas de ellas en la misma clínica.
-5. **Se lleva sus indicaciones por escrito**, y si le indican algún medicamento, se lo entregan antes de salir de la clínica.
+5. **Se lleva sus indicaciones por escrito**, y si nuestro médico le receta algún medicamento, lo compra en la farmacia de la clínica antes de salir.
 
 Antes de cualquier servicio puede preguntar el costo. El pago es directo, con efectivo o tarjeta de crédito o débito, y las ofertas vigentes se publican en la página de [promociones](/promociones).
 

@@ -21,7 +21,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Qué hago si se me acabaron las pastillas de la presión antes del control?",
-        "answer": "No las suspendas por tu cuenta y ven a la clínica con el frasco vacío. El equipo médico revisa tu presión y decide cómo continuar; los medicamentos indicados en la consulta se entregan ahí mismo."
+        "answer": "No las suspendas por tu cuenta y ven a la clínica con el frasco vacío. El equipo médico revisa tu presión y decide cómo continuar; lo que te receta nuestro médico lo compras ahí mismo, en la farmacia de la clínica."
       }
     ],
     "faqsEn": [
@@ -35,7 +35,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "What if I run out of blood pressure pills before my follow-up?",
-        "answer": "Don't stop them on your own; come in with the empty bottle. The medical team checks your pressure and decides how to continue, and medicines prescribed during the visit are handed to you at the clinic."
+        "answer": "Don't stop them on your own; come in with the empty bottle. The medical team checks your pressure and decides how to continue, and you buy what our doctor prescribes right there at the clinic's pharmacy."
       }
     ]
   },
@@ -852,30 +852,30 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "farmacia": {
     "faqs": [
       {
-        "question": "¿Me dan genérico o de marca?",
-        "answer": "Depende del medicamento que te indicaron y de lo que haya disponible. Los genéricos tienen el mismo ingrediente activo que los de marca. Si prefieres uno u otro, coméntalo al recibirlo y te explican las opciones."
+        "question": "¿Puedo comprar aquí los medicamentos que me recetaron?",
+        "answer": "Sí. Tenemos farmacia en la clínica: al terminar tu consulta compras ahí mismo los medicamentos que te recetó nuestro médico, sin hacer otra parada."
       },
       {
-        "question": "Olvidé cómo tomar el medicamento que me dieron, ¿qué hago?",
+        "question": "Olvidé cómo tomar el medicamento que compré aquí, ¿qué hago?",
         "answer": "Revisa primero la etiqueta, que trae la dosis y el horario. Si sigues con dudas, llama o escribe a la clínica y te lo explican de nuevo. No dupliques la dosis para compensar una toma olvidada."
       },
       {
-        "question": "¿Tienen medicamentos de venta libre para los niños?",
-        "answer": "Hay opciones de venta libre para el dolor, la fiebre y las alergias. En niños la dosis depende del peso y la edad, así que pregunta al personal antes de dárselo y usa siempre el medidor que trae el envase."
+        "question": "¿Puedo traer una receta de otro médico?",
+        "answer": "No. La farmacia de la clínica vende solo los medicamentos que receta nuestro médico en tu consulta; las recetas de otros médicos o clínicas no se atienden aquí."
       }
     ],
     "faqsEn": [
       {
-        "question": "Will I get a generic or a brand-name drug?",
-        "answer": "It depends on the medication you were prescribed and what is available. Generics have the same active ingredient as brand-name drugs. If you prefer one or the other, mention it when you pick it up and staff will explain your options."
+        "question": "Can I buy the medicines I was prescribed here?",
+        "answer": "Yes. We have an on-site pharmacy: after your visit you buy the medicines our doctor prescribed right there, with no extra stop."
       },
       {
-        "question": "I forgot how to take the medicine I was given. What now?",
+        "question": "I forgot how to take the medicine I bought here. What now?",
         "answer": "Check the label first; it lists the dose and schedule. If you still have questions, call or message the clinic and they will explain it again. Don't double up a dose to make up for a missed one."
       },
       {
-        "question": "Do you carry over-the-counter medicine for children?",
-        "answer": "There are over-the-counter options for pain, fever and allergies. For children the dose depends on weight and age, so ask the staff before giving it and always use the measuring device that comes in the package."
+        "question": "Can I bring a prescription from another doctor?",
+        "answer": "No. The clinic's pharmacy only sells the medicines our doctor prescribes during your visit; prescriptions from other doctors or clinics are not handled here."
       }
     ]
   }

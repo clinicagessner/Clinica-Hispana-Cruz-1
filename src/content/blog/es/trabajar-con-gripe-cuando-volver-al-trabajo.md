@@ -3,7 +3,7 @@ slug: "trabajar-con-gripe-cuando-volver-al-trabajo"
 title: "Trabajar con gripe: cuándo quedarse en casa y volver"
 description: "¿Trabaja en construcción, limpieza o un restaurante y le dio gripe? Cuántos días quedarse en casa, cómo no contagiar a su cuadrilla y cuándo regresar."
 date: "2026-10-05"
-dateModified: "2026-10-05"
+dateModified: "2026-10-15"
 author: "Clínica Hispana Cruz"
 image: "/images/services/enfermedades-respiratorias.webp"
 featured: false
@@ -87,7 +87,7 @@ No todo resfriado necesita consulta, pero hay situaciones en las que conviene qu
 - **Tiene diabetes, presión alta u otra condición crónica.** En esos casos la gripe puede complicarse más; si ya lleva su control de [diabetes, hipertensión o colesterol](/services/condiciones-cronicas), coméntelo en la consulta.
 - **Los síntomas mejoraron y luego volvieron peor**, o la tos lleva muchos días sin ceder.
 
-En nuestra clínica de [pruebas de flu y COVID y enfermedades respiratorias](/services/enfermedades-respiratorias) le atendemos sin cita y en español. Los medicamentos indicados en la consulta se entregan en la clínica, así que puede salir con su tratamiento y regresar a descansar. Es pago directo y no necesita seguro médico; si quiere, pregunte el precio por teléfono o WhatsApp antes de venir.
+En nuestra clínica de [pruebas de flu y COVID y enfermedades respiratorias](/services/enfermedades-respiratorias) le atendemos sin cita y en español. Lo que le receta nuestro médico lo compra ahí mismo en la farmacia de la clínica, así que puede salir con su tratamiento y regresar a descansar. Es pago directo y no necesita seguro médico; si quiere, pregunte el precio por teléfono o WhatsApp antes de venir.
 
 ## Señales de alarma: no espere, vaya a urgencias o llame al 911
 

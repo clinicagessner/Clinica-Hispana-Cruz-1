@@ -97,7 +97,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const service = getLocalizedService(rawService, locale);
   const localePath = locale === "en" ? "/en" : "";
 
-  const pageTitle = seoTitle(service.title);
+  const pageTitle = seoTitle(service.seoTitle || service.title);
   const pageUrl = `${SITE_CONFIG.baseUrl}${localePath}/services/${slug}`;
 
   return {

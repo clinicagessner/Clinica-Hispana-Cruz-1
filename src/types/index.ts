@@ -3,6 +3,9 @@ export interface Service {
   slug: string;
   title: string;
   titleEn?: string;
+  /** <title> distinto del H1 (opcional); seoTitle() le añade la marca si cabe. */
+  seoTitle?: string;
+  seoTitleEn?: string;
   shortTitle: string;
   description: string;
   descriptionEn?: string;

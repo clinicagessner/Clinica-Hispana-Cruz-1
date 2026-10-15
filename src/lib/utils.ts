@@ -11,6 +11,7 @@ export function getLocalizedService(service: Service, locale: string) {
   return {
     ...service,
     title: (isEn && service.titleEn) || service.title,
+    seoTitle: (isEn && service.seoTitleEn) || service.seoTitle,
     description: (isEn && service.descriptionEn) || service.description,
     longDescription: (isEn && service.longDescriptionEn) || service.longDescription,
     features: (isEn && service.featuresEn) || service.features,

@@ -21,16 +21,16 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · 84 impr.
 - [ ] https://www.clinicahispanacruz.com/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-28 · indexada · 77 impr.
 
-## Tanda 22 — cambios del 2026-10-15 (títulos y metas: implante, I-693, laboratorio)  📨 ENVIADA 16/10/2026
+## Tanda 22 — cambios del 2026-10-15 (títulos y metas: implante, I-693, laboratorio)  ✅ PEDIDA 16/10/2026
 
-- [ ] https://www.clinicahispanacruz.com/services/extraccion-implantes  — cambiada 2026-10-15
-- [ ] https://www.clinicahispanacruz.com/services/examenes-inmigracion  — cambiada 2026-10-15
-- [ ] https://www.clinicahispanacruz.com/services/examenes-sangre  — cambiada 2026-10-15
-- [ ] https://www.clinicahispanacruz.com/en/services/extraccion-implantes  — cambiada 2026-10-15
-- [ ] https://www.clinicahispanacruz.com/en/services/examenes-inmigracion  — cambiada 2026-10-15
-- [ ] https://www.clinicahispanacruz.com/en/services/examenes-sangre  — cambiada 2026-10-15
-- [ ] https://www.clinicahispanacruz.com/  — cambiada 2026-10-13
-- [ ] https://www.clinicahispanacruz.com/en  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacruz.com/services/extraccion-implantes  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacruz.com/services/examenes-inmigracion  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacruz.com/services/examenes-sangre  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacruz.com/en/services/extraccion-implantes  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacruz.com/en/services/examenes-inmigracion  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacruz.com/en/services/examenes-sangre  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacruz.com/  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacruz.com/en  — cambiada 2026-10-13
 
 ## Tanda 29 — cambios del 2026-10-15 (farmacia en la clínica)
 

@@ -6,7 +6,7 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-16; URL Inspection API, datos ANTIGUOS del 2026-10-15: antiguos (2026-10-15): --sin-fetch):** 86 de 88 URLs del sitemap indexadas · 2 sin indexar (2 rastreada sin indexar).
+**Estado (actualizado 2026-10-17; URL Inspection API, datos ANTIGUOS del 2026-10-15: antiguos (2026-10-15): --sin-fetch):** 86 de 88 URLs del sitemap indexadas · 2 sin indexar (2 rastreada sin indexar).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 56 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
@@ -21,18 +21,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · 84 impr.
 - [ ] https://www.clinicahispanacruz.com/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-28 · indexada · 77 impr.
 
-## Tanda 22 — cambios del 2026-10-15 (títulos y metas: implante, I-693, laboratorio)  ✅ PEDIDA 16/10/2026
-
-- [x] https://www.clinicahispanacruz.com/services/extraccion-implantes  — cambiada 2026-10-15
-- [x] https://www.clinicahispanacruz.com/services/examenes-inmigracion  — cambiada 2026-10-15
-- [x] https://www.clinicahispanacruz.com/services/examenes-sangre  — cambiada 2026-10-15
-- [x] https://www.clinicahispanacruz.com/en/services/extraccion-implantes  — cambiada 2026-10-15
-- [x] https://www.clinicahispanacruz.com/en/services/examenes-inmigracion  — cambiada 2026-10-15
-- [x] https://www.clinicahispanacruz.com/en/services/examenes-sangre  — cambiada 2026-10-15
-- [x] https://www.clinicahispanacruz.com/  — cambiada 2026-10-13
-- [x] https://www.clinicahispanacruz.com/en  — cambiada 2026-10-13
-
-## Tanda 29 — cambios del 2026-10-15 (farmacia en la clínica)
+## Tanda 29 — cambios del 2026-10-15 (farmacia en la clínica)  📨 ENVIADA 17/10/2026
 
 - [ ] https://www.clinicahispanacruz.com/services/farmacia  — cambiada 2026-10-15
 - [ ] https://www.clinicahispanacruz.com/en/services/farmacia  — cambiada 2026-10-15
@@ -155,3 +144,14 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [x] https://www.clinicahispanacruz.com/services/ginecologia  — cambiada 2026-10-08 · rastreada 2026-09-21 · indexada · 119 impr.
 - [x] https://www.clinicahispanacruz.com/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-10-08 · rastreada 2026-09-27 · indexada · 88 impr.
 - [x] https://www.clinicahispanacruz.com/services/prueba-strep  — cambiada 2026-10-08 · rastreada 2026-09-26 · indexada · 77 impr.
+
+## Tanda 22 — cambios del 2026-10-15 (títulos y metas: implante, I-693, laboratorio)  ✅ PEDIDA 16/10/2026
+
+- [x] https://www.clinicahispanacruz.com/services/extraccion-implantes  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacruz.com/services/examenes-inmigracion  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacruz.com/services/examenes-sangre  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacruz.com/en/services/extraccion-implantes  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacruz.com/en/services/examenes-inmigracion  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacruz.com/en/services/examenes-sangre  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacruz.com/  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacruz.com/en  — cambiada 2026-10-13

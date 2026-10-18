@@ -21,18 +21,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · 84 impr.
 - [ ] https://www.clinicahispanacruz.com/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-28 · indexada · 77 impr.
 
-## Tanda 29 — cambios del 2026-10-15 (farmacia en la clínica)  📨 ENVIADA 18/10/2026
+## Tanda 29 — cambios del 2026-10-15 (farmacia en la clínica)  ✅ PEDIDA 18/10/2026
 
-- [ ] https://www.clinicahispanacruz.com/services/farmacia  — cambiada 2026-10-15
-- [ ] https://www.clinicahispanacruz.com/en/services/farmacia  — cambiada 2026-10-15
-- [ ] https://www.clinicahispanacruz.com/services/infecciones-urinarias  — cambiada 2026-10-15
-- [ ] https://www.clinicahispanacruz.com/en/services/infecciones-urinarias  — cambiada 2026-10-15
-- [ ] https://www.clinicahispanacruz.com/services/alergias  — cambiada 2026-10-15
-- [ ] https://www.clinicahispanacruz.com/en/services/alergias  — cambiada 2026-10-15
-- [ ] https://www.clinicahispanacruz.com/services/enfermedades-respiratorias  — cambiada 2026-10-15
-- [ ] https://www.clinicahispanacruz.com/en/services/enfermedades-respiratorias  — cambiada 2026-10-15
-- [ ] https://www.clinicahispanacruz.com/services/prueba-strep  — cambiada 2026-10-15
-- [ ] https://www.clinicahispanacruz.com/en/services/prueba-strep  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacruz.com/services/farmacia  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacruz.com/en/services/farmacia  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacruz.com/services/infecciones-urinarias  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacruz.com/en/services/infecciones-urinarias  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacruz.com/services/alergias  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacruz.com/en/services/alergias  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacruz.com/services/enfermedades-respiratorias  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacruz.com/en/services/enfermedades-respiratorias  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacruz.com/services/prueba-strep  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacruz.com/en/services/prueba-strep  — cambiada 2026-10-15
 
 ## Tanda 30
 

@@ -21,17 +21,17 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · 84 impr.
 - [ ] https://www.clinicahispanacruz.com/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-28 · indexada · 77 impr.
 
-## Tanda 36 — cambios del 2026-10-15 (páginas cambiadas sin pedir)  📨 ENVIADA 19/10/2026
-- [ ] https://www.clinicahispanacruz.com/blog/ultrasonido-pelvico-mujer-dolor-reglas-irregulares  — post nuevo 2026-10-19 (blog semanal)
-- [ ] https://www.clinicahispanacruz.com/en/blog/ultrasonido-pelvico-mujer-dolor-reglas-irregulares  — post nuevo 2026-10-19 (blog semanal)
-- [ ] https://www.clinicahispanacruz.com/blog/trabajar-con-gripe-cuando-volver-al-trabajo  — cambiada 2026-10-15 · rastreada 2026-10-07 · indexada · pedida 2026-10-06 · 1723 impr.
-- [ ] https://www.clinicahispanacruz.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-10-15 · rastreada 2026-10-13 · indexada · pedida 2026-10-13 · 333 impr.
-- [ ] https://www.clinicahispanacruz.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-10-15 · rastreada 2026-10-06 · indexada · 68 impr.
-- [ ] https://www.clinicahispanacruz.com/services/condiciones-cronicas  — cambiada 2026-10-15 · rastreada 2026-09-14 · indexada · 43 impr.
-- [ ] https://www.clinicahispanacruz.com/en/blog/bienvenidos-clinica-hispana-cruz  — cambiada 2026-10-15 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 287 impr.
-- [ ] https://www.clinicahispanacruz.com/en/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-10-15 · rastreada 2026-08-20 · indexada · 211 impr.
-- [ ] https://www.clinicahispanacruz.com/en/blog/trabajar-con-gripe-cuando-volver-al-trabajo  — cambiada 2026-10-15 · rastreada 2026-10-07 · indexada · pedida 2026-10-06 · 186 impr.
-- [ ] https://www.clinicahispanacruz.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-10-15 · rastreada 2026-09-27 · indexada · 85 impr.
+## Tanda 36 — cambios del 2026-10-15 (páginas cambiadas sin pedir)  ✅ PEDIDA 19/10/2026
+- [x] https://www.clinicahispanacruz.com/blog/ultrasonido-pelvico-mujer-dolor-reglas-irregulares  — post nuevo 2026-10-19 (blog semanal)
+- [x] https://www.clinicahispanacruz.com/en/blog/ultrasonido-pelvico-mujer-dolor-reglas-irregulares  — post nuevo 2026-10-19 (blog semanal)
+- [x] https://www.clinicahispanacruz.com/blog/trabajar-con-gripe-cuando-volver-al-trabajo  — cambiada 2026-10-15 · rastreada 2026-10-07 · indexada · pedida 2026-10-06 · 1723 impr.
+- [x] https://www.clinicahispanacruz.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-10-15 · rastreada 2026-10-13 · indexada · pedida 2026-10-13 · 333 impr.
+- [x] https://www.clinicahispanacruz.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-10-15 · rastreada 2026-10-06 · indexada · 68 impr.
+- [x] https://www.clinicahispanacruz.com/services/condiciones-cronicas  — cambiada 2026-10-15 · rastreada 2026-09-14 · indexada · 43 impr.
+- [x] https://www.clinicahispanacruz.com/en/blog/bienvenidos-clinica-hispana-cruz  — cambiada 2026-10-15 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 287 impr.
+- [x] https://www.clinicahispanacruz.com/en/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-10-15 · rastreada 2026-08-20 · indexada · 211 impr.
+- [x] https://www.clinicahispanacruz.com/en/blog/trabajar-con-gripe-cuando-volver-al-trabajo  — cambiada 2026-10-15 · rastreada 2026-10-07 · indexada · pedida 2026-10-06 · 186 impr.
+- [x] https://www.clinicahispanacruz.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-10-15 · rastreada 2026-09-27 · indexada · 85 impr.
 
 ## Tanda 37 — cambios del 2026-10-19 (devueltas de la tanda enviada el 19/10 para dejar sitio al post nuevo)
 

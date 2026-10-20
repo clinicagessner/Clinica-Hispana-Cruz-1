@@ -22,13 +22,13 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · 84 impr.
 - [ ] https://www.clinicahispanacruz.com/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-28 · indexada · 77 impr.
 
-## Tanda 37 — cambios del 2026-10-19 (devueltas de la tanda enviada el 19/10 para dejar sitio al post nuevo)  📨 ENVIADA 20/10/2026
+## Tanda 37 — cambios del 2026-10-19 (devueltas de la tanda enviada el 19/10 para dejar sitio al post nuevo)  ✅ PEDIDA 20/10/2026
 
-- [ ] https://www.clinicahispanacruz.com/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-10-15 · rastreada 2026-10-04 · indexada · 4 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-10-15 · rastreada 2026-09-14 · indexada · 8 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/condiciones-cronicas  — cambiada 2026-10-15 · rastreada 2026-07-11 · indexada · 3 impr.
-- [ ] https://www.clinicahispanacruz.com/en/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-10-15 · rastreada 2026-07-11 · indexada · 1 impr.
-- [ ] https://www.clinicahispanacruz.com/en/blog/chorro-debil-orinar-de-noche-prostata-hombres  — cambiada 2026-10-15 · rastreada 2026-10-14 · indexada · 0 impr.
+- [x] https://www.clinicahispanacruz.com/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-10-15 · rastreada 2026-10-04 · indexada · 4 impr.
+- [x] https://www.clinicahispanacruz.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-10-15 · rastreada 2026-09-14 · indexada · 8 impr.
+- [x] https://www.clinicahispanacruz.com/en/services/condiciones-cronicas  — cambiada 2026-10-15 · rastreada 2026-07-11 · indexada · 3 impr.
+- [x] https://www.clinicahispanacruz.com/en/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-10-15 · rastreada 2026-07-11 · indexada · 1 impr.
+- [x] https://www.clinicahispanacruz.com/en/blog/chorro-debil-orinar-de-noche-prostata-hombres  — cambiada 2026-10-15 · rastreada 2026-10-14 · indexada · 0 impr.
 
 ## Tanda 38
 

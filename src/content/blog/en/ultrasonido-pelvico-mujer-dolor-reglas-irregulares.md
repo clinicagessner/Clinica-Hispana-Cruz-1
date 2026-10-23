@@ -3,7 +3,7 @@ slug: "ultrasonido-pelvico-mujer-dolor-reglas-irregulares"
 title: "Pelvic Ultrasound: Pain, Irregular Periods, What It Shows"
 description: "Pain below the belly button, periods that come early or late, a possible cyst: what a pelvic ultrasound looks at and how to arrive with a full bladder."
 date: "2026-10-19"
-dateModified: "2026-10-19"
+dateModified: "2026-10-23"
 author: "Clínica Hispana Cruz"
 image: "/images/services/ultrasonido.webp"
 featured: false
@@ -81,7 +81,7 @@ If your period is late and pregnancy is possible, start with a [pregnancy test](
 
 ## When the picture calls for more
 
-Sometimes a pelvic ultrasound settles everything; sometimes it opens a new question. The medical team explains the findings and what they mean for your health. If your case needs another test, treatment or a different study the clinic doesn't perform, the team guides the referral to a specialist and tells you what comes next, so you're not left holding an image with no answers.
+Sometimes a pelvic ultrasound settles everything; sometimes it opens a new question. The medical team explains the findings and what they mean for your health. If your case needs another test, treatment or a different study, the team tells you what comes next, so you're not left holding an image with no answers.
 
 Some findings only become clear with time. A functional cyst, for example, is usually rechecked after one or two cycles to see whether it has gone away.
 

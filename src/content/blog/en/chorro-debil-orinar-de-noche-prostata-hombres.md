@@ -3,7 +3,7 @@ slug: "chorro-debil-orinar-de-noche-prostata-hombres"
 title: "Weak Stream, Night Trips to Pee: Prostate After 40"
 description: "Up at night to pee, a weak stream or dribbling at the end? Common causes in men over 40, what the clinic checks, and the warning signs that mean the ER."
 date: "2026-10-12"
-dateModified: "2026-10-15"
+dateModified: "2026-10-23"
 author: "Clínica Hispana Cruz"
 image: "/images/services/salud-hombre.webp"
 featured: false
@@ -70,9 +70,9 @@ PSA (prostate-specific antigen) is a protein measured in the blood. It can rise 
 
 The U.S. Preventive Services Task Force (USPSTF) advises men aged 55 to 69 to make an individual decision about screening after talking through the possible benefits and the downsides, such as false results, extra procedures and treatment that may not have been needed. Having a father or brother with prostate cancer, or being Black, are details to bring up in that conversation. At the clinic, PSA is part of the [men's health](/services/salud-hombre) service and is ordered when you and the medical team decide on it together.
 
-## When a urologist referral is arranged
+## When a urology evaluation makes sense
 
-Many cases are handled well with follow-up at the clinic. As part of the service, a referral to a urologist is arranged when a result or the way symptoms evolve calls for it, for example:
+Many cases are handled well with follow-up at the clinic. A urology evaluation makes sense when a result or the way symptoms evolve calls for it, for example:
 
 - A PSA that comes back high or keeps climbing from one test to the next.
 - Blood in the urine, even if it happened only once.

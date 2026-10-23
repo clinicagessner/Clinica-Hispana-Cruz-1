@@ -3,7 +3,7 @@ slug: "ultrasonido-pelvico-mujer-dolor-reglas-irregulares"
 title: "Ultrasonido pélvico: dolor, reglas irregulares y qué revisa"
 description: "Dolor bajo el ombligo, reglas que se adelantan o se atrasan, sospecha de quistes: qué mira el ultrasonido pélvico y cómo llegar con la vejiga llena."
 date: "2026-10-19"
-dateModified: "2026-10-19"
+dateModified: "2026-10-23"
 author: "Clínica Hispana Cruz"
 image: "/images/services/ultrasonido.webp"
 featured: false
@@ -81,7 +81,7 @@ Si su regla se atrasó y existe la posibilidad de un embarazo, conviene empezar 
 
 ## Cuando la imagen pide un paso más
 
-Un ultrasonido pélvico puede dejar todo claro, o puede abrir una pregunta nueva. El equipo médico le explica los hallazgos y qué significan para su salud. Si el caso necesita otro análisis, un tratamiento o un estudio distinto que la clínica no realiza, se orienta la referencia a un especialista y se le dice cuál es el siguiente paso, sin dejarla con la imagen en la mano y sin respuesta.
+Un ultrasonido pélvico puede dejar todo claro, o puede abrir una pregunta nueva. El equipo médico le explica los hallazgos y qué significan para su salud. Si el caso necesita otro análisis, un tratamiento o un estudio distinto, se le dice cuál es el siguiente paso, sin dejarla con la imagen en la mano y sin respuesta.
 
 Conviene saber que algunos hallazgos solo se aclaran con el tiempo: un quiste funcional, por ejemplo, se vuelve a mirar tras uno o dos ciclos para ver si desapareció.
 

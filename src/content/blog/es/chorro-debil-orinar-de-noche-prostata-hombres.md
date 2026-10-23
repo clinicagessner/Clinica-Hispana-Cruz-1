@@ -3,7 +3,7 @@ slug: "chorro-debil-orinar-de-noche-prostata-hombres"
 title: "Chorro débil y orinar de noche: la próstata tras los 40"
 description: "¿Se levanta de noche a orinar, el chorro sale débil o gotea al final? Causas en hombres desde los 40, qué se revisa en la clínica y cuándo ir a urgencias."
 date: "2026-10-12"
-dateModified: "2026-10-15"
+dateModified: "2026-10-23"
 author: "Clínica Hispana Cruz"
 image: "/images/services/salud-hombre.webp"
 featured: false
@@ -70,9 +70,9 @@ El PSA (antígeno prostático específico) es una proteína que se mide en la sa
 
 Para los hombres de 55 a 69 años, la recomendación del USPSTF, el panel federal de prevención, es que cada quien decida si se hace la prueba después de platicar sus posibles beneficios y sus riesgos, como resultados falsos, estudios adicionales y tratamientos que quizá no hacían falta. Tener un padre o un hermano con cáncer de próstata, o ser de raza negra, son datos que vale la pena poner sobre la mesa en esa conversación. En la clínica, el PSA forma parte del servicio de [salud del hombre](/services/salud-hombre) y se pide cuando usted y el equipo médico lo deciden juntos.
 
-## Cuándo se orienta la referencia a un urólogo
+## Cuándo conviene una valoración de urología
 
-Muchos casos se manejan bien con seguimiento en la clínica. Como parte del servicio, se orienta la referencia a un urólogo cuando un resultado o la evolución lo requieren, por ejemplo:
+Muchos casos se manejan bien con seguimiento en la clínica. Conviene una valoración de urología cuando un resultado o la evolución lo requieren, por ejemplo:
 
 - Un PSA elevado o que sube de una prueba a la siguiente.
 - Sangre en la orina, aunque haya ocurrido una sola vez.

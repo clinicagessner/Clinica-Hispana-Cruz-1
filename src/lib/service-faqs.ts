@@ -201,7 +201,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Qué hago después de un resultado positivo?",
-        "answer": "Empieza a tomar ácido fólico, evita alcohol y cigarro y no tomes medicinas sin preguntar. En la clínica te damos información sobre el control prenatal y la referencia para iniciarlo lo antes posible."
+        "answer": "Empieza a tomar ácido fólico, evita alcohol y cigarro y no tomes medicinas sin preguntar. En la clínica te damos información sobre el control prenatal para que lo inicies lo antes posible."
       }
     ],
     "faqsEn": [
@@ -215,7 +215,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "What should I do after a positive result?",
-        "answer": "Start taking folic acid, avoid alcohol and smoking, and don't take medicines without asking first. At the clinic you'll get information about prenatal care and a referral to start it as early as possible."
+        "answer": "Start taking folic acid, avoid alcohol and smoking, and don't take medicines without asking first. At the clinic you'll get information about prenatal care so you can start it as early as possible."
       }
     ]
   },
@@ -287,7 +287,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "Me salió el antígeno prostático elevado, ¿me debo asustar?",
-        "answer": "No necesariamente. Una próstata agrandada, una inflamación o una infección también lo suben. El equipo médico lo interpreta con tu edad y tus síntomas y decide si se repite el análisis o se hace una referencia."
+        "answer": "No necesariamente. Una próstata agrandada, una inflamación o una infección también lo suben. El equipo médico lo interpreta con tu edad y tus síntomas y decide si se repite el análisis."
       },
       {
         "question": "¿Por qué me levanto tantas veces en la noche a orinar?",
@@ -301,7 +301,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "My PSA came back elevated. Should I be scared?",
-        "answer": "Not necessarily. An enlarged prostate, inflammation or an infection can raise it too. The medical team reads it with your age and symptoms and decides whether to repeat the test or arrange a referral."
+        "answer": "Not necessarily. An enlarged prostate, inflammation or an infection can raise it too. The medical team reads it with your age and symptoms and decides whether to repeat the test."
       },
       {
         "question": "Why do I get up so many times at night to pee?",
@@ -351,7 +351,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Los hombres también pueden tener infección urinaria?",
-        "answer": "Sí, aunque es menos común que en las mujeres. En los hombres el equipo médico revisa con más cuidado la causa, porque a veces está relacionada con la próstata u otro problema, y puede pedir estudios adicionales o una referencia a un especialista."
+        "answer": "Sí, aunque es menos común que en las mujeres. En los hombres el equipo médico revisa con más cuidado la causa, porque a veces está relacionada con la próstata u otro problema, y puede pedir estudios adicionales."
       }
     ],
     "faqsEn": [
@@ -365,7 +365,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "Can men get urinary tract infections too?",
-        "answer": "Yes, although it's less common than in women. In men the medical team looks more carefully for the cause, since it is sometimes linked to the prostate or another issue, and may order extra tests or a referral to a specialist."
+        "answer": "Yes, although it's less common than in women. In men the medical team looks more carefully for the cause, since it is sometimes linked to the prostate or another issue, and may order extra tests."
       }
     ]
   },

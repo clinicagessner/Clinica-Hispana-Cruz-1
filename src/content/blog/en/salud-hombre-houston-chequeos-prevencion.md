@@ -3,6 +3,7 @@ slug: "salud-hombre-houston-chequeos-prevencion"
 title: "Men's Health in Houston: Checkups and Prevention in Spanish"
 description: "Men's health services in Houston TX with Spanish-speaking staff. Preventive checkups, prostate screening, hormone health, and more at Clínica Hispana Cruz."
 date: "2026-07-18"
+dateModified: "2026-10-23"
 author: "Clínica Hispana Cruz"
 image: "/images/services/salud-hombre.webp"
 featured: false
@@ -57,7 +58,6 @@ Starting at ages 40-50, the prostate requires special attention:
 - Prostate-specific antigen (PSA) test
 - Evaluation of urinary symptoms
 - Guidance on risk factors
-- Referral to a urologist if needed
 
 ### Hormone Health and Testosterone
 Low testosterone is more common than people think and can cause:

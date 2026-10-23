@@ -3,7 +3,7 @@ slug: "salud-mujer-houston-servicios-ginecologia"
 title: "Salud de la mujer en Houston: chequeos y ginecología"
 description: "Papanicolaou, cultivos, anticonceptivos, prueba de embarazo y retiro de implante en el norte de Houston: qué incluye cada servicio y cuándo acudir."
 date: "2026-03-20"
-dateModified: "2026-10-15"
+dateModified: "2026-10-23"
 author: "Clínica Hispana Cruz"
 image: "/images/services/ginecologia.webp"
 featured: false
@@ -77,8 +77,6 @@ Y pida una consulta pronto, aunque no sea una emergencia, si nota un bulto en el
 3. Se hace la prueba o el procedimiento que corresponda a su motivo de visita.
 4. Recibe indicaciones claras y, si aplica, su tratamiento.
 5. Le explican cómo y cuándo recibirá los resultados de las pruebas que se envían al laboratorio.
-
-Si un resultado lo requiere, se orienta la referencia a un especialista.
 
 ## Información práctica
 

@@ -3,7 +3,7 @@ slug: "salud-mujer-houston-servicios-ginecologia"
 title: "Women's Health in North Houston: Checkups and Gynecology"
 description: "Pap smears, vaginal cultures, birth control, pregnancy tests and arm implant removal in north Houston: what each service covers and when to come in."
 date: "2026-03-20"
-dateModified: "2026-10-15"
+dateModified: "2026-10-23"
 author: "Clínica Hispana Cruz"
 image: "/images/services/ginecologia.webp"
 featured: false
@@ -77,8 +77,6 @@ And book a visit soon, even if it isn't an emergency, if you notice a breast lum
 3. Get the test or procedure that matches your reason for coming in.
 4. Leave with clear instructions and, if needed, your treatment.
 5. Learn how and when you'll get results for anything sent to the lab.
-
-If a result calls for it, you'll be guided toward a specialist referral.
 
 ## Practical Information
 

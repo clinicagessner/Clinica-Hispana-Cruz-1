@@ -3,7 +3,7 @@ slug: "salud-hombre-houston-chequeos-prevencion"
 title: "Salud del Hombre en Houston: Chequeos y Prevención"
 description: "Chequeos preventivos para el hombre en Houston, en español: examen de próstata, salud hormonal y laboratorio en Clínica Hispana Cruz, sin cita."
 date: "2026-07-18"
-dateModified: "2026-10-08"
+dateModified: "2026-10-23"
 author: "Clínica Hispana Cruz"
 image: "/images/services/salud-hombre.webp"
 featured: false
@@ -58,7 +58,6 @@ A partir de los 40-50 años, la próstata requiere atención especial:
 - Prueba de antígeno prostático (PSA)
 - Evaluación de síntomas urinarios
 - Orientación sobre factores de riesgo
-- Referencia a urólogo si es necesario
 
 ### Salud Hormonal y Testosterona
 La testosterona baja es más común de lo que se piensa y puede causar:

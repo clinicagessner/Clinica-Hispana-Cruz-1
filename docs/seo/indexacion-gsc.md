@@ -21,7 +21,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · 84 impr.
 - [ ] https://www.clinicahispanacruz.com/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-28 · indexada · 77 impr.
 
-## Tanda 42 — cambios del 2026-10-23 (regla Ads = referencia (urología/ginecología)) 📨 ENVIADA 24/10/2026
+## Tanda 42 — cambios del 2026-10-23 (regla Ads = referencia (urología/ginecología)) 📨 ENVIADA 24/10/2026 · APLAZADA por el usuario: la pide el 25/10/2026, va primero ese día (no repetir en otra tanda)
 
 - [ ] https://www.clinicahispanacruz.com/services/ginecologia  — cambiada 2026-10-23
 - [ ] https://www.clinicahispanacruz.com/services/salud-hombre  — cambiada 2026-10-23

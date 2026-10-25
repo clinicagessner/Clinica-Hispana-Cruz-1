@@ -21,17 +21,17 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · 84 impr.
 - [ ] https://www.clinicahispanacruz.com/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-28 · indexada · 77 impr.
 
-## Tanda 42 — cambios del 2026-10-23 (regla Ads = referencia (urología/ginecología)) 📨 ENVIADA 25/10/2026 (aplazada del 24/10 por el usuario)
+## Tanda 42 — cambios del 2026-10-23 (regla Ads = referencia (urología/ginecología)) ✅ PEDIDA 25/10/2026 (aplazada del 24/10 por el usuario)
 
-- [ ] https://www.clinicahispanacruz.com/services/ginecologia  — cambiada 2026-10-23
-- [ ] https://www.clinicahispanacruz.com/services/salud-hombre  — cambiada 2026-10-23
-- [ ] https://www.clinicahispanacruz.com/services/prueba-embarazo  — cambiada 2026-10-23
-- [ ] https://www.clinicahispanacruz.com/services/extraccion-implantes  — cambiada 2026-10-23
-- [ ] https://www.clinicahispanacruz.com/services/infecciones-urinarias  — cambiada 2026-10-23
-- [ ] https://www.clinicahispanacruz.com/blog/chorro-debil-orinar-de-noche-prostata-hombres  — cambiada 2026-10-23
-- [ ] https://www.clinicahispanacruz.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-10-23
-- [ ] https://www.clinicahispanacruz.com/blog/ultrasonido-pelvico-mujer-dolor-reglas-irregulares  — cambiada 2026-10-23
-- [ ] https://www.clinicahispanacruz.com/en/services/ginecologia  — cambiada 2026-10-23
+- [x] https://www.clinicahispanacruz.com/services/ginecologia  — cambiada 2026-10-23
+- [x] https://www.clinicahispanacruz.com/services/salud-hombre  — cambiada 2026-10-23
+- [x] https://www.clinicahispanacruz.com/services/prueba-embarazo  — cambiada 2026-10-23
+- [x] https://www.clinicahispanacruz.com/services/extraccion-implantes  — cambiada 2026-10-23
+- [x] https://www.clinicahispanacruz.com/services/infecciones-urinarias  — cambiada 2026-10-23
+- [x] https://www.clinicahispanacruz.com/blog/chorro-debil-orinar-de-noche-prostata-hombres  — cambiada 2026-10-23
+- [x] https://www.clinicahispanacruz.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-10-23
+- [x] https://www.clinicahispanacruz.com/blog/ultrasonido-pelvico-mujer-dolor-reglas-irregulares  — cambiada 2026-10-23
+- [x] https://www.clinicahispanacruz.com/en/services/ginecologia  — cambiada 2026-10-23
 
 ## Tanda 43
 

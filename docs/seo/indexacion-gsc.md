@@ -14,6 +14,8 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 ## Tanda 48 — cambios del 2026-10-23 (tanda del día: páginas cambiadas y aún no pedidas) 📨 ENVIADA 26/10/2026
 
+- [ ] https://www.clinicahispanacruz.com/blog/dolor-presion-pecho-cuando-llamar-911  — post nuevo 2026-10-26 (blog semanal)
+- [ ] https://www.clinicahispanacruz.com/en/blog/dolor-presion-pecho-cuando-llamar-911  — post nuevo 2026-10-26 (blog semanal)
 - [ ] https://www.clinicahispanacruz.com/en/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-10-23 · rastreada 2026-10-19 · indexada · pedida 2026-10-19 · 261 impr.
 - [ ] https://www.clinicahispanacruz.com/en/blog/ultrasonido-pelvico-mujer-dolor-reglas-irregulares  — cambiada 2026-10-23 · rastreada 2026-10-19 · indexada · pedida 2026-10-19 · 32 impr.
 - [ ] https://www.clinicahispanacruz.com/en/blog/salud-hombre-houston-chequeos-prevencion  — cambiada 2026-10-23 · rastreada 2026-07-19 · indexada · 14 impr.

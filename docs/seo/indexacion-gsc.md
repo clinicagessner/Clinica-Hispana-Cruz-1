@@ -6,24 +6,12 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-26; URL Inspection API, datos de hoy 2026-10-26):** 88 de 90 URLs del sitemap indexadas · 2 sin indexar (2 rastreada sin indexar).
+**Estado (actualizado 2026-10-27; URL Inspection API, datos ANTIGUOS del 2026-10-26: antiguos (2026-10-26): --sin-fetch):** 88 de 92 URLs del sitemap indexadas · 4 sin indexar (2 rastreada sin indexar · 2 sin datos).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 41 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 33 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
+2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-09).
 <!-- /tandas:auto -->
-
-## Tanda 48 — cambios del 2026-10-23 (tanda del día: páginas cambiadas y aún no pedidas) ✅ PEDIDA 26/10/2026
-
-- [x] https://www.clinicahispanacruz.com/blog/dolor-presion-pecho-cuando-llamar-911  — post nuevo 2026-10-26 (blog semanal)
-- [x] https://www.clinicahispanacruz.com/en/blog/dolor-presion-pecho-cuando-llamar-911  — post nuevo 2026-10-26 (blog semanal)
-- [x] https://www.clinicahispanacruz.com/en/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-10-23 · rastreada 2026-10-19 · indexada · pedida 2026-10-19 · 261 impr.
-- [x] https://www.clinicahispanacruz.com/en/blog/ultrasonido-pelvico-mujer-dolor-reglas-irregulares  — cambiada 2026-10-23 · rastreada 2026-10-19 · indexada · pedida 2026-10-19 · 32 impr.
-- [x] https://www.clinicahispanacruz.com/en/blog/salud-hombre-houston-chequeos-prevencion  — cambiada 2026-10-23 · rastreada 2026-07-19 · indexada · 14 impr.
-- [x] https://www.clinicahispanacruz.com/en/blog/chorro-debil-orinar-de-noche-prostata-hombres  — cambiada 2026-10-23 · rastreada 2026-10-20 · indexada · pedida 2026-10-20 · 13 impr.
-- [x] https://www.clinicahispanacruz.com/en/services/extraccion-implantes  — cambiada 2026-10-23 · rastreada 2026-09-14 · indexada · pedida 2026-10-16 · 8 impr.
-- [x] https://www.clinicahispanacruz.com/en/services/salud-hombre  — cambiada 2026-10-23 · rastreada 2026-07-11 · indexada · 7 impr.
-- [x] https://www.clinicahispanacruz.com/en/services/infecciones-urinarias  — cambiada 2026-10-23 · rastreada 2026-09-27 · indexada · pedida 2026-10-18 · 5 impr.
-- [x] https://www.clinicahispanacruz.com/en/services/prueba-embarazo  — cambiada 2026-10-23 · rastreada 2026-09-14 · indexada · 5 impr.
 
 ## Tanda 13 — cambios del 2026-10-13 (consulta inicial gratis en la home)
 
@@ -34,7 +22,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · 84 impr.
 - [ ] https://www.clinicahispanacruz.com/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-28 · indexada · 77 impr.
 
-## Tanda 43
+## Tanda 49
 
 - [ ] https://www.clinicahispanacruz.com/services/unas-encarnadas  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 156 impr.
 - [ ] https://www.clinicahispanacruz.com/services/ultrasonido  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 84 impr.
@@ -47,7 +35,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/services/examen-alcohol-drogas  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 22 impr.
 - [ ] https://www.clinicahispanacruz.com/services/examen-dot  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 21 impr.
 
-## Tanda 44
+## Tanda 50
 
 - [ ] https://www.clinicahispanacruz.com/services/cirugias-menores  — cambiada 2026-10-08 · rastreada 2026-10-06 · indexada · 18 impr.
 - [ ] https://www.clinicahispanacruz.com/en/blog  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 226 impr.
@@ -57,29 +45,26 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 46 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/examen-fisico-escolar  — cambiada 2026-10-08 · rastreada 2026-09-21 · indexada · 44 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/vacunas  — cambiada 2026-10-08 · rastreada 2026-07-11 · rastreada sin indexar · 40 impr.
-
-## Tanda 45
-
 - [ ] https://www.clinicahispanacruz.com/en/services/cirugias-menores  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 19 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/examen-dot  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 18 impr.
+
+## Tanda 51
+
 - [ ] https://www.clinicahispanacruz.com/en/services/prueba-tuberculosis  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 12 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/unas-encarnadas  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 11 impr.
 - [ ] https://www.clinicahispanacruz.com/en/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 10 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/electrocardiograma  — cambiada 2026-10-08 · rastreada 2026-09-27 · indexada · 10 impr.
-
-## Tanda 46
-
 - [ ] https://www.clinicahispanacruz.com/en/services/curacion-heridas  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 6 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 6 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/sueros-vitaminados  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · pedida 2026-10-05 · 6 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/ultrasonido  — cambiada 2026-10-08 · rastreada 2026-09-27 · indexada · 5 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/anticonceptivos  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 4 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/examen-alcohol-drogas  — cambiada 2026-10-08 · rastreada 2026-07-11 · rastreada sin indexar · 4 impr.
+
+## Tanda 52
+
 - [ ] https://www.clinicahispanacruz.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 3 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/suturas-heridas  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 3 impr.
-
-## Tanda 47
-
 - [ ] https://www.clinicahispanacruz.com/en/services/tiroides  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 2 impr.
 
 ## Historial (tandas pedidas)
@@ -175,3 +160,16 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [x] https://www.clinicahispanacruz.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-10-23
 - [x] https://www.clinicahispanacruz.com/blog/ultrasonido-pelvico-mujer-dolor-reglas-irregulares  — cambiada 2026-10-23
 - [x] https://www.clinicahispanacruz.com/en/services/ginecologia  — cambiada 2026-10-23
+
+## Tanda 48 — cambios del 2026-10-23 (tanda del día: páginas cambiadas y aún no pedidas) ✅ PEDIDA 26/10/2026
+
+- [x] https://www.clinicahispanacruz.com/blog/dolor-presion-pecho-cuando-llamar-911  — post nuevo 2026-10-26 (blog semanal)
+- [x] https://www.clinicahispanacruz.com/en/blog/dolor-presion-pecho-cuando-llamar-911  — post nuevo 2026-10-26 (blog semanal)
+- [x] https://www.clinicahispanacruz.com/en/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-10-23 · rastreada 2026-10-19 · indexada · pedida 2026-10-19 · 261 impr.
+- [x] https://www.clinicahispanacruz.com/en/blog/ultrasonido-pelvico-mujer-dolor-reglas-irregulares  — cambiada 2026-10-23 · rastreada 2026-10-19 · indexada · pedida 2026-10-19 · 32 impr.
+- [x] https://www.clinicahispanacruz.com/en/blog/salud-hombre-houston-chequeos-prevencion  — cambiada 2026-10-23 · rastreada 2026-07-19 · indexada · 14 impr.
+- [x] https://www.clinicahispanacruz.com/en/blog/chorro-debil-orinar-de-noche-prostata-hombres  — cambiada 2026-10-23 · rastreada 2026-10-20 · indexada · pedida 2026-10-20 · 13 impr.
+- [x] https://www.clinicahispanacruz.com/en/services/extraccion-implantes  — cambiada 2026-10-23 · rastreada 2026-09-14 · indexada · pedida 2026-10-16 · 8 impr.
+- [x] https://www.clinicahispanacruz.com/en/services/salud-hombre  — cambiada 2026-10-23 · rastreada 2026-07-11 · indexada · 7 impr.
+- [x] https://www.clinicahispanacruz.com/en/services/infecciones-urinarias  — cambiada 2026-10-23 · rastreada 2026-09-27 · indexada · pedida 2026-10-18 · 5 impr.
+- [x] https://www.clinicahispanacruz.com/en/services/prueba-embarazo  — cambiada 2026-10-23 · rastreada 2026-09-14 · indexada · 5 impr.

@@ -6,15 +6,18 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-31; URL Inspection API, datos ANTIGUOS del 2026-10-26: antiguos (2026-10-26): --sin-fetch):** 88 de 92 URLs del sitemap indexadas · 4 sin indexar (2 rastreada sin indexar · 2 sin datos).
+**Estado (actualizado 2026-11-01; URL Inspection API, datos de hoy 2026-11-01):** 91 de 92 URLs del sitemap indexadas · 1 sin indexar (1 rastreada sin indexar).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 33 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 29 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-09).
 <!-- /tandas:auto -->
 
-## Tanda 13 — cambios del 2026-10-13 (consulta inicial gratis en la home)
+## Tanda 53 — cambios del 2026-11-01 (análisis diario: ginecología (Ads) alineada con los anuncios y título/meta de sueros) + home del 13-oct sin pedir  📨 ENVIADA 01/11/2026
 
+- [ ] https://www.clinicahispanacruz.com/services/ginecologia  — cambiada 2026-11-01
+- [ ] https://www.clinicahispanacruz.com/en/services/ginecologia  — cambiada 2026-11-01
+- [ ] https://www.clinicahispanacruz.com/services/sueros-vitaminados  — cambiada 2026-11-01
+- [ ] https://www.clinicahispanacruz.com/en/services/sueros-vitaminados  — cambiada 2026-11-01
 - [ ] https://www.clinicahispanacruz.com/blog/bienvenidos-clinica-hispana-cruz  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 138 impr.
 - [ ] https://www.clinicahispanacruz.com/blog/salud-hombre-houston-chequeos-prevencion  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 105 impr.
 - [ ] https://www.clinicahispanacruz.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 104 impr.
@@ -22,50 +25,43 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · 84 impr.
 - [ ] https://www.clinicahispanacruz.com/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-28 · indexada · 77 impr.
 
-## Tanda 49
+## Tanda 54
 
-- [ ] https://www.clinicahispanacruz.com/services/unas-encarnadas  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 156 impr.
-- [ ] https://www.clinicahispanacruz.com/services/ultrasonido  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 84 impr.
-- [ ] https://www.clinicahispanacruz.com/services/prueba-tuberculosis  — cambiada 2026-10-08 · rastreada 2026-10-03 · indexada · 48 impr.
-- [ ] https://www.clinicahispanacruz.com/services/tiroides  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 47 impr.
-- [ ] https://www.clinicahispanacruz.com/blog  — cambiada 2026-10-08 · rastreada 2026-10-07 · indexada · 40 impr.
-- [ ] https://www.clinicahispanacruz.com/services/examen-fisico-escolar  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 33 impr.
+- [ ] https://www.clinicahispanacruz.com/services/ultrasonido  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 88 impr.
 - [ ] https://www.clinicahispanacruz.com/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · 27 impr.
-- [ ] https://www.clinicahispanacruz.com/services/curacion-heridas  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 26 impr.
-- [ ] https://www.clinicahispanacruz.com/services/examen-alcohol-drogas  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 22 impr.
-- [ ] https://www.clinicahispanacruz.com/services/examen-dot  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 21 impr.
+- [ ] https://www.clinicahispanacruz.com/services/examen-alcohol-drogas  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 21 impr.
+- [ ] https://www.clinicahispanacruz.com/services/prueba-tuberculosis  — cambiada 2026-10-08 · rastreada 2026-10-03 · indexada · 15 impr.
+- [ ] https://www.clinicahispanacruz.com/services/tiroides  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 15 impr.
+- [ ] https://www.clinicahispanacruz.com/services/curacion-heridas  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 11 impr.
+- [ ] https://www.clinicahispanacruz.com/services/examen-dot  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 7 impr.
+- [ ] https://www.clinicahispanacruz.com/services/examen-fisico-escolar  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 6 impr.
+- [ ] https://www.clinicahispanacruz.com/blog  — cambiada 2026-10-08 · rastreada 2026-10-07 · indexada · 4 impr.
+- [ ] https://www.clinicahispanacruz.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 47 impr.
 
-## Tanda 50
+## Tanda 55
 
-- [ ] https://www.clinicahispanacruz.com/services/cirugias-menores  — cambiada 2026-10-08 · rastreada 2026-10-06 · indexada · 18 impr.
-- [ ] https://www.clinicahispanacruz.com/en/blog  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 226 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services  — cambiada 2026-10-08 · rastreada 2026-09-09 · indexada · 85 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 52 impr.
-- [ ] https://www.clinicahispanacruz.com/en/promociones  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 50 impr.
-- [ ] https://www.clinicahispanacruz.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 46 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/examen-fisico-escolar  — cambiada 2026-10-08 · rastreada 2026-09-21 · indexada · 44 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/vacunas  — cambiada 2026-10-08 · rastreada 2026-07-11 · rastreada sin indexar · 40 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/cirugias-menores  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 19 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/examen-dot  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 18 impr.
-
-## Tanda 51
-
-- [ ] https://www.clinicahispanacruz.com/en/services/prueba-tuberculosis  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 12 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/unas-encarnadas  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 11 impr.
-- [ ] https://www.clinicahispanacruz.com/en/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 10 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/electrocardiograma  — cambiada 2026-10-08 · rastreada 2026-09-27 · indexada · 10 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/curacion-heridas  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 6 impr.
+- [ ] https://www.clinicahispanacruz.com/en/promociones  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 13 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services  — cambiada 2026-10-08 · rastreada 2026-09-11 · indexada · 13 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 9 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services/examen-dot  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 9 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services/examen-fisico-escolar  — cambiada 2026-10-08 · rastreada 2026-09-21 · indexada · 9 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services/prueba-tuberculosis  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 7 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 6 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/sueros-vitaminados  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · pedida 2026-10-05 · 6 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/ultrasonido  — cambiada 2026-10-08 · rastreada 2026-09-27 · indexada · 5 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/anticonceptivos  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 4 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/examen-alcohol-drogas  — cambiada 2026-10-08 · rastreada 2026-07-11 · rastreada sin indexar · 4 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services/cirugias-menores  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 4 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services/anticonceptivos  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 3 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services/electrocardiograma  — cambiada 2026-10-08 · rastreada 2026-09-27 · indexada · 3 impr.
 
-## Tanda 52
+## Tanda 56
 
-- [ ] https://www.clinicahispanacruz.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 3 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/suturas-heridas  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 3 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/tiroides  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 2 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services/ultrasonido  — cambiada 2026-10-08 · rastreada 2026-09-27 · indexada · 3 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services/unas-encarnadas  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 2 impr.
+- [ ] https://www.clinicahispanacruz.com/en/blog  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 1 impr.
+- [ ] https://www.clinicahispanacruz.com/en/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 1 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services/curacion-heridas  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 1 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services/suturas-heridas  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 1 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services/tiroides  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 1 impr.
+- [ ] https://www.clinicahispanacruz.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 0 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services/examen-alcohol-drogas  — cambiada 2026-10-08 · rastreada 2026-07-11 · rastreada sin indexar · 0 impr.
 
 ## Historial (tandas pedidas)
 

@@ -12,18 +12,18 @@ Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com*
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 <!-- /tandas:auto -->
 
-## Tanda 53 — cambios del 2026-11-01 (análisis diario: ginecología (Ads) alineada con los anuncios y título/meta de sueros) + home del 13-oct sin pedir  📨 ENVIADA 02/11/2026
+## Tanda 53 — cambios del 2026-11-01 (análisis diario: ginecología (Ads) alineada con los anuncios y título/meta de sueros) + home del 13-oct sin pedir  ✅ PEDIDA 02/11/2026
 
-- [ ] https://www.clinicahispanacruz.com/blog/dolor-de-oido-ninos-otitis-cuando-consultar  — cambiada 2026-11-02 · post del blog semanal
-- [ ] https://www.clinicahispanacruz.com/en/blog/dolor-de-oido-ninos-otitis-cuando-consultar  — cambiada 2026-11-02 · post del blog semanal
-- [ ] https://www.clinicahispanacruz.com/services/ginecologia  — cambiada 2026-11-01
-- [ ] https://www.clinicahispanacruz.com/en/services/ginecologia  — cambiada 2026-11-01
-- [ ] https://www.clinicahispanacruz.com/services/sueros-vitaminados  — cambiada 2026-11-01
-- [ ] https://www.clinicahispanacruz.com/en/services/sueros-vitaminados  — cambiada 2026-11-01
-- [ ] https://www.clinicahispanacruz.com/blog/bienvenidos-clinica-hispana-cruz  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 138 impr.
-- [ ] https://www.clinicahispanacruz.com/blog/salud-hombre-houston-chequeos-prevencion  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 105 impr.
-- [ ] https://www.clinicahispanacruz.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 104 impr.
-- [ ] https://www.clinicahispanacruz.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 99 impr.
+- [x] https://www.clinicahispanacruz.com/blog/dolor-de-oido-ninos-otitis-cuando-consultar  — cambiada 2026-11-02 · post del blog semanal
+- [x] https://www.clinicahispanacruz.com/en/blog/dolor-de-oido-ninos-otitis-cuando-consultar  — cambiada 2026-11-02 · post del blog semanal
+- [x] https://www.clinicahispanacruz.com/services/ginecologia  — cambiada 2026-11-01
+- [x] https://www.clinicahispanacruz.com/en/services/ginecologia  — cambiada 2026-11-01
+- [x] https://www.clinicahispanacruz.com/services/sueros-vitaminados  — cambiada 2026-11-01
+- [x] https://www.clinicahispanacruz.com/en/services/sueros-vitaminados  — cambiada 2026-11-01
+- [x] https://www.clinicahispanacruz.com/blog/bienvenidos-clinica-hispana-cruz  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 138 impr.
+- [x] https://www.clinicahispanacruz.com/blog/salud-hombre-houston-chequeos-prevencion  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 105 impr.
+- [x] https://www.clinicahispanacruz.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 104 impr.
+- [x] https://www.clinicahispanacruz.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 99 impr.
 
 ## Tanda 58 — cambios del 2026-11-02 (devueltas de la Tanda 53 para dejar sitio al post del blog semanal)
 

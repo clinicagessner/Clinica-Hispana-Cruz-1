@@ -14,6 +14,8 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 ## Tanda 53 — cambios del 2026-11-01 (análisis diario: ginecología (Ads) alineada con los anuncios y título/meta de sueros) + home del 13-oct sin pedir  📨 ENVIADA 02/11/2026
 
+- [ ] https://www.clinicahispanacruz.com/blog/dolor-de-oido-ninos-otitis-cuando-consultar  — cambiada 2026-11-02 · post del blog semanal
+- [ ] https://www.clinicahispanacruz.com/en/blog/dolor-de-oido-ninos-otitis-cuando-consultar  — cambiada 2026-11-02 · post del blog semanal
 - [ ] https://www.clinicahispanacruz.com/services/ginecologia  — cambiada 2026-11-01
 - [ ] https://www.clinicahispanacruz.com/en/services/ginecologia  — cambiada 2026-11-01
 - [ ] https://www.clinicahispanacruz.com/services/sueros-vitaminados  — cambiada 2026-11-01
@@ -22,6 +24,9 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/blog/salud-hombre-houston-chequeos-prevencion  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 105 impr.
 - [ ] https://www.clinicahispanacruz.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 104 impr.
 - [ ] https://www.clinicahispanacruz.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 99 impr.
+
+## Tanda 58 — cambios del 2026-11-02 (devueltas de la Tanda 53 para dejar sitio al post del blog semanal)
+
 - [ ] https://www.clinicahispanacruz.com/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · 84 impr.
 - [ ] https://www.clinicahispanacruz.com/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-28 · indexada · 77 impr.
 
@@ -36,7 +41,6 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/services/examen-alcohol-drogas  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 31 impr.
 - [ ] https://www.clinicahispanacruz.com/services/curacion-heridas  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 30 impr.
 - [ ] https://www.clinicahispanacruz.com/services/examen-dot  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 21 impr.
-- [ ] https://www.clinicahispanacruz.com/blog/dolor-de-oido-ninos-otitis-cuando-consultar  — cambiada 2026-11-02 · sin datos de inspección · 0 impr.
 
 ## Tanda 55
 
@@ -63,10 +67,6 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/en/services/ultrasonido  — cambiada 2026-10-08 · rastreada 2026-09-27 · indexada · 4 impr.
 - [ ] https://www.clinicahispanacruz.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 3 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/tiroides  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 2 impr.
-
-## Tanda 57
-
-- [ ] https://www.clinicahispanacruz.com/en/blog/dolor-de-oido-ninos-otitis-cuando-consultar  — cambiada 2026-11-02 · sin datos de inspección · 0 impr.
 
 ## Historial (tandas pedidas)
 

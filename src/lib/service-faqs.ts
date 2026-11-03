@@ -172,6 +172,10 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       {
         "question": "¿Duele la toma del Papanicolaou?",
         "answer": "La mayoría siente presión o una molestia breve al colocar el espéculo, no dolor fuerte. Respirar despacio y relajar el abdomen ayuda. Puedes pedir un espéculo más pequeño o que se detengan si te sientes incómoda."
+      },
+      {
+        "question": "¿La consulta ginecológica es privada?",
+        "answer": "Sí. Es un ambiente íntimo y seguro, con trato íntimo y respetuoso en un espacio cómodo, seguro y confidencial; la consulta, el Papanicolaou y el ultrasonido se hacen en un mismo lugar, en español."
       }
     ],
     "faqsEn": [
@@ -186,6 +190,10 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       {
         "question": "Does a Pap smear hurt?",
         "answer": "Most women feel pressure or brief discomfort when the speculum goes in, not strong pain. Slow breathing and relaxing your belly help. You can ask for a smaller speculum or ask to stop if you feel uncomfortable."
+      },
+      {
+        "question": "Is the gynecology visit private?",
+        "answer": "Yes. It is a private, safe setting, with respectful care in a comfortable, safe and confidential space; the visit, the Pap smear and the ultrasound are all done in one place, in Spanish."
       }
     ]
   },

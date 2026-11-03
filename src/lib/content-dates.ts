@@ -13,6 +13,7 @@ export const SERVICE_DATES: Record<string, string> = {
   "prueba-strep": "2026-10-15",
   "enfermedades-transmision-sexual": "2026-10-15",
   "condiciones-cronicas": "2026-10-15",
+  "sueros-vitaminados": "2026-11-03",
 };
 
 export function serviceLastReviewed(slug: string): string {

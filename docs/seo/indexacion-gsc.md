@@ -6,31 +6,26 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-02; URL Inspection API, datos de hoy 2026-11-02):** 91 de 94 URLs del sitemap indexadas · 3 sin indexar (2 sin datos · 1 rastreada sin indexar).
+**Estado (actualizado 2026-11-03; URL Inspection API, datos ANTIGUOS del 2026-11-02: antiguos (2026-11-02): --sin-fetch):** 91 de 94 URLs del sitemap indexadas · 3 sin indexar (2 sin datos · 1 rastreada sin indexar).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 31 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 29 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
+2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-16).
 <!-- /tandas:auto -->
-
-## Tanda 53 — cambios del 2026-11-01 (análisis diario: ginecología (Ads) alineada con los anuncios y título/meta de sueros) + home del 13-oct sin pedir  ✅ PEDIDA 02/11/2026
-
-- [x] https://www.clinicahispanacruz.com/blog/dolor-de-oido-ninos-otitis-cuando-consultar  — cambiada 2026-11-02 · post del blog semanal
-- [x] https://www.clinicahispanacruz.com/en/blog/dolor-de-oido-ninos-otitis-cuando-consultar  — cambiada 2026-11-02 · post del blog semanal
-- [x] https://www.clinicahispanacruz.com/services/ginecologia  — cambiada 2026-11-01
-- [x] https://www.clinicahispanacruz.com/en/services/ginecologia  — cambiada 2026-11-01
-- [x] https://www.clinicahispanacruz.com/services/sueros-vitaminados  — cambiada 2026-11-01
-- [x] https://www.clinicahispanacruz.com/en/services/sueros-vitaminados  — cambiada 2026-11-01
-- [x] https://www.clinicahispanacruz.com/blog/bienvenidos-clinica-hispana-cruz  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 138 impr.
-- [x] https://www.clinicahispanacruz.com/blog/salud-hombre-houston-chequeos-prevencion  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 105 impr.
-- [x] https://www.clinicahispanacruz.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 104 impr.
-- [x] https://www.clinicahispanacruz.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 99 impr.
 
 ## Tanda 58 — cambios del 2026-11-02 (devueltas de la Tanda 53 para dejar sitio al post del blog semanal)
 
 - [ ] https://www.clinicahispanacruz.com/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · 84 impr.
 - [ ] https://www.clinicahispanacruz.com/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-28 · indexada · 77 impr.
 
-## Tanda 54
+## Tanda 59 — cambios del 2026-11-02 (sueros solo B12 (orden de red))
+
+- [ ] https://www.clinicahispanacruz.com/services/sueros-vitaminados  — cambiada 2026-11-02
+- [ ] https://www.clinicahispanacruz.com/en/services/sueros-vitaminados  — cambiada 2026-11-02
+- [ ] https://www.clinicahispanacruz.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-02
+- [ ] https://www.clinicahispanacruz.com/en/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-02
+
+## Tanda 60
 
 - [ ] https://www.clinicahispanacruz.com/services/ultrasonido  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 116 impr.
 - [ ] https://www.clinicahispanacruz.com/services/tiroides  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 50 impr.
@@ -41,10 +36,10 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/services/examen-alcohol-drogas  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 31 impr.
 - [ ] https://www.clinicahispanacruz.com/services/curacion-heridas  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 30 impr.
 - [ ] https://www.clinicahispanacruz.com/services/examen-dot  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 21 impr.
-
-## Tanda 55
-
 - [ ] https://www.clinicahispanacruz.com/en/blog  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 226 impr.
+
+## Tanda 61
+
 - [ ] https://www.clinicahispanacruz.com/en/services  — cambiada 2026-10-08 · rastreada 2026-09-11 · indexada · 84 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 54 impr.
 - [ ] https://www.clinicahispanacruz.com/en/promociones  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 49 impr.
@@ -54,10 +49,10 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/en/services/examen-dot  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 19 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/prueba-tuberculosis  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 12 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/unas-encarnadas  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 12 impr.
-
-## Tanda 56
-
 - [ ] https://www.clinicahispanacruz.com/en/services/curacion-heridas  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 11 impr.
+
+## Tanda 62
+
 - [ ] https://www.clinicahispanacruz.com/en/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 8 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 7 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/electrocardiograma  — cambiada 2026-10-08 · rastreada 2026-09-27 · indexada · 6 impr.
@@ -174,3 +169,16 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [x] https://www.clinicahispanacruz.com/en/services/salud-hombre  — cambiada 2026-10-23 · rastreada 2026-07-11 · indexada · 7 impr.
 - [x] https://www.clinicahispanacruz.com/en/services/infecciones-urinarias  — cambiada 2026-10-23 · rastreada 2026-09-27 · indexada · pedida 2026-10-18 · 5 impr.
 - [x] https://www.clinicahispanacruz.com/en/services/prueba-embarazo  — cambiada 2026-10-23 · rastreada 2026-09-14 · indexada · 5 impr.
+
+## Tanda 53 — cambios del 2026-11-01 (análisis diario: ginecología (Ads) alineada con los anuncios y título/meta de sueros) + home del 13-oct sin pedir  ✅ PEDIDA 02/11/2026
+
+- [x] https://www.clinicahispanacruz.com/blog/dolor-de-oido-ninos-otitis-cuando-consultar  — cambiada 2026-11-02 · post del blog semanal
+- [x] https://www.clinicahispanacruz.com/en/blog/dolor-de-oido-ninos-otitis-cuando-consultar  — cambiada 2026-11-02 · post del blog semanal
+- [x] https://www.clinicahispanacruz.com/services/ginecologia  — cambiada 2026-11-01
+- [x] https://www.clinicahispanacruz.com/en/services/ginecologia  — cambiada 2026-11-01
+- [x] https://www.clinicahispanacruz.com/services/sueros-vitaminados  — cambiada 2026-11-01
+- [x] https://www.clinicahispanacruz.com/en/services/sueros-vitaminados  — cambiada 2026-11-01
+- [x] https://www.clinicahispanacruz.com/blog/bienvenidos-clinica-hispana-cruz  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 138 impr.
+- [x] https://www.clinicahispanacruz.com/blog/salud-hombre-houston-chequeos-prevencion  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 105 impr.
+- [x] https://www.clinicahispanacruz.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 104 impr.
+- [x] https://www.clinicahispanacruz.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 99 impr.

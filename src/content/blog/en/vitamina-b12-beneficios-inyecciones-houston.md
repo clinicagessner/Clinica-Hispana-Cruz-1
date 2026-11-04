@@ -72,7 +72,7 @@ When shots are recommended, how often you get them depends on the cause and how 
 
 ## A B12 Shot and a Vitamin IV Aren't the Same Thing
 
-A B12 shot is a quick dose into the muscle. The clinic's [vitamin IV](/services/sueros-vitaminados) also carries B12, but it is given through a vein over a longer session. They're separate services, and the team will help you figure out which one, if either, makes sense for you.
+A B12 shot is a quick dose into the muscle. [Vitamin IV therapy](/services/sueros-vitaminados) is given through a vein over a longer session. They're separate services, and the team will help you figure out which one, if either, makes sense for you.
 
 ## When to Get Urgent Care
 

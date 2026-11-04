@@ -70,9 +70,9 @@ Con un [análisis de sangre](/services/examenes-sangre). Además del nivel de la
 
 La frecuencia de las inyecciones, cuando se indican, depende de la causa y de cómo responde cada persona; se define en consulta y no se repite por costumbre. Si un resultado lo requiere, se orienta la referencia a un especialista.
 
-## B12 inyectada y suero de B12 no son lo mismo
+## B12 inyectada y sueros vitaminados no son lo mismo
 
-La inyección de B12 es una dosis en el músculo que dura unos instantes. El [suero vitaminado](/services/sueros-vitaminados) de la clínica también lleva B12, pero se administra por vía intravenosa durante una sesión más larga. Son servicios distintos y el equipo le orienta sobre cuál tiene sentido en su caso, si es que alguno lo tiene.
+La inyección de B12 es una dosis en el músculo que dura unos instantes. Los [sueros vitaminados](/services/sueros-vitaminados) se administran por vía intravenosa durante una sesión más larga. Son servicios distintos y el equipo le orienta sobre cuál tiene sentido en su caso, si es que alguno lo tiene.
 
 ## Cuándo buscar atención urgente
 

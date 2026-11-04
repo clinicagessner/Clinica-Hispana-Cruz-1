@@ -6,34 +6,21 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-03; URL Inspection API, datos ANTIGUOS del 2026-11-02: antiguos (2026-11-02): --sin-fetch):** 91 de 94 URLs del sitemap indexadas · 3 sin indexar (2 sin datos · 1 rastreada sin indexar).
+**Estado (actualizado 2026-11-04; URL Inspection API, datos ANTIGUOS del 2026-11-02: antiguos (2026-11-02): --sin-fetch):** 91 de 94 URLs del sitemap indexadas · 3 sin indexar (2 sin datos · 1 rastreada sin indexar).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 29 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-16).
 <!-- /tandas:auto -->
 
-## Tanda 67 — cambios del 2026-11-04 (sueros (anuncios) y post de B12)
+## Tanda 67 — cambios del 2026-11-04 (sueros (anuncios) y post de B12)  📨 ENVIADA 04/11/2026
 
 - [ ] https://www.clinicahispanacruz.com/services/sueros-vitaminados  — cambiada 2026-11-04
 - [ ] https://www.clinicahispanacruz.com/en/services/sueros-vitaminados  — cambiada 2026-11-04
 - [ ] https://www.clinicahispanacruz.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-04
 - [ ] https://www.clinicahispanacruz.com/en/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-04
 
-## Tanda 58 — cambios del 2026-11-02 (devueltas de la Tanda 53 para dejar sitio al post del blog semanal)  ✅ PEDIDA 03/11/2026
-
-- [x] https://www.clinicahispanacruz.com/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · 84 impr.
-- [x] https://www.clinicahispanacruz.com/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-28 · indexada · 77 impr.
-- [x] https://www.clinicahispanacruz.com/services/sueros-vitaminados  — cambiada 2026-11-02
-- [x] https://www.clinicahispanacruz.com/en/services/sueros-vitaminados  — cambiada 2026-11-02
-- [x] https://www.clinicahispanacruz.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-02
-- [x] https://www.clinicahispanacruz.com/en/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-02
-- [x] https://www.clinicahispanacruz.com/  — cambiada 2026-11-02
-- [x] https://www.clinicahispanacruz.com/en  — cambiada 2026-11-02
-- [x] https://www.clinicahispanacruz.com/services/ginecologia  — cambiada 2026-11-02
-- [x] https://www.clinicahispanacruz.com/en/services/ginecologia  — cambiada 2026-11-02
-
-## Tanda 64
+## Tanda 68
 
 - [ ] https://www.clinicahispanacruz.com/services/ultrasonido  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 116 impr.
 - [ ] https://www.clinicahispanacruz.com/services/tiroides  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 50 impr.
@@ -46,7 +33,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/services/examen-dot  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 21 impr.
 - [ ] https://www.clinicahispanacruz.com/en/blog  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 226 impr.
 
-## Tanda 65
+## Tanda 69
 
 - [ ] https://www.clinicahispanacruz.com/en/services  — cambiada 2026-10-08 · rastreada 2026-09-11 · indexada · 84 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 54 impr.
@@ -59,7 +46,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/en/services/unas-encarnadas  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 12 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/curacion-heridas  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 11 impr.
 
-## Tanda 66
+## Tanda 70
 
 - [ ] https://www.clinicahispanacruz.com/en/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 8 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 7 impr.
@@ -190,3 +177,16 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [x] https://www.clinicahispanacruz.com/blog/salud-hombre-houston-chequeos-prevencion  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 105 impr.
 - [x] https://www.clinicahispanacruz.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 104 impr.
 - [x] https://www.clinicahispanacruz.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 99 impr.
+
+## Tanda 58 — cambios del 2026-11-02 (devueltas de la Tanda 53 para dejar sitio al post del blog semanal)  ✅ PEDIDA 03/11/2026
+
+- [x] https://www.clinicahispanacruz.com/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · 84 impr.
+- [x] https://www.clinicahispanacruz.com/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-28 · indexada · 77 impr.
+- [x] https://www.clinicahispanacruz.com/services/sueros-vitaminados  — cambiada 2026-11-02
+- [x] https://www.clinicahispanacruz.com/en/services/sueros-vitaminados  — cambiada 2026-11-02
+- [x] https://www.clinicahispanacruz.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-02
+- [x] https://www.clinicahispanacruz.com/en/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-02
+- [x] https://www.clinicahispanacruz.com/  — cambiada 2026-11-02
+- [x] https://www.clinicahispanacruz.com/en  — cambiada 2026-11-02
+- [x] https://www.clinicahispanacruz.com/services/ginecologia  — cambiada 2026-11-02
+- [x] https://www.clinicahispanacruz.com/en/services/ginecologia  — cambiada 2026-11-02

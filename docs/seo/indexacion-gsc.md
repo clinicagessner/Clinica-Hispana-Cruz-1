@@ -13,6 +13,13 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-16).
 <!-- /tandas:auto -->
 
+## Tanda 67 — cambios del 2026-11-04 (sueros (anuncios) y post de B12)
+
+- [ ] https://www.clinicahispanacruz.com/services/sueros-vitaminados  — cambiada 2026-11-04
+- [ ] https://www.clinicahispanacruz.com/en/services/sueros-vitaminados  — cambiada 2026-11-04
+- [ ] https://www.clinicahispanacruz.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-04
+- [ ] https://www.clinicahispanacruz.com/en/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-04
+
 ## Tanda 58 — cambios del 2026-11-02 (devueltas de la Tanda 53 para dejar sitio al post del blog semanal)  ✅ PEDIDA 03/11/2026
 
 - [x] https://www.clinicahispanacruz.com/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · 84 impr.

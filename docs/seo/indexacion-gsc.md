@@ -6,19 +6,12 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-04; URL Inspection API, datos ANTIGUOS del 2026-11-02: antiguos (2026-11-02): --sin-fetch):** 91 de 94 URLs del sitemap indexadas · 3 sin indexar (2 sin datos · 1 rastreada sin indexar).
+**Estado (actualizado 2026-11-05; URL Inspection API, datos ANTIGUOS del 2026-11-02: antiguos (2026-11-02): --sin-fetch):** 91 de 94 URLs del sitemap indexadas · 3 sin indexar (2 sin datos · 1 rastreada sin indexar).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 29 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-16).
 <!-- /tandas:auto -->
-
-## Tanda 67 — cambios del 2026-11-04 (sueros (anuncios) y post de B12)  📨 ENVIADA 04/11/2026  ✅ PEDIDA 05/11/2026
-
-- [x] https://www.clinicahispanacruz.com/services/sueros-vitaminados  — cambiada 2026-11-04
-- [x] https://www.clinicahispanacruz.com/en/services/sueros-vitaminados  — cambiada 2026-11-04
-- [x] https://www.clinicahispanacruz.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-04
-- [x] https://www.clinicahispanacruz.com/en/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-04
 
 ## Tanda 68
 
@@ -190,3 +183,10 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [x] https://www.clinicahispanacruz.com/en  — cambiada 2026-11-02
 - [x] https://www.clinicahispanacruz.com/services/ginecologia  — cambiada 2026-11-02
 - [x] https://www.clinicahispanacruz.com/en/services/ginecologia  — cambiada 2026-11-02
+
+## Tanda 67 — cambios del 2026-11-04 (sueros (anuncios) y post de B12)  📨 ENVIADA 04/11/2026  ✅ PEDIDA 05/11/2026
+
+- [x] https://www.clinicahispanacruz.com/services/sueros-vitaminados  — cambiada 2026-11-04
+- [x] https://www.clinicahispanacruz.com/en/services/sueros-vitaminados  — cambiada 2026-11-04
+- [x] https://www.clinicahispanacruz.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-04
+- [x] https://www.clinicahispanacruz.com/en/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-04

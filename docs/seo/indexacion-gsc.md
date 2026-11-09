@@ -12,6 +12,11 @@ Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com*
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 <!-- /tandas:auto -->
 
+## Tanda 71 — cambios del 2026-11-09 (post del blog semanal)  📨 ENVIADA 09/11/2026
+
+- [ ] https://www.clinicahispanacruz.com/blog/granos-manchas-comezon-problemas-piel-clinica  — cambiada 2026-11-09
+- [ ] https://www.clinicahispanacruz.com/en/blog/granos-manchas-comezon-problemas-piel-clinica  — cambiada 2026-11-09
+
 ## Tanda 68
 
 - [ ] https://www.clinicahispanacruz.com/services/ultrasonido  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 136 impr.

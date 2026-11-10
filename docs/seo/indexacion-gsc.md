@@ -12,10 +12,10 @@ Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com*
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 <!-- /tandas:auto -->
 
-## Tanda 71 — cambios del 2026-11-09 (post del blog semanal)  📨 ENVIADA 09/11/2026
+## Tanda 71 — cambios del 2026-11-09 (post del blog semanal)  📨 ENVIADA 09/11/2026  ✅ PEDIDA 10/11/2026
 
-- [ ] https://www.clinicahispanacruz.com/blog/granos-manchas-comezon-problemas-piel-clinica  — cambiada 2026-11-09
-- [ ] https://www.clinicahispanacruz.com/en/blog/granos-manchas-comezon-problemas-piel-clinica  — cambiada 2026-11-09
+- [x] https://www.clinicahispanacruz.com/blog/granos-manchas-comezon-problemas-piel-clinica  — cambiada 2026-11-09
+- [x] https://www.clinicahispanacruz.com/en/blog/granos-manchas-comezon-problemas-piel-clinica  — cambiada 2026-11-09
 
 ## Tanda 72 — cambios del 2026-11-10 (quitar superlativos aprobados 2026-11-09)
 

@@ -6,7 +6,7 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-09; URL Inspection API, datos de hoy 2026-11-09):** 93 de 94 URLs del sitemap indexadas · 1 sin indexar (1 rastreada sin indexar).
+**Estado (actualizado 2026-11-10; URL Inspection API, datos ANTIGUOS del 2026-11-09: antiguos (2026-11-09): --sin-fetch):** 93 de 96 URLs del sitemap indexadas · 3 sin indexar (2 sin datos · 1 rastreada sin indexar).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 29 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
@@ -17,7 +17,12 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/blog/granos-manchas-comezon-problemas-piel-clinica  — cambiada 2026-11-09
 - [ ] https://www.clinicahispanacruz.com/en/blog/granos-manchas-comezon-problemas-piel-clinica  — cambiada 2026-11-09
 
-## Tanda 68
+## Tanda 72 — cambios del 2026-11-10 (quitar superlativos aprobados 2026-11-09)
+
+- [ ] https://www.clinicahispanacruz.com  — cambiada 2026-11-10
+- [ ] https://www.clinicahispanacruz.com/en  — cambiada 2026-11-10
+
+## Tanda 73
 
 - [ ] https://www.clinicahispanacruz.com/services/ultrasonido  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 136 impr.
 - [ ] https://www.clinicahispanacruz.com/services/tiroides  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 57 impr.
@@ -30,7 +35,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/services/examen-dot  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 18 impr.
 - [ ] https://www.clinicahispanacruz.com/en/blog  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 178 impr.
 
-## Tanda 69
+## Tanda 74
 
 - [ ] https://www.clinicahispanacruz.com/en/services  — cambiada 2026-10-08 · rastreada 2026-09-11 · indexada · 91 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 54 impr.
@@ -43,7 +48,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/en/services/prueba-tuberculosis  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 13 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/curacion-heridas  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 11 impr.
 
-## Tanda 70
+## Tanda 75
 
 - [ ] https://www.clinicahispanacruz.com/en/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 7 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/anticonceptivos  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 6 impr.

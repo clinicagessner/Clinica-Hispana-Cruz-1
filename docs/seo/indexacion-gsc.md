@@ -13,6 +13,10 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-23).
 <!-- /tandas:auto -->
 
+## Tanda 76 — cambios del 2026-11-14 (YouTube en el footer de toda la web)
+
+- [ ] https://www.clinicahispanacruz.com/es  — cambiada 2026-11-14
+
 ## Tanda 73
 
 - [ ] https://www.clinicahispanacruz.com/services/ultrasonido  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 136 impr.

@@ -13,9 +13,9 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-23).
 <!-- /tandas:auto -->
 
-## Tanda 81 — cambios del 2026-11-15 (error de GSC al pedirlas el 14/11: repetir)
+## Tanda 81 — cambios del 2026-11-15 (error de GSC al pedirlas el 14/11: repetir)  ✅ PEDIDA 14/11/2026
 
-- [ ] https://www.clinicahispanacruz.com/  — cambiada 2026-11-15
+- [x] https://www.clinicahispanacruz.com/  — cambiada 2026-11-15
 
 ## Tanda 76 — cambios del 2026-11-14 (YouTube en el footer de toda la web)  📨 ENVIADA 14/11/2026  ✅ PEDIDA 14/11/2026
 

@@ -39,6 +39,7 @@ export const CONTACT_INFO: ContactInfo = {
 export const SOCIAL_LINKS: SocialLinks = {
   facebook: "https://www.facebook.com/clinicahispanacruz/",
   instagram: "https://www.instagram.com/clinicahispanacruz/",
+  youtube: "https://www.youtube.com/@ClinicaHispana-Cruz",
   google: "https://g.page/r/CZYbFeYuKrAJEBM",
   yelp: "https://www.yelp.com/biz/clinica-hispana-cruz-houston",
   tiktok: "https://www.tiktok.com/@clinica.hispana.c",

@@ -91,6 +91,7 @@ Actualizado: ${formatDate(generatedAt.toISOString())}
 - [Google Business Profile](${SOCIAL_LINKS.google})
 - [Facebook](${SOCIAL_LINKS.facebook})
 - [Instagram](${SOCIAL_LINKS.instagram})
+- [YouTube](${SOCIAL_LINKS.youtube})
 - [TikTok](https://www.tiktok.com/@clinica.hispana.c)
 - [Yelp](${SOCIAL_LINKS.yelp})
 

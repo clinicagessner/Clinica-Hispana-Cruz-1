@@ -12,10 +12,10 @@ Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com*
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 <!-- /tandas:auto -->
 
-## Tanda 85 — cambios del 2026-11-16 (post del blog semanal)  📨 ENVIADA 16/11/2026
+## Tanda 85 — cambios del 2026-11-16 (post del blog semanal)  📨 ENVIADA 16/11/2026  ✅ PEDIDA 16/11/2026
 
-- [ ] https://www.clinicahispanacruz.com/blog/papanicolaou-que-detecta-cada-cuanto-como-prepararse  — cambiada 2026-11-16
-- [ ] https://www.clinicahispanacruz.com/en/blog/papanicolaou-que-detecta-cada-cuanto-como-prepararse  — cambiada 2026-11-16
+- [x] https://www.clinicahispanacruz.com/blog/papanicolaou-que-detecta-cada-cuanto-como-prepararse  — cambiada 2026-11-16
+- [x] https://www.clinicahispanacruz.com/en/blog/papanicolaou-que-detecta-cada-cuanto-como-prepararse  — cambiada 2026-11-16
 
 ## Tanda 82
 

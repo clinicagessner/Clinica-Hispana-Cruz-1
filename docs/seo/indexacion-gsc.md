@@ -6,18 +6,14 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-16; URL Inspection API, datos de hoy 2026-11-16):** 95 de 96 URLs del sitemap indexadas · 1 sin indexar (1 rastreada sin indexar).
+**Estado (actualizado 2026-11-17; URL Inspection API, datos ANTIGUOS del 2026-11-16: antiguos (2026-11-16): --sin-fetch):** 95 de 98 URLs del sitemap indexadas · 3 sin indexar (2 sin datos · 1 rastreada sin indexar).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 27 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
+2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-30).
 <!-- /tandas:auto -->
 
-## Tanda 85 — cambios del 2026-11-16 (post del blog semanal)  📨 ENVIADA 16/11/2026  ✅ PEDIDA 16/11/2026
-
-- [x] https://www.clinicahispanacruz.com/blog/papanicolaou-que-detecta-cada-cuanto-como-prepararse  — cambiada 2026-11-16
-- [x] https://www.clinicahispanacruz.com/en/blog/papanicolaou-que-detecta-cada-cuanto-como-prepararse  — cambiada 2026-11-16
-
-## Tanda 82
+## Tanda 86
 
 - [ ] https://www.clinicahispanacruz.com/services/tiroides  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 57 impr.
 - [ ] https://www.clinicahispanacruz.com/services/prueba-tuberculosis  — cambiada 2026-10-08 · rastreada 2026-10-03 · indexada · 51 impr.
@@ -30,7 +26,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/en/promociones  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 50 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 50 impr.
 
-## Tanda 83
+## Tanda 87
 
 - [ ] https://www.clinicahispanacruz.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 49 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/examen-fisico-escolar  — cambiada 2026-10-08 · rastreada 2026-09-21 · indexada · 39 impr.
@@ -43,7 +39,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/en/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 9 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/electrocardiograma  — cambiada 2026-10-08 · rastreada 2026-09-27 · indexada · 7 impr.
 
-## Tanda 84
+## Tanda 88
 
 - [ ] https://www.clinicahispanacruz.com/en/services/anticonceptivos  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 6 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/ultrasonido  — cambiada 2026-10-08 · rastreada 2026-09-27 · indexada · 5 impr.
@@ -211,3 +207,8 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 ## Tanda 81 — cambios del 2026-11-15 (error de GSC al pedirlas el 14/11: repetir)  ✅ PEDIDA 14/11/2026
 
 - [x] https://www.clinicahispanacruz.com/  — cambiada 2026-11-15
+
+## Tanda 85 — cambios del 2026-11-16 (post del blog semanal)  📨 ENVIADA 16/11/2026  ✅ PEDIDA 16/11/2026
+
+- [x] https://www.clinicahispanacruz.com/blog/papanicolaou-que-detecta-cada-cuanto-como-prepararse  — cambiada 2026-11-16
+- [x] https://www.clinicahispanacruz.com/en/blog/papanicolaou-que-detecta-cada-cuanto-como-prepararse  — cambiada 2026-11-16

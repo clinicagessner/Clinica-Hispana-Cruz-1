@@ -18,7 +18,7 @@ import { Badge } from "@/components/ui/badge";
 import { CONTACT_INFO } from "@/lib/constants";
 
 const features = [
-  { icon: ShieldCheckIcon, text: "Médico Civil Surgeon certificado por USCIS" },
+  { icon: ShieldCheckIcon, text: "Civil Surgeon designado por USCIS" },
   { icon: CalendarCheckIcon, text: "Resultados en 3-5 días hábiles" },
   { icon: CheckCircleIcon, text: "Atención 100% en español" },
   { icon: PhoneIcon, text: "Sin cita previa necesaria" },
@@ -48,7 +48,7 @@ export function GreenCard() {
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: "url('/images/green-card-bg.webp')" }}
         role="img"
-        aria-label="Examen médico de inmigración I-693 en Houston TX - Civil Surgeon certificado USCIS completando formulario para Green Card"
+        aria-label="Examen médico de inmigración I-693 en Houston TX - Civil Surgeon designado por USCIS completando formulario para Green Card"
       />
       {/* Overlay with red tint */}
       <div className="absolute inset-0 bg-linear-to-r from-slate-900/90 via-slate-900/75 to-red-primary/50" />

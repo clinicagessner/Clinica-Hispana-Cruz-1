@@ -680,6 +680,14 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "sueros-vitaminados": {
     "faqs": [
       {
+        "question": "¿Qué vitaminas lleva el suero vitaminado?",
+        "answer": "La base es la vitamina B12, junto con las vitaminas que lleve el suero que el equipo médico indique para ti. En la consulta te dicen qué contiene y qué dosis de B12 lleva antes de colocarlo; pregúntalo sin pena."
+      },
+      {
+        "question": "¿Para qué sirve el suero vitaminado?",
+        "answer": "Sirve para recibir vitaminas, con la B12 como base, directamente por la vena, en lugar de una inyección en el músculo o una pastilla. Si es apropiado para ti lo decide el equipo médico después de revisarte."
+      },
+      {
         "question": "¿Me pueden negar el suero después de la revisión?",
         "answer": "Sí, puede pasar. Si el equipo médico ve que una condición del corazón, los riñones u otro factor hace que el suero no sea apropiado para ti ese día, te lo explica y te orienta sobre otras opciones de atención."
       },
@@ -693,6 +701,14 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       }
     ],
     "faqsEn": [
+      {
+        "question": "Which vitamins are in the vitamin IV drip?",
+        "answer": "The base is vitamin B12, along with whatever vitamins the drip the medical team chooses for you contains. During the visit you are told what it holds and the B12 dose before the line goes in; feel free to ask."
+      },
+      {
+        "question": "What is a vitamin IV drip for?",
+        "answer": "It delivers vitamins, with B12 as the base, straight into the vein instead of as a shot in the muscle or a pill. Whether it suits you is decided by the medical team after checking you."
+      },
       {
         "question": "Can I be turned down for the IV after the check?",
         "answer": "Yes, it can happen. If the medical team sees that a heart or kidney condition, or another factor, makes the IV inappropriate for you that day, they explain why and point you to other care options."

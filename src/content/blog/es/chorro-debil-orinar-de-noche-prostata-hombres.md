@@ -62,7 +62,7 @@ Después, según lo que usted cuente, se puede indicar:
 - **Análisis de sangre:** glucosa para descartar diabetes y pruebas que muestran qué tan bien filtran los riñones, entre otros. Se toman con nuestros [exámenes de sangre](/services/examenes-sangre) y le avisamos en cuanto el laboratorio entrega los resultados.
 - **Revisión física y toma de presión**, porque la presión, el peso y algunos medicamentos influyen en cómo trabaja la vejiga.
 
-Si se confirma una infección, se va a casa con su tratamiento, porque los medicamentos que le receta nuestro médico los compra en la farmacia de la clínica. Si el cuadro apunta a la próstata, se platica qué opciones tiene y cómo medir si van funcionando. Y si usted ya vive con diabetes o presión alta, las molestias al orinar se suman a su seguimiento de [condiciones crónicas](/services/condiciones-cronicas).
+Si se confirma una infección, se va a casa con su tratamiento, porque los medicamentos que le receta nuestro equipo médico los compra en la farmacia de la clínica. Si el cuadro apunta a la próstata, se platica qué opciones tiene y cómo medir si van funcionando. Y si usted ya vive con diabetes o presión alta, las molestias al orinar se suman a su seguimiento de [condiciones crónicas](/services/condiciones-cronicas).
 
 ## La prueba de PSA: una decisión que se platica
 

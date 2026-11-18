@@ -89,7 +89,7 @@ Not every cold needs a visit, but some situations call for getting checked soon:
 - **You have diabetes, high blood pressure or another chronic condition.** The flu can hit harder in those cases; if you already come in for [diabetes, blood pressure or cholesterol care](/services/condiciones-cronicas), mention it during the visit.
 - **Symptoms improved and then came back worse**, or the cough has dragged on for many days.
 
-Our [flu and COVID testing and respiratory illness care](/services/enfermedades-respiratorias) is walk-in and in Spanish. You buy what our doctor prescribes right there at the clinic's on-site pharmacy, so you can leave with your treatment and head home to rest. It's direct pay with no insurance needed; feel free to ask about the price by phone or WhatsApp before you come.
+Our [flu and COVID testing and respiratory illness care](/services/enfermedades-respiratorias) is walk-in and in Spanish. You buy what our medical team prescribes right there at the clinic's on-site pharmacy, so you can leave with your treatment and head home to rest. It's direct pay with no insurance needed; feel free to ask about the price by phone or WhatsApp before you come.
 
 ## Warning signs: don't wait, go to the ER or call 911
 

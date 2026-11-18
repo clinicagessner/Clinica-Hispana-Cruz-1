@@ -31,7 +31,7 @@ Many families in Aldine, Greenspoint, Hidden Valley, Northline, and East Aldine 
 2. **Check in in Spanish** (or English, if you prefer).
 3. **Talk with the clinic's medical team**, who listen to why you came in and walk you through your options without rushing.
 4. **Get any tests you need**, many of them right at the clinic.
-5. **Head home with written instructions**, and if our doctor prescribes a medication, you buy it at the clinic's on-site pharmacy before you leave.
+5. **Head home with written instructions**, and if our medical team prescribes a medication, you buy it at the clinic's on-site pharmacy before you leave.
 
 You can ask about cost before any service. Payment is direct, by cash or credit/debit card, and current offers are posted on the [promotions](/promociones) page.
 

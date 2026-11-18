@@ -63,7 +63,7 @@ Todos los servicios de la clínica están disponibles para personas sin seguro. 
 | Ardor o urgencia al orinar | [Infecciones urinarias](/services/infecciones-urinarias) |
 | Vacunas para adultos y niños | [Vacunas](/services/vacunas) |
 
-Si en la consulta nuestro médico le receta algún medicamento, lo compra ahí mismo en la farmacia de la clínica, sin otra parada en el camino de regreso.
+Si en la consulta nuestro equipo médico le receta algún medicamento, lo compra ahí mismo en la farmacia de la clínica, sin otra parada en el camino de regreso.
 
 ## Preguntas que conviene hacer siempre
 

@@ -92,7 +92,7 @@ El servicio de [condiciones crónicas](/services/condiciones-cronicas) acompaña
 - Un plan de comidas y de movimiento que se le explica en español, adaptado a su rutina
 - Referencia orientada a un especialista cuando un resultado lo requiere
 
-Si nuestro médico le receta un medicamento nuevo o un cambio de dosis, lo compra en la farmacia de la misma clínica. No necesita seguro médico: puede preguntar el costo antes de cualquier prueba y pagar con efectivo o tarjeta.
+Si nuestro equipo médico le receta un medicamento nuevo o un cambio de dosis, lo compra en la farmacia de la misma clínica. No necesita seguro médico: puede preguntar el costo antes de cualquier prueba y pagar con efectivo o tarjeta.
 
 ## Visítenos
 

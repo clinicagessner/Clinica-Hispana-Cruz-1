@@ -21,7 +21,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Qué hago si se me acabaron las pastillas de la presión antes del control?",
-        "answer": "No las suspendas por tu cuenta y ven a la clínica con el frasco vacío. El equipo médico revisa tu presión y decide cómo continuar; lo que te receta nuestro médico lo compras ahí mismo, en la farmacia de la clínica."
+        "answer": "No las suspendas por tu cuenta y ven a la clínica con el frasco vacío. El equipo médico revisa tu presión y decide cómo continuar; lo que te receta nuestro equipo médico lo compras ahí mismo, en la farmacia de la clínica."
       }
     ],
     "faqsEn": [
@@ -35,7 +35,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "What if I run out of blood pressure pills before my follow-up?",
-        "answer": "Don't stop them on your own; come in with the empty bottle. The medical team checks your pressure and decides how to continue, and you buy what our doctor prescribes right there at the clinic's pharmacy."
+        "answer": "Don't stop them on your own; come in with the empty bottle. The medical team checks your pressure and decides how to continue, and you buy what our medical team prescribes right there at the clinic's pharmacy."
       }
     ]
   },
@@ -861,7 +861,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqs": [
       {
         "question": "¿Puedo comprar aquí los medicamentos que me recetaron?",
-        "answer": "Sí. Tenemos farmacia en la clínica: al terminar tu consulta compras ahí mismo los medicamentos que te recetó nuestro médico, sin hacer otra parada."
+        "answer": "Sí. Tenemos farmacia en la clínica: al terminar tu consulta compras ahí mismo los medicamentos que te recetó nuestro equipo médico, sin hacer otra parada."
       },
       {
         "question": "Olvidé cómo tomar el medicamento que compré aquí, ¿qué hago?",
@@ -869,13 +869,13 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Puedo traer una receta de otro médico?",
-        "answer": "No. La farmacia de la clínica vende solo los medicamentos que receta nuestro médico en tu consulta; las recetas de otros médicos o clínicas no se atienden aquí."
+        "answer": "No. La farmacia de la clínica vende solo los medicamentos que receta nuestro equipo médico en tu consulta; las recetas de otros médicos o clínicas no se atienden aquí."
       }
     ],
     "faqsEn": [
       {
         "question": "Can I buy the medicines I was prescribed here?",
-        "answer": "Yes. We have an on-site pharmacy: after your visit you buy the medicines our doctor prescribed right there, with no extra stop."
+        "answer": "Yes. We have an on-site pharmacy: after your visit you buy the medicines our medical team prescribed right there, with no extra stop."
       },
       {
         "question": "I forgot how to take the medicine I bought here. What now?",
@@ -883,7 +883,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "Can I bring a prescription from another doctor?",
-        "answer": "No. The clinic's pharmacy only sells the medicines our doctor prescribes during your visit; prescriptions from other doctors or clinics are not handled here."
+        "answer": "No. The clinic's pharmacy only sells the medicines our medical team prescribes during your visit; prescriptions from other doctors or clinics are not handled here."
       }
     ]
   }

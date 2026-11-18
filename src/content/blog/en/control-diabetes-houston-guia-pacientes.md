@@ -92,7 +92,7 @@ The [chronic conditions](/services/condiciones-cronicas) service supports patien
 - A nutrition and activity plan explained in Spanish
 - Help with a referral to a specialist when a result calls for it
 
-If our doctor prescribes a new medication or a dose change, you buy it at the clinic's own pharmacy. No health insurance is needed: you can ask about cost before any test and pay by cash or card.
+If our medical team prescribes a new medication or a dose change, you buy it at the clinic's own pharmacy. No health insurance is needed: you can ask about cost before any test and pay by cash or card.
 
 ## Come See Us
 

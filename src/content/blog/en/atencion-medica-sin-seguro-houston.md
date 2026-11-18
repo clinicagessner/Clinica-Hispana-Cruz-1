@@ -63,7 +63,7 @@ Every service at the clinic is open to uninsured patients. A few that self-pay p
 | Burning or urgency when you pee | [Urinary tract infections](/services/infecciones-urinarias) |
 | Vaccines for adults and children | [Vaccines](/services/vacunas) |
 
-If our doctor prescribes a medication during the visit, you buy it right there at the clinic's on-site pharmacy, with no extra stop on the way home.
+If our medical team prescribes a medication during the visit, you buy it right there at the clinic's on-site pharmacy, with no extra stop on the way home.
 
 ## Questions Worth Asking Every Time
 

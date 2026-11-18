@@ -26,7 +26,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/services/farmacia  — cambiada 2026-11-18
 - [ ] https://www.clinicahispanacruz.com/en/services/farmacia  — cambiada 2026-11-18
 
-## Tanda 90 — cambios del 2026-11-18 (análisis diario: firma del equipo médico y §9 en servicios (1/2))
+## Tanda 90 — cambios del 2026-11-18 (análisis diario: firma del equipo médico y §9 en servicios)
 
 - [ ] https://www.clinicahispanacruz.com/services/infecciones-urinarias  — cambiada 2026-11-18
 - [ ] https://www.clinicahispanacruz.com/en/services/infecciones-urinarias  — cambiada 2026-11-18
@@ -39,7 +39,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/services/alergias  — cambiada 2026-11-18
 - [ ] https://www.clinicahispanacruz.com/en/services/alergias  — cambiada 2026-11-18
 
-## Tanda 91 — cambios del 2026-11-18 (análisis diario: firma del equipo médico en posts (2/2))
+## Tanda 91 — cambios del 2026-11-18 (análisis diario: firma del equipo médico en posts (1/2))
 
 - [ ] https://www.clinicahispanacruz.com/en/services/anticonceptivos  — cambiada 2026-11-18
 - [ ] https://www.clinicahispanacruz.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-18
@@ -52,7 +52,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/en/blog/chorro-debil-orinar-de-noche-prostata-hombres  — cambiada 2026-11-18
 - [ ] https://www.clinicahispanacruz.com/blog/bienvenidos-clinica-hispana-cruz  — cambiada 2026-11-18
 
-## Tanda 92 — cambios del 2026-11-18 (análisis diario: firma del equipo médico en posts (3/3))
+## Tanda 92 — cambios del 2026-11-18 (análisis diario: firma del equipo médico en posts (2/2))
 
 - [ ] https://www.clinicahispanacruz.com/en/blog/bienvenidos-clinica-hispana-cruz  — cambiada 2026-11-18
 - [ ] https://www.clinicahispanacruz.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-18

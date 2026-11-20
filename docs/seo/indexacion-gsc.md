@@ -12,18 +12,18 @@ Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com*
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 <!-- /tandas:auto -->
 
-## Tanda 89 — cambios del 2026-11-18 (análisis diario: frases de los anuncios activos (home y ginecología), títulos de sueros y DOT, firma de farmacia)  📨 ENVIADA 19/11/2026
+## Tanda 89 — cambios del 2026-11-18 (análisis diario: frases de los anuncios activos (home y ginecología), títulos de sueros y DOT, firma de farmacia)  📨 ENVIADA 19/11/2026  ✅ PEDIDA 20/11/2026
 
-- [ ] https://www.clinicahispanacruz.com/services/ginecologia  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/en/services/ginecologia  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/en  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/services/sueros-vitaminados  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/en/services/sueros-vitaminados  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/services/examen-dot  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/en/services/examen-dot  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/services/farmacia  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/en/services/farmacia  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/services/ginecologia  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/en/services/ginecologia  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/en  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/services/sueros-vitaminados  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/en/services/sueros-vitaminados  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/services/examen-dot  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/en/services/examen-dot  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/services/farmacia  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/en/services/farmacia  — cambiada 2026-11-18
 
 ## Tanda 90 — cambios del 2026-11-18 (análisis diario: firma del equipo médico y §9 en servicios)
 
@@ -56,6 +56,10 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/en/blog/bienvenidos-clinica-hispana-cruz  — cambiada 2026-11-18
 - [ ] https://www.clinicahispanacruz.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-18
 - [ ] https://www.clinicahispanacruz.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-18
+
+## Tanda 96 — cambios del 2026-11-21 (error de GSC al pedir el 20/11)
+
+- [ ] https://www.clinicahispanacruz.com/  — cambiada 2026-11-21
 
 ## Tanda 93
 

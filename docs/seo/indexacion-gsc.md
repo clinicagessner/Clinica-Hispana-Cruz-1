@@ -57,9 +57,9 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-18
 - [ ] https://www.clinicahispanacruz.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-18
 
-## Tanda 96 — cambios del 2026-11-21 (error de GSC al pedir el 20/11)
+## Tanda 96 — cambios del 2026-11-21 (error de GSC al pedir el 20/11)  ✅ PEDIDA 20/11/2026
 
-- [ ] https://www.clinicahispanacruz.com/  — cambiada 2026-11-21
+- [x] https://www.clinicahispanacruz.com/  — cambiada 2026-11-21
 
 ## Tanda 93
 

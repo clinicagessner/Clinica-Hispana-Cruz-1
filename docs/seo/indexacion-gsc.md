@@ -6,24 +6,12 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-19; URL Inspection API, datos ANTIGUOS del 2026-11-18: antiguos (2026-11-18): --sin-fetch):** 84 de 98 URLs del sitemap indexadas · 14 sin indexar (14 rastreada sin indexar).
+**Estado (actualizado 2026-11-20; URL Inspection API, datos ANTIGUOS del 2026-11-18: antiguos (2026-11-18): --sin-fetch):** 84 de 98 URLs del sitemap indexadas · 14 sin indexar (14 rastreada sin indexar).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 25 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 2 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
+3 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-12-03).
 <!-- /tandas:auto -->
-
-## Tanda 89 — cambios del 2026-11-18 (análisis diario: frases de los anuncios activos (home y ginecología), títulos de sueros y DOT, firma de farmacia)  📨 ENVIADA 19/11/2026  ✅ PEDIDA 20/11/2026
-
-- [x] https://www.clinicahispanacruz.com/services/ginecologia  — cambiada 2026-11-18
-- [x] https://www.clinicahispanacruz.com/en/services/ginecologia  — cambiada 2026-11-18
-- [x] https://www.clinicahispanacruz.com/  — cambiada 2026-11-18
-- [x] https://www.clinicahispanacruz.com/en  — cambiada 2026-11-18
-- [x] https://www.clinicahispanacruz.com/services/sueros-vitaminados  — cambiada 2026-11-18
-- [x] https://www.clinicahispanacruz.com/en/services/sueros-vitaminados  — cambiada 2026-11-18
-- [x] https://www.clinicahispanacruz.com/services/examen-dot  — cambiada 2026-11-18
-- [x] https://www.clinicahispanacruz.com/en/services/examen-dot  — cambiada 2026-11-18
-- [x] https://www.clinicahispanacruz.com/services/farmacia  — cambiada 2026-11-18
-- [x] https://www.clinicahispanacruz.com/en/services/farmacia  — cambiada 2026-11-18
 
 ## Tanda 90 — cambios del 2026-11-18 (análisis diario: firma del equipo médico y §9 en servicios)
 
@@ -57,11 +45,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-18
 - [ ] https://www.clinicahispanacruz.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-18
 
-## Tanda 96 — cambios del 2026-11-21 (error de GSC al pedir el 20/11)  ✅ PEDIDA 20/11/2026
-
-- [x] https://www.clinicahispanacruz.com/  — cambiada 2026-11-21
-
-## Tanda 93
+## Tanda 97
 
 - [ ] https://www.clinicahispanacruz.com/services/anticonceptivos  — cambiada 2026-11-18 · rastreada 2026-11-16 · indexada · 52 impr.
 - [ ] https://www.clinicahispanacruz.com/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · 28 impr.
@@ -74,7 +58,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/en/promociones  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 18 impr.
 - [ ] https://www.clinicahispanacruz.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-10-08 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 14 impr.
 
-## Tanda 94
+## Tanda 98
 
 - [ ] https://www.clinicahispanacruz.com/en/services/curacion-heridas  — cambiada 2026-10-08 · rastreada 2026-07-11 · rastreada sin indexar · 6 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 6 impr.
@@ -87,7 +71,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/en/services/unas-encarnadas  — cambiada 2026-10-08 · rastreada 2026-07-11 · rastreada sin indexar · 3 impr.
 - [ ] https://www.clinicahispanacruz.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-10-08 · rastreada 2026-07-11 · rastreada sin indexar · 1 impr.
 
-## Tanda 95
+## Tanda 99
 
 - [ ] https://www.clinicahispanacruz.com/en/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-10-08 · rastreada 2026-07-11 · rastreada sin indexar · 1 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/suturas-heridas  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 1 impr.
@@ -260,3 +244,20 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 - [x] https://www.clinicahispanacruz.com/blog/papanicolaou-que-detecta-cada-cuanto-como-prepararse  — cambiada 2026-11-16
 - [x] https://www.clinicahispanacruz.com/en/blog/papanicolaou-que-detecta-cada-cuanto-como-prepararse  — cambiada 2026-11-16
+
+## Tanda 89 — cambios del 2026-11-18 (análisis diario: frases de los anuncios activos (home y ginecología), títulos de sueros y DOT, firma de farmacia)  📨 ENVIADA 19/11/2026  ✅ PEDIDA 20/11/2026
+
+- [x] https://www.clinicahispanacruz.com/services/ginecologia  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/en/services/ginecologia  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/en  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/services/sueros-vitaminados  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/en/services/sueros-vitaminados  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/services/examen-dot  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/en/services/examen-dot  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/services/farmacia  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/en/services/farmacia  — cambiada 2026-11-18
+
+## Tanda 96 — cambios del 2026-11-21 (error de GSC al pedir el 20/11)  ✅ PEDIDA 20/11/2026
+
+- [x] https://www.clinicahispanacruz.com/  — cambiada 2026-11-21

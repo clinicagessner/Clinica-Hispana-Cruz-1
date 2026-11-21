@@ -13,18 +13,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 3 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-12-03).
 <!-- /tandas:auto -->
 
-## Tanda 90 — cambios del 2026-11-18 (análisis diario: firma del equipo médico y §9 en servicios)  📨 ENVIADA 21/11/2026
+## Tanda 90 — cambios del 2026-11-18 (análisis diario: firma del equipo médico y §9 en servicios)  📨 ENVIADA 21/11/2026  ✅ PEDIDA 21/11/2026
 
-- [ ] https://www.clinicahispanacruz.com/services/infecciones-urinarias  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/en/services/infecciones-urinarias  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/services/prueba-strep  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/en/services/prueba-strep  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/services/enfermedades-transmision-sexual  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/services/condiciones-cronicas  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/en/services/condiciones-cronicas  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/services/alergias  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/en/services/alergias  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/services/infecciones-urinarias  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/en/services/infecciones-urinarias  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/services/prueba-strep  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/en/services/prueba-strep  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/services/enfermedades-transmision-sexual  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/services/condiciones-cronicas  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/en/services/condiciones-cronicas  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/services/alergias  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/en/services/alergias  — cambiada 2026-11-18
 
 ## Tanda 91 — cambios del 2026-11-18 (análisis diario: firma del equipo médico en posts (1/2))
 

@@ -6,14 +6,14 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-20; URL Inspection API, datos ANTIGUOS del 2026-11-18: antiguos (2026-11-18): --sin-fetch):** 84 de 98 URLs del sitemap indexadas · 14 sin indexar (14 rastreada sin indexar).
+**Estado (actualizado 2026-11-21; URL Inspection API, datos ANTIGUOS del 2026-11-18: antiguos (2026-11-18): --sin-fetch):** 84 de 98 URLs del sitemap indexadas · 14 sin indexar (14 rastreada sin indexar).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 25 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 2 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 3 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-12-03).
 <!-- /tandas:auto -->
 
-## Tanda 90 — cambios del 2026-11-18 (análisis diario: firma del equipo médico y §9 en servicios)
+## Tanda 90 — cambios del 2026-11-18 (análisis diario: firma del equipo médico y §9 en servicios)  📨 ENVIADA 21/11/2026
 
 - [ ] https://www.clinicahispanacruz.com/services/infecciones-urinarias  — cambiada 2026-11-18
 - [ ] https://www.clinicahispanacruz.com/en/services/infecciones-urinarias  — cambiada 2026-11-18

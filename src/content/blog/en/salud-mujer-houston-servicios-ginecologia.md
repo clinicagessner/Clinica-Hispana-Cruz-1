@@ -58,7 +58,7 @@ The decision is yours. The visit is there so you can make it with clear, judgmen
 
 ## If You Think You Might Be Pregnant
 
-A [pregnancy test](/services/prueba-embarazo) can be done with urine or blood; the urine test gives a result in minutes. Once it's confirmed, the team walks you through your next steps and what to know about prenatal care.
+A [pregnancy test](/services/prueba-embarazo) can be done with urine or blood; the urine test gives a fast result. Once it's confirmed, the team walks you through your next steps and what to know about prenatal care.
 
 ## When Not to Wait
 

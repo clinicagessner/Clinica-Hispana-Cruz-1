@@ -73,11 +73,11 @@ Tres ideas para no asustarse ni confiarse de más:
 2. **Un resultado se interpreta junto con sus síntomas y su historial.** Por eso conviene revisarlo en consulta y no solo buscarlo en internet.
 3. **La tendencia importa.** Comparar con análisis anteriores dice más que un número aislado; si tiene reportes viejos, tráigalos.
 
-Si algún resultado lo requiere, se orienta la referencia a un especialista o se indica repetir la prueba más adelante.
+Si algún valor sale fuera de rango, se indica repetir la prueba más adelante o la referencia al especialista cuando el resultado lo requiere.
 
 ## Otras pruebas del mismo laboratorio
 
-Además de la sangre, la clínica hace [examen de orina para infecciones urinarias](/services/infecciones-urinarias), examen de heces y pruebas rápidas como la de embarazo, cuyo resultado sale en minutos. Pregunte cuál necesita según sus síntomas.
+Además de la sangre, la clínica hace [examen de orina para infecciones urinarias](/services/infecciones-urinarias), examen de heces y pruebas rápidas como la de embarazo, con resultado rápido. Pregunte cuál necesita según sus síntomas.
 
 ## Cuándo no esperar a un análisis
 

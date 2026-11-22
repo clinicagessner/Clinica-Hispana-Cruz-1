@@ -72,7 +72,7 @@ If your reading is elevated, the certificate may be issued for a shorter period,
 Many drivers managing diabetes with diet or pills get certified without trouble when control is good. If you use insulin, FMCSA has a specific process that includes a form completed by the clinician who treats your diabetes; bring it filled out.
 
 ### Sleep Apnea and Other Conditions
-Bring proof that you're following your treatment. In special cases, if a result calls for it, the team will help guide a referral to a specialist.
+Bring proof that you're following your treatment. In special cases, the evaluation includes a specialist referral when results call for it.
 
 ## How Often Do You Renew?
 

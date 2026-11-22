@@ -78,7 +78,7 @@ When you're done, the form is handed to you in a sealed envelope. It needs to re
 
 ## If You Have Other Health Concerns Too
 
-The immigration exam isn't a follow-up visit, but if something comes up that needs attention (high blood pressure, elevated sugar, an infection), the team can guide you at a separate visit. The clinic manages [chronic conditions](/services/condiciones-cronicas) and runs [blood work](/services/examenes-sangre) under the same roof. When a finding calls for it, you'll be guided toward a specialist referral.
+The immigration exam isn't a follow-up visit, but if something comes up that needs attention (high blood pressure, elevated sugar, an infection), the team can guide you at a separate visit. The clinic manages [chronic conditions](/services/condiciones-cronicas) and runs [blood work](/services/examenes-sangre) under the same roof. Care includes a specialist referral when results call for it.
 
 ## Where to Find Us
 

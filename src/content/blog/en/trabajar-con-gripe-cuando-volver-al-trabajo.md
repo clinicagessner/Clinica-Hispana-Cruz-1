@@ -85,7 +85,7 @@ It's normal for a cough to hang on longer than everything else. A mild cough tha
 Not every cold needs a visit, but some situations call for getting checked soon:
 
 - **High fever or feeling very sick in the first days.** Flu antivirals work best when started within the first two days of symptoms, and the medical team will decide whether they're right for you.
-- **You need to know what you have.** The rapid flu test gives a result in minutes and helps guide treatment. If your throat really hurts, it could be strep, and that's what our [strep test](/services/prueba-strep) is for.
+- **You need to know what you have.** The rapid flu test gives a fast result and helps guide treatment. If your throat really hurts, it could be strep, and that's what our [strep test](/services/prueba-strep) is for.
 - **You have diabetes, high blood pressure or another chronic condition.** The flu can hit harder in those cases; if you already come in for [diabetes, blood pressure or cholesterol care](/services/condiciones-cronicas), mention it during the visit.
 - **Symptoms improved and then came back worse**, or the cough has dragged on for many days.
 

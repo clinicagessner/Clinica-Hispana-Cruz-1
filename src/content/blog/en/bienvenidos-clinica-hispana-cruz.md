@@ -60,7 +60,7 @@ The clinic brings together services that families often have to track down in di
 ### Minor Procedures
 - Stitches, wound care, abscess drainage, and ingrown nails
 
-If a result calls for it, the team will help guide a referral to a specialist.
+Care includes a specialist referral when results call for it.
 
 ## A Place Designed to Put You at Ease
 

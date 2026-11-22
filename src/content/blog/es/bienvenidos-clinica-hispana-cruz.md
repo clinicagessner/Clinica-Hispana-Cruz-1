@@ -60,7 +60,7 @@ La clínica reúne en un solo lugar servicios que muchas familias suelen buscar 
 ### Procedimientos menores
 - Puntos de sutura, limpieza y curación de heridas, drenaje de un absceso o una uña encarnada
 
-Si un resultado lo requiere, se orienta la referencia a un especialista.
+La atención incluye referencia al especialista cuando el resultado lo requiere.
 
 ## Un lugar pensado para que se sienta cómodo
 

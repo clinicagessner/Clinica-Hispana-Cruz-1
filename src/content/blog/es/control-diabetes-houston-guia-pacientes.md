@@ -87,10 +87,10 @@ Las heridas en los pies merecen atención especial. Si una cortada no mejora, se
 El servicio de [condiciones crónicas](/services/condiciones-cronicas) acompaña a pacientes con diabetes, presión alta y colesterol con:
 
 - Evaluación inicial y [exámenes de sangre](/services/examenes-sangre) para glucosa, A1C y colesterol
-- Glucosa capilar con resultado en minutos durante la visita
+- Glucosa capilar con resultado rápido durante la visita
 - Ajuste de medicamentos según su evolución
 - Un plan de comidas y de movimiento que se le explica en español, adaptado a su rutina
-- Referencia orientada a un especialista cuando un resultado lo requiere
+- Referencia al especialista cuando el resultado lo requiere
 
 Si nuestro equipo médico le receta un medicamento nuevo o un cambio de dosis, lo compra en la farmacia de la misma clínica. No necesita seguro médico: puede preguntar el costo antes de cualquier prueba y pagar con efectivo o tarjeta.
 

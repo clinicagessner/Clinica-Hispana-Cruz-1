@@ -65,10 +65,10 @@ Con un [análisis de sangre](/services/examenes-sangre). Además del nivel de la
 |---|---|
 | Nivel bajo y absorción normal | A menudo bastan los suplementos por boca y ajustes en la alimentación. |
 | Problemas para absorberla (anemia perniciosa, cirugía digestiva, enfermedad intestinal) | La inyección es una opción frecuente, porque no depende del estómago. |
-| Síntomas en los nervios o deficiencia marcada | Se valora con más cuidado y puede requerir seguimiento o referencia a un especialista. |
+| Síntomas en los nervios o deficiencia marcada | Se valora con más cuidado y puede requerir seguimiento o referencia al especialista cuando el resultado lo requiere. |
 | Nivel normal | No se espera que una inyección extra aporte un beneficio. |
 
-La frecuencia de las inyecciones, cuando se indican, depende de la causa y de cómo responde cada persona; se define en consulta y no se repite por costumbre. Si un resultado lo requiere, se orienta la referencia a un especialista.
+La frecuencia de las inyecciones, cuando se indican, depende de la causa y de cómo responde cada persona; se define en consulta y no se repite por costumbre. El seguimiento incluye referencia al especialista cuando el resultado lo requiere.
 
 ## B12 inyectada y sueros vitaminados no son lo mismo
 

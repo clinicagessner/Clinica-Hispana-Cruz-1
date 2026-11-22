@@ -83,7 +83,7 @@ Es normal que la tos dure más que el resto de los síntomas. Una tos leve que v
 No todo resfriado necesita consulta, pero hay situaciones en las que conviene que lo revisen pronto:
 
 - **Fiebre alta o malestar fuerte en los primeros días.** Los antivirales para la influenza funcionan mejor si se empiezan en los primeros dos días de síntomas, y el equipo médico decide si le convienen.
-- **Necesita saber qué tiene.** La prueba rápida de flu da resultado en unos minutos y ayuda a decidir el tratamiento. Si además le duele mucho la garganta, puede ser estreptococo; para eso existe la [prueba de strep](/services/prueba-strep).
+- **Necesita saber qué tiene.** La prueba rápida de flu da resultado rápido y ayuda a decidir el tratamiento. Si además le duele mucho la garganta, puede ser estreptococo; para eso existe la [prueba de strep](/services/prueba-strep).
 - **Tiene diabetes, presión alta u otra condición crónica.** En esos casos la gripe puede complicarse más; si ya lleva su control de [diabetes, hipertensión o colesterol](/services/condiciones-cronicas), coméntelo en la consulta.
 - **Los síntomas mejoraron y luego volvieron peor**, o la tos lleva muchos días sin ceder.
 

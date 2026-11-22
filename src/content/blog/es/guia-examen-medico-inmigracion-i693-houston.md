@@ -78,7 +78,7 @@ Al terminar, el formulario se le entrega dentro de un sobre cerrado. Ese sobre t
 
 ## Si además tiene otros pendientes de salud
 
-El examen de inmigración no es una consulta de seguimiento, pero si durante el proceso aparece algo que merece atención (presión alta, azúcar elevada, una infección), el equipo puede orientarle en otra visita. La clínica atiende [condiciones crónicas](/services/condiciones-cronicas) y hace [análisis de sangre](/services/examenes-sangre) en el mismo local. Cuando un hallazgo lo requiere, se orienta la referencia a un especialista.
+El examen de inmigración no es una consulta de seguimiento, pero si durante el proceso aparece algo que merece atención (presión alta, azúcar elevada, una infección), el equipo puede orientarle en otra visita. La clínica atiende [condiciones crónicas](/services/condiciones-cronicas) y hace [análisis de sangre](/services/examenes-sangre) en el mismo local. La atención incluye referencia al especialista cuando el resultado lo requiere.
 
 ## Dónde encontrarnos
 

@@ -103,7 +103,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqs": [
       {
         "question": "¿Cómo se distingue la influenza del COVID si los síntomas se parecen?",
-        "answer": "A simple vista es difícil: ambos dan fiebre, tos y dolor de cuerpo. Por eso se hacen las dos pruebas rápidas con hisopo nasal y el resultado sale en minutos, durante la visita, antes de decidir el tratamiento."
+        "answer": "A simple vista es difícil: ambos dan fiebre, tos y dolor de cuerpo. Por eso se hacen las dos pruebas rápidas con hisopo nasal y el resultado sale rápido, durante la visita, antes de decidir el tratamiento."
       },
       {
         "question": "¿Por qué no siempre me dan antibiótico cuando tengo flu?",
@@ -117,7 +117,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqsEn": [
       {
         "question": "How can you tell flu from COVID when the symptoms look alike?",
-        "answer": "You can't by symptoms alone: both cause fever, cough and body aches. That's why both rapid nasal-swab tests are run, with results in minutes during the visit, before treatment is decided."
+        "answer": "You can't by symptoms alone: both cause fever, cough and body aches. That's why both rapid nasal-swab tests are run, with fast results during the visit, before treatment is decided."
       },
       {
         "question": "Why don't I always get an antibiotic when I have the flu?",
@@ -137,7 +137,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Qué pasa si en el examen sale la presión alta o mala vista?",
-        "answer": "No siempre impide hacer deporte. El equipo médico te explica el hallazgo, puede repetir la medición y te indica los siguientes pasos, como un examen de la vista o una referencia a un especialista si hace falta."
+        "answer": "No siempre impide hacer deporte. El equipo médico te explica el hallazgo, puede repetir la medición y te indica los siguientes pasos, como un examen de la vista."
       },
       {
         "question": "Tengo la hoja de la escuela y la de la liga de futbol, ¿las llenan en una sola visita?",
@@ -151,7 +151,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "What if the physical shows high blood pressure or poor vision?",
-        "answer": "It doesn't always rule out sports. The medical team explains the finding, may repeat the measurement and tells you the next steps, such as an eye exam or a referral to a specialist when needed."
+        "answer": "It doesn't always rule out sports. The medical team explains the finding, may repeat the measurement and tells you the next steps, such as an eye exam."
       },
       {
         "question": "Can one physical cover both school and a sports team?",
@@ -419,7 +419,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Un adulto también puede contagiarse de strep en la garganta?",
-        "answer": "Sí, aunque es más frecuente en niños y adolescentes. Los adultos que conviven con niños o trabajan con ellos se contagian con facilidad. La prueba rápida es la misma para cualquier edad y el resultado también se tiene en minutos."
+        "answer": "Sí, aunque es más frecuente en niños y adolescentes. Los adultos que conviven con niños o trabajan con ellos se contagian con facilidad. La prueba rápida es la misma para cualquier edad y el resultado también sale rápido."
       }
     ],
     "faqsEn": [
@@ -433,7 +433,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "Can adults get strep throat too?",
-        "answer": "Yes, although it's more common in children and teens. Adults who live or work with kids catch it easily. The rapid test is the same at any age, and the result is also ready within minutes."
+        "answer": "Yes, although it's more common in children and teens. Adults who live or work with kids catch it easily. The rapid test is the same at any age, and the result is also ready fast."
       }
     ]
   },
@@ -531,7 +531,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqs": [
       {
         "question": "¿Un electrocardiograma normal quiere decir que mi corazón está perfecto?",
-        "answer": "No siempre. El EKG muestra cómo late el corazón durante esos minutos; algunos problemas solo aparecen con esfuerzo o de forma intermitente. Si tus síntomas siguen, el equipo médico puede recomendar otros estudios y una referencia a un especialista."
+        "answer": "No siempre. El EKG muestra cómo late el corazón durante esos minutos; algunos problemas solo aparecen con esfuerzo o de forma intermitente. Si tus síntomas siguen, el equipo médico puede recomendar otros estudios."
       },
       {
         "question": "¿Puedo tomar café o hacer ejercicio antes del EKG?",
@@ -545,7 +545,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqsEn": [
       {
         "question": "If my EKG comes back normal, can I rule out heart trouble?",
-        "answer": "Not always. The tracing captures only the minutes you spend on the table, and certain problems show up just with effort or appear on and off. If your symptoms continue, the medical team may suggest other tests and a referral to a specialist."
+        "answer": "Not always. The tracing captures only the minutes you spend on the table, and certain problems show up just with effort or appear on and off. If your symptoms continue, the medical team may suggest other tests."
       },
       {
         "question": "Can I have coffee or exercise before the EKG?",

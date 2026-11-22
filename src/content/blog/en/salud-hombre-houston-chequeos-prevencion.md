@@ -94,7 +94,7 @@ With a blood test we can evaluate your hormone levels and guide you through trea
 
 ### Urinary Infections and Kidney Problems
 - Fast diagnosis with urine analysis
-- Same-day treatment
+- Treatment prescribed at your visit
 - Evaluation of underlying causes
 
 ## Recommended Screenings by Age

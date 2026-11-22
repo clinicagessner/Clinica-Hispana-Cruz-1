@@ -65,10 +65,10 @@ With a [blood test](/services/examenes-sangre). Besides the vitamin level itself
 |---|---|
 | Low level, normal absorption | Oral supplements and diet changes are often enough. |
 | Absorption problems (pernicious anemia, digestive surgery, bowel disease) | Injections are a common option because they bypass the stomach. |
-| Nerve symptoms or a marked deficiency | Evaluated more carefully; may need follow-up or a specialist referral. |
+| Nerve symptoms or a marked deficiency | Evaluated more carefully; may need follow-up or a specialist referral when results call for it. |
 | Normal level | An extra shot isn't expected to add any benefit. |
 
-When shots are recommended, how often you get them depends on the cause and how you respond; it's set at your visit, not repeated out of habit. If a result calls for it, you'll be guided toward a specialist referral.
+When shots are recommended, how often you get them depends on the cause and how you respond; it's set at your visit, not repeated out of habit. Follow-up includes a specialist referral when results call for it.
 
 ## A B12 Shot and a Vitamin IV Aren't the Same Thing
 

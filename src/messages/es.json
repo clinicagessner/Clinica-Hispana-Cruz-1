@@ -121,7 +121,7 @@
     "q8": "¿Puedo hacerme aquí el examen médico para la residencia?",
     "a8": "Sí. La clínica cuenta con un Civil Surgeon designado por USCIS que realiza el <link>examen médico de inmigración I-693</link>, requisito del trámite de ajuste de estatus. Incluye la revisión física, los análisis que pide la agencia y la verificación de tus vacunas. Trae tu pasaporte o identificación y tu cartilla de vacunación, si la tienes, para revisar qué dosis te faltan.",
     "q9": "¿Y si necesito análisis de laboratorio?",
-    "a9": "Muchas veces se resuelven en la misma visita. Si el equipo médico indica un examen de sangre, orina o heces, la muestra se toma aquí, sin mandarte a otro edificio ni sacar otra cita. Cuando los resultados están listos te los explicamos en español, con calma, y si alguno lo requiere se orienta la referencia a un especialista.",
+    "a9": "Muchas veces se resuelven en la misma visita. Si el equipo médico indica un examen de sangre, orina o heces, la muestra se toma aquí, sin mandarte a otro edificio ni sacar otra cita. Cuando los resultados están listos te los explicamos en español, con calma.",
     "q10": "¿Dónde me estaciono y es fácil entrar con silla de ruedas?",
     "a10": "Frente al local hay estacionamiento gratuito para pacientes, así que no tienes que buscar parquímetro ni pagar un estacionamiento aparte. La entrada y los sanitarios son accesibles para personas en silla de ruedas. Si vienes con un familiar que necesita ayuda para bajar del carro, avísanos al llegar y el personal te echa la mano.",
     "q11": "Busco una clínica latina cerca de mi casa en el norte de Houston, ¿me queda bien Cruz?",
@@ -204,7 +204,7 @@
   "greenCard": {
     "badge": "Autorizado por USCIS",
     "title": "Exámenes Médicos de Inmigración I-693",
-    "subtitle": "Clínica Hispana Cruz es tu clínica hispana autorizada por USCIS para exámenes médicos de inmigración I-693 en Houston. Un Civil Surgeon designado por USCIS te ayuda con tu proceso de Green Card de manera rápida y en español.",
+    "subtitle": "Clínica Hispana Cruz es tu clínica hispana con Civil Surgeon designado por USCIS para exámenes médicos de inmigración I-693 en Houston. Un Civil Surgeon designado por USCIS te ayuda con tu proceso de Green Card de manera rápida y en español.",
     "processTitle": "Proceso Simple en 5 Pasos",
     "ctaSchedule": "Agendar Examen I-693",
     "ctaCall": "Llamar Ahora"

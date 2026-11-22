@@ -73,11 +73,11 @@ Three points to keep you from panicking or brushing things off:
 2. **A result is read alongside your symptoms and history.** That's why it's worth reviewing at a visit rather than just searching online.
 3. **Trends matter.** Comparing with earlier results tells you more than a single number; if you have old reports, bring them.
 
-When a result calls for it, you'll be guided toward a specialist referral or asked to repeat the test later.
+If a value is out of range, you may be asked to repeat the test later or get a specialist referral when results call for it.
 
 ## Other Tests from the Same Lab
 
-Besides blood work, the clinic offers [urine testing for urinary tract infections](/services/infecciones-urinarias), a stool test and rapid tests such as a pregnancy test, with results in minutes. Ask which one fits your symptoms.
+Besides blood work, the clinic offers [urine testing for urinary tract infections](/services/infecciones-urinarias), a stool test and rapid tests such as a pregnancy test, with fast results. Ask which one fits your symptoms.
 
 ## When Not to Wait for Lab Work
 

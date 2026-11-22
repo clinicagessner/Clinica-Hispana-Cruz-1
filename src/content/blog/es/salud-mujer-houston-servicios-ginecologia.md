@@ -58,7 +58,7 @@ La decisión es suya. La consulta sirve para que la tome con información clara 
 
 ## Si cree que podría estar embarazada
 
-La [prueba de embarazo](/services/prueba-embarazo) puede hacerse en orina o en sangre; la de orina da resultado en minutos. Después de la confirmación, el equipo le explica sus siguientes pasos y lo que conviene saber sobre el control prenatal.
+La [prueba de embarazo](/services/prueba-embarazo) puede hacerse en orina o en sangre; la de orina da resultado rápido. Después de la confirmación, el equipo le explica sus siguientes pasos y lo que conviene saber sobre el control prenatal.
 
 ## Cuándo no esperar
 

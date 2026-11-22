@@ -94,7 +94,7 @@ Con un análisis de sangre podemos evaluar sus niveles hormonales y orientarlo s
 
 ### Infecciones Urinarias y Problemas Renales
 - Diagnóstico rápido con análisis de orina
-- Tratamiento el mismo día
+- Tratamiento indicado en la consulta
 - Evaluación de causas subyacentes
 
 ## Exámenes Recomendados por Edad

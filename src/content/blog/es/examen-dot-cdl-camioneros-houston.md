@@ -72,7 +72,7 @@ Si la presión sale elevada, el certificado puede emitirse por un periodo más c
 Con dieta o pastillas, muchos conductores se certifican sin problema si el control es bueno. Si usa insulina, FMCSA tiene un proceso específico que incluye un formulario que debe llenar el profesional que trata su diabetes; tráigalo completo.
 
 ### Apnea del sueño y otras condiciones
-Traiga pruebas de que sigue su tratamiento. En casos especiales, si un resultado lo requiere, se orienta la referencia a un especialista.
+Traiga pruebas de que sigue su tratamiento. En casos especiales, la evaluación incluye referencia al especialista cuando el resultado lo requiere.
 
 ## ¿Cada cuánto se renueva?
 

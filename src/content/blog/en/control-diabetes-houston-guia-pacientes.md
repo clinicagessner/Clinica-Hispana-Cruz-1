@@ -87,10 +87,10 @@ Foot wounds deserve extra attention. If a cut isn't getting better, turns red, o
 The [chronic conditions](/services/condiciones-cronicas) service supports patients with diabetes, high blood pressure, and high cholesterol with:
 
 - An initial evaluation and [blood tests](/services/examenes-sangre) for glucose, A1C, and cholesterol
-- Fingerstick glucose checks with results in minutes during your visit
+- Fingerstick glucose checks with fast results during your visit
 - Medication adjustments based on how you're doing
 - A nutrition and activity plan explained in Spanish
-- Help with a referral to a specialist when a result calls for it
+- Specialist referral when results call for it
 
 If our medical team prescribes a new medication or a dose change, you buy it at the clinic's own pharmacy. No health insurance is needed: you can ask about cost before any test and pay by cash or card.
 

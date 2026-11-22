@@ -6,27 +6,14 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-21; URL Inspection API, datos ANTIGUOS del 2026-11-18: antiguos (2026-11-18): --sin-fetch):** 84 de 98 URLs del sitemap indexadas · 14 sin indexar (14 rastreada sin indexar).
+**Estado (actualizado 2026-11-22; URL Inspection API, datos ANTIGUOS del 2026-11-18: antiguos (2026-11-18): --sin-fetch):** 84 de 98 URLs del sitemap indexadas · 14 sin indexar (14 rastreada sin indexar).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 25 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 2 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 12 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 1 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-3 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-12-03).
+2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-12-03).
 <!-- /tandas:auto -->
 
-## Tanda 90 — cambios del 2026-11-18 (análisis diario: firma del equipo médico y §9 en servicios)  📨 ENVIADA 21/11/2026  ✅ PEDIDA 21/11/2026
-
-- [x] https://www.clinicahispanacruz.com/services/infecciones-urinarias  — cambiada 2026-11-18
-- [x] https://www.clinicahispanacruz.com/en/services/infecciones-urinarias  — cambiada 2026-11-18
-- [x] https://www.clinicahispanacruz.com/services/prueba-strep  — cambiada 2026-11-18
-- [x] https://www.clinicahispanacruz.com/en/services/prueba-strep  — cambiada 2026-11-18
-- [x] https://www.clinicahispanacruz.com/services/enfermedades-transmision-sexual  — cambiada 2026-11-18
-- [x] https://www.clinicahispanacruz.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-11-18
-- [x] https://www.clinicahispanacruz.com/services/condiciones-cronicas  — cambiada 2026-11-18
-- [x] https://www.clinicahispanacruz.com/en/services/condiciones-cronicas  — cambiada 2026-11-18
-- [x] https://www.clinicahispanacruz.com/services/alergias  — cambiada 2026-11-18
-- [x] https://www.clinicahispanacruz.com/en/services/alergias  — cambiada 2026-11-18
-
-## Tanda 91 — cambios del 2026-11-18 (análisis diario: firma del equipo médico en posts (1/2))
+## Tanda 91 — cambios del 2026-11-18 (análisis diario: firma del equipo médico en posts (1/2))  📨 ENVIADA 22/11/2026
 
 - [ ] https://www.clinicahispanacruz.com/en/services/anticonceptivos  — cambiada 2026-11-18
 - [ ] https://www.clinicahispanacruz.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-18
@@ -102,7 +89,6 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacruz.com/en  — cambiada 2026-11-21
 
-
 ## Tanda 105
 
 - [ ] https://www.clinicahispanacruz.com/services/anticonceptivos  — cambiada 2026-11-18 · rastreada 2026-11-16 · indexada · 52 impr.
@@ -110,17 +96,14 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/services/examen-alcohol-drogas  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 15 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services  — cambiada 2026-10-08 · rastreada 2026-09-11 · indexada · 23 impr.
 - [ ] https://www.clinicahispanacruz.com/en/promociones  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 18 impr.
-
-## Tanda 106
-
 - [ ] https://www.clinicahispanacruz.com/en/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 6 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/prueba-tuberculosis  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 4 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-07-11 · rastreada sin indexar · 3 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/unas-encarnadas  — cambiada 2026-10-08 · rastreada 2026-07-11 · rastreada sin indexar · 3 impr.
-
-## Tanda 107
-
 - [ ] https://www.clinicahispanacruz.com/en/services/suturas-heridas  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 1 impr.
+
+## Tanda 106
+
 - [ ] https://www.clinicahispanacruz.com/en/blog  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 0 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/examen-alcohol-drogas  — cambiada 2026-10-08 · rastreada 2026-07-11 · rastreada sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/salud-hombre  — cambiada 2026-10-23 · rastreada 2026-07-11 · rastreada sin indexar · pedida 2026-10-26 · 3 impr.
@@ -301,6 +284,19 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [x] https://www.clinicahispanacruz.com/en/services/examen-dot  — cambiada 2026-11-18
 - [x] https://www.clinicahispanacruz.com/services/farmacia  — cambiada 2026-11-18
 - [x] https://www.clinicahispanacruz.com/en/services/farmacia  — cambiada 2026-11-18
+
+## Tanda 90 — cambios del 2026-11-18 (análisis diario: firma del equipo médico y §9 en servicios)  📨 ENVIADA 21/11/2026  ✅ PEDIDA 21/11/2026
+
+- [x] https://www.clinicahispanacruz.com/services/infecciones-urinarias  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/en/services/infecciones-urinarias  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/services/prueba-strep  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/en/services/prueba-strep  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/services/enfermedades-transmision-sexual  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/services/condiciones-cronicas  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/en/services/condiciones-cronicas  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/services/alergias  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/en/services/alergias  — cambiada 2026-11-18
 
 ## Tanda 96 — cambios del 2026-11-21 (error de GSC al pedir el 20/11)  ✅ PEDIDA 20/11/2026
 

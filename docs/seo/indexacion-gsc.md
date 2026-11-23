@@ -6,14 +6,14 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-22; URL Inspection API, datos ANTIGUOS del 2026-11-18: antiguos (2026-11-18): --sin-fetch):** 84 de 98 URLs del sitemap indexadas · 14 sin indexar (14 rastreada sin indexar).
+**Estado (actualizado 2026-11-23; URL Inspection API, datos de hoy 2026-11-23):** 85 de 98 URLs del sitemap indexadas · 13 sin indexar (13 rastreada sin indexar).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 12 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 1 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 10 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 1 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-12-03).
 <!-- /tandas:auto -->
 
-## Tanda 91 — cambios del 2026-11-18 (análisis diario: firma del equipo médico en posts (1/2))  📨 ENVIADA 22/11/2026
+## Tanda 91 — cambios del 2026-11-18 (análisis diario: firma del equipo médico en posts (1/2))  📨 ENVIADA 23/11/2026
 
 - [ ] https://www.clinicahispanacruz.com/en/services/anticonceptivos  — cambiada 2026-11-18
 - [ ] https://www.clinicahispanacruz.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-18
@@ -91,22 +91,20 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 ## Tanda 105
 
-- [ ] https://www.clinicahispanacruz.com/services/anticonceptivos  — cambiada 2026-11-18 · rastreada 2026-11-16 · indexada · 52 impr.
-- [ ] https://www.clinicahispanacruz.com/services/prueba-tuberculosis  — cambiada 2026-10-08 · rastreada 2026-10-03 · indexada · 16 impr.
-- [ ] https://www.clinicahispanacruz.com/services/examen-alcohol-drogas  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 15 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services  — cambiada 2026-10-08 · rastreada 2026-09-11 · indexada · 23 impr.
-- [ ] https://www.clinicahispanacruz.com/en/promociones  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 18 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 6 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/prueba-tuberculosis  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 4 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-07-11 · rastreada sin indexar · 3 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/unas-encarnadas  — cambiada 2026-10-08 · rastreada 2026-07-11 · rastreada sin indexar · 3 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/suturas-heridas  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 1 impr.
+- [ ] https://www.clinicahispanacruz.com/services/anticonceptivos  — cambiada 2026-11-18 · rastreada 2026-11-16 · indexada · 203 impr.
+- [ ] https://www.clinicahispanacruz.com/services/prueba-tuberculosis  — cambiada 2026-10-08 · rastreada 2026-10-03 · indexada · 52 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services  — cambiada 2026-10-08 · rastreada 2026-09-11 · indexada · 78 impr.
+- [ ] https://www.clinicahispanacruz.com/en/promociones  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 53 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 51 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services/unas-encarnadas  — cambiada 2026-10-08 · rastreada 2026-07-11 · rastreada sin indexar · 12 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-07-11 · rastreada sin indexar · 9 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services/examen-alcohol-drogas  — cambiada 2026-10-08 · rastreada 2026-07-11 · rastreada sin indexar · 4 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services/suturas-heridas  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 3 impr.
+- [ ] https://www.clinicahispanacruz.com/en/blog  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 1 impr.
 
 ## Tanda 106
 
-- [ ] https://www.clinicahispanacruz.com/en/blog  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 0 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/examen-alcohol-drogas  — cambiada 2026-10-08 · rastreada 2026-07-11 · rastreada sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/salud-hombre  — cambiada 2026-10-23 · rastreada 2026-07-11 · rastreada sin indexar · pedida 2026-10-26 · 3 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services/salud-hombre  — cambiada 2026-10-23 · rastreada 2026-07-11 · rastreada sin indexar · pedida 2026-10-26 · 7 impr.
 
 ## Historial (tandas pedidas)
 

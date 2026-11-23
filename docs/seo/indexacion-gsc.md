@@ -15,6 +15,8 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 ## Tanda 91 — cambios del 2026-11-18 (análisis diario: firma del equipo médico en posts (1/2))  📨 ENVIADA 23/11/2026
 
+- [ ] https://www.clinicahispanacruz.com/blog/bulto-dolor-testiculos-autoexamen-cuando-revisarse  — cambiada 2026-11-23 (post del blog semanal)
+- [ ] https://www.clinicahispanacruz.com/en/blog/bulto-dolor-testiculos-autoexamen-cuando-revisarse  — cambiada 2026-11-23 (post del blog semanal)
 - [ ] https://www.clinicahispanacruz.com/en/services/anticonceptivos  — cambiada 2026-11-18
 - [ ] https://www.clinicahispanacruz.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-18
 - [ ] https://www.clinicahispanacruz.com/en/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-18
@@ -23,8 +25,6 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-11-18
 - [ ] https://www.clinicahispanacruz.com/en/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-11-18
 - [ ] https://www.clinicahispanacruz.com/blog/chorro-debil-orinar-de-noche-prostata-hombres  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/en/blog/chorro-debil-orinar-de-noche-prostata-hombres  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/blog/bienvenidos-clinica-hispana-cruz  — cambiada 2026-11-18
 
 ## Tanda 92 — cambios del 2026-11-18 (análisis diario: firma del equipo médico en posts (2/2))
 
@@ -88,6 +88,11 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 - [ ] https://www.clinicahispanacruz.com/  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacruz.com/en  — cambiada 2026-11-21
+
+## Tanda 107 — cambios del 2026-11-23 (devueltas de la tanda 91 por el post del blog semanal)
+
+- [ ] https://www.clinicahispanacruz.com/en/blog/chorro-debil-orinar-de-noche-prostata-hombres  — cambiada 2026-11-23
+- [ ] https://www.clinicahispanacruz.com/blog/bienvenidos-clinica-hispana-cruz  — cambiada 2026-11-23
 
 ## Tanda 105
 

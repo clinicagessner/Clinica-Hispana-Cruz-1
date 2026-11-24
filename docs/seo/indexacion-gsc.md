@@ -6,14 +6,14 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-23; URL Inspection API, datos de hoy 2026-11-23):** 85 de 98 URLs del sitemap indexadas · 13 sin indexar (13 rastreada sin indexar).
+**Estado (actualizado 2026-11-24; URL Inspection API, datos ANTIGUOS del 2026-11-23: antiguos (2026-11-23): --sin-fetch):** 85 de 100 URLs del sitemap indexadas · 15 sin indexar (13 rastreada sin indexar · 2 sin datos).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 10 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 1 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-12-03).
 <!-- /tandas:auto -->
 
-## Tanda 91 — cambios del 2026-11-18 (análisis diario: firma del equipo médico en posts (1/2))  📨 ENVIADA 23/11/2026
+## Tanda 91 — cambios del 2026-11-18 (análisis diario: firma del equipo médico en posts (1/2))  📨 ENVIADA 24/11/2026
 
 - [ ] https://www.clinicahispanacruz.com/blog/bulto-dolor-testiculos-autoexamen-cuando-revisarse  — cambiada 2026-11-23 (post del blog semanal)
 - [ ] https://www.clinicahispanacruz.com/en/blog/bulto-dolor-testiculos-autoexamen-cuando-revisarse  — cambiada 2026-11-23 (post del blog semanal)
@@ -94,7 +94,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/en/blog/chorro-debil-orinar-de-noche-prostata-hombres  — cambiada 2026-11-23
 - [ ] https://www.clinicahispanacruz.com/blog/bienvenidos-clinica-hispana-cruz  — cambiada 2026-11-23
 
-## Tanda 105
+## Tanda 108
 
 - [ ] https://www.clinicahispanacruz.com/services/anticonceptivos  — cambiada 2026-11-18 · rastreada 2026-11-16 · indexada · 203 impr.
 - [ ] https://www.clinicahispanacruz.com/services/prueba-tuberculosis  — cambiada 2026-10-08 · rastreada 2026-10-03 · indexada · 52 impr.
@@ -107,7 +107,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/en/services/suturas-heridas  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 3 impr.
 - [ ] https://www.clinicahispanacruz.com/en/blog  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 1 impr.
 
-## Tanda 106
+## Tanda 109
 
 - [ ] https://www.clinicahispanacruz.com/en/services/salud-hombre  — cambiada 2026-10-23 · rastreada 2026-07-11 · rastreada sin indexar · pedida 2026-10-26 · 7 impr.
 

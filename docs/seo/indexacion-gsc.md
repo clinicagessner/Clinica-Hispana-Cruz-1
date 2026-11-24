@@ -10,21 +10,8 @@ Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com*
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 10 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 1 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-12-03).
+5 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-12-03).
 <!-- /tandas:auto -->
-
-## Tanda 91 — cambios del 2026-11-18 (análisis diario: firma del equipo médico en posts (1/2))  📨 ENVIADA 24/11/2026
-
-- [ ] https://www.clinicahispanacruz.com/blog/bulto-dolor-testiculos-autoexamen-cuando-revisarse  — cambiada 2026-11-23 (post del blog semanal)
-- [ ] https://www.clinicahispanacruz.com/en/blog/bulto-dolor-testiculos-autoexamen-cuando-revisarse  — cambiada 2026-11-23 (post del blog semanal)
-- [ ] https://www.clinicahispanacruz.com/en/services/anticonceptivos  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/en/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/blog/trabajar-con-gripe-cuando-volver-al-trabajo  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/en/blog/trabajar-con-gripe-cuando-volver-al-trabajo  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/en/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-11-18
-- [ ] https://www.clinicahispanacruz.com/blog/chorro-debil-orinar-de-noche-prostata-hombres  — cambiada 2026-11-18
 
 ## Tanda 92 — cambios del 2026-11-18 (análisis diario: firma del equipo médico en posts (2/2))
 
@@ -94,7 +81,13 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/en/blog/chorro-debil-orinar-de-noche-prostata-hombres  — cambiada 2026-11-23
 - [ ] https://www.clinicahispanacruz.com/blog/bienvenidos-clinica-hispana-cruz  — cambiada 2026-11-23
 
-## Tanda 108
+## Tanda 110 — cambios del 2026-11-25 (error de GSC el 24/11, repetir)
+
+- [ ] https://www.clinicahispanacruz.com/en/blog/trabajar-con-gripe-cuando-volver-al-trabajo  — cambiada 2026-11-25
+- [ ] https://www.clinicahispanacruz.com/en/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-11-25
+- [ ] https://www.clinicahispanacruz.com/blog/chorro-debil-orinar-de-noche-prostata-hombres  — cambiada 2026-11-25
+
+## Tanda 111
 
 - [ ] https://www.clinicahispanacruz.com/services/anticonceptivos  — cambiada 2026-11-18 · rastreada 2026-11-16 · indexada · 203 impr.
 - [ ] https://www.clinicahispanacruz.com/services/prueba-tuberculosis  — cambiada 2026-10-08 · rastreada 2026-10-03 · indexada · 52 impr.
@@ -107,7 +100,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/en/services/suturas-heridas  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 3 impr.
 - [ ] https://www.clinicahispanacruz.com/en/blog  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 1 impr.
 
-## Tanda 109
+## Tanda 112
 
 - [ ] https://www.clinicahispanacruz.com/en/services/salud-hombre  — cambiada 2026-10-23 · rastreada 2026-07-11 · rastreada sin indexar · pedida 2026-10-26 · 7 impr.
 
@@ -300,6 +293,19 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [x] https://www.clinicahispanacruz.com/en/services/condiciones-cronicas  — cambiada 2026-11-18
 - [x] https://www.clinicahispanacruz.com/services/alergias  — cambiada 2026-11-18
 - [x] https://www.clinicahispanacruz.com/en/services/alergias  — cambiada 2026-11-18
+
+## Tanda 91 — cambios del 2026-11-18 (análisis diario: firma del equipo médico en posts (1/2))  📨 ENVIADA 24/11/2026  ✅ PEDIDA 24/11/2026
+
+- [x] https://www.clinicahispanacruz.com/blog/bulto-dolor-testiculos-autoexamen-cuando-revisarse  — cambiada 2026-11-23 (post del blog semanal)
+- [x] https://www.clinicahispanacruz.com/en/blog/bulto-dolor-testiculos-autoexamen-cuando-revisarse  — cambiada 2026-11-23 (post del blog semanal)
+- [x] https://www.clinicahispanacruz.com/en/services/anticonceptivos  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/en/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/blog/trabajar-con-gripe-cuando-volver-al-trabajo  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/en/blog/trabajar-con-gripe-cuando-volver-al-trabajo  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/en/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-11-18
+- [x] https://www.clinicahispanacruz.com/blog/chorro-debil-orinar-de-noche-prostata-hombres  — cambiada 2026-11-18
 
 ## Tanda 96 — cambios del 2026-11-21 (error de GSC al pedir el 20/11)  ✅ PEDIDA 20/11/2026
 

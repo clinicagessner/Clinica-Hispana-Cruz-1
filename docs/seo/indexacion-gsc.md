@@ -68,18 +68,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacruz.com/en/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-21
 
-## Tanda 110 — cambios del 2026-11-25 (error de GSC el 24/11, repetir)  📨 ENVIADA 26/11/2026
+## Tanda 110 — cambios del 2026-11-25 (error de GSC el 24/11, repetir)  📨 ENVIADA 26/11/2026  ✅ PEDIDA 26/11/2026
 
-- [ ] https://www.clinicahispanacruz.com/en/blog/trabajar-con-gripe-cuando-volver-al-trabajo  — cambiada 2026-11-25
-- [ ] https://www.clinicahispanacruz.com/en/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-11-25
-- [ ] https://www.clinicahispanacruz.com/blog/chorro-debil-orinar-de-noche-prostata-hombres  — cambiada 2026-11-25
-- [ ] https://www.clinicahispanacruz.com/en/blog/chorro-debil-orinar-de-noche-prostata-hombres  — cambiada 2026-11-23
-- [ ] https://www.clinicahispanacruz.com/blog/bienvenidos-clinica-hispana-cruz  — cambiada 2026-11-23
-- [ ] https://www.clinicahispanacruz.com/  — cambiada 2026-11-21
-- [ ] https://www.clinicahispanacruz.com/en  — cambiada 2026-11-21
-- [ ] https://www.clinicahispanacruz.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-21
-- [ ] https://www.clinicahispanacruz.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-21
-- [ ] https://www.clinicahispanacruz.com/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-11-21
+- [x] https://www.clinicahispanacruz.com/en/blog/trabajar-con-gripe-cuando-volver-al-trabajo  — cambiada 2026-11-25
+- [x] https://www.clinicahispanacruz.com/en/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-11-25
+- [x] https://www.clinicahispanacruz.com/blog/chorro-debil-orinar-de-noche-prostata-hombres  — cambiada 2026-11-25
+- [x] https://www.clinicahispanacruz.com/en/blog/chorro-debil-orinar-de-noche-prostata-hombres  — cambiada 2026-11-23
+- [x] https://www.clinicahispanacruz.com/blog/bienvenidos-clinica-hispana-cruz  — cambiada 2026-11-23
+- [x] https://www.clinicahispanacruz.com/  — cambiada 2026-11-21
+- [x] https://www.clinicahispanacruz.com/en  — cambiada 2026-11-21
+- [x] https://www.clinicahispanacruz.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-21
+- [x] https://www.clinicahispanacruz.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-21
+- [x] https://www.clinicahispanacruz.com/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-11-21
 
 ## Tanda 111
 

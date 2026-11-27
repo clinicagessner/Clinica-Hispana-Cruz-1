@@ -6,11 +6,11 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-27; URL Inspection API, datos ANTIGUOS del 2026-11-23: antiguos (2026-11-23): --sin-fetch):** 85 de 100 URLs del sitemap indexadas · 15 sin indexar (13 rastreada sin indexar · 2 sin datos).
+**Estado (actualizado 2026-11-27; URL Inspection API, datos ANTIGUOS del 2026-10-01: antiguos (2026-10-01): --sin-fetch):** 81 de 100 URLs del sitemap indexadas · 19 sin indexar (16 sin datos · 2 descubierta sin indexar · 1 rastreada sin indexar).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 10 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 1 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 17 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 8 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-6 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-12-03).
+8 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-30).
 <!-- /tandas:auto -->
 
 ## Tanda 92 — cambios del 2026-11-18 (análisis diario: firma del equipo médico en posts (2/2))
@@ -20,6 +20,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-18
 
 ## Tanda 100 — cambios del 2026-11-21 (limpieza §9)  📨 ENVIADA 27/11/2026
+
 - [ ] https://www.clinicahispanacruz.com/services/alergias  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacruz.com/en/services/alergias  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacruz.com/services/cirugias-menores  — cambiada 2026-11-21
@@ -67,22 +68,47 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacruz.com/en/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-21
 
-## Tanda 111
+## Tanda 113 — cambios del 2026-11-27 (aviso I-693 pausado)
 
-- [ ] https://www.clinicahispanacruz.com/services/anticonceptivos  — cambiada 2026-11-18 · rastreada 2026-11-16 · indexada · 203 impr.
-- [ ] https://www.clinicahispanacruz.com/services/prueba-tuberculosis  — cambiada 2026-10-08 · rastreada 2026-10-03 · indexada · 52 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services  — cambiada 2026-10-08 · rastreada 2026-09-11 · indexada · 78 impr.
-- [ ] https://www.clinicahispanacruz.com/en/promociones  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 53 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 51 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/unas-encarnadas  — cambiada 2026-10-08 · rastreada 2026-07-11 · rastreada sin indexar · 12 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-07-11 · rastreada sin indexar · 9 impr.
-- [ ] https://www.clinicahispanacruz.com/en/services/examen-alcohol-drogas  — cambiada 2026-10-08 · rastreada 2026-07-11 · rastreada sin indexar · 4 impr.
+- [ ] https://www.clinicahispanacruz.com/services/examenes-inmigracion  — cambiada 2026-11-27
+- [ ] https://www.clinicahispanacruz.com/en/services/examenes-inmigracion  — cambiada 2026-11-27
+- [ ] https://www.clinicahispanacruz.com/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-11-27
+- [ ] https://www.clinicahispanacruz.com/  — cambiada 2026-11-27
+- [ ] https://www.clinicahispanacruz.com/en  — cambiada 2026-11-27
+
+## Tanda 114
+
+- [ ] https://www.clinicahispanacruz.com/services/unas-encarnadas  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 131 impr.
+- [ ] https://www.clinicahispanacruz.com/services/anticonceptivos  — cambiada 2026-11-18 · rastreada 2026-09-26 · indexada · 128 impr.
+- [ ] https://www.clinicahispanacruz.com/services/prueba-tuberculosis  — cambiada 2026-10-08 · rastreada 2026-09-12 · indexada · 44 impr.
+- [ ] https://www.clinicahispanacruz.com/blog  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 39 impr.
+- [ ] https://www.clinicahispanacruz.com/services/suturas-heridas  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 38 impr.
+- [ ] https://www.clinicahispanacruz.com/services/examen-alcohol-drogas  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 24 impr.
+- [ ] https://www.clinicahispanacruz.com/services/vacunas  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 20 impr.
+- [ ] https://www.clinicahispanacruz.com/en/blog  — cambiada 2026-10-08 · rastreada 2026-08-03 · indexada · 229 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services  — cambiada 2026-10-08 · rastreada 2026-09-09 · indexada · 80 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services/drenaje-abscesos  — cambiada 2026-10-08 · rastreada 2026-09-14 · indexada · 45 impr.
+
+## Tanda 115
+
+- [ ] https://www.clinicahispanacruz.com/en/services/vacunas  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 41 impr.
+- [ ] https://www.clinicahispanacruz.com/en/promociones  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 40 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services/unas-encarnadas  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 12 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services/examen-alcohol-drogas  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 8 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services/prueba-tuberculosis  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 8 impr.
+- [ ] https://www.clinicahispanacruz.com/en/services/examen-heces  — cambiada 2026-10-08 · rastreada 2026-07-11 · indexada · 5 impr.
 - [ ] https://www.clinicahispanacruz.com/en/services/suturas-heridas  — cambiada 2026-10-08 · rastreada 2026-09-20 · indexada · 3 impr.
-- [ ] https://www.clinicahispanacruz.com/en/blog  — cambiada 2026-10-08 · rastreada 2026-10-02 · indexada · 1 impr.
+- [ ] https://www.clinicahispanacruz.com/blog/dolor-de-oido-ninos-otitis-cuando-consultar  — cambiada 2026-11-02 · sin datos de inspección · pedida 2026-11-02 · 0 impr.
+- [ ] https://www.clinicahispanacruz.com/blog/dolor-presion-pecho-cuando-llamar-911  — cambiada 2026-10-26 · sin datos de inspección · pedida 2026-10-26 · 0 impr.
+- [ ] https://www.clinicahispanacruz.com/blog/granos-manchas-comezon-problemas-piel-clinica  — cambiada 2026-11-09 · sin datos de inspección · pedida 2026-11-09 · 0 impr.
 
-## Tanda 112
+## Tanda 116
 
-- [ ] https://www.clinicahispanacruz.com/en/services/salud-hombre  — cambiada 2026-10-23 · rastreada 2026-07-11 · rastreada sin indexar · pedida 2026-10-26 · 7 impr.
+- [ ] https://www.clinicahispanacruz.com/blog/ultrasonido-pelvico-mujer-dolor-reglas-irregulares  — cambiada 2026-10-23 · sin datos de inspección · pedida 2026-10-25 · 0 impr.
+- [ ] https://www.clinicahispanacruz.com/en/blog/dolor-de-oido-ninos-otitis-cuando-consultar  — cambiada 2026-11-02 · sin datos de inspección · pedida 2026-11-02 · 0 impr.
+- [ ] https://www.clinicahispanacruz.com/en/blog/dolor-presion-pecho-cuando-llamar-911  — cambiada 2026-10-26 · sin datos de inspección · pedida 2026-10-26 · 0 impr.
+- [ ] https://www.clinicahispanacruz.com/en/blog/granos-manchas-comezon-problemas-piel-clinica  — cambiada 2026-11-09 · sin datos de inspección · pedida 2026-11-09 · 0 impr.
+- [ ] https://www.clinicahispanacruz.com/en/blog/ultrasonido-pelvico-mujer-dolor-reglas-irregulares  — cambiada 2026-10-23 · sin datos de inspección · pedida 2026-10-26 · 0 impr.
 
 ## Historial (tandas pedidas)
 

@@ -108,7 +108,7 @@ const copy = {
       },
       {
         q: "¿Realizan exámenes de inmigración I-693?",
-        a: "Sí. Contamos con Civil Surgeon designado por USCIS para el examen médico I-693 requerido para la Green Card.",
+        a: "Sí. Contamos con Civil Surgeon designado por USCIS para el examen médico I-693 requerido para la Green Card. Aviso: este servicio está temporalmente pausado hasta nuevo aviso.",
       },
       {
         q: "¿Dónde están ubicados?",
@@ -191,7 +191,7 @@ const copy = {
       },
       {
         q: "Do you perform I-693 immigration medical exams?",
-        a: "Yes. Our USCIS-designated Civil Surgeon performs the I-693 medical exam required for the Green Card.",
+        a: "Yes. Our USCIS-designated Civil Surgeon performs the I-693 medical exam required for the Green Card. Notice: this service is temporarily paused until further notice.",
       },
       {
         q: "Where are you located?",

@@ -6,11 +6,11 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacruz.com/`, cuenta **clinic7640@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-26; URL Inspection API, datos ANTIGUOS del 2026-11-23: antiguos (2026-11-23): --sin-fetch):** 85 de 100 URLs del sitemap indexadas · 15 sin indexar (13 rastreada sin indexar · 2 sin datos).
+**Estado (actualizado 2026-11-27; URL Inspection API, datos ANTIGUOS del 2026-11-23: antiguos (2026-11-23): --sin-fetch):** 85 de 100 URLs del sitemap indexadas · 15 sin indexar (13 rastreada sin indexar · 2 sin datos).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 10 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 1 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-5 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-12-03).
+6 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-12-03).
 <!-- /tandas:auto -->
 
 ## Tanda 92 — cambios del 2026-11-18 (análisis diario: firma del equipo médico en posts (2/2))
@@ -19,8 +19,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-18
 - [ ] https://www.clinicahispanacruz.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-18
 
-## Tanda 100 — cambios del 2026-11-21 (limpieza §9)
-
+## Tanda 100 — cambios del 2026-11-21 (limpieza §9)  📨 ENVIADA 27/11/2026
 - [ ] https://www.clinicahispanacruz.com/services/alergias  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacruz.com/en/services/alergias  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacruz.com/services/cirugias-menores  — cambiada 2026-11-21
@@ -67,19 +66,6 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacruz.com/en/blog/salud-hombre-houston-chequeos-prevencion  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacruz.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacruz.com/en/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-21
-
-## Tanda 110 — cambios del 2026-11-25 (error de GSC el 24/11, repetir)  📨 ENVIADA 26/11/2026  ✅ PEDIDA 26/11/2026
-
-- [x] https://www.clinicahispanacruz.com/en/blog/trabajar-con-gripe-cuando-volver-al-trabajo  — cambiada 2026-11-25
-- [x] https://www.clinicahispanacruz.com/en/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-11-25
-- [x] https://www.clinicahispanacruz.com/blog/chorro-debil-orinar-de-noche-prostata-hombres  — cambiada 2026-11-25
-- [x] https://www.clinicahispanacruz.com/en/blog/chorro-debil-orinar-de-noche-prostata-hombres  — cambiada 2026-11-23
-- [x] https://www.clinicahispanacruz.com/blog/bienvenidos-clinica-hispana-cruz  — cambiada 2026-11-23
-- [x] https://www.clinicahispanacruz.com/  — cambiada 2026-11-21
-- [x] https://www.clinicahispanacruz.com/en  — cambiada 2026-11-21
-- [x] https://www.clinicahispanacruz.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-21
-- [x] https://www.clinicahispanacruz.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-21
-- [x] https://www.clinicahispanacruz.com/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-11-21
 
 ## Tanda 111
 
@@ -304,3 +290,16 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 ## Tanda 96 — cambios del 2026-11-21 (error de GSC al pedir el 20/11)  ✅ PEDIDA 20/11/2026
 
 - [x] https://www.clinicahispanacruz.com/  — cambiada 2026-11-21
+
+## Tanda 110 — cambios del 2026-11-25 (error de GSC el 24/11, repetir)  📨 ENVIADA 26/11/2026  ✅ PEDIDA 26/11/2026
+
+- [x] https://www.clinicahispanacruz.com/en/blog/trabajar-con-gripe-cuando-volver-al-trabajo  — cambiada 2026-11-25
+- [x] https://www.clinicahispanacruz.com/en/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-11-25
+- [x] https://www.clinicahispanacruz.com/blog/chorro-debil-orinar-de-noche-prostata-hombres  — cambiada 2026-11-25
+- [x] https://www.clinicahispanacruz.com/en/blog/chorro-debil-orinar-de-noche-prostata-hombres  — cambiada 2026-11-23
+- [x] https://www.clinicahispanacruz.com/blog/bienvenidos-clinica-hispana-cruz  — cambiada 2026-11-23
+- [x] https://www.clinicahispanacruz.com/  — cambiada 2026-11-21
+- [x] https://www.clinicahispanacruz.com/en  — cambiada 2026-11-21
+- [x] https://www.clinicahispanacruz.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-21
+- [x] https://www.clinicahispanacruz.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-21
+- [x] https://www.clinicahispanacruz.com/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-11-21
